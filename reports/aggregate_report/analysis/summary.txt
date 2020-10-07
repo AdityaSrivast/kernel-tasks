@@ -1,0 +1,12 @@
+
+Total errors recorded: 16
+Total distinct errors recorded: 3
+
+Total warnings recorded: 108450
+Total distinct warnings recorded: 1
+
+Most common Error(s): 
+BAD_SIGN_OFF, Frequency: 14
+
+Most common Warning(s): 
+BAD_SIGN_OFF, Frequency: 108450
