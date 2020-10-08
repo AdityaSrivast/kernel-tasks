@@ -4,4 +4,4 @@ Idea: Use checkpatch.pl with `--show-types` flag to output all the different typ
 Step1: First, generate the checkpatch.pl report using `--show-types` flag over all the commits
 
 Step2: Use the generated report to create statistical analysis and find most reported error. Output this data to `summary.txt`<br/>
-The analysis script and summary is present inside `analysis` directory
+> The analysis script and summary is present inside `analysis` directory
