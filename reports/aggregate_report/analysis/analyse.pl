@@ -6,7 +6,7 @@ use Path::Tiny;
 
 #read the aggregated output
 my $dir_in = path("./../");
-my $file_in = $dir_in->child("aggr_output.txt");
+my $file_in = $dir_in->child("aggr_report.txt");
 my $file_in_handle = $file_in->openr_utf8();
 
 #write output to summary.txt
@@ -29,7 +29,7 @@ while(my $line = $file_in_handle->getline()) {
   if($prefix eq "ERROR" || $prefix eq "WARNING") {
     # to ensure reading only error or warning messages/lines
     my $type = $arr[1]; # holds the type of error or warning
-    # print($prefix, " ", $type, "\n");
+
     if($prefix eq "WARNING") {
       if(exists($warnings{$type})) {
         $warnings{$type}++;
@@ -59,8 +59,6 @@ while(my $line = $file_in_handle->getline()) {
   }
 }
 
-# print_total($error_count, %errors, "errors");
-# print_total($warning_count, %warnings, "warnings");
 my @err_keys = keys %errors;
 my $err_size = @err_keys;
 $file_out_handle->print("\n", "Total errors recorded: ", $error_count);
@@ -70,6 +68,10 @@ my @warn_keys = keys %warnings;
 my $warn_size = @warn_keys;
 $file_out_handle->print("\n\n", "Total warnings recorded: ", $warning_count);
 $file_out_handle->print("\n","Total distinct warnings recorded: ", $warn_size);
+
+# find out which among errors and warnings is more common and by what ration
+$file_out_handle->print("\n","Total Errors/Warnings ration recorded: ", ($error_count/$warning_count));
+$file_out_handle->print("\n","Distinct Errors/Warnings ration recorded: ", ($error_count/$warning_count));
 
 $file_out_handle->print("\n\n","Most common Error(s): ");
 foreach my $err_type(keys %errors) {
