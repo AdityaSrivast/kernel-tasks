@@ -26,8 +26,9 @@ my $warning_count=0;
 while(my $line = $file_in_handle->getline()) {
   my @arr = split(':',$line);
   my $prefix = $arr[0];
+  # to ensure reading only error or warning messages/lines
   if($prefix eq "ERROR" || $prefix eq "WARNING") {
-    # to ensure reading only error or warning messages/lines
+
     my $type = $arr[1]; # holds the type of error or warning
 
     if($prefix eq "WARNING") {
@@ -61,7 +62,7 @@ while(my $line = $file_in_handle->getline()) {
 
 my @err_keys = keys %errors;
 my $err_size = @err_keys;
-$file_out_handle->print("\n", "Total errors recorded: ", $error_count);
+$file_out_handle->print("Total errors recorded: ", $error_count);
 $file_out_handle->print("\n","Total distinct errors recorded: ", $err_size);
 
 my @warn_keys = keys %warnings;
@@ -70,8 +71,8 @@ $file_out_handle->print("\n\n", "Total warnings recorded: ", $warning_count);
 $file_out_handle->print("\n","Total distinct warnings recorded: ", $warn_size);
 
 # find out which among errors and warnings is more common and by what ration
-$file_out_handle->print("\n","Total Errors/Warnings ration recorded: ", ($error_count/$warning_count));
-$file_out_handle->print("\n","Distinct Errors/Warnings ration recorded: ", ($error_count/$warning_count));
+$file_out_handle->print("\n\n","Total Errors/Warnings ration recorded: ", ($error_count/$warning_count));
+$file_out_handle->print("\n","Distinct Errors/Warnings ration recorded: ", ($err_size/$warn_size));
 
 $file_out_handle->print("\n\n","Most common Error(s): ");
 foreach my $err_type(keys %errors) {
@@ -79,6 +80,7 @@ foreach my $err_type(keys %errors) {
     $file_out_handle->print("\n", $err_type,", Frequency: ", $error_max);
   }
 }
+$file_out_handle->print("\n", "Ration of its(their) occurance among errors: ", $error_max/$error_count);
 
 $file_out_handle->print("\n\n","Most common Warning(s): ");
 foreach my $warn_type(keys %warnings) {
@@ -86,5 +88,6 @@ foreach my $warn_type(keys %warnings) {
     $file_out_handle->print("\n", $warn_type,", Frequency: ", $warning_max);
   }
 }
+$file_out_handle->print("\n", "Ration of its(their) occurance among warnings: ", $warning_max/$warning_count);
 
 print "Summary Generated\n";

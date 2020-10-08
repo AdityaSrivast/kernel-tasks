@@ -1,12 +1,16 @@
+Total errors recorded: 4244
+Total distinct errors recorded: 26
 
-Total errors recorded: 16
-Total distinct errors recorded: 3
+Total warnings recorded: 23349
+Total distinct warnings recorded: 104
 
-Total warnings recorded: 108450
-Total distinct warnings recorded: 1
+Total Errors/Warnings ration recorded: 0.18176367296244
+Distinct Errors/Warnings ration recorded: 0.25
 
 Most common Error(s): 
-BAD_SIGN_OFF, Frequency: 14
+OPEN_BRACE, Frequency: 956
+Ration of its(their) occurance among errors: 0.225259189443921
 
 Most common Warning(s): 
-BAD_SIGN_OFF, Frequency: 108450
+LEADING_SPACE, Frequency: 4787
+Ration of its(their) occurance among warnings: 0.205019486915928
