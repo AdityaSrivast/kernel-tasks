@@ -34,7 +34,7 @@ my $count:shared = 0;
 
 # run checkpatch
 print "Generating Report...\n";
-print "Please be patient. This may take around an hour...\n";
+print "Please be patient. This may take few minutes...\n";
 
 while(my $line = $file_in_handle->getline()) {
   my @commit = split(" ", $line);
@@ -51,7 +51,7 @@ while(my $line = $file_in_handle->getline()) {
     $count--;
     $sem->up(); # increment semaphore
   });
-  $thread->detach; #detach thread once work is done
+  $thread->detach(); #detach thread once work is done
   lock($count);
   $count++;
 }
