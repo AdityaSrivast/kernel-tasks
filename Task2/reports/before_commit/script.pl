@@ -23,7 +23,7 @@ sub unlock_file {
 
 # read commits from commit.log
 my $dir = path("./");
-my $file_in = $dir->child("commits1.log");
+my $file_in = $dir->child("commits.log");
 my $file_out = $dir->child("before_commit.txt");
 my $file_in_handle = $file_in->openr_utf8();
 my $file_out_handle = $file_out->openw_utf8();
