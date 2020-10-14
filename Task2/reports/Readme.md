@@ -9,8 +9,10 @@
 > In change to previous task, I adopted multi-threading approach for this task, which helped me speed up my work by few hours.
 
 ## Directory Structure
-- after_commit: contains script for generating checkpatch.pl report after the commit is made. Also contains the generated report.
+- after_commit: contains script for generating checkpatch.pl report `after the commit(first patch)` is made. Also contains the generated report.
 
-- before_commit: contains script for generating checkpatch.pl report before the commit is made. Also the generated report.
+- before_commit: contains script for generating checkpatch.pl report `before the commit(first patch)` is made. Also the generated report.
+
+- after_patch: contains script and checkpatch.pl report `after the second patch`
 
 - analysis: contains script for generating the relative difference between the error and warning messages. Also the generated report is contained within this directory.

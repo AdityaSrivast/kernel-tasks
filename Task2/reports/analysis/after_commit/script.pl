@@ -73,9 +73,9 @@ my $warn_size = @warn_keys;
 $file_out_handle->print("\n\n", "Total warnings recorded: ", $warning_count);
 $file_out_handle->print("\n","Total distinct warnings recorded: ", $warn_size);
 
-# find out which among errors and warnings is more common and by what ration
-$file_out_handle->print("\n\n","Total Errors/Warnings ration recorded: ", ($error_count/$warning_count));
-$file_out_handle->print("\n","Distinct Errors/Warnings ration recorded: ", ($err_size/$warn_size));
+# find out which among errors and warnings is more common and by what ratio
+$file_out_handle->print("\n\n","Total Errors/Warnings ratio recorded: ", ($error_count/$warning_count));
+$file_out_handle->print("\n","Distinct Errors/Warnings ratio recorded: ", ($err_size/$warn_size));
 
 $file_out_handle->print("\n\n","Most common Error(s): ");
 foreach my $err_type(keys %errors) {
@@ -83,7 +83,7 @@ foreach my $err_type(keys %errors) {
     $file_out_handle->print("\n", $err_type,", Frequency: ", $error_max);
   }
 }
-$file_out_handle->print("\n", "Ration of its(their) occurance among errors: ", $error_max/$error_count);
+$file_out_handle->print("\n", "Ratio of its(their) occurance among errors: ", $error_max/$error_count);
 
 $file_out_handle->print("\n\n","Most common Warning(s): ");
 foreach my $warn_type(keys %warnings) {
@@ -91,7 +91,7 @@ foreach my $warn_type(keys %warnings) {
     $file_out_handle->print("\n", $warn_type,", Frequency: ", $warning_max);
   }
 }
-$file_out_handle->print("\n", "Ration of its(their) occurance among warnings: ", $warning_max/$warning_count);
+$file_out_handle->print("\n", "Ratio of its(their) occurance among warnings: ", $warning_max/$warning_count);
 
 $file_out_handle->print("\n\n", "COUNT OF ALL WARNINGS AND ERRORS:\n");
 
