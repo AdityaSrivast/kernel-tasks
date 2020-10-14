@@ -24,40 +24,41 @@ my $error_count=0;
 my $warning_count=0;
 
 while(my $line = $file_in_handle->getline()) {
-  my @arr = split(':',$line);
-  my $prefix = $arr[0];
-
-  # to ensure reading only error or warning messages/lines
-  if($prefix eq "ERROR" || $prefix eq "WARNING") {
-
-    my $type = $arr[1]; # holds the type of error or warning
+  if($line =~ m/WARNING:+/) {
+    my $str = $';
+    my @arr = split(':',$str);
+    my $type = $arr[0];
     if(substr($type,0,1) ne " ") {
-      if($prefix eq "WARNING") {
-        if(exists($warnings{$type})) {
-          $warnings{$type}++;
-        }
-        else {
-          $warnings{$type}=1;
-        }
-        
-        if($warnings{$type}>$warning_max) {
-          $warning_max=$warnings{$type};
-        }
-        $warning_count++;
+      if(exists($warnings{$type})) {
+        $warnings{$type}++;
       }
       else {
-        if(exists($errors{$type})) {
-          $errors{$type}++;
-        }
-        else {
-          $errors{$type}=1;
-        }
-
-        if($errors{$type}>$error_max) {
-          $error_max=$errors{$type};
-        }
-        $error_count++;
+        $warnings{$type}=1;
       }
+      
+      if($warnings{$type}>$warning_max) {
+        $warning_max=$warnings{$type};
+      }
+      $warning_count++;
+    }
+  }
+
+  if($line=~ m/ERROR:/) {
+    my $str = $';
+    my @arr = split(':',$str);
+    my $type = $arr[0];
+    if(substr($type,0,1) ne " ") {
+      if(exists($errors{$type})) {
+        $errors{$type}++;
+      }
+      else {
+        $errors{$type}=1;
+      }
+
+      if($errors{$type}>$error_max) {
+        $error_max=$errors{$type};
+      }
+      $error_count++;
     }
   }
 }

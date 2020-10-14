@@ -6,7 +6,7 @@ use Path::Tiny;
 
 #read before_commit report
 my $dir_in_bef = path("./../../before_commit/");
-my $file_in_bef = $dir_in_bef->child("before_commit.txt");
+my $file_in_bef = $dir_in_bef->child("before_commit1.txt");
 my $file_in_handle_bef = $file_in_bef->openr_utf8();
 
 #read after_commit report
@@ -38,66 +38,69 @@ my $error_count_af=0;
 my $warning_count_af=0;
 
 while(my $line = $file_in_handle_bef->getline()) {
-  my @arr = split(':',$line);
-  my $prefix = $arr[0];
-
-  # to ensure reading only error or warning messages/lines
-  if($prefix eq "ERROR" || $prefix eq "WARNING") {
-
-    my $type = $arr[1]; # holds the type of error or warning
+  if($line =~ m/WARNING:+/) {
+    my $str = $';
+    my @arr = split(':',$str);
+    my $type = $arr[0];
     if(substr($type,0,1) ne " ") {
-      if($prefix eq "WARNING") {
-        if(exists($warnings_bef{$type})) {
-          $warnings_bef{$type}++;
-        }
-        else {
-          $warnings_bef{$type}=1;
-        }
-        
-        $warning_count_bef++;
+      if(exists($warnings_bef{$type})) {
+        $warnings_bef{$type}++;
       }
       else {
-        if(exists($errors_bef{$type})) {
-          $errors_bef{$type}++;
-        }
-        else {
-          $errors_bef{$type}=1;
-        }
-
-        $error_count_bef++;
+        $warnings_bef{$type}=1;
       }
+      
+      $warning_count_bef++;
+    }
+  }
+
+  if($line=~ m/ERROR:/) {
+    my $str = $';
+    my @arr = split(':',$str);
+    my $type = $arr[0];
+    if(substr($type,0,1) ne " ") {
+      if(exists($errors_bef{$type})) {
+        $errors_bef{$type}++;
+      }
+      else {
+        $errors_bef{$type}=1;
+      }
+
+      $error_count_bef++;
     }
   }
 }
 
 while(my $line = $file_in_handle_af->getline()) {
-  my @arr = split(':',$line);
-  my $prefix = $arr[0];
-  # to ensure reading only error or warning messages/lines
-  if($prefix eq "ERROR" || $prefix eq "WARNING") {
-
-    my $type = $arr[1]; # holds the type of error or warning
+  if($line =~ m/WARNING:+/) {
+    my $str = $';
+    my @arr = split(':',$str);
+    my $type = $arr[0];
     if(substr($type,0,1) ne " ") {
-      if($prefix eq "WARNING") {
-        if(exists($warnings_af{$type})) {
-          $warnings_af{$type}++;
-        }
-        else {
-          $warnings_af{$type}=1;
-        }
-        
-        $warning_count_af++;
+      if(exists($warnings_af{$type})) {
+        $warnings_af{$type}++;
       }
       else {
-        if(exists($errors_af{$type})) {
-          $errors_af{$type}++;
-        }
-        else {
-          $errors_af{$type}=1;
-        }
-
-        $error_count_af++;
+        $warnings_af{$type}=1;
       }
+      
+      $warning_count_af++;
+    }
+  }
+
+  if($line=~ m/ERROR:/) {
+    my $str = $';
+    my @arr = split(':',$str);
+    my $type = $arr[0];
+    if(substr($type,0,1) ne " ") {
+      if(exists($errors_af{$type})) {
+        $errors_af{$type}++;
+      }
+      else {
+        $errors_af{$type}=1;
+      }
+
+      $error_count_af++;
     }
   }
 }
