@@ -1,0 +1,60 @@
+DIFFERENCE OF REPEATED_WORD WARNING ON REGEX PATTERN CHANGE:
+
+WARNINGS DROPPED BY REVISED PATCH BUT PRESENT EARLIER:
+
+
+
+WARNINGS DROPPED BY EARLIER PATCH BUT PRESENT IN REVISED:
+
+WARNING:REPEATED_WORD: Possible repeated word: 'and'
+#7: 
+mini_Qdisc and and pass it on to ingress classification, so it
+
+WARNING:REPEATED_WORD: Possible repeated word: 'an'
+#20: 
+There is an an ugly piece here where we must handle
+
+WARNING:REPEATED_WORD: Possible repeated word: 'do'
+#95: FILE: lib/test_linear_ranges.c:39:
++ * really zero value other than proving to managers that we do do "quality")...
+
+WARNING:REPEATED_WORD: Possible repeated word: 'is'
+#7: 
+certain use-cases. However there is is no way to tell what is the hostid
+
+WARNING:REPEATED_WORD: Possible repeated word: 'be'
+#278: FILE: drivers/net/ethernet/intel/ice/ice_flow.c:388:
++ * @seg: index of packet segment whose raw fields are to be be extracted
+
+WARNING:REPEATED_WORD: Possible repeated word: 'to'
+#80: FILE: include/net/dsa.h:587:
++	 * method needs to to do so privately.
+
+WARNING:REPEATED_WORD: Possible repeated word: 'pp'
+#14: 
+  SRC: pp pp pp pp pp pp pp pp pp pp pp pp pp pp pp pp pp (17 bytes)
+
+WARNING:REPEATED_WORD: Possible repeated word: 'be'
+#788: FILE: fs/xfs/libxfs/xfs_btree_staging.h:93:
++	 * sets this to -1, the slack value will be calculated to be be halfway
+
+WARNING:REPEATED_WORD: Possible repeated word: 'to'
+#10: 
+the first N - K bytes starting at to to have been replaced with
+
+WARNING:REPEATED_WORD: Possible repeated word: 'is'
+#11: 
+  count in the file private data as is is completely racy and
+
+WARNING:REPEATED_WORD: Possible repeated word: 'we'
+#17: 
+rotation/remapped info requires, and so we we trip a GEM_BUG().
+
+WARNING:REPEATED_WORD: Possible repeated word: 'this'
+#16: 
+But this this patch removes it, because it is no longer needed.
+
+WARNING:REPEATED_WORD: Possible repeated word: 'be'
+#6: 
+The data in destination buffer is expected to be be parsed in big
+

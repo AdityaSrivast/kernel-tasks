@@ -5,8 +5,8 @@ use autodie;
 use Path::Tiny;
 
 #read before_commit report
-my $dir_in_bef = path("./../");
-my $file_in_bef = $dir_in_bef->child("last_patch_report.txt");
+my $dir_in_bef = path("./../../");
+my $file_in_bef = $dir_in_bef->child("my_init_patch_report.txt");
 my $file_in_handle_bef = $file_in_bef->openr_utf8();
 
 #read after_commit report
@@ -16,7 +16,7 @@ my $file_in_handle_af = $file_in_af->openr_utf8();
 
 #write output to summary_relative.txt
 my $dir_out = path("./");
-my $file_out = $dir_out->child("summary.txt");
+my $file_out = $dir_out->child("patch_revision_summary.txt");
 my $file_out_handle = $file_out->openw_utf8();
 
 print "Analysing the aggregated data...\n";
@@ -70,9 +70,9 @@ while(my $line = $file_in_handle_af->getline()) {
   }
 }
 
-$file_out_handle->print("DIFFERENCE OF REPEATED_WORD WARNING:\n\n");
+$file_out_handle->print("DIFFERENCE OF REPEATED_WORD WARNING ON REGEX PATTERN CHANGE:\n\n");
 
-$file_out_handle->print("WARNING PRESENT BEFORE PATCH BUT ABSENT AFTER:\n\n");
+$file_out_handle->print("WARNINGS DROPPED BY REVISED PATCH BUT PRESENT EARLIER:\n\n");
 
 foreach my $warn_msg(keys %warning_msgs_bef) {
   my $bef = $warning_msgs_bef{$warn_msg};
@@ -86,7 +86,7 @@ foreach my $warn_msg(keys %warning_msgs_bef) {
 }
 
 
-$file_out_handle->print("\n\nWARNING PRESENT AFTER PATCH BUT ABSENT BEFORE:\n\n");
+$file_out_handle->print("\n\nWARNINGS DROPPED BY EARLIER PATCH BUT PRESENT IN REVISED:\n\n");
 foreach my $warn_msg(keys %warning_msgs_af) {
   my $bef = $warning_msgs_bef{$warn_msg};
   my $af = $warning_msgs_af{$warn_msg};
