@@ -72,7 +72,7 @@ while(my $line = $file_in_handle_af->getline()) {
 
 $file_out_handle->print("DIFFERENCE OF REPEATED_WORD WARNING ON REGEX PATTERN CHANGE:\n\n");
 
-$file_out_handle->print("WARNINGS DROPPED BY REVISED PATCH BUT PRESENT EARLIER:\n\n");
+$file_out_handle->print("WARNINGS DROPPED BY THE PATCH BUT PRESENT EARLIER:\n\n");
 
 foreach my $warn_msg(keys %warning_msgs_bef) {
   my $bef = $warning_msgs_bef{$warn_msg};
@@ -86,7 +86,7 @@ foreach my $warn_msg(keys %warning_msgs_bef) {
 }
 
 
-$file_out_handle->print("\n\nWARNINGS DROPPED BY EARLIER PATCH BUT PRESENT IN REVISED:\n\n");
+$file_out_handle->print("\n\nWARNINGS PRESENT IN PATCH BUT ABSENT EARLIER:\n\n");
 foreach my $warn_msg(keys %warning_msgs_af) {
   my $bef = $warning_msgs_bef{$warn_msg};
   my $af = $warning_msgs_af{$warn_msg};
