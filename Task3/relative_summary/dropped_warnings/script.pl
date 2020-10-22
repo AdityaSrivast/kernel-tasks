@@ -5,8 +5,8 @@ use autodie;
 use Path::Tiny;
 
 #read before_commit report
-my $dir_in_bef = path("./../../");
-my $file_in_bef = $dir_in_bef->child("my_init_patch_report.txt");
+my $dir_in_bef = path("./../");
+my $file_in_bef = $dir_in_bef->child("last_patch_report.txt");
 my $file_in_handle_bef = $file_in_bef->openr_utf8();
 
 #read after_commit report
@@ -16,7 +16,7 @@ my $file_in_handle_af = $file_in_af->openr_utf8();
 
 #write output to summary_relative.txt
 my $dir_out = path("./");
-my $file_out = $dir_out->child("patch_revision_summary.txt");
+my $file_out = $dir_out->child("summary.txt");
 my $file_out_handle = $file_out->openw_utf8();
 
 print "Analysing the aggregated data...\n";

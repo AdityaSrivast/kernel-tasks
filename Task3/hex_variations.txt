@@ -1,0 +1,127 @@
+00000010  ff ff ff ff ff ff ff ff  ff ff ff ff ff ff ff ff
+
+Code: <48> 8b 3b 48 85 ff 74 ec e8 6c f4 ff ff 85 c0 74 e3 48 89 d8 5b c3
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fe'
+#1199: FILE: Documentation/scsi/sym53c8xx_2.rst:944:
++    fe fe
+
+WARNING:REPEATED_WORD: Possible repeated word: 'fe'
+#2594: FILE: Documentation/scsi/ncr53c8xx.rst:2018:
++    fe fe   - ? end marker ?
+
+Code: c3 0f 1f 84 00 00 00 00 00 48 8b 05 59 8d 20 00 c3 0f 1f 84 00 00 00 00 00 8b 05 8a d1 20 00 85 c0 75 16 b8 01 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 57 f3 c3 0f 1f 44 00 00 41 54 55 49 89 d4 53
+
+f0 ff ff 73 01 c3 48 8b 0d 1f f6 2c 00 f7 d8 64 89 01 48
+
+Code: 90 0f b7 05 4e 38 40 de 09 45 e0 e9 09 ff ff ff 90 8d 45 ec c6 05 ...
+
+[  188.533871]  ffff8881e9c25f00: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+
+[  188.537370] >ffff8881e9c26000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+<0f> 0b e9 fa fe ff ff e8 ed 5b d6 f3 41 0f b6 b6 c4 02 00 00 48 c7
+
+[   45.051194] Code: 90 66 2e 0f 1f 84 00 00 00 00 00 0f 1f 44 00 00 55 48 89 e5 53 48 89 fb e8 ce d9 ff ff 48 ba 01 00 00 00 ff ff ff ff 48 89 d8 <f0> 48 0f c1 10 85 d2 74 05 e8 53 1c ff ff 65 48 8b 04 25 00 5c 01
+
+ff ff ff ff 01 00 00 00 00 00 00 00 00 00 00 00
+
+<4>[17436.705516] Code: c5 4c 8d 60 e0 75 17 e9 8c 07 00 00 49 8b 44 24 20 49 39 c5 4c 8d 60 e0 0f 84 7a 07 00 00 49 8b 5c 24 08 49 8b 87 80 00 00 00 <48> 39 83 d8 fe ff ff 75 d9 48 8b 83 88 fe ff ff a8 01 0f 84 b6 05
+
+02 00 00 00 ac 00 00 01 40 00 09 b1 86 94 ff ff  ........@.......
+
+Code: ff ff e9 26 ff ff ff 0f 1f 44 00 00 0f 1f 44 00 00 55 48 8b 07 48 89 e5 48 39 c7 75 0a eb 24 48 8b 00 48 39 f8 74 1c 44 8b 06 <44> 39 40 10 75 ef 44 0f b7 4e 04 66 44 39 48 14 75 e3 38 50 16 75
+
+00 c0 06 16 00 00 ff ff 00 93 1c 18 00 00 ff ff  ................
+
+ffff888038c3a580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+00 45 28 03 81 88 ff ff 00 00 00 00 00 00 00 00  .E(.............
+
+Code: 00 f7 d8 64 89 02 48 c7 c0 ff ff ff ff eb b7 0f 1f 80 00 00 00 00 8b 05 2a ef 2c 00 48 63 ff 85 c0 75 13 b8 01 00 00 00 0f 05 <48> 3d 00 f0 ff ff 77 54 f3 c3 66 90 55 53 48 89 d5 48 89 f3 48 83
+
+[  145.137678]  ffff888216641700: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+a0 a4 ce 19 81 88 ff ff 60 ce 09 0d 81 88 ff ff ........`.......
+
+[37079.168375] Code: bd 58 ff ff ff 00 4c 8d (...)
+
+00 00 00 00 00 00 00 00 28 84 e0 69 de a0 ff ff  ........(..i....
+
+ffff88801e0b3f00: fb fb fb fb fb fb fb fb fb fb fb fb fc fc fc fc
+
+58 0a ec cf 83 88 ff ff 00 00 00 00 00 00 00 00
+
+74 61 70 30 00 88 ff ff                          tap0....
+
+ff ff ff ff ff ff ff ff c0 66 3d a3 ff ff ff ff  .........f=.....
+
+00 70 04 55 80 88 ff ff 18 bb 5a 81 ff ff ff ff  .p.U......Z.....
+
+0x0030:  0000 dcf2 0600 0000 0000 ffff ffff ffff
+
+Code: ff ff ff 48 8b 55 50 f0 48 (...)
+
+04 19 00 00 c3 48 83 ec 08 e8 0a fa ff ff 48 89 04 24 b8 02 00 00 00 0f
+
+00 00 00 00 00 00 00 00 00 2f 30 0a 81 88 ff ff  ........./0.....
+
+Code: 00 77 27 48 81 ff 00 00 01 00 76 07 0f b7 d7 ed 0f c8 c3 55 48 c7 c6 3b ee d5 9f 48 89 e5 e8 67 fc ff ff b8 ff ff ff ff 5d c3 <8b> 07 0f c8 c3 66 66 2e 0f 1f 84 00 00 00 00 00 48 81 fe ff ff 03
+
+81 de e8 41 00 00 00 00 c0 69 2f 15 81 88 ff ff  ...A.....i/.....
+
+03 00 00 00 00 00 00 00 b0 92 fd 4b 81 88 ff ff  ...........K....
+
+DST: cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc 00 (pollute the last bytes)
+
+70 69 64 5f 33 00 ff ff                          pid_3...
+
+ d68:	61 29 ff ff 	ori     r9,r9,65535
+
+ Code: ff ff 48 (...)
+
+skb headroom: 00000000: 00 7c 86 52 84 88 ff ff 00 00 00 00 00 00 08 00
+
+    28 01 82 3b 8b 88 ff ff 28 01 82 3b 8b 88 ff ff  (..;....(..;....
+
+    ff ff ff ff 6b 6b 6b 6b ff ff ff ff ff ff ff ff  ....kkkk........
+
+05 <48> 3d 01 f0 ff ff 73 01 c3 48 8b 0d a1 d9 2b 00 f7 d8 64 89 01 48
+
+    f5a:       48 c7 44 24 78 ff ff    movq   $0xffffffffffffffff,0x78(%rsp)
+
+    f61:       ff ff
+
++    [ 3389.935851] JIT code: 00000030: 00 e8 28 94 ff e0 83 f8 01 75 07 b8 ff ff 00 00
+
++		b8 ff ff 00 00
+
+<4> [139.943589] Code: 85 28 01 00 00 be ff ff ff ff 48 8d 78 60 e8 d7 9b f0 e2 85 c0 75 b9 48 c7 c6 50 b9 38 c0 48 c7 c7 e9 48 3c c0 e8 20 d4 e9 e2 <0f> 0b eb a2 48 c7 c1 08 bb 38 c0 ba 0a 01 00 00 48 c7 c6 88 a3 35
+
+>ffff000023082000: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+
+> Code: ad b6 fb ff c3 66 2e 0f 1f 84 00 00 00 00 00 66 90 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 0f 83 7b b6 fb ff c3 66 2e 0f 1f 84 00 00 00 00
+
+  Code: ...  <89> 03 be 05 00 00 80 a1 74 63 b1 3e 83 c0 48 e8 44 d2 ff ff eb 05
+
+[  341.612157] 1fc0: ffffffff ffffffff 00000000 c070058c c072ba38 2d162e71 00000000 c0700330
+
+    30 00 cd 49 88 88 ff ff                          0..I....
+
+73 64 6d 61 30 00 ff ff sdma0...
+
+5ab:   e9 c0 ff ff ff          jmpq   570 <srand@plt-0x10>
+
+[13058.370797]  ffffa02cf3e63e00: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fb fb
+
++	 * sets this to -1, the slack value will be calculated to be be halfway
+
+Let's also add add a note about using only the l3 access without l4
+
++      in the stack be be described this attribute.
+
+The data in destination buffer is expected to be be parsed in big
+
++ * @seg: index of packet segment whose raw fields are to be be extracted
+
++	 *   1. New session or device can'be be created - session sysfs files
