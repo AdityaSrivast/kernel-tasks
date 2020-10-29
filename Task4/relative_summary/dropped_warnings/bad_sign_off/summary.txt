@@ -1,0 +1,2376 @@
+DIFFERENCE OF REPEATED_WORD WARNING ON REGEX PATTERN CHANGE:
+
+WARNINGS DROPPED BY THE PATCH BUT PRESENT EARLIER:
+
+#1033: FILE: drivers/gpu/drm/WARNING:BAD_SIGN_OFF: Use a single space after Reviewed-by:
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	# 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[2.6.2+]' might be better as 'stable@vger.kernel.org[2.6.2+]'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.0+]' might be better as 'stable@vger.kernel.org[4.0+]'
+#48: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.1+]' might be better as 'stable@vger.kernel.org[4.1+]'
+#76: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.12+]' might be better as 'stable@vger.kernel.org[4.12+]'
+#198: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.12+]' might be better as 'stable@vger.kernel.org[4.12+]'
+#56: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.13+]' might be better as 'stable@vger.kernel.org[4.13+]'
+#121: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.13+]' might be better as 'stable@vger.kernel.org[4.13+]'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.13+]' might be better as 'stable@vger.kernel.org[4.13+]'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.13+]' might be better as 'stable@vger.kernel.org[4.13+]'
+#40: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.13+]' might be better as 'stable@vger.kernel.org[4.13+]'
+#45: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.13+]' might be better as 'stable@vger.kernel.org[4.13+]'
+#74: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.13+]' might be better as 'stable@vger.kernel.org[4.13+]'
+#85: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.14+]' might be better as 'stable@vger.kernel.org[4.14+]'
+#35: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.16+]' might be better as 'stable@vger.kernel.org[4.16+]'
+#158: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.18+]' might be better as 'stable@vger.kernel.org[4.18+]'
+#71: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.19 and 5.2+]' might be better as 'stable@vger.kernel.org[4.19 and 5.2+]'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.19+]' might be better as 'stable@vger.kernel.org[4.19+]'
+#156: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.19+]' might be better as 'stable@vger.kernel.org[4.19+]'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.19+]' might be better as 'stable@vger.kernel.org[4.19+]'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.19+]' might be better as 'stable@vger.kernel.org[4.19+]'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.19+]' might be better as 'stable@vger.kernel.org[4.19+]'
+#35: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.19+]' might be better as 'stable@vger.kernel.org[4.19+]'
+#55: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.20+]' might be better as 'stable@vger.kernel.org[4.20+]'
+#145: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.5+]' might be better as 'stable@vger.kernel.org[4.5+]'
+#37: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.8+]' might be better as 'stable@vger.kernel.org[4.8+]'
+#63: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.8+]' might be better as 'stable@vger.kernel.org[4.8+]'
+#71: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.9+]' might be better as 'stable@vger.kernel.org[4.9+]'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[4.9+]' might be better as 'stable@vger.kernel.org[4.9+]'
+#39: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.0+]' might be better as 'stable@vger.kernel.org[5.0+]'
+#146: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.0+]' might be better as 'stable@vger.kernel.org[5.0+]'
+#217: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.0+]' might be better as 'stable@vger.kernel.org[5.0+]'
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.0+]' might be better as 'stable@vger.kernel.org[5.0+]'
+#49: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.0.x]' might be better as 'stable@vger.kernel.org[5.0.x]'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.0.x]' might be better as 'stable@vger.kernel.org[5.0.x]'
+#65: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.0]' might be better as 'stable@vger.kernel.org[5.0]'
+#63: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.1+]' might be better as 'stable@vger.kernel.org[5.1+]'
+#55: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.2+]' might be better as 'stable@vger.kernel.org[5.2+]'
+#120: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.2+]' might be better as 'stable@vger.kernel.org[5.2+]'
+#48: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>	[5.3+]' might be better as 'stable@vger.kernel.org[5.3+]'
+#54: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>      # for v5.1 and up' might be better as 'stable@vger.kernel.org# for v5.1 and up'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>      # for v5.2 and up' might be better as 'stable@vger.kernel.org# for v5.2 and up'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>    [3.4+]' might be better as 'stable@vger.kernel.org[3.4+]'
+#76: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>    [5.0]' might be better as 'stable@vger.kernel.org[5.0]'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>  # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>  # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>  # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>  # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>  # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>  # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org>  # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 3.10' might be better as 'stable@vger.kernel.org# 3.10'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 3.12' might be better as 'stable@vger.kernel.org# 3.12'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 3.19' might be better as 'stable@vger.kernel.org# 3.19'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 3.19' might be better as 'stable@vger.kernel.org# 3.19'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.10' might be better as 'stable@vger.kernel.org# 4.10'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.11' might be better as 'stable@vger.kernel.org# 4.11'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.11+' might be better as 'stable@vger.kernel.org# 4.11+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.11+' might be better as 'stable@vger.kernel.org# 4.11+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.11+' might be better as 'stable@vger.kernel.org# 4.11+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.11+' might be better as 'stable@vger.kernel.org# 4.11+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.11+' might be better as 'stable@vger.kernel.org# 4.11+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.12.x-' might be better as 'stable@vger.kernel.org# 4.12.x-'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.13' might be better as 'stable@vger.kernel.org# 4.13'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.13' might be better as 'stable@vger.kernel.org# 4.13'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#81: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#8: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14.x' might be better as 'stable@vger.kernel.org# 4.14.x'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14.x-' might be better as 'stable@vger.kernel.org# 4.14.x-'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14.x-' might be better as 'stable@vger.kernel.org# 4.14.x-'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14.x-' might be better as 'stable@vger.kernel.org# 4.14.x-'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.14.x-' might be better as 'stable@vger.kernel.org# 4.14.x-'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.15' might be better as 'stable@vger.kernel.org# 4.15'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.15+' might be better as 'stable@vger.kernel.org# 4.15+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19' might be better as 'stable@vger.kernel.org# 4.19'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19' might be better as 'stable@vger.kernel.org# 4.19'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19' might be better as 'stable@vger.kernel.org# 4.19'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19' might be better as 'stable@vger.kernel.org# 4.19'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#38: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#50: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19.x' might be better as 'stable@vger.kernel.org# 4.19.x'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19.x+' might be better as 'stable@vger.kernel.org# 4.19.x+'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.19.x-' might be better as 'stable@vger.kernel.org# 4.19.x-'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.2+' might be better as 'stable@vger.kernel.org# 4.2+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.20' might be better as 'stable@vger.kernel.org# 4.20'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.3' might be better as 'stable@vger.kernel.org# 4.3'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.4.x-' might be better as 'stable@vger.kernel.org# 4.4.x-'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.6+' might be better as 'stable@vger.kernel.org# 4.6+'
+#43: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.7' might be better as 'stable@vger.kernel.org# 4.7'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.9+' might be better as 'stable@vger.kernel.org# 4.9+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 4.9+' might be better as 'stable@vger.kernel.org# 4.9+'
+#59: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0' might be better as 'stable@vger.kernel.org# 5.0'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0+' might be better as 'stable@vger.kernel.org# 5.0+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0.x' might be better as 'stable@vger.kernel.org# 5.0.x'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0.x' might be better as 'stable@vger.kernel.org# 5.0.x'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0.x' might be better as 'stable@vger.kernel.org# 5.0.x'
+#52: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0.x-' might be better as 'stable@vger.kernel.org# 5.0.x-'
+#40: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0.x: 30aa3d26edb0: x86/MCE/AMD: Carve out the MC4_MISC thresholding quirk' might be better as 'stable@vger.kernel.org# 5.0.x: 30aa3d26edb0: x86/MCE/AMD: Carve out the MC4_MISC thresholding quirk'
+#50: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0.x: 9308fd407455: x86/MCE: Group AMD function prototypes in <asm/mce.h>' might be better as 'stable@vger.kernel.org# 5.0.x: 9308fd407455: x86/MCE: Group AMD function prototypes in <asm/mce.h>'
+#51: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.0.x: c95b323dcd35: x86/MCE/AMD: Turn off MC4_MISC thresholding on all family 0x15 models' might be better as 'stable@vger.kernel.org# 5.0.x: c95b323dcd35: x86/MCE/AMD: Turn off MC4_MISC thresholding on all family 0x15 models'
+#49: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.1' might be better as 'stable@vger.kernel.org# 5.1'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.1' might be better as 'stable@vger.kernel.org# 5.1'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.1.20+' might be better as 'stable@vger.kernel.org# 5.1.20+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.1.x-' might be better as 'stable@vger.kernel.org# 5.1.x-'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.1.x-' might be better as 'stable@vger.kernel.org# 5.1.x-'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.1.x-' might be better as 'stable@vger.kernel.org# 5.1.x-'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.2' might be better as 'stable@vger.kernel.org# 5.2'
+#87: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.2.x: b12bbdc5: HID: intel-ish-hid: fix wrong driver_data usage' might be better as 'stable@vger.kernel.org# 5.2.x: b12bbdc5: HID: intel-ish-hid: fix wrong driver_data usage'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.3' might be better as 'stable@vger.kernel.org# 5.3'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.3' might be better as 'stable@vger.kernel.org# 5.3'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.3' might be better as 'stable@vger.kernel.org# 5.3'
+#79: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # 5.3+' might be better as 'stable@vger.kernel.org# 5.3+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # >= 4.18' might be better as 'stable@vger.kernel.org# >= 4.18'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v2.6.12+' might be better as 'stable@vger.kernel.org# v2.6.12+'
+#46: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v2.6.21+' might be better as 'stable@vger.kernel.org# v2.6.21+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v2.6.37+' might be better as 'stable@vger.kernel.org# v2.6.37+'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v2.6.39+' might be better as 'stable@vger.kernel.org# v2.6.39+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.0+' might be better as 'stable@vger.kernel.org# v3.0+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.1+' might be better as 'stable@vger.kernel.org# v3.1+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.11+' might be better as 'stable@vger.kernel.org# v3.11+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.11+' might be better as 'stable@vger.kernel.org# v3.11+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.13' might be better as 'stable@vger.kernel.org# v3.13'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.13' might be better as 'stable@vger.kernel.org# v3.13'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.13+' might be better as 'stable@vger.kernel.org# v3.13+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.15+' might be better as 'stable@vger.kernel.org# v3.15+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.15+' might be better as 'stable@vger.kernel.org# v3.15+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.15+' might be better as 'stable@vger.kernel.org# v3.15+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.16+' might be better as 'stable@vger.kernel.org# v3.16+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.16+' might be better as 'stable@vger.kernel.org# v3.16+'
+#145: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.16+' might be better as 'stable@vger.kernel.org# v3.16+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.16+' might be better as 'stable@vger.kernel.org# v3.16+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.16+' might be better as 'stable@vger.kernel.org# v3.16+'
+#65: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.17+' might be better as 'stable@vger.kernel.org# v3.17+'
+#64: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.19+' might be better as 'stable@vger.kernel.org# v3.19+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.19+' might be better as 'stable@vger.kernel.org# v3.19+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.19+' might be better as 'stable@vger.kernel.org# v3.19+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.19+' might be better as 'stable@vger.kernel.org# v3.19+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.2+' might be better as 'stable@vger.kernel.org# v3.2+'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.5' might be better as 'stable@vger.kernel.org# v3.5'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.5' might be better as 'stable@vger.kernel.org# v3.5'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v3.5+' might be better as 'stable@vger.kernel.org# v3.5+'
+#46: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.0+' might be better as 'stable@vger.kernel.org# v4.0+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.0+' might be better as 'stable@vger.kernel.org# v4.0+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.1+' might be better as 'stable@vger.kernel.org# v4.1+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.1+' might be better as 'stable@vger.kernel.org# v4.1+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.1+' might be better as 'stable@vger.kernel.org# v4.1+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.10+' might be better as 'stable@vger.kernel.org# v4.10+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.10+' might be better as 'stable@vger.kernel.org# v4.10+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.10+' might be better as 'stable@vger.kernel.org# v4.10+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.10+' might be better as 'stable@vger.kernel.org# v4.10+'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.13+' might be better as 'stable@vger.kernel.org# v4.13+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address '<Stable@vger.kernel.org> # v4.14+' might be better as 'Stable@vger.kernel.org# v4.14+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#41: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#52: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15' might be better as 'stable@vger.kernel.org# v4.15'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15' might be better as 'stable@vger.kernel.org# v4.15'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15+ 56a2b7f2a39a drm/edid: abstract override/firmware EDID retrieval' might be better as 'stable@vger.kernel.org# v4.15+ 56a2b7f2a39a drm/edid: abstract override/firmware EDID retrieval'
+#59: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#126: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#60: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#37: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#58: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19' might be better as 'stable@vger.kernel.org# v4.19'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19' might be better as 'stable@vger.kernel.org# v4.19'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19' might be better as 'stable@vger.kernel.org# v4.19'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#35: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#38: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#41: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#45: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#60: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#68: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#88: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.2+' might be better as 'stable@vger.kernel.org# v4.2+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.2+' might be better as 'stable@vger.kernel.org# v4.2+'
+#52: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20' might be better as 'stable@vger.kernel.org# v4.20'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#37: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#58: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.3+' might be better as 'stable@vger.kernel.org# v4.3+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.3+' might be better as 'stable@vger.kernel.org# v4.3+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.3+' might be better as 'stable@vger.kernel.org# v4.3+'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.5+' might be better as 'stable@vger.kernel.org# v4.5+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.5+' might be better as 'stable@vger.kernel.org# v4.5+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.5+' might be better as 'stable@vger.kernel.org# v4.5+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.5+' might be better as 'stable@vger.kernel.org# v4.5+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.5+' might be better as 'stable@vger.kernel.org# v4.5+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.6+' might be better as 'stable@vger.kernel.org# v4.6+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.6+' might be better as 'stable@vger.kernel.org# v4.6+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.6+' might be better as 'stable@vger.kernel.org# v4.6+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.7+' might be better as 'stable@vger.kernel.org# v4.7+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.8+' might be better as 'stable@vger.kernel.org# v4.8+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.8+' might be better as 'stable@vger.kernel.org# v4.8+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.8+' might be better as 'stable@vger.kernel.org# v4.8+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#120: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0' might be better as 'stable@vger.kernel.org# v5.0'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#31: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#37: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#53: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#64: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#65: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.2' might be better as 'stable@vger.kernel.org# v5.2'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.2' might be better as 'stable@vger.kernel.org# v5.2'
+#38: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.3' might be better as 'stable@vger.kernel.org# v5.3'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.3' might be better as 'stable@vger.kernel.org# v5.3'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> # v5.3+' might be better as 'stable@vger.kernel.org# v5.3+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #2.6.30+' might be better as 'stable@vger.kernel.org#2.6.30+'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #2.6.32+' might be better as 'stable@vger.kernel.org#2.6.32+'
+#59: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #2.6.37+' might be better as 'stable@vger.kernel.org#2.6.37+'
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #2.6.38+' might be better as 'stable@vger.kernel.org#2.6.38+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #3.0+' might be better as 'stable@vger.kernel.org#3.0+'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #3.7+' might be better as 'stable@vger.kernel.org#3.7+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #4.12+' might be better as 'stable@vger.kernel.org#4.12+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #4.4+' might be better as 'stable@vger.kernel.org#4.4+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #5.0+' might be better as 'stable@vger.kernel.org#5.0+'
+#136: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #v3.14+' might be better as 'stable@vger.kernel.org#v3.14+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #v4.20+' might be better as 'stable@vger.kernel.org#v4.20+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #v4.9+' might be better as 'stable@vger.kernel.org#v4.9+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> #v4.9+' might be better as 'stable@vger.kernel.org#v4.9+'
+#58: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> +v4.18' might be better as 'stable@vger.kernel.org+v4.18'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '<stable@vger.kernel.org> v4.19+' might be better as 'stable@vger.kernel.orgv4.19+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'alsa-devel@alsa-project.org (moderated list:INTEL ASoC DRIVERS)' might be better as 'alsa-devel@alsa-project.org(moderated list:INTEL ASoC DRIVERS)'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'dri-devel@lists.freedesktop.org (open list:DRM DRIVERS)' might be better as 'dri-devel@lists.freedesktop.org(open list:DRM DRIVERS)'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address 'H. Peter Anvin (Intel) <hpa@zytor.com>' might be better as '"H. Peter Anvin"(Intel) <hpa@zytor.com>'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'linux-arm-kernel@lists.infradead.org (moderated list' might be better as 'linux-arm-kernel@lists.infradead.org(moderated list'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'linux-arm-kernel@lists.infradead.org (moderated list:arm pmu profiling and debugging)' might be better as 'linux-arm-kernel@lists.infradead.org(moderated list:arm pmu profiling and debugging)'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'linux-arm-kernel@lists.infradead.org (moderated list:arm pmu profiling and debugging)' might be better as 'linux-arm-kernel@lists.infradead.org(moderated list:arm pmu profiling and debugging)'
+#35: 
+
+WARNING:BAD_SIGN_OFF: email address 'linux-kernel@vger.kernel.org (open list)' might be better as 'linux-kernel@vger.kernel.org(open list)'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'linux-kernel@vger.kernel.org (open list)' might be better as 'linux-kernel@vger.kernel.org(open list)'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'linux-kernel@vger.kernel.org (open list)' might be better as 'linux-kernel@vger.kernel.org(open list)'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address 'noreply@ellerman.id.au (first issue)' might be better as 'noreply@ellerman.id.au(first issue)'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address 'Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>' might be better as '"Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@kernel.org # 2.6.35' might be better as 'stable@kernel.org# 2.6.35'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@kernel.org # 5.1' might be better as 'stable@kernel.org# 5.1'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@kernel.org # v4.18+' might be better as 'stable@kernel.org# v4.18+'
+#60: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# for 4.13 and up' might be better as 'stable@vger.kernel.org# for 4.13 and up'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# for 4.13 and up' might be better as 'stable@vger.kernel.org# for 4.13 and up'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# for 4.13 and up' might be better as 'stable@vger.kernel.org# for 4.13 and up'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v3.14+' might be better as 'stable@vger.kernel.org# v3.14+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.13+' might be better as 'stable@vger.kernel.org# v4.13+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org	# v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#48: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org  # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org  # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org  # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org  # v5.2 only' might be better as 'stable@vger.kernel.org# v5.2 only'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org  (linux-5.0)' might be better as 'stable@vger.kernel.org(linux-5.0)'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org  (linux-5.0)' might be better as 'stable@vger.kernel.org(linux-5.0)'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 2.6.25+' might be better as 'stable@vger.kernel.org# 2.6.25+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 2.6.36+' might be better as 'stable@vger.kernel.org# 2.6.36+'
+#81: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 3.0+' might be better as 'stable@vger.kernel.org# 3.0+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 3.10+' might be better as 'stable@vger.kernel.org# 3.10+'
+#58: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 3.14+' might be better as 'stable@vger.kernel.org# 3.14+'
+#54: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 3.16+' might be better as 'stable@vger.kernel.org# 3.16+'
+#210: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 3.19+' might be better as 'stable@vger.kernel.org# 3.19+'
+#71: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 3.2+' might be better as 'stable@vger.kernel.org# 3.2+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 3.2+: ce7791ffee1e: Btrfs: fix race between readahead and device replace/removal' might be better as 'stable@vger.kernel.org# 3.2+: ce7791ffee1e: Btrfs: fix race between readahead and device replace/removal'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 3.6+' might be better as 'stable@vger.kernel.org# 3.6+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.1+' might be better as 'stable@vger.kernel.org# 4.1+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.10+' might be better as 'stable@vger.kernel.org# 4.10+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.10+' might be better as 'stable@vger.kernel.org# 4.10+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.11+' might be better as 'stable@vger.kernel.org# 4.11+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.12' might be better as 'stable@vger.kernel.org# 4.12'
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.12+' might be better as 'stable@vger.kernel.org# 4.12+'
+#83: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#58: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#62: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#66: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.14+' might be better as 'stable@vger.kernel.org# 4.14+'
+#81: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.15+' might be better as 'stable@vger.kernel.org# 4.15+'
+#77: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.15.x-' might be better as 'stable@vger.kernel.org# 4.15.x-'
+#52: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.16+' might be better as 'stable@vger.kernel.org# 4.16+'
+#108: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.16+' might be better as 'stable@vger.kernel.org# 4.16+'
+#98: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.17+' might be better as 'stable@vger.kernel.org# 4.17+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.17+' might be better as 'stable@vger.kernel.org# 4.17+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19' might be better as 'stable@vger.kernel.org# 4.19'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19' might be better as 'stable@vger.kernel.org# 4.19'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#63: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#76: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#91: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19+' might be better as 'stable@vger.kernel.org# 4.19+'
+#94: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.19.y' might be better as 'stable@vger.kernel.org# 4.19.y'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#105: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.20+' might be better as 'stable@vger.kernel.org# 4.20+'
+#62: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.3+' might be better as 'stable@vger.kernel.org# 4.3+'
+#90: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4' might be better as 'stable@vger.kernel.org# 4.4'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#101: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#110: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#114: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#116: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#129: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#144: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#31: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#37: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#41: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#45: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#51: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#64: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#67: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#69: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#71: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#76: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#82: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#83: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.4+' might be better as 'stable@vger.kernel.org# 4.4+'
+#89: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.5+' might be better as 'stable@vger.kernel.org# 4.5+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.7+' might be better as 'stable@vger.kernel.org# 4.7+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.7+' might be better as 'stable@vger.kernel.org# 4.7+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.8+' might be better as 'stable@vger.kernel.org# 4.8+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.9+' might be better as 'stable@vger.kernel.org# 4.9+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.9+' might be better as 'stable@vger.kernel.org# 4.9+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 4.9+' might be better as 'stable@vger.kernel.org# 4.9+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.0' might be better as 'stable@vger.kernel.org# 5.0'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.0' might be better as 'stable@vger.kernel.org# 5.0'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.0' might be better as 'stable@vger.kernel.org# 5.0'
+#43: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.0+' might be better as 'stable@vger.kernel.org# 5.0+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.0+' might be better as 'stable@vger.kernel.org# 5.0+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.0+' might be better as 'stable@vger.kernel.org# 5.0+'
+#40: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.0.x' might be better as 'stable@vger.kernel.org# 5.0.x'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1' might be better as 'stable@vger.kernel.org# 5.1'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1' might be better as 'stable@vger.kernel.org# 5.1'
+#50: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1' might be better as 'stable@vger.kernel.org# 5.1'
+#74: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#163: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#41: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#79: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#83: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.1+' might be better as 'stable@vger.kernel.org# 5.1+'
+#97: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2 plus anything the above got backported to' might be better as 'stable@vger.kernel.org# 5.2 plus anything the above got backported to'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2' might be better as 'stable@vger.kernel.org# 5.2'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2' might be better as 'stable@vger.kernel.org# 5.2'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2' might be better as 'stable@vger.kernel.org# 5.2'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2' might be better as 'stable@vger.kernel.org# 5.2'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2' might be better as 'stable@vger.kernel.org# 5.2'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#115: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#55: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2+' might be better as 'stable@vger.kernel.org# 5.2+'
+#7: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2.x' might be better as 'stable@vger.kernel.org# 5.2.x'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.2.x' might be better as 'stable@vger.kernel.org# 5.2.x'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.3' might be better as 'stable@vger.kernel.org# 5.3'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.3' might be better as 'stable@vger.kernel.org# 5.3'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.3+' might be better as 'stable@vger.kernel.org# 5.3+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.3+' might be better as 'stable@vger.kernel.org# 5.3+'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.3.x' might be better as 'stable@vger.kernel.org# 5.3.x'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 5.3.x' might be better as 'stable@vger.kernel.org# 5.3.x'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 6883eab27481: drm/i915: Support flags in whitlist WAs' might be better as 'stable@vger.kernel.org# 6883eab27481: drm/i915: Support flags in whitlist WAs'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # 6883eab27481: drm/i915: Support flags in whitlist WAs' might be better as 'stable@vger.kernel.org# 6883eab27481: drm/i915: Support flags in whitlist WAs'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # > 5.0' might be better as 'stable@vger.kernel.org# > 5.0'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # for 5.3' might be better as 'stable@vger.kernel.org# for 5.3'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # for v4.20' might be better as 'stable@vger.kernel.org# for v4.20'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # for v5.1' might be better as 'stable@vger.kernel.org# for v5.1'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # goes way back to original sysfs days' might be better as 'stable@vger.kernel.org# goes way back to original sysfs days'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # Kernel 4.17+' might be better as 'stable@vger.kernel.org# Kernel 4.17+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # since 2009 or so' might be better as 'stable@vger.kernel.org# since 2009 or so'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v2.6.15+' might be better as 'stable@vger.kernel.org# v2.6.15+'
+#79: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v2.6.29+' might be better as 'stable@vger.kernel.org# v2.6.29+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v2.6.32+' might be better as 'stable@vger.kernel.org# v2.6.32+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v2.6.36+' might be better as 'stable@vger.kernel.org# v2.6.36+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.10+' might be better as 'stable@vger.kernel.org# v3.10+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.13+' might be better as 'stable@vger.kernel.org# v3.13+'
+#37: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.14+' might be better as 'stable@vger.kernel.org# v3.14+'
+#45: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.15+' might be better as 'stable@vger.kernel.org# v3.15+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.15+' might be better as 'stable@vger.kernel.org# v3.15+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.15+' might be better as 'stable@vger.kernel.org# v3.15+'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.16+' might be better as 'stable@vger.kernel.org# v3.16+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.16+' might be better as 'stable@vger.kernel.org# v3.16+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.16+' might be better as 'stable@vger.kernel.org# v3.16+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.17+' might be better as 'stable@vger.kernel.org# v3.17+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.18+' might be better as 'stable@vger.kernel.org# v3.18+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.19+' might be better as 'stable@vger.kernel.org# v3.19+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.19+' might be better as 'stable@vger.kernel.org# v3.19+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.20+' might be better as 'stable@vger.kernel.org# v3.20+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.7+' might be better as 'stable@vger.kernel.org# v3.7+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.9' might be better as 'stable@vger.kernel.org# v3.9'
+#50: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v3.9+' might be better as 'stable@vger.kernel.org# v3.9+'
+#90: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.0+' might be better as 'stable@vger.kernel.org# v4.0+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.0+' might be better as 'stable@vger.kernel.org# v4.0+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.0+' might be better as 'stable@vger.kernel.org# v4.0+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.0: c18b96a1b862: nfs: clean up rest of reqs' might be better as 'stable@vger.kernel.org# v4.0: c18b96a1b862: nfs: clean up rest of reqs'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.0: d600ad1f2bdb: NFS41: pop some layoutget' might be better as 'stable@vger.kernel.org# v4.0: d600ad1f2bdb: NFS41: pop some layoutget'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.1+' might be better as 'stable@vger.kernel.org# v4.1+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.1+' might be better as 'stable@vger.kernel.org# v4.1+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.1+' might be better as 'stable@vger.kernel.org# v4.1+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.10+' might be better as 'stable@vger.kernel.org# v4.10+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.10+' might be better as 'stable@vger.kernel.org# v4.10+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.10+' might be better as 'stable@vger.kernel.org# v4.10+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.10+' might be better as 'stable@vger.kernel.org# v4.10+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.10: 991eedb1371dc: NFSv4: Only pass the...' might be better as 'stable@vger.kernel.org# v4.10: 991eedb1371dc: NFSv4: Only pass the...'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#104: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.11+' might be better as 'stable@vger.kernel.org# v4.11+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#121: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#50: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#64: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#69: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.12+' might be better as 'stable@vger.kernel.org# v4.12+'
+#80: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.13+' might be better as 'stable@vger.kernel.org# v4.13+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.13+' might be better as 'stable@vger.kernel.org# v4.13+'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#35: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#46: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14+' might be better as 'stable@vger.kernel.org# v4.14+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.14.0+' might be better as 'stable@vger.kernel.org# v4.14.0+'
+#73: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15 +' might be better as 'stable@vger.kernel.org# v4.15 +'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15 +' might be better as 'stable@vger.kernel.org# v4.15 +'
+#47: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.15+' might be better as 'stable@vger.kernel.org# v4.15+'
+#8: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16' might be better as 'stable@vger.kernel.org# v4.16'
+#31: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.16+' might be better as 'stable@vger.kernel.org# v4.16+'
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#54: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.17+' might be better as 'stable@vger.kernel.org# v4.17+'
+#63: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.18+' might be better as 'stable@vger.kernel.org# v4.18+'
+#55: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19' might be better as 'stable@vger.kernel.org# v4.19'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#73: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.19+' might be better as 'stable@vger.kernel.org# v4.19+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.2+' might be better as 'stable@vger.kernel.org# v4.2+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.2+' might be better as 'stable@vger.kernel.org# v4.2+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.2+' might be better as 'stable@vger.kernel.org# v4.2+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.2+' might be better as 'stable@vger.kernel.org# v4.2+'
+#52: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.2+' might be better as 'stable@vger.kernel.org# v4.2+'
+#81: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20 +' might be better as 'stable@vger.kernel.org# v4.20 +'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20' might be better as 'stable@vger.kernel.org# v4.20'
+#39: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#35: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#37: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#40: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#70: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.20+' might be better as 'stable@vger.kernel.org# v4.20+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.3+' might be better as 'stable@vger.kernel.org# v4.3+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.3+' might be better as 'stable@vger.kernel.org# v4.3+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4' might be better as 'stable@vger.kernel.org# v4.4'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.4+' might be better as 'stable@vger.kernel.org# v4.4+'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.5+' might be better as 'stable@vger.kernel.org# v4.5+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.6+' might be better as 'stable@vger.kernel.org# v4.6+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.6+' might be better as 'stable@vger.kernel.org# v4.6+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.6+' might be better as 'stable@vger.kernel.org# v4.6+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.7+' might be better as 'stable@vger.kernel.org# v4.7+'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.7+' might be better as 'stable@vger.kernel.org# v4.7+'
+#65: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.8+' might be better as 'stable@vger.kernel.org# v4.8+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#7: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v4.9+' might be better as 'stable@vger.kernel.org# v4.9+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0' might be better as 'stable@vger.kernel.org# v5.0'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#43: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#47: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.0+' might be better as 'stable@vger.kernel.org# v5.0+'
+#54: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1' might be better as 'stable@vger.kernel.org# v5.1'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1' might be better as 'stable@vger.kernel.org# v5.1'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1' might be better as 'stable@vger.kernel.org# v5.1'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1' might be better as 'stable@vger.kernel.org# v5.1'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#26: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#29: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#47: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#88: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#93: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.1+' might be better as 'stable@vger.kernel.org# v5.1+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2' might be better as 'stable@vger.kernel.org# v5.2'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#32: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#44: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#49: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.2+' might be better as 'stable@vger.kernel.org# v5.2+'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.3' might be better as 'stable@vger.kernel.org# v5.3'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.3+' might be better as 'stable@vger.kernel.org# v5.3+'
+#39: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org # v5.3+' might be better as 'stable@vger.kernel.org# v5.3+'
+#79: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #4.14+' might be better as 'stable@vger.kernel.org#4.14+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #4.19' might be better as 'stable@vger.kernel.org#4.19'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #4.19' might be better as 'stable@vger.kernel.org#4.19'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #4.19' might be better as 'stable@vger.kernel.org#4.19'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #4.19' might be better as 'stable@vger.kernel.org#4.19'
+#40: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #4.19+' might be better as 'stable@vger.kernel.org#4.19+'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #4.9+' might be better as 'stable@vger.kernel.org#4.9+'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #4.9+' might be better as 'stable@vger.kernel.org#4.9+'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #5.0+' might be better as 'stable@vger.kernel.org#5.0+'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #5.2' might be better as 'stable@vger.kernel.org#5.2'
+#10: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #5.2' might be better as 'stable@vger.kernel.org#5.2'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #v4.10' might be better as 'stable@vger.kernel.org#v4.10'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #v4.18+' might be better as 'stable@vger.kernel.org#v4.18+'
+#12: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #v4.18+' might be better as 'stable@vger.kernel.org#v4.18+'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #v4.18+' might be better as 'stable@vger.kernel.org#v4.18+'
+#40: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #v4.18+' might be better as 'stable@vger.kernel.org#v4.18+'
+#43: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #v4.9+' might be better as 'stable@vger.kernel.org#v4.9+'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #v5.1+' might be better as 'stable@vger.kernel.org#v5.1+'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org #v5.2' might be better as 'stable@vger.kernel.org#v5.2'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org (3.14+)' might be better as 'stable@vger.kernel.org(3.14+)'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org (linux-5.0)' might be better as 'stable@vger.kernel.org(linux-5.0)'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org (v2.6.12+)' might be better as 'stable@vger.kernel.org(v2.6.12+)'
+#43: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org (v2.6.38+)' might be better as 'stable@vger.kernel.org(v2.6.38+)'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org (v4.12+)' might be better as 'stable@vger.kernel.org(v4.12+)'
+#28: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org (v4.12++)' might be better as 'stable@vger.kernel.org(v4.12++)'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org (v4.19+)' might be better as 'stable@vger.kernel.org(v4.19+)'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org (v4.2+)' might be better as 'stable@vger.kernel.org(v4.2+)'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org [4.19, 5.0 and 5.1]' might be better as 'stable@vger.kernel.org[4.19, 5.0 and 5.1]'
+#25: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org [4.9+]' might be better as 'stable@vger.kernel.org[4.9+]'
+#58: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org [v4.6+]' might be better as 'stable@vger.kernel.org[v4.6+]'
+#48: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org [v5.2+]' might be better as 'stable@vger.kernel.org[v5.2+]'
+#7: 
+
+WARNING:BAD_SIGN_OFF: email address 'stable@vger.kernel.org: # v4.6+' might be better as 'stable@vger.kernel.org:# v4.6+'
+#36: 
+
+WARNING:BAD_SIGN_OFF: email address 'Zhou, David(ChunMing) <David1.Zhou@amd.com>' might be better as '"Zhou, David"(ChunMing) <David1.Zhou@amd.com>'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address 'Zhou, David(ChunMing) <David1.Zhou@amd.com>' might be better as '"Zhou, David"(ChunMing) <David1.Zhou@amd.com>'
+#16: 
+
+
+
+*************************************************
+
+
+
+WARNINGS PRESENT IN PATCH BUT ABSENT EARLIER:
+
+WARNING:BAD_SIGN_OFF: email address '"Alex Xu (Hello71)" <alex_y_xu@yahoo.ca>' might be better as 'Alex Xu (Hello71) <alex_y_xu@yahoo.ca>'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '"Alex Xu (Hello71)" <alex_y_xu@yahoo.ca>' might be better as 'Alex Xu (Hello71) <alex_y_xu@yahoo.ca>'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '"Alex Xu (Hello71)" <alex_y_xu@yahoo.ca>' might be better as 'Alex Xu (Hello71) <alex_y_xu@yahoo.ca>'
+#24: 
+
+WARNING:BAD_SIGN_OFF: email address '"Alex Xu (Hello71)" <alex_y_xu@yahoo.ca>' might be better as 'Alex Xu (Hello71) <alex_y_xu@yahoo.ca>'
+#33: 
+
+WARNING:BAD_SIGN_OFF: email address '"chengjian (D)" <cj.chengjian@huawei.com>' might be better as 'chengjian (D) <cj.chengjian@huawei.com>'
+#13: 
+
+WARNING:BAD_SIGN_OFF: email address '"Cooper Yan(BJ-RD)" <CooperYan@zhaoxin.com>' might be better as 'Cooper Yan (BJ-RD) <CooperYan@zhaoxin.com>'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '"Cooper Yan(BJ-RD)" <CooperYan@zhaoxin.com>' might be better as 'Cooper Yan (BJ-RD) <CooperYan@zhaoxin.com>'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '"Cooper Yan(BJ-RD)" <CooperYan@zhaoxin.com>' might be better as 'Cooper Yan (BJ-RD) <CooperYan@zhaoxin.com>'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '"Darren Hart (VMware)" <dvhart@infradead.org>' might be better as 'Darren Hart (VMware) <dvhart@infradead.org>'
+#46: 
+
+WARNING:BAD_SIGN_OFF: email address '"Herry Yang(BJ-RD)" <HerryYang@zhaoxin.com>' might be better as 'Herry Yang (BJ-RD) <HerryYang@zhaoxin.com>'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '"Herry Yang(BJ-RD)" <HerryYang@zhaoxin.com>' might be better as 'Herry Yang (BJ-RD) <HerryYang@zhaoxin.com>'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '"Herry Yang(BJ-RD)" <HerryYang@zhaoxin.com>' might be better as 'Herry Yang (BJ-RD) <HerryYang@zhaoxin.com>'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '"james qian wang (Arm Technology China)" <james.qian.wang@arm.com>' might be better as 'james qian wang (Arm Technology China) <james.qian.wang@arm.com>'
+#11: 
+
+WARNING:BAD_SIGN_OFF: email address '"Joel Fernandes (Google)" <joel@joelfernandes.org>' might be better as 'Joel Fernandes (Google) <joel@joelfernandes.org>'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '"Joel Fernandes (Google)" <joel@joelfernandes.org>' might be better as 'Joel Fernandes (Google) <joel@joelfernandes.org>'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '"Joel Fernandes (Google)" <joel@joelfernandes.org>' might be better as 'Joel Fernandes (Google) <joel@joelfernandes.org>'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '"Joel Fernandes (Google)" <joel@joelfernandes.org>' might be better as 'Joel Fernandes (Google) <joel@joelfernandes.org>'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '"Joel Fernandes (Google)" <joel@joelfernandes.org>' might be better as 'Joel Fernandes (Google) <joel@joelfernandes.org>'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address '"Joel Fernandes (Google)" <joel@joelfernandes.org>' might be better as 'Joel Fernandes (Google) <joel@joelfernandes.org>'
+#42: 
+
+WARNING:BAD_SIGN_OFF: email address '"Leizhen (ThunderTown)" <thunder.leizhen@huawei.com>' might be better as 'Leizhen (ThunderTown) <thunder.leizhen@huawei.com>'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '"Leizhen (ThunderTown)" <thunder.leizhen@huawei.com>' might be better as 'Leizhen (ThunderTown) <thunder.leizhen@huawei.com>'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '"Matthew Wilcox (Oracle)" <willy@infradead.org>' might be better as 'Matthew Wilcox (Oracle) <willy@infradead.org>'
+#121: 
+
+WARNING:BAD_SIGN_OFF: email address '"Matthew Wilcox (Oracle)" <willy@infradead.org>' might be better as 'Matthew Wilcox (Oracle) <willy@infradead.org>'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '"Matthew Wilcox (Oracle)" <willy@infradead.org>' might be better as 'Matthew Wilcox (Oracle) <willy@infradead.org>'
+#53: 
+
+WARNING:BAD_SIGN_OFF: email address '"Matthew Wilcox (Oracle)" <willy@infradead.org>' might be better as 'Matthew Wilcox (Oracle) <willy@infradead.org>'
+#99: 
+
+WARNING:BAD_SIGN_OFF: email address '"Michael Kerrisk (man-pages)" <mtk.manpages@gmail.com>' might be better as 'Michael Kerrisk (man-pages) <mtk.manpages@gmail.com>'
+#20: 
+
+WARNING:BAD_SIGN_OFF: email address '"Michael Kerrisk (man-pages)" <mtk.manpages@gmail.com>' might be better as 'Michael Kerrisk (man-pages) <mtk.manpages@gmail.com>'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '"Michael Kerrisk (man-pages)" <mtk.manpages@gmail.com>' might be better as 'Michael Kerrisk (man-pages) <mtk.manpages@gmail.com>'
+#27: 
+
+WARNING:BAD_SIGN_OFF: email address '"Michael Kerrisk (man-pages)" <mtk.manpages@gmail.com>' might be better as 'Michael Kerrisk (man-pages) <mtk.manpages@gmail.com>'
+#45: 
+
+WARNING:BAD_SIGN_OFF: email address '"Michael Kerrisk (man-pages)" <mtk.manpages@gmail.com>' might be better as 'Michael Kerrisk (man-pages) <mtk.manpages@gmail.com>'
+#47: 
+
+WARNING:BAD_SIGN_OFF: email address '"Peter Zijlstra (Intel)" <peterz@infradead.org>' might be better as 'Peter Zijlstra (Intel) <peterz@infradead.org>'
+#15: 
+
+WARNING:BAD_SIGN_OFF: email address '"Peter Zijlstra (Intel)" <peterz@infradead.org>' might be better as 'Peter Zijlstra (Intel) <peterz@infradead.org>'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '"Peter Zijlstra (Intel)" <peterz@infradead.org>' might be better as 'Peter Zijlstra (Intel) <peterz@infradead.org>'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '"Peter Zijlstra (Intel)" <peterz@infradead.org>' might be better as 'Peter Zijlstra (Intel) <peterz@infradead.org>'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address '"Peter Zijlstra (Intel)" <peterz@infradead.org>' might be better as 'Peter Zijlstra (Intel) <peterz@infradead.org>'
+#40: 
+
+WARNING:BAD_SIGN_OFF: email address '"Peter Zijlstra (Intel)" <peterz@infradead.org>' might be better as 'Peter Zijlstra (Intel) <peterz@infradead.org>'
+#49: 
+
+WARNING:BAD_SIGN_OFF: email address '"Peter Zijlstra (Intel)" <peterz@infradead.org>' might be better as 'Peter Zijlstra (Intel) <peterz@infradead.org>'
+#88: 
+
+WARNING:BAD_SIGN_OFF: email address '"Peter Zijlstra (Intel)" <peterz@infradead.org>' might be better as 'Peter Zijlstra (Intel) <peterz@infradead.org>'
+#9: 
+
+WARNING:BAD_SIGN_OFF: email address '"Qiyuan Wang(BJ-RD)" <QiyuanWang@zhaoxin.com>' might be better as 'Qiyuan Wang (BJ-RD) <QiyuanWang@zhaoxin.com>'
+#17: 
+
+WARNING:BAD_SIGN_OFF: email address '"Qiyuan Wang(BJ-RD)" <QiyuanWang@zhaoxin.com>' might be better as 'Qiyuan Wang (BJ-RD) <QiyuanWang@zhaoxin.com>'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '"Qiyuan Wang(BJ-RD)" <QiyuanWang@zhaoxin.com>' might be better as 'Qiyuan Wang (BJ-RD) <QiyuanWang@zhaoxin.com>'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#16: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#18: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#19: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#21: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#22: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#23: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#34: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#48: 
+
+WARNING:BAD_SIGN_OFF: email address '"Steven Rostedt (VMware)" <rostedt@goodmis.org>' might be better as 'Steven Rostedt (VMware) <rostedt@goodmis.org>'
+#50: 
+
+WARNING:BAD_SIGN_OFF: email address '"Wanzongshun (Vincent)" <wanzongshun@huawei.com>' might be better as 'Wanzongshun (Vincent) <wanzongshun@huawei.com>'
+#30: 
+
+WARNING:BAD_SIGN_OFF: email address '"Yixia Si (yisi)" <yisi@cisco.com>' might be better as 'Yixia Si (yisi) <yisi@cisco.com>'
+#14: 
+
+WARNING:BAD_SIGN_OFF: email address '"zhengbin (A)" <zhengbin13@huawei.com>' might be better as 'zhengbin (A) <zhengbin13@huawei.com>'
+#37: 
+
+WARNING:BAD_SIGN_OFF: Use a single space after Reviewed-by:
+#44: 
+

@@ -1,0 +1,63 @@
+DIFFERENCE OF REPEATED_WORD WARNING ON REGEX PATTERN CHANGE:
+
+WARNINGS DROPPED BY THE PATCH BUT PRESENT EARLIER:
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email address mismatch: 'From: Jason Cai(Xiang Feng) <jason.cai.kern@gmail.com>' != 'Signed-off-by: Jason Cai (Xiang Feng) <jason.cai@linux.alibaba.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email address mismatch: 'From: Lowry Li(Arm Technology China) <Lowry.Li@arm.com>' != 'Signed-off-by: Lowry Li (Arm Technology China) <lowry.li@arm.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: "Adamski, Krzysztof"(Nokia - PL/Wroclaw) <krzysztof.adamski@nokia.com>' != 'Signed-off-by: Krzysztof Adamski <krzysztof.adamski@nokia.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: "Srivatsa S. Bhat"(VMware) <srivatsa@csail.mit.edu>' != 'Signed-off-by: Srivatsa S. Bhat (VMware) <srivatsa@csail.mit.edu>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: "Tilmans, Olivier"(Nokia - BE/Antwerp) <olivier.tilmans@nokia-bell-labs.com>' != 'Signed-off-by: Olivier Tilmans <olivier.tilmans@nokia-bell-labs.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: "Wiebe, Wladislav"(Nokia - DE/Ulm) <wladislav.wiebe@nokia.com>' != 'Signed-off-by: Wladislav Wiebe <wladislav.wiebe@nokia.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: james qian wang(Arm Technology China) <james.qian.wang@arm.com>' != 'Signed-off-by: James (Qian) Wang <james.qian.wang@arm.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: james qian wang(Arm Technology China) <james.qian.wang@arm.com>' != 'Signed-off-by: James Qian Wang (Arm Technology China) <james.qian.wang@arm.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email subaddress mismatch: 'From: Ji-Ze Hong(Peter Hong) <hpeter@gmail.com>' != 'Signed-off-by: Ji-Ze Hong (Peter Hong) <hpeter+linux_kernel@gmail.com>'
+
+
+
+
+*************************************************
+
+
+
+WARNINGS PRESENT IN PATCH BUT ABSENT EARLIER:
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email address mismatch: 'From: Jason Cai (Xiang Feng) <jason.cai.kern@gmail.com>' != 'Signed-off-by: Jason Cai (Xiang Feng) <jason.cai@linux.alibaba.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email address mismatch: 'From: Lowry Li (Arm Technology China) <Lowry.Li@arm.com>' != 'Signed-off-by: Lowry Li (Arm Technology China) <lowry.li@arm.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: "Adamski, Krzysztof" (Nokia - PL/Wroclaw) <krzysztof.adamski@nokia.com>' != 'Signed-off-by: Krzysztof Adamski <krzysztof.adamski@nokia.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: "Tilmans, Olivier" (Nokia - BE/Antwerp) <olivier.tilmans@nokia-bell-labs.com>' != 'Signed-off-by: Olivier Tilmans <olivier.tilmans@nokia-bell-labs.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: "Wiebe, Wladislav" (Nokia - DE/Ulm) <wladislav.wiebe@nokia.com>' != 'Signed-off-by: Wladislav Wiebe <wladislav.wiebe@nokia.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: james qian wang (Arm Technology China) <james.qian.wang@arm.com>' != 'Signed-off-by: James (Qian) Wang <james.qian.wang@arm.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email name mismatch: 'From: james qian wang (Arm Technology China) <james.qian.wang@arm.com>' != 'Signed-off-by: James Qian Wang (Arm Technology China) <james.qian.wang@arm.com>'
+
+
+WARNING:FROM_SIGN_OFF_MISMATCH: From:/Signed-off-by: email subaddress mismatch: 'From: Ji-Ze Hong (Peter Hong) <hpeter@gmail.com>' != 'Signed-off-by: Ji-Ze Hong (Peter Hong) <hpeter+linux_kernel@gmail.com>'
+
+
