@@ -1,0 +1,1026 @@
+commit 0228ecf6128c92b47eadd2ac270c5574d9150c09
+Author: Paul Burton <paul.burton@mips.com>
+Date:   Tue Oct 1 21:56:37 2019 +0000
+
+    MIPS: octeon: Include required header; fix octeon ethernet build
+    
+    Commit 171a9bae68c7 ("staging/octeon: Allow test build on !MIPS") moved
+    the inclusion of a bunch of headers by various files in the Octeon
+    ethernet driver into a common header, but in doing so it changed the
+    order in which those headers are included.
+    
+    Prior to the referenced commit drivers/staging/octeon/ethernet.c
+    included asm/octeon/cvmx-pip.h before asm/octeon/cvmx-ipd.h, which makes
+    use of the CVMX_PIP_SFT_RST definition pulled in by the former. After
+    commit 171a9bae68c7 ("staging/octeon: Allow test build on !MIPS") we
+    pull in asm/octeon/cvmx-ipd.h first & builds fail with:
+    
+      In file included from drivers/staging/octeon/octeon-ethernet.h:27,
+                       from drivers/staging/octeon/ethernet.c:22:
+      arch/mips/include/asm/octeon/cvmx-ipd.h: In function 'cvmx_ipd_free_ptr':
+      arch/mips/include/asm/octeon/cvmx-ipd.h:330:27: error: storage size of
+        'pip_sft_rst' isn't known
+          union cvmx_pip_sft_rst pip_sft_rst;
+                                 ^~~~~~~~~~~
+      arch/mips/include/asm/octeon/cvmx-ipd.h:331:36: error: 'CVMX_PIP_SFT_RST'
+        undeclared (first use in this function); did you mean 'CVMX_CIU_SOFT_RST'?
+          pip_sft_rst.u64 = cvmx_read_csr(CVMX_PIP_SFT_RST);
+                                          ^~~~~~~~~~~~~~~~
+                                          CVMX_CIU_SOFT_RST
+      arch/mips/include/asm/octeon/cvmx-ipd.h:331:36: note: each undeclared
+        identifier is reported only once for each function it appears in
+      arch/mips/include/asm/octeon/cvmx-ipd.h:330:27: warning: unused variable
+        'pip_sft_rst' [-Wunused-variable]
+          union cvmx_pip_sft_rst pip_sft_rst;
+                                 ^~~~~~~~~~~
+      make[4]: *** [scripts/Makefile.build:266: drivers/staging/octeon/ethernet.o]
+        Error 1
+      make[3]: *** [scripts/Makefile.build:509: drivers/staging/octeon] Error 2
+    
+    Fix this by having asm/octeon/cvmx-ipd.h include the
+    asm/octeon/cvmx-pip-defs.h header that it is reliant upon, rather than
+    requiring its users to pull in that header before it.
+    
+    Signed-off-by: Paul Burton <paul.burton@mips.com>
+    Fixes: 171a9bae68c7 ("staging/octeon: Allow test build on !MIPS")
+    Cc: David S. Miller <davem@davemloft.net>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Matthew Wilcox (Oracle) <willy@infradead.org>
+    Cc: linux-mips@vger.kernel.org
+    Cc: David S . Miller <davem@davemloft.net>
+    Cc: Matthew Wilcox <willy@infradead.org>
+
+
+
+commit ee8711336c51708382627ebcaee5f2122b77dfef
+Author: Kees Cook <keescook@chromium.org>
+Date:   Wed Sep 25 16:47:52 2019 -0700
+
+    bug: refactor away warn_slowpath_fmt_taint()
+    
+    Patch series "Clean up WARN() "cut here" handling", v2.
+    
+    Christophe Leroy noticed that the fix for missing "cut here" in the WARN()
+    case was adding explicit printk() calls instead of teaching the exception
+    handler to add it.  This refactors the bug/warn infrastructure to pass
+    this information as a new BUGFLAG.
+    
+    Longer details repeated from the last patch in the series:
+    
+    bug: move WARN_ON() "cut here" into exception handler
+    
+    The original cleanup of "cut here" missed the WARN_ON() case (that does
+    not have a printk message), which was fixed recently by adding an explicit
+    printk of "cut here".  This had the downside of adding a printk() to every
+    WARN_ON() caller, which reduces the utility of using an instruction
+    exception to streamline the resulting code.  By making this a new BUGFLAG,
+    all of these can be removed and "cut here" can be handled by the exception
+    handler.
+    
+    This was very pronounced on PowerPC, but the effect can be seen on x86 as
+    well.  The resulting text size of a defconfig build shows some small
+    savings from this patch:
+    
+       text    data     bss     dec     hex filename
+    19691167        5134320 1646664 26472151        193eed7 vmlinux.before
+    19676362        5134260 1663048 26473670        193f4c6 vmlinux.after
+    
+    This change also opens the door for creating something like BUG_MSG(),
+    where a custom printk() before issuing BUG(), without confusing the "cut
+    here" line.
+    
+    This patch (of 7):
+    
+    There's no reason to have specialized helpers for passing the warn taint
+    down to __warn().  Consolidate and refactor helper macros, removing
+    __WARN_printf() and warn_slowpath_fmt_taint().
+    
+    Link: http://lkml.kernel.org/r/20190819234111.9019-2-keescook@chromium.org
+    Signed-off-by: Kees Cook <keescook@chromium.org>
+    Cc: Christophe Leroy <christophe.leroy@c-s.fr>
+    Cc: Peter Zijlstra <peterz@infradead.org>
+    Cc: Christophe Leroy <christophe.leroy@c-s.fr>
+    Cc: Drew Davenport <ddavenport@chromium.org>
+    Cc: Arnd Bergmann <arnd@arndb.de>
+    Cc: "Steven Rostedt (VMware)" <rostedt@goodmis.org>
+    Cc: Feng Tang <feng.tang@intel.com>
+    Cc: Petr Mladek <pmladek@suse.com>
+    Cc: Mauro Carvalho Chehab <mchehab+samsung@kernel.org>
+    Cc: Borislav Petkov <bp@suse.de>
+    Cc: YueHaibing <yuehaibing@huawei.com>
+    Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+
+commit 1df217868178bde7f4405255416de9547d16c6e8
+Author: Stephen Boyd <swboyd@chromium.org>
+Date:   Tue Jul 30 11:15:44 2019 -0700
+
+    tty: Remove dev_err() usage after platform_get_irq()
+    
+    We don't need dev_err() messages when platform_get_irq() fails now that
+    platform_get_irq() prints an error message itself when something goes
+    wrong. Let's remove these prints with a simple semantic patch.
+    
+    // <smpl>
+    @@
+    expression ret;
+    struct platform_device *E;
+    @@
+    
+    ret =
+    (
+    platform_get_irq(E, ...)
+    |
+    platform_get_irq_byname(E, ...)
+    );
+    
+    if ( \( ret < 0 \| ret <= 0 \) )
+    {
+    (
+    -if (ret != -EPROBE_DEFER)
+    -{ ...
+    -dev_err(...);
+    -... }
+    |
+    ...
+    -dev_err(...);
+    )
+    ...
+    }
+    // </smpl>
+    
+    While we're here, remove braces on if statements that only have one
+    statement (manually).
+    
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Jiri Slaby <jslaby@suse.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Signed-off-by: Stephen Boyd <swboyd@chromium.org>
+    Link: https://lore.kernel.org/r/20190730181557.90391-45-swboyd@chromium.org
+    Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+
+
+
+commit f839b4b549a65e1c611f911654012ac65e6d1610
+Author: Stephen Boyd <swboyd@chromium.org>
+Date:   Tue Jul 30 11:15:55 2019 -0700
+
+    platform/x86: intel_int0002_vgpio: Remove dev_err() usage after platform_get_irq()
+    
+    We don't need dev_err() messages when platform_get_irq() fails now that
+    platform_get_irq() prints an error message itself when something goes
+    wrong. Let's remove these prints with a simple semantic patch.
+    
+    // <smpl>
+    @@
+    expression ret;
+    struct platform_device *E;
+    @@
+    
+    ret =
+    (
+    platform_get_irq(E, ...)
+    |
+    platform_get_irq_byname(E, ...)
+    );
+    
+    if ( \( ret < 0 \| ret <= 0 \) )
+    {
+    (
+    -if (ret != -EPROBE_DEFER)
+    -{ ...
+    -dev_err(...);
+    -... }
+    |
+    ...
+    -dev_err(...);
+    )
+    ...
+    }
+    // </smpl>
+    
+    While we're here, remove braces on if statements that only have one
+    statement (manually).
+    
+    Cc: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Enric Balletbo i Serra <enric.balletbo@collabora.com>
+    Cc: Hans de Goede <hdegoede@redhat.com>
+    Cc: "Darren Hart (VMware)" <dvhart@infradead.org>
+    Cc: Roman Kiryanov <rkir@google.com>
+    Cc: Vadim Pasternak <vadimp@mellanox.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Signed-off-by: Stephen Boyd <swboyd@chromium.org>
+    Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+
+
+
+commit 50944213062f7605ef79604418c7e3468d97b109
+Author: Stephen Boyd <swboyd@chromium.org>
+Date:   Tue Jul 30 11:15:52 2019 -0700
+
+    platform/x86: intel_pmc_ipc: Remove dev_err() usage after platform_get_irq()
+    
+    We don't need dev_err() messages when platform_get_irq() fails now that
+    platform_get_irq() prints an error message itself when something goes
+    wrong. Let's remove these prints with a simple semantic patch.
+    
+    // <smpl>
+    @@
+    expression ret;
+    struct platform_device *E;
+    @@
+    
+    ret =
+    (
+    platform_get_irq(E, ...)
+    |
+    platform_get_irq_byname(E, ...)
+    );
+    
+    if ( \( ret < 0 \| ret <= 0 \) )
+    {
+    (
+    -if (ret != -EPROBE_DEFER)
+    -{ ...
+    -dev_err(...);
+    -... }
+    |
+    ...
+    -dev_err(...);
+    )
+    ...
+    }
+    // </smpl>
+    
+    While we're here, remove braces on if statements that only have one
+    statement (manually).
+    
+    Cc: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Enric Balletbo i Serra <enric.balletbo@collabora.com>
+    Cc: Hans de Goede <hdegoede@redhat.com>
+    Cc: "Darren Hart (VMware)" <dvhart@infradead.org>
+    Cc: Roman Kiryanov <rkir@google.com>
+    Cc: Vadim Pasternak <vadimp@mellanox.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Signed-off-by: Stephen Boyd <swboyd@chromium.org>
+    Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+
+
+
+commit eaae882c4a77c8aa2ca20d4447aeb81d9d5eec97
+Author: Stephen Boyd <swboyd@chromium.org>
+Date:   Tue Jul 30 11:15:53 2019 -0700
+
+    platform/mellanox: mlxreg-hotplug: Remove dev_err() usage after platform_get_irq()
+    
+    We don't need dev_err() messages when platform_get_irq() fails now that
+    platform_get_irq() prints an error message itself when something goes
+    wrong. Let's remove these prints with a simple semantic patch.
+    
+    // <smpl>
+    @@
+    expression ret;
+    struct platform_device *E;
+    @@
+    
+    ret =
+    (
+    platform_get_irq(E, ...)
+    |
+    platform_get_irq_byname(E, ...)
+    );
+    
+    if ( \( ret < 0 \| ret <= 0 \) )
+    {
+    (
+    -if (ret != -EPROBE_DEFER)
+    -{ ...
+    -dev_err(...);
+    -... }
+    |
+    ...
+    -dev_err(...);
+    )
+    ...
+    }
+    // </smpl>
+    
+    While we're here, remove braces on if statements that only have one
+    statement (manually).
+    
+    Cc: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Enric Balletbo i Serra <enric.balletbo@collabora.com>
+    Cc: Hans de Goede <hdegoede@redhat.com>
+    Cc: "Darren Hart (VMware)" <dvhart@infradead.org>
+    Cc: Roman Kiryanov <rkir@google.com>
+    Cc: Vadim Pasternak <vadimp@mellanox.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Signed-off-by: Stephen Boyd <swboyd@chromium.org>
+    Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+
+
+
+commit b2dd2d9a49e0a9251badde3363efc9e7be2d0bde
+Author: Stephen Boyd <swboyd@chromium.org>
+Date:   Tue Jul 30 11:15:54 2019 -0700
+
+    platform/x86: intel_bxtwc_tmu: Remove dev_err() usage after platform_get_irq()
+    
+    We don't need dev_err() messages when platform_get_irq() fails now that
+    platform_get_irq() prints an error message itself when something goes
+    wrong. Let's remove these prints with a simple semantic patch.
+    
+    // <smpl>
+    @@
+    expression ret;
+    struct platform_device *E;
+    @@
+    
+    ret =
+    (
+    platform_get_irq(E, ...)
+    |
+    platform_get_irq_byname(E, ...)
+    );
+    
+    if ( \( ret < 0 \| ret <= 0 \) )
+    {
+    (
+    -if (ret != -EPROBE_DEFER)
+    -{ ...
+    -dev_err(...);
+    -... }
+    |
+    ...
+    -dev_err(...);
+    )
+    ...
+    }
+    // </smpl>
+    
+    While we're here, remove braces on if statements that only have one
+    statement (manually).
+    
+    Cc: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Enric Balletbo i Serra <enric.balletbo@collabora.com>
+    Cc: Hans de Goede <hdegoede@redhat.com>
+    Cc: "Darren Hart (VMware)" <dvhart@infradead.org>
+    Cc: Roman Kiryanov <rkir@google.com>
+    Cc: Vadim Pasternak <vadimp@mellanox.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Signed-off-by: Stephen Boyd <swboyd@chromium.org>
+    Signed-off-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+
+
+
+commit 75080370459a717da17fc9df2e7541f201c63746
+Author: Stephen Boyd <swboyd@chromium.org>
+Date:   Tue Jul 30 11:15:45 2019 -0700
+
+    uio: Remove dev_err() usage after platform_get_irq()
+    
+    We don't need dev_err() messages when platform_get_irq() fails now that
+    platform_get_irq() prints an error message itself when something goes
+    wrong. Let's remove these prints with a simple semantic patch.
+    
+    // <smpl>
+    @@
+    expression ret;
+    struct platform_device *E;
+    @@
+    
+    ret =
+    (
+    platform_get_irq(E, ...)
+    |
+    platform_get_irq_byname(E, ...)
+    );
+    
+    if ( \( ret < 0 \| ret <= 0 \) )
+    {
+    (
+    -if (ret != -EPROBE_DEFER)
+    -{ ...
+    -dev_err(...);
+    -... }
+    |
+    ...
+    -dev_err(...);
+    )
+    ...
+    }
+    // </smpl>
+    
+    While we're here, remove braces on if statements that only have one
+    statement (manually).
+    
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Signed-off-by: Stephen Boyd <swboyd@chromium.org>
+    Link: https://lore.kernel.org/r/20190730181557.90391-46-swboyd@chromium.org
+    Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+
+
+
+commit cfba5de9b99f8bbb8b4ea11b3049784e78b8759b
+Author: Suzuki K Poulose <suzuki.poulose@arm.com>
+Date:   Tue Jul 23 23:18:33 2019 +0100
+
+    drivers: Introduce device lookup variants by of_node
+    
+    Introduce wrappers for {bus/driver/class}_find_device() to
+    locate devices by its of_node.
+    
+    Cc: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
+    Cc: Maxime Ripard <maxime.ripard@bootlin.com>
+    Cc: dri-devel@lists.freedesktop.org
+    Cc: David Airlie <airlied@linux.ie>
+    Cc: Daniel Vetter <daniel@ffwll.ch>
+    Cc: devicetree@vger.kernel.org
+    Cc: Florian Fainelli <f.fainelli@gmail.com>
+    Cc: Frank Rowand <frowand.list@gmail.com>
+    Cc: Heiko Stuebner <heiko@sntech.de>
+    Cc: Liam Girdwood <lgirdwood@gmail.com>
+    Cc: linux-i2c@vger.kernel.org
+    Cc: linux-rockchip@lists.infradead.org
+    Cc: linux-spi@vger.kernel.org
+    Cc: Mathieu Poirier <mathieu.poirier@linaro.org>
+    Cc: Rob Herring <robh+dt@kernel.org>
+    Cc: Srinivas Kandagatla <srinivas.kandagatla@linaro.org>
+    Cc: Takashi Iwai <tiwai@suse.com>
+    Cc: Alan Tull <atull@kernel.org>
+    Cc: linux-fpga@vger.kernel.org
+    Cc: Peter Rosin <peda@axentia.se>
+    Cc: Florian Fainelli <f.fainelli@gmail.com>
+    Cc: Heiner Kallweit <hkallweit1@gmail.com>
+    Cc: "David S. Miller" <davem@davemloft.net>
+    Cc: Andrew Lunn <andrew@lunn.ch>
+    Cc: Liam Girdwood <lgirdwood@gmail.com>
+    Cc: "Rafael J. Wysocki" <rafael@kernel.org>
+    Cc: Thor Thayer <thor.thayer@linux.intel.com>
+    Cc: Jiri Slaby <jslaby@suse.com>
+    Cc: Andrew Lunn <andrew@lunn.ch>
+    Cc: Peter Rosin <peda@axentia.se>
+    Signed-off-by: Suzuki K Poulose <suzuki.poulose@arm.com>
+    Acked-by: Lee Jones <lee.jones@linaro.org>
+    Acked-by: Wolfram Sang <wsa@the-dreams.de> # I2C part
+    Acked-by: Moritz Fischer <mdf@kernel.org> # For FPGA part
+    Acked-by: Mark Brown <broonie@kernel.org>
+    Link: https://lore.kernel.org/r/20190723221838.12024-3-suzuki.poulose@arm.com
+    Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+
+
+
+commit dd625285910d3cff535fa76355e49949513918a4
+Author: David Hildenbrand <david@redhat.com>
+Date:   Thu Jul 18 15:57:53 2019 -0700
+
+    drivers/base/memory.c: get rid of find_memory_block_hinted()
+    
+    No longer needed, let's remove it.  Also, drop the "hint" parameter
+    completely from "find_memory_block_by_id", as nobody needs it anymore.
+    
+    [david@redhat.com: v3]
+      Link: http://lkml.kernel.org/r/20190620183139.4352-7-david@redhat.com
+    [david@redhat.com: handle zero-length walks]
+      Link: http://lkml.kernel.org/r/1c2edc22-afd7-2211-c4c7-40e54e5007e8@redhat.com
+    Link: http://lkml.kernel.org/r/20190614100114.311-7-david@redhat.com
+    Signed-off-by: David Hildenbrand <david@redhat.com>
+    Reviewed-by: Andrew Morton <akpm@linux-foundation.org>
+    Tested-by: Qian Cai <cai@lca.pw>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: "Rafael J. Wysocki" <rafael@kernel.org>
+    Cc: David Hildenbrand <david@redhat.com>
+    Cc: Stephen Rothwell <sfr@canb.auug.org.au>
+    Cc: Pavel Tatashin <pasha.tatashin@soleen.com>
+    Cc: Andrew Banman <andrew.banman@hpe.com>
+    Cc: Mike Travis <mike.travis@hpe.com>
+    Cc: Oscar Salvador <osalvador@suse.com>
+    Cc: Michal Hocko <mhocko@suse.com>
+    Cc: Wei Yang <richard.weiyang@gmail.com>
+    Cc: Arun KS <arunks@codeaurora.org>
+    Cc: Stephen Rothwell <sfr@canb.auug.org.au>
+    Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+
+commit f1eca35a0dc7cb3cdb00c88c8c5e5138a65face0
+Author: Dan Williams <dan.j.williams@intel.com>
+Date:   Thu Jul 18 15:57:57 2019 -0700
+
+    mm/sparsemem: introduce struct mem_section_usage
+    
+    Patch series "mm: Sub-section memory hotplug support", v10.
+    
+    The memory hotplug section is an arbitrary / convenient unit for memory
+    hotplug.  'Section-size' units have bled into the user interface
+    ('memblock' sysfs) and can not be changed without breaking existing
+    userspace.  The section-size constraint, while mostly benign for typical
+    memory hotplug, has and continues to wreak havoc with 'device-memory'
+    use cases, persistent memory (pmem) in particular.  Recall that pmem
+    uses devm_memremap_pages(), and subsequently arch_add_memory(), to
+    allocate a 'struct page' memmap for pmem.  However, it does not use the
+    'bottom half' of memory hotplug, i.e.  never marks pmem pages online and
+    never exposes the userspace memblock interface for pmem.  This leaves an
+    opening to redress the section-size constraint.
+    
+    To date, the libnvdimm subsystem has attempted to inject padding to
+    satisfy the internal constraints of arch_add_memory().  Beyond
+    complicating the code, leading to bugs [2], wasting memory, and limiting
+    configuration flexibility, the padding hack is broken when the platform
+    changes this physical memory alignment of pmem from one boot to the
+    next.  Device failure (intermittent or permanent) and physical
+    reconfiguration are events that can cause the platform firmware to
+    change the physical placement of pmem on a subsequent boot, and device
+    failure is an everyday event in a data-center.
+    
+    It turns out that sections are only a hard requirement of the
+    user-facing interface for memory hotplug and with a bit more
+    infrastructure sub-section arch_add_memory() support can be added for
+    kernel internal usages like devm_memremap_pages().  Here is an analysis
+    of the current design assumptions in the current code and how they are
+    addressed in the new implementation:
+    
+    Current design assumptions:
+    
+     - Sections that describe boot memory (early sections) are never
+       unplugged / removed.
+    
+     - pfn_valid(), in the CONFIG_SPARSEMEM_VMEMMAP=y, case devolves to a
+       valid_section() check
+    
+     - __add_pages() and helper routines assume all operations occur in
+       PAGES_PER_SECTION units.
+    
+     - The memblock sysfs interface only comprehends full sections
+    
+    New design assumptions:
+    
+     - Sections are instrumented with a sub-section bitmask to track (on
+       x86) individual 2MB sub-divisions of a 128MB section.
+    
+     - Partially populated early sections can be extended with additional
+       sub-sections, and those sub-sections can be removed with
+       arch_remove_memory(). With this in place we no longer lose usable
+       memory capacity to padding.
+    
+     - pfn_valid() is updated to look deeper than valid_section() to also
+       check the active-sub-section mask. This indication is in the same
+       cacheline as the valid_section() so the performance impact is
+       expected to be negligible. So far the lkp robot has not reported any
+       regressions.
+    
+     - Outside of the core vmemmap population routines which are replaced,
+       other helper routines like shrink_{zone,pgdat}_span() are updated to
+       handle the smaller granularity. Core memory hotplug routines that
+       deal with online memory are not touched.
+    
+     - The existing memblock sysfs user api guarantees / assumptions are not
+       touched since this capability is limited to !online
+       !memblock-sysfs-accessible sections.
+    
+    Meanwhile the issue reports continue to roll in from users that do not
+    understand when and how the 128MB constraint will bite them.  The current
+    implementation relied on being able to support at least one misaligned
+    namespace, but that immediately falls over on any moderately complex
+    namespace creation attempt.  Beyond the initial problem of 'System RAM'
+    colliding with pmem, and the unsolvable problem of physical alignment
+    changes, Linux is now being exposed to platforms that collide pmem ranges
+    with other pmem ranges by default [3].  In short, devm_memremap_pages()
+    has pushed the venerable section-size constraint past the breaking point,
+    and the simplicity of section-aligned arch_add_memory() is no longer
+    tenable.
+    
+    These patches are exposed to the kbuild robot on a subsection-v10 branch
+    [4], and a preview of the unit test for this functionality is available
+    on the 'subsection-pending' branch of ndctl [5].
+    
+    [2]: https://lore.kernel.org/r/155000671719.348031.2347363160141119237.stgit@dwillia2-desk3.amr.corp.intel.com
+    [3]: https://github.com/pmem/ndctl/issues/76
+    [4]: https://git.kernel.org/pub/scm/linux/kernel/git/djbw/nvdimm.git/log/?h=subsection-v10
+    [5]: https://github.com/pmem/ndctl/commit/7c59b4867e1c
+    
+    This patch (of 13):
+    
+    Towards enabling memory hotplug to track partial population of a section,
+    introduce 'struct mem_section_usage'.
+    
+    A pointer to a 'struct mem_section_usage' instance replaces the existing
+    pointer to a 'pageblock_flags' bitmap.  Effectively it adds one more
+    'unsigned long' beyond the 'pageblock_flags' (usemap) allocation to house
+    a new 'subsection_map' bitmap.  The new bitmap enables the memory
+    hot{plug,remove} implementation to act on incremental sub-divisions of a
+    section.
+    
+    SUBSECTION_SHIFT is defined as global constant instead of per-architecture
+    value like SECTION_SIZE_BITS in order to allow cross-arch compatibility of
+    subsection users.  Specifically a common subsection size allows for the
+    possibility that persistent memory namespace configurations be made
+    compatible across architectures.
+    
+    The primary motivation for this functionality is to support platforms that
+    mix "System RAM" and "Persistent Memory" within a single section, or
+    multiple PMEM ranges with different mapping lifetimes within a single
+    section.  The section restriction for hotplug has caused an ongoing saga
+    of hacks and bugs for devm_memremap_pages() users.
+    
+    Beyond the fixups to teach existing paths how to retrieve the 'usemap'
+    from a section, and updates to usemap allocation path, there are no
+    expected behavior changes.
+    
+    Link: http://lkml.kernel.org/r/156092349845.979959.73333291612799019.stgit@dwillia2-desk3.amr.corp.intel.com
+    Signed-off-by: Dan Williams <dan.j.williams@intel.com>
+    Reviewed-by: Oscar Salvador <osalvador@suse.de>
+    Reviewed-by: Wei Yang <richardw.yang@linux.intel.com>
+    Tested-by: Aneesh Kumar K.V <aneesh.kumar@linux.ibm.com>        [ppc64]
+    Cc: Michal Hocko <mhocko@suse.com>
+    Cc: Vlastimil Babka <vbabka@suse.cz>
+    Cc: Logan Gunthorpe <logang@deltatee.com>
+    Cc: Pavel Tatashin <pasha.tatashin@soleen.com>
+    Cc: David Hildenbrand <david@redhat.com>
+    Cc: JÃ©rÃ´me Glisse <jglisse@redhat.com>
+    Cc: Mike Rapoport <rppt@linux.ibm.com>
+    Cc: Jane Chu <jane.chu@oracle.com>
+    Cc: Pavel Tatashin <pasha.tatashin@soleen.com>
+    Cc: Jonathan Corbet <corbet@lwn.net>
+    Cc: Qian Cai <cai@lca.pw>
+    Cc: Logan Gunthorpe <logang@deltatee.com>
+    Cc: Toshi Kani <toshi.kani@hpe.com>
+    Cc: Jeff Moyer <jmoyer@redhat.com>
+    Cc: Michal Hocko <mhocko@suse.com>
+    Cc: Vlastimil Babka <vbabka@suse.cz>
+    Cc: Jason Gunthorpe <jgg@mellanox.com>
+    Cc: Christoph Hellwig <hch@lst.de>
+    Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+
+commit 697096b14444f458fb81212d1c82d7846e932455
+Author: Andy Lutomirski <luto@kernel.org>
+Date:   Tue Jul 2 20:43:04 2019 -0700
+
+    selftests/x86/fsgsbase: Fix some test case bugs
+    
+    This refactors do_unexpected_base() to clean up some code.  It also
+    fixes the following bugs in test_ptrace_write_gsbase():
+    
+     - Incorrect printf() format string caused crashes.
+    
+     - Hardcoded 0x7 for the gs selector was not reliably correct.
+    
+    It also documents the fact that the test is expected to fail on old
+    kernels.
+    
+    Fixes: a87730cc3acc ("selftests/x86/fsgsbase: Test ptracer-induced GSBASE write with FSGSBASE")
+    Fixes: 1b6858d5a2eb ("selftests/x86/fsgsbase: Test ptracer-induced GSBASE write")
+    Signed-off-by: Andy Lutomirski <luto@kernel.org>
+    Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
+    Cc:  "BaeChang Seok" <chang.seok.bae@intel.com>
+    Cc: Borislav Petkov <bp@alien8.de>
+    Cc: Peter Zijlstra <peterz@infradead.org>
+    Cc: "H . Peter Anvin" <hpa@zytor.com>
+    Cc: Andi Kleen <ak@linux.intel.com>
+    Cc: H. Peter Anvin <hpa@zytor.com>
+    Cc: "BaeChang Seok" <chang.seok.bae@intel.com>
+    Link: https://lkml.kernel.org/r/bab29c84f2475e2c30ddb00f1b877fcd7f4f96a8.1562125333.git.luto@kernel.org
+
+
+
+commit 99a938889048aa8e92d2a54fadb45498122bf87f
+Author: Sam Ravnborg <sam@ravnborg.org>
+Date:   Sun Jun 30 08:18:52 2019 +0200
+
+    drm/stm: drop use of drmP.h
+    
+    Drop use of the deprecated header file drmP.h
+    from the sole user in the stm driver.
+    Replace with necessary include files.
+    
+    Signed-off-by: Sam Ravnborg <sam@ravnborg.org>
+    Cc: Yannick Fertre <yannick.fertre@st.com>
+    Cc: Philippe Cornu <philippe.cornu@st.com>
+    Cc: Benjamin Gaignard <benjamin.gaignard@linaro.org>
+    Cc: Vincent Abriou <vincent.abriou@st.com>
+    Cc: David Airlie <airlied@linux.ie>
+    Cc: Daniel Vetter <daniel@ffwll.ch>
+    Cc: Maxime Coquelin <mcoquelin.stm32@gmail.com>
+    Cc: Alexandre Torgue <alexandre.torgue@st.com>
+    Cc: linux-stm32@st-md-mailman.stormreply.com
+    Cc: linux-arm-kernel@lists.infradead.org
+    Cc: linux-stm32@st-md-mailman.stormreply.com
+    Cc: linux-arm-kernel@lists.infradead.org
+    Signed-off-by: Benjamin Gaignard <benjamin.gaignard@linaro.org>
+    Link: https://patchwork.freedesktop.org/patch/msgid/20190630061922.7254-4-sam@ravnborg.org
+
+
+
+commit 66ab700506e729e49ca13586a7b0201a1c2093af
+Author: Daniel Vetter <daniel.vetter@ffwll.ch>
+Date:   Tue Jun 25 22:42:04 2019 +0200
+
+    drm/vc4: Use drm_gem_fb_prepare_fb
+    
+    vc4 has switched to using drm_fb->obj[], so we can just use the helper
+    unchanged.
+    
+    v2: Make it compile ... oops.
+    
+    Cc: Eric Anholt <eric@anholt.net>
+    Cc: Emil Velikov <emil.velikov@collabora.com>
+    Reviewed-by: Eric Anholt <eric@anholt.net>
+    Signed-off-by: Daniel Vetter <daniel.vetter@intel.com>
+    Cc: Eric Anholt <eric@anholt.net>
+    Link: https://patchwork.freedesktop.org/patch/msgid/20190625204208.5614-4-daniel.vetter@ffwll.ch
+
+
+
+commit 6116b892bd4fd0ddc5f30566a556218bb2e1a9b6
+Author: Daniel Vetter <daniel.vetter@ffwll.ch>
+Date:   Mon Jun 24 11:21:53 2019 +0200
+
+    vga_switcheroo: Depend upon fbcon being built-in, if enabled
+    
+    Fixes linking fail when fbcon/fbdev is modular and vgaswitcheroo is
+    enabled:
+    
+    x86_64-linux-gnu-ld: drivers/gpu/vga/vga_switcheroo.o: in function `vga_switchto_stage2':
+    vga_switcheroo.c:(.text+0x997): undefined reference to `fbcon_remap_all'
+    
+    Unfortunately this means that in a default allmodconfig we will disable vgaswitcheroo.
+    
+    v2: I first tried to fix this with an EXPORT_SYMBOL, but vga_switcheroo is
+    never a module, so this doesn't work.
+    
+    Reported-by: Stephen Rothwell <sfr@canb.auug.org.au>
+    Reported-by: kbuild test robot <lkp@intel.com>
+    Fixes: 1cd51b5d200d ("vgaswitcheroo: call fbcon_remap_all directly")
+    Signed-off-by: Daniel Vetter <daniel.vetter@intel.com>
+    Cc: Stephen Rothwell <sfr@canb.auug.org.au>
+    Cc: Lukas Wunner <lukas@wunner.de>
+    Cc: Daniel Vetter <daniel.vetter@intel.com>
+    Cc: Sam Ravnborg <sam@ravnborg.org>
+    Cc: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
+    Cc: David Airlie <airlied@linux.ie>
+    Cc: Daniel Vetter <daniel@ffwll.ch>
+    Cc: Maxime Ripard <maxime.ripard@bootlin.com>
+    Cc: Sean Paul <sean@poorly.run>
+    Cc: Bartlomiej Zolnierkiewicz <b.zolnierkie@samsung.com>
+    Cc: Hans de Goede <hdegoede@redhat.com>
+    Cc: Yisheng Xie <ysxie@foxmail.com>
+    Cc: linux-fbdev@vger.kernel.org
+    Cc: Daniel Thompson <daniel.thompson@linaro.org>
+    Cc: Lee Jones <lee.jones@linaro.org>
+    Cc: dri-devel@lists.freedesktop.org
+    Cc: linux-fbdev@vger.kernel.org
+    Signed-off-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
+    Link: https://patchwork.freedesktop.org/patch/msgid/20190624092153.23375-1-daniel.vetter@ffwll.ch
+
+
+
+commit 65b66682344a15ba2069d4dd8d0cc39cc3aed7e9
+Author: Suzuki K Poulose <suzuki.poulose@arm.com>
+Date:   Fri Jun 14 18:54:01 2019 +0100
+
+    drivers: Add generic helper to match by of_node
+    
+    Add a helper to match device by the of_node. This will be later used
+    to provide wrappers to the device iterators for {bus/class/driver}_find_device().
+    Convert other users to reuse this new helper.
+    
+    Cc: Alan Tull <atull@kernel.org>
+    Cc: Andrew Lunn <andrew@lunn.ch>
+    Cc: Daniel Vetter <daniel@ffwll.ch>
+    Cc: David Airlie <airlied@linux.ie>
+    Cc: "David S. Miller" <davem@davemloft.net>
+    Cc: devicetree@vger.kernel.org
+    Cc: dri-devel@lists.freedesktop.org
+    Cc: Florian Fainelli <f.fainelli@gmail.com>
+    Cc: Frank Rowand <frowand.list@gmail.com>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Heiner Kallweit <hkallweit1@gmail.com>
+    Cc: Jiri Slaby <jslaby@suse.com>
+    Cc: Jonathan Hunter <jonathanh@nvidia.com>
+    Cc: Lee Jones <lee.jones@linaro.org>
+    Cc: Liam Girdwood <lgirdwood@gmail.com>
+    Cc: linux-fpga@vger.kernel.org
+    Cc: linux-i2c@vger.kernel.org
+    Cc: linux-spi@vger.kernel.org
+    Cc: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
+    Cc: Mark Brown <broonie@kernel.org>
+    Cc: Mathieu Poirier <mathieu.poirier@linaro.org>
+    Cc: Maxime Ripard <maxime.ripard@bootlin.com>
+    Cc: Moritz Fischer <mdf@kernel.org>
+    Cc: Peter Rosin <peda@axentia.se>
+    Cc: Rob Herring <robh+dt@kernel.org>
+    Cc: Srinivas Kandagatla <srinivas.kandagatla@linaro.org>
+    Cc: Thierry Reding <thierry.reding@gmail.com>
+    Cc: Thor Thayer <thor.thayer@linux.intel.com>
+    Cc: Wolfram Sang <wsa@the-dreams.de>
+    Cc: "Rafael J. Wysocki" <rafael@kernel.org>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Ulf Hansson <ulf.hansson@linaro.org>
+    Cc: Joe Perches <joe@perches.com>
+    Signed-off-by: Suzuki K Poulose <suzuki.poulose@arm.com>
+    Signed-off-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+
+
+
+commit 836334fd747595331dcdc7709b447ad8134db693
+Author: Daniel Vetter <daniel.vetter@ffwll.ch>
+Date:   Tue Jun 18 16:02:41 2019 +0200
+
+    drm/todo: Update drm_gem_object_funcs todo even more
+    
+    I rushed merging this a bit too much, and Noralf pointed out that
+    we're a lot better already and have made great progress.
+    
+    Let's try again.
+    
+    v2: Fix typo spotted by Eric Engestrom.
+    
+    Fixes: 8db420ac6cf2 ("drm/todo: Improve drm_gem_object funcs todo")
+    Reviewed-by: Noralf TrÃ¸nnes <noralf@tronnes.org>
+    Cc: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+    Cc: Daniel Vetter <daniel.vetter@intel.com>
+    Cc: David Airlie <airlied@linux.ie>
+    Cc: Daniel Vetter <daniel@ffwll.ch>
+    Cc: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
+    Cc: Maxime Ripard <maxime.ripard@bootlin.com>
+    Cc: Sean Paul <sean@poorly.run>
+    Cc: Thomas Zimmermann <tzimmermann@suse.de>
+    Cc: Gerd Hoffmann <kraxel@redhat.com>
+    Cc: Rob Herring <robh@kernel.org>
+    Cc: Noralf TrÃ¸nnes <noralf@tronnes.org>
+    Cc: Eric Anholt <eric@anholt.net>
+    Cc: Gerd Hoffmann <kraxel@redhat.com>
+    Signed-off-by: Daniel Vetter <daniel.vetter@intel.com>
+    Link: https://patchwork.freedesktop.org/patch/msgid/20190618140241.19856-1-daniel.vetter@ffwll.ch
+
+
+
+commit 02d15f0d80720545f1f4922a1550ea4aaad4e152
+Author: Wen Yang <wen.yang99@zte.com.cn>
+Date:   Fri Apr 12 14:02:23 2019 +0800
+
+    pinctrl: zte: fix leaked of_node references
+    
+    The call to of_parse_phandle returns a node pointer with refcount
+    incremented thus it must be explicitly decremented after the last
+    usage.
+    
+    Detected by coccinelle with the following warnings:
+    ./drivers/pinctrl/zte/pinctrl-zx.c:415:2-8: ERROR: missing of_node_put; acquired a node pointer with refcount incremented on line 407, but without a corresponding object release within this function.
+    ./drivers/pinctrl/zte/pinctrl-zx.c:422:2-8: ERROR: missing of_node_put; acquired a node pointer with refcount incremented on line 407, but without a corresponding object release within this function.
+    ./drivers/pinctrl/zte/pinctrl-zx.c:436:2-8: ERROR: missing of_node_put; acquired a node pointer with refcount incremented on line 407, but without a corresponding object release within this function.
+    ./drivers/pinctrl/zte/pinctrl-zx.c:444:2-8: ERROR: missing of_node_put; acquired a node pointer with refcount incremented on line 407, but without a corresponding object release within this function.
+    ./drivers/pinctrl/zte/pinctrl-zx.c:448:1-7: ERROR: missing of_node_put; acquired a node pointer with refcount incremented on line 407, but without a corresponding object release within this function.
+    
+    Signed-off-by: Wen Yang <wen.yang99@zte.com.cn>
+    Cc: Linus Walleij <linus.walleij@linaro.org>
+    Cc: Jun Nie <jun.nie@linaro.org>
+    Cc: Linus Walleij <linus.walleij@linaro.org>
+    Cc: linux-gpio@vger.kernel.org
+    Cc: linux-kernel@vger.kernel.org
+    Acked-by: Shawn Guo <shawnguo@kernel.org>
+    Signed-off-by: Linus Walleij <linus.walleij@linaro.org>
+
+
+
+commit afcd21dad88b68d646e91ed36948117d58b4c197
+Author: Thomas Gleixner <tglx@linutronix.de>
+Date:   Sun Apr 14 17:59:52 2019 +0200
+
+    x86/dumpstack/64: Use cpu_entry_area instead of orig_ist
+    
+    The orig_ist[] array is a shadow copy of the IST array in the TSS. The
+    reason why it exists is that older kernels used two TSS variants with
+    different pointers into the debug stack. orig_ist[] contains the real
+    starting points.
+    
+    There is no point anymore to do so because the same information can be
+    retrieved using the base address of the cpu entry area mapping and the
+    offsets of the various exception stacks.
+    
+    No functional change. Preparation for removing orig_ist.
+    
+    Cc: Josh Poimboeuf <jpoimboe@redhat.com>
+    Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
+    Signed-off-by: Borislav Petkov <bp@suse.de>
+    Cc: "H. Peter Anvin" <hpa@zytor.com>
+    Cc: Andy Lutomirski <luto@kernel.org>
+    Cc: Ingo Molnar <mingo@redhat.com>
+    Cc: Josh Poimboeuf <jpoimboe@redhat.com>
+    Cc: Sean Christopherson <sean.j.christopherson@intel.com>
+    Cc: x86-ml <x86@kernel.org>
+    Link: https://lkml.kernel.org/r/20190414160144.974900463@linutronix.de
+
+
+
+commit a9d57ef15cbe327fe54416dd194ee0ea66ae53a4
+Author: Daniel Borkmann <daniel@iogearbox.net>
+Date:   Mon Mar 25 14:56:20 2019 +0100
+
+    x86/retpolines: Disable switch jump tables when retpolines are enabled
+    
+    Commit ce02ef06fcf7 ("x86, retpolines: Raise limit for generating indirect
+    calls from switch-case") raised the limit under retpolines to 20 switch
+    cases where gcc would only then start to emit jump tables, and therefore
+    effectively disabling the emission of slow indirect calls in this area.
+    
+    After this has been brought to attention to gcc folks [0], Martin Liska
+    has then fixed gcc to align with clang by avoiding to generate switch jump
+    tables entirely under retpolines. This is taking effect in gcc starting
+    from stable version 8.4.0. Given kernel supports compilation with older
+    versions of gcc where the fix is not being available or backported anymore,
+    we need to keep the extra KBUILD_CFLAGS around for some time and generally
+    set the -fno-jump-tables to align with what more recent gcc is doing
+    automatically today.
+    
+    More than 20 switch cases are not expected to be fast-path critical, but
+    it would still be good to align with gcc behavior for versions < 8.4.0 in
+    order to have consistency across supported gcc versions. vmlinux size is
+    slightly growing by 0.27% for older gcc. This flag is only set to work
+    around affected gcc, no change for clang.
+    
+      [0] https://gcc.gnu.org/bugzilla/show_bug.cgi?id=86952
+    
+    Suggested-by: Martin Liska <mliska@suse.cz>
+    Signed-off-by: Daniel Borkmann <daniel@iogearbox.net>
+    Signed-off-by: Thomas Gleixner <tglx@linutronix.de>
+    Cc: David Woodhouse <dwmw2@infradead.org>
+    Cc: Linus Torvalds <torvalds@linux-foundation.org>
+    Cc: Jesper Dangaard Brouer <brouer@redhat.com>
+    Cc: BjÃ¶rn TÃ¶pel<bjorn.topel@intel.com>
+    Cc: Magnus Karlsson <magnus.karlsson@intel.com>
+    Cc: Alexei Starovoitov <ast@kernel.org>
+    Cc: H.J. Lu <hjl.tools@gmail.com>
+    Cc: Alexei Starovoitov <ast@kernel.org>
+    Cc: David S. Miller <davem@davemloft.net>
+    Link: https://lkml.kernel.org/r/20190325135620.14882-1-daniel@iogearbox.net
+
+
+
+commit ab3948f58ff841e51feb845720624665ef5b7ef3
+Author: Joel Fernandes (Google) <joel@joelfernandes.org>
+Date:   Tue Mar 5 15:47:54 2019 -0800
+
+    mm/memfd: add an F_SEAL_FUTURE_WRITE seal to memfd
+    
+    Android uses ashmem for sharing memory regions.  We are looking forward
+    to migrating all usecases of ashmem to memfd so that we can possibly
+    remove the ashmem driver in the future from staging while also
+    benefiting from using memfd and contributing to it.  Note staging
+    drivers are also not ABI and generally can be removed at anytime.
+    
+    One of the main usecases Android has is the ability to create a region
+    and mmap it as writeable, then add protection against making any
+    "future" writes while keeping the existing already mmap'ed
+    writeable-region active.  This allows us to implement a usecase where
+    receivers of the shared memory buffer can get a read-only view, while
+    the sender continues to write to the buffer.  See CursorWindow
+    documentation in Android for more details:
+    
+      https://developer.android.com/reference/android/database/CursorWindow
+    
+    This usecase cannot be implemented with the existing F_SEAL_WRITE seal.
+    To support the usecase, this patch adds a new F_SEAL_FUTURE_WRITE seal
+    which prevents any future mmap and write syscalls from succeeding while
+    keeping the existing mmap active.
+    
+    A better way to do F_SEAL_FUTURE_WRITE seal was discussed [1] last week
+    where we don't need to modify core VFS structures to get the same
+    behavior of the seal.  This solves several side-effects pointed by Andy.
+    self-tests are provided in later patch to verify the expected semantics.
+    
+    [1] https://lore.kernel.org/lkml/20181111173650.GA256781@google.com/
+    
+    Thanks a lot to Andy for suggestions to improve code.
+    
+    Link: http://lkml.kernel.org/r/20190112203816.85534-2-joel@joelfernandes.org
+    Signed-off-by: Joel Fernandes (Google) <joel@joelfernandes.org>
+    Acked-by: John Stultz <john.stultz@linaro.org>
+    Cc: Andy Lutomirski <luto@kernel.org>
+    Cc: Minchan Kim <minchan@kernel.org>
+    Cc: Jann Horn <jannh@google.com>
+    Cc: Al Viro <viro@zeniv.linux.org.uk>
+    Cc: Andy Lutomirski <luto@kernel.org>
+    Cc: Hugh Dickins <hughd@google.com>
+    Cc: J. Bruce Fields <bfields@fieldses.org>
+    Cc: Jeff Layton <jlayton@kernel.org>
+    Cc: Marc-Andr Lureau <marcandre.lureau@redhat.com>
+    Cc: Matthew Wilcox <willy@infradead.org>
+    Cc: Mike Kravetz <mike.kravetz@oracle.com>
+    Cc: Shuah Khan <shuah@kernel.org>
+    Signed-off-by: Andrew Morton <akpm@linux-foundation.org>
+    Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+

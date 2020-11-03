@@ -1,0 +1,200 @@
+commit 17c19287ecf54fb55f155902dcd39c62a9547c4e
+Author: Dan Carpenter <dan.carpenter@oracle.com>
+Date:   Fri Aug 9 17:09:04 2019 +0300
+
+    RDMA/siw: Fix a memory leak in siw_init_cpulist()
+    
+    The error handling code doesn't free siw_cpu_info.tx_valid_cpus[0].  The
+    first iteration through the loop is a no-op so this is sort of an off
+    by one bug.  Also Bernard pointed out that we can remove the NULL
+    assignment and simplify the code a bit.
+    
+    Fixes: bdcf26bf9b3a ("rdma/siw: network and RDMA core interface")
+    Signed-off-by: Dan Carpenter <dan.carpenter@oracle.com>
+    Reviewed-by: Bernard Metzler <bmt@zurich.ibm.com>
+    Reviewed-by: Bernard Metzler <bmt@zurich.ibm.com>
+    Link: https://lore.kernel.org/r/20190809140904.GB3552@mwanda
+    Signed-off-by: Doug Ledford <dledford@redhat.com>
+
+
+
+commit 5380d0b781c491d94b4f4690ecf9762c1946c4ec
+Author: John Harrison <John.C.Harrison@Intel.com>
+Date:   Mon Jun 17 18:01:05 2019 -0700
+
+    drm/i915: Support flags in whitlist WAs
+    
+    Newer hardware adds flags to the whitelist work-around register. These
+    allow per access direction privileges and ranges.
+    
+    Signed-off-by: John Harrison <John.C.Harrison@Intel.com>
+    Signed-off-by: Robert M. Fosha <robert.m.fosha@intel.com>
+    Cc: Tvrtko Ursulin <tvrtko.ursulin@intel.com>
+    Cc: Chris Wilson <chris@chris-wilson.co.uk>
+    Reviewed-by: Tvrtko Ursulin <tvrtko.ursulin@intel.com>
+    Reviewed-by: Tvrtko Ursulin <tvrtko.ursulin@intel.com>
+    Signed-off-by: Tvrtko Ursulin <tvrtko.ursulin@intel.com>
+    Link: https://patchwork.freedesktop.org/patch/msgid/20190618010108.27499-2-John.C.Harrison@Intel.com
+
+
+
+commit 1e0071819400205894c034174f7c4627820ca64e
+Author: Xue Chaojing <xuechaojing@huawei.com>
+Date:   Tue Jun 4 01:16:08 2019 +0000
+
+    hinic: add LRO support
+    
+    This patch adds LRO support for the HiNIC driver.
+    
+    Reported-by: kbuild test robot <lkp@intel.com>
+    Reviewed-by: Jesse Brandeburg <jesse.brandeburg@intel.com>
+    Signed-off-by: Xue Chaojing <xuechaojing@huawei.com>
+    Reviewed-by: Jesse Brandeburg <jesse.brandeburg@intel.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+
+
+commit c1ea02f15ab5efb3e93fc3144d895410bf79fcf2
+Author: Jason Wang <jasowang@redhat.com>
+Date:   Fri May 17 00:29:52 2019 -0400
+
+    vhost: scsi: add weight support
+    
+    This patch will check the weight and exit the loop if we exceeds the
+    weight. This is useful for preventing scsi kthread from hogging cpu
+    which is guest triggerable.
+    
+    This addresses CVE-2019-3900.
+    
+    Cc: Paolo Bonzini <pbonzini@redhat.com>
+    Cc: Stefan Hajnoczi <stefanha@redhat.com>
+    Fixes: 057cbf49a1f0 ("tcm_vhost: Initial merge for vhost level target fabric driver")
+    Signed-off-by: Jason Wang <jasowang@redhat.com>
+    Reviewed-by: Stefan Hajnoczi <stefanha@redhat.com>
+    Signed-off-by: Michael S. Tsirkin <mst@redhat.com>
+    Reviewed-by: Stefan Hajnoczi <stefanha@redhat.com>
+
+
+
+commit fa2b7c21d9b974b5b1b4f63a02edeaf049054dba
+Author: Robert Foss <robert.foss@collabora.com>
+Date:   Mon May 6 11:10:34 2019 +0200
+
+    drm/virtio: Remove redundant return type
+    
+    virtio_gpu_fence_emit() always returns 0, since it
+    has no error paths.
+    
+    Consequently no calls for virtio_gpu_fence_emit()
+    use the return value, and it can be removed.
+    
+    Signed-off-by: Robert Foss <robert.foss@collabora.com>
+    Reviewed-by: Chia-I Wu <olvaffe@gmail.com>
+    Link: http://patchwork.freedesktop.org/patch/msgid/20190506091034.30289-1-robert.foss@collabora.com
+    Suggested-by: Emil Velikov <emil.velikov@collabora.com>
+    Reviewed-by: Chia-I Wu <olvaffe@gmail.com>
+    Signed-off-by: Gerd Hoffmann <kraxel@redhat.com>
+
+
+
+commit 29f2133717c527f492933b0622a4aafe0b3cbe9e
+Author: Flavio Suligoi <f.suligoi@asem.it>
+Date:   Fri Apr 12 09:32:19 2019 +0200
+
+    spi: pxa2xx: fix SCR (divisor) calculation
+    
+    Calculate the divisor for the SCR (Serial Clock Rate), avoiding
+    that the SSP transmission rate can be greater than the device rate.
+    
+    When the division between the SSP clock and the device rate generates
+    a reminder, we have to increment by one the divisor.
+    In this way the resulting SSP clock will never be greater than the
+    device SPI max frequency.
+    
+    For example, with:
+    
+     - ssp_clk  = 50 MHz
+     - dev freq = 15 MHz
+    
+    without this patch the SSP clock will be greater than 15 MHz:
+    
+     - 25 MHz for PXA25x_SSP and CE4100_SSP
+     - 16,56 MHz for the others
+    
+    Instead, with this patch, we have in both case an SSP clock of 12.5MHz,
+    so the max rate of the SPI device clock is respected.
+    
+    Signed-off-by: Flavio Suligoi <f.suligoi@asem.it>
+    Reviewed-by: Jarkko Nikula <jarkko.nikula@linux.intel.com>
+    Reviewed-by: Jarkko Nikula <jarkko.nikula@linux.intel.com>
+    Signed-off-by: Mark Brown <broonie@kernel.org>
+
+
+
+commit 1d3fd8a10bedb09006cfc963bfcf051c3021f626
+Author: Stephen Suryaputra <ssuryaextr@gmail.com>
+Date:   Sat Apr 27 09:14:33 2019 -0400
+
+    vrf: Use orig netdev to count Ip6InNoRoutes and a fresh route lookup when sending dest unreach
+    
+    When there is no route to an IPv6 dest addr, skb_dst(skb) points
+    to loopback dev in the case of that the IP6CB(skb)->iif is
+    enslaved to a vrf. This causes Ip6InNoRoutes to be incremented on the
+    loopback dev. This also causes the lookup to fail on icmpv6_send() and
+    the dest unreachable to not sent and Ip6OutNoRoutes gets incremented on
+    the loopback dev.
+    
+    To reproduce:
+    * Gateway configuration:
+            ip link add dev vrf_258 type vrf table 258
+            ip link set dev enp0s9 master vrf_258
+            ip addr add 66:1/64 dev enp0s9
+            ip -6 route add unreachable default metric 8192 table 258
+            sysctl -w net.ipv6.conf.all.forwarding=1
+            sysctl -w net.ipv6.conf.enp0s9.forwarding=1
+    * Sender configuration:
+            ip addr add 66::2/64 dev enp0s9
+            ip -6 route add default via 66::1
+    and ping 67::1 for example from the sender.
+    
+    Fix this by counting on the original netdev and reset the skb dst to
+    force a fresh lookup.
+    
+    v2: Fix typo of destination address in the repro steps.
+    v3: Simplify the loopback check (per David Ahern) and use reverse
+        Christmas tree format (per David Miller).
+    
+    Signed-off-by: Stephen Suryaputra <ssuryaextr@gmail.com>
+    Reviewed-by: David Ahern <dsahern@gmail.com>
+    Tested-by: David Ahern <dsahern@gmail.com>
+    Reviewed-by: David Ahern <dsahern@gmail.com>
+    Signed-off-by: David S. Miller <davem@davemloft.net>
+
+
+
+commit d19f958db23c14c857e3eaa0cefa6a9c55e1468d
+Author: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
+Date:   Tue Jan 8 17:08:40 2019 +0100
+
+    drm/i915: Enable fastset for non-boot modesets.
+    
+    Now that our state comparison functions are pretty complete, we should
+    enable fastset by default when a modeset can be avoided. Even if we're
+    not completely certain about the inherited state, we can be certain
+    after the first modeset that our sw state matches the hw state.
+    
+    There is one testcase explicitly testing fastset,
+    kms_panel_fitting.atomic-fastset but other testcases do so indirectly
+    because most tests don't clean up the display during exit, or otherwise
+    indirectly preserve mode by doing igt_display_reset or inheriting during
+    init.
+    
+    Signed-off-by: Maarten Lankhorst <maarten.lankhorst@linux.intel.com>
+    Reviewed-by: Hans de Goede <hdegoede@redhat.com>
+    Cc: Daniel Vetter <daniel.vetter@ffwll.ch>
+    Reviewed-by: Hans de Goede <hdegoede@redhat.com>
+    [mlankhorst: Use DRM_DEBUG_KMS. (j4ni)]
+    Link: https://patchwork.freedesktop.org/patch/msgid/20190108160842.13396-3-maarten.lankhorst@linux.intel.com
+
+
+

@@ -1,0 +1,52 @@
+commit 39e01956e2f70ff9f0e97db1a69c9847aa1d5d8b
+Author: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+Date:   Fri Apr 12 00:00:56 2019 +0200
+
+    mtd: rawnand: meson: only initialize the RB completion once
+    
+    Documentation/scheduler/completion.txt states:
+      Calling init_completion() on the same completion object twice is
+      most likely a bug as it re-initializes the queue to an empty queue and
+      enqueued tasks could get "lost" - use reinit_completion() in that case,
+      but be aware of other races.
+    
+    Initialize nfc->completion in meson_nfc_probe using init_completion and
+    change the call in meson_nfc_queue_rb to reinit_completion so the logic
+    matches what the documentation suggests.
+    
+    Signed-off-by: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+    Tested-by:Liang Yang <liang.yang@amlogic.com>
+    Acked-by: Liang Yang <liang.yang@amlogic.com>
+    Tested-by:Liang Yang <liang.yang@amlogic.com>
+    Acked-by: Liang Yang <liang.yang@amlogic.com>
+    Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
+
+
+
+commit c96ffedf8a2f91c9124012ec4eef42a3da01d08b
+Author: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+Date:   Fri Apr 12 00:00:55 2019 +0200
+
+    mtd: rawnand: meson: use a void pointer for meson_nfc_dma_buffer_setup
+    
+    This simplifies the code because it gets rid of the casts to an
+    u8-pointer when passing "info_buf" from struct meson_nfc_nand_chip.
+    Also it gets rid of the cast of the u8 databuf pointer to a void
+    pointer.
+    The logic inside meson_nfc_dma_buffer_setup() doesn't care about the
+    pointer types themselves because it only passes them to dma_map_single
+    which accepts a void pointer.
+    
+    No functional changes.
+    
+    Signed-off-by: Martin Blumenstingl <martin.blumenstingl@googlemail.com>
+    Tested-by:Liang Yang <liang.yang@amlogic.com>
+    Acked-by: Liang Yang <liang.yang@amlogic.com>
+    Tested-by:Liang Yang <liang.yang@amlogic.com>
+    Acked-by: Liang Yang <liang.yang@amlogic.com>
+    Tested-by:Liang Yang <liang.yang@amlogic.com>
+    Acked-by: Liang Yang <liang.yang@amlogic.com>
+    Signed-off-by: Miquel Raynal <miquel.raynal@bootlin.com>
+
+
+
