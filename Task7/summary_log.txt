@@ -1,0 +1,1151 @@
+Missing sign off logs (git log -1 $sha):
+
+1)commit 57361846b52bc686112da6ca5368d11210796804
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Sep 2 14:37:30 2018 -0700
+
+    Linux 4.19-rc2
+
+
+2)commit f8788d86ab28f61f7b46eb6be375f8a726783636
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 23 16:17:42 2020 -0800
+
+    Linux 5.6-rc3
+
+
+3)commit 0e698dfa282211e414076f9dc7e83c1c288314fd
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 3 14:56:04 2020 -0700
+
+    Linux 5.7-rc4
+
+
+4)commit 54ecb8f7028c5eb3d740bb82b0f1d90f2df63c5c
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Sep 30 10:35:40 2019 -0700
+
+    Linux 5.4-rc1
+
+
+5)commit fd6988496e79a6a4bdb514a4655d2920209eb85d
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 29 15:29:16 2019 -0800
+
+    Linux 5.5-rc4
+
+
+6)commit 7566ec393f4161572ba6f11ad5171fd5d59b0fbd
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 16 15:46:55 2018 -0800
+
+    Linux 4.20-rc7
+
+
+7)commit 58cfbac25b1fd2b76f94566aed28a3662b0ff8c6
+Author: Michael Ellerman <mpe@ellerman.id.au>
+Date:   Fri Oct 26 04:24:15 2018 +1100
+
+    Revert "selftests/powerpc: Fix out-of-tree build errors"
+    
+    This reverts commit d8a2fe29d3c97038c8efcc328d5e7940c5310565.
+    
+    That commit, by me, fixed the out of tree build errors by causing some
+    of the tests not to build at all.
+
+
+8)commit 11da3a7f84f19c26da6f86af878298694ede0804
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Sep 9 17:26:43 2018 -0700
+
+    Linux 4.19-rc3
+
+
+9)commit a8750ddca918032d6349adbf9a4b6555e7db20da
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 14 15:32:30 2018 -0800
+
+    Linux 4.15-rc8
+
+
+10)commit 0b07194bb55ed836c2cc7c22e866b87a14681984
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Oct 29 13:58:38 2017 -0700
+
+    Linux 4.14-rc7
+
+
+11)commit e42617b825f8073569da76dc4510bfa019b1c35a
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 8 14:57:55 2019 -0800
+
+    Linux 5.5-rc1
+
+
+12)commit 9e98c678c2d6ae3a17cb2de55d17f69dddaa231b
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 17 14:22:26 2019 -0700
+
+    Linux 5.1-rc1
+
+
+13)commit 4f5cafb5cb8471e54afdc9054d973535614f7675
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Oct 13 16:37:36 2019 -0700
+
+    Linux 5.4-rc3
+
+
+14)commit 8834f5600cf3c8db365e18a3d5cac2c2780c81e5
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 3 13:48:04 2019 -0800
+
+    Linux 5.0-rc5
+
+
+15)commit 219d54332a09e8d8741c1e1982f5eae56099de85
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 24 16:32:01 2019 -0800
+
+    Linux 5.4
+
+
+16)commit 67b8d5c7081221efa252e111cd52532ec6d4266f
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 13 16:15:17 2018 -0700
+
+    Linux 4.17-rc5
+
+
+17)commit 6a8b55ed4056ea5559ebe4f6a4b247f627870d4c
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 26 13:51:02 2020 -0700
+
+    Linux 5.7-rc3
+
+
+18)commit 84df9525b0c27f3ebc2ebb1864fa62a97fdedb7d
+Author: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+Date:   Mon Oct 22 07:37:37 2018 +0100
+
+    Linux 4.19
+
+
+19)commit 1ffaddd029c867d134a1dde39f540dcc8c52e274
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Aug 5 12:37:41 2018 -0700
+
+    Linux 4.18-rc8
+
+
+20)commit 089cf7f6ecb266b6a4164919a2e69bd2f938374a
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Sep 2 09:57:40 2019 -0700
+
+    Linux 5.3-rc7
+
+
+21)commit 4d856f72c10ecb060868ed10ff1b1453943fc6c8
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Sep 15 14:19:32 2019 -0700
+
+    Linux 5.3
+
+
+22)commit 6da6c0db5316275015e8cc2959f12a17584aeb64
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 29 14:17:42 2018 -0700
+
+    Linux v4.17-rc3
+
+
+23)commit 4b972a01a7da614b4796475f933094751a295a2f
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sat Jun 22 16:01:36 2019 -0700
+
+    Linux 5.2-rc6
+
+
+24)commit 35a7f35ad1b150ddf59a41dcac7b2fa32982be0e
+Author: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+Date:   Mon Oct 15 07:20:24 2018 +0200
+
+    Linux 4.19-rc8
+
+
+25)commit 7111951b8d4973bda27ff663f2cf18b663d15b48
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 29 15:25:41 2020 -0700
+
+    Linux 5.6
+
+
+26)commit bebc6082da0a9f5d47a1ea2edc099bf671058bd4
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 12 10:46:13 2017 -0800
+
+    Linux 4.14
+
+
+27)commit 79a3aaa7b82e3106be97842dedfd8429248896e6
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 31 14:39:29 2019 -0700
+
+    Linux 5.1-rc3
+
+
+28)commit da2048b7348a0be92f706ac019e022139e29495e
+Author: Mauro Carvalho Chehab <mchehab+samsung@kernel.org>
+Date:   Fri Aug 10 15:06:18 2018 -0400
+
+    Revert "media: vivid: shut up warnings due to a non-trivial logic"
+    
+    0day kernel testing robot got the below dmesg and the first bad commit is
+    
+    https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git master
+    commit 3354b54f9f7037a1122d3b6009aa9d39829d6843
+    
+    [  248.847809] BUG: unable to handle kernel paging request at ffffc90000393131
+    
+    [  248.848015] Call Trace:
+    [  248.848015]  ? vivid_dev_release+0xc0/0xc0
+    [  248.848015]  ? acpi_dev_pm_attach+0x27/0xd0
+    
+    This reverts commit 3354b54f9f7037a1122d3b6009aa9d39829d6843.
+
+
+29)commit 3d77e6a8804abcc0504c904bd6e5cdf3a5cf8162
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 31 16:49:15 2020 -0700
+
+    Linux 5.7
+
+
+30)commit 6fbc7275c7a9ba97877050335f290341a1fd8dbf
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 30 11:25:36 2019 +0800
+
+    Linux 5.2-rc7
+
+
+31)commit 29dcea88779c856c7dc92040a0c01233263101d4
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 3 14:15:21 2018 -0700
+
+    Linux 4.17
+
+
+32)commit 771c577c23bac90597c685971d7297ea00f99d11
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 20 15:31:38 2018 -0700
+
+    Linux 4.17-rc6
+
+
+33)commit 7876320f88802b22d4e2daf7eb027dd14175a0f8
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Sep 16 11:52:37 2018 -0700
+
+    Linux 4.19-rc4
+
+
+34)commit 40e020c129cfc991e8ab4736d2665351ffd1468d
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 9 15:31:00 2018 -0800
+
+    Linux 4.20-rc6
+
+
+35)commit 39dae59d66acd86d1de24294bd2f343fd5e7a625
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 5 13:05:14 2017 -0800
+
+    Linux 4.14-rc8
+
+
+36)commit fb33c6510d5595144d585aa194d377cf74d31911
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 15 15:01:23 2020 -0700
+
+    Linux 5.6-rc6
+
+
+37)commit 46cf053efec6a3a5f343fead837777efe8252a46
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 22 17:02:23 2019 -0800
+
+    Linux 5.5-rc3
+
+
+38)commit 31f4f5b495a62c9a8b15b1c3581acd5efeb9af8c
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 10 16:17:15 2019 -0800
+
+    Linux 5.4-rc7
+
+
+39)commit e93c9c99a629c61837d5a7fc2120cd2b6c70dbdd
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 5 17:42:58 2019 -0700
+
+    Linux 5.1
+
+
+40)commit 1291a0d5049dbc06baaaf66a9ff3f53db493b19b
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 17 18:59:59 2017 -0800
+
+    Linux 4.15-rc4
+
+
+41)commit d8a5b80568a9cb66810e75b182018e9edb68e8ff
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 28 13:20:33 2018 -0800
+
+    Linux 4.15
+
+
+42)commit f17b5f06cb92ef2250513a1e154c47b78df07d40
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 27 15:18:05 2019 -0800
+
+    Linux 5.0-rc4
+
+
+43)commit 6bf4ca7fbc85d80446ac01c0d1d77db4d91a6d84
+Author: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+Date:   Sun Sep 23 19:15:18 2018 +0200
+
+    Linux 4.19-rc5
+
+
+44)commit 464e1d5f23cca236b930ef068c328a64cab78fb1
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sat Dec 23 20:47:16 2017 -0800
+
+    Linux 4.15-rc5
+
+
+45)commit 2595646791c319cadfdbf271563aac97d0843dc7
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 2 15:07:55 2018 -0800
+
+    Linux 4.20-rc5
+
+
+46)commit 98d54f81e36ba3bf92172791eba5ca5bd813989b
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 1 16:38:46 2020 -0600
+
+    Linux 5.6-rc4
+
+
+47)commit bb176f67090ca54869fc1262c913aa69d2ede070
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Oct 23 06:49:47 2017 -0400
+
+    Linux 4.14-rc6
+
+
+48)commit a99d8080aaf358d5d23581244e5da23b35e340b9
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 3 14:07:26 2019 -0800
+
+    Linux 5.4-rc6
+
+
+49)commit 94710cac0ef4ee177a63b5227664b38c95bbf703
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Aug 12 13:41:04 2018 -0700
+
+    Linux 4.18
+
+
+50)commit 37624b58542fb9f2d9a70e6ea006ef8a5f66c30b
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 28 17:04:13 2019 -0700
+
+    Linux 5.1-rc7
+
+
+51)commit def9d2780727cec3313ed3522d0123158d87224d
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 19 16:02:49 2020 -0800
+
+    Linux 5.5-rc7
+
+
+52)commit 9e66317d3c92ddaab330c125dfe9d06eee268aff
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Oct 1 14:54:54 2017 -0700
+
+    Linux 4.14-rc3
+
+
+53)commit 5908e6b738e3357af42c10e1183753c70a0117a9
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 24 16:46:45 2019 -0800
+
+    Linux 5.0-rc8
+
+
+54)commit dcb7fd82c75ee2d6e6f9d8cc71c52519ed52e258
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 5 16:20:22 2020 -0700
+
+    Linux 5.8-rc4
+
+
+55)commit 63f11c80e5dd4afae69ea2578addf896ddc06fee
+Author: Arnaldo Carvalho de Melo <acme@redhat.com>
+Date:   Thu Aug 2 14:27:09 2018 -0300
+
+    perf trace: Rename some syscall_tp methods to raw_syscall
+    
+    Because raw_syscalls have the field for the syscall number as 'id' while
+    the syscalls:sys_{enter,exit}_NAME have it as __syscall_nr...
+    
+    Since we want to support both for being able to enable just a
+    syscalls:sys_{enter,exit}_name instead of asking for
+    raw_syscalls:sys_{enter,exit} plus filters, make the method names for
+    each kind of tracepoint more explicit.
+    
+    Cc: Adrian Hunter <adrian.hunter@intel.com>
+    Cc: David Ahern <dsahern@gmail.com>
+    Cc: Jiri Olsa <jolsa@kernel.org>
+    Cc: Namhyung Kim <namhyung@kernel.org>
+    Cc: Steven Rostedt <rostedt@goodmis.org>
+    Cc: Wang Nan <wangnan0@huawei.com>
+    Link: https://lkml.kernel.org/n/tip-4rixbfzco6tsry0w9ghx3ktb@git.kernel.org
+    Signef-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>
+
+
+56)commit 92ed301919932f777713b9172e525674157e983d
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 26 14:14:06 2020 -0700
+
+    Linux 5.8-rc7
+
+
+57)commit 48778464bb7d346b47157d21ffde2af6b2d39110
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 21 15:45:29 2020 -0700
+
+    Linux 5.8-rc2
+
+
+58)commit ae83d0b416db002fe95601e7f97f64b59514d936
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 19 14:35:30 2020 -0700
+
+    Linux 5.7-rc2
+
+
+59)commit bb6d3fb354c5ee8d6bde2d576eb7220ea09862b9
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 9 16:08:48 2020 -0800
+
+    Linux 5.6-rc1
+
+
+60)commit 2c523b344dfa65a3738e7039832044aa133c75fb
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 8 17:44:44 2020 -0700
+
+    Linux 5.6-rc5
+
+
+61)commit d1eef1c619749b2a57e514a3fa67d9a516ffa919
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 15 15:16:08 2019 -0800
+
+    Linux 5.5-rc2
+
+
+62)commit 33d930e59a98fa10a0db9f56c7fa2f21a4aef9b9
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Oct 15 21:01:12 2017 -0400
+
+    Linux 4.14-rc5
+
+
+63)commit f68e7927212fa0dbe44c00c144b643c87ab0cf43
+Author: Michael Ellerman <mpe@ellerman.id.au>
+Date:   Sat Feb 23 20:30:50 2019 +1100
+
+    Revert "powerpc/book3s32: Reorder _PAGE_XXX flags to simplify TLB handling"
+    
+    This reverts commit 78ca1108b10927b3d068c8da91352b0f4cd01fc5.
+    
+    It is causing boot failures with qemu mac99 in at least some
+    configurations.
+
+
+64)commit 1c7fc5cbc33980acd13d668f1c8f0313d6ae9fd8
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Jan 14 10:41:12 2019 +1200
+
+    Linux 5.0-rc2
+
+
+65)commit 4e5c01a7c746130033eb6e7153b346b8ca61e7a5
+Author: Arnaldo Carvalho de Melo <acme@redhat.com>
+Date:   Mon Apr 16 16:39:38 2018 -0300
+
+    perf trace: Support MAP_FIXED_NOREPLACE
+    
+    Introduced in a4ff8e8620d3 ("mm: introduce MAP_FIXED_NOREPLACE"), and
+    now that we have that define in the just syncronized
+    tools/arch/*/include/uapi/asm/mman.h files, add support for it.
+    
+    This should really transition to autogeneration of string tables as
+    done for various other things:
+    
+      $ ls /tmp/build/perf/trace/beauty/generated/*.c
+      arch_errno_name_array.c kcmp_type_array.c madvise_behavior_array.c
+      pkey_alloc_access_rights_array.c prctl_option_array.c
+      $ head /tmp/build/perf/trace/beauty/generated/madvise_behavior_array.c
+      static const char *madvise_advices[] = {
+            [0] = "NORMAL",
+            [1] = "RANDOM",
+            [2] = "SEQUENTIAL",
+            [3] = "WILLNEED",
+            [4] = "DONTNEED",
+            [8] = "FREE",
+            [9] = "REMOVE",
+            [10] = "DONTFORK",
+            [11] = "DOFORK",
+      $
+    
+    Till then, add support for this the old way.
+    
+    Also it has to be ifdef'ed, because arches like mips still don't define
+    it. The proper solution will be to have per-arch tables for these
+    values to support cross-analysis.
+    
+    Cc: Adrian Hunter <adrian.hunter@intel.com>
+    Cc: David Ahern <dsahern@gmail.com>
+    Cc: Jiri Olsa <jolsa@kernel.org>
+    Cc: Linus Torvalds <torvalds@linux-foundation.org>
+    Cc: Michal Hocko <mhocko@suse.com>
+    Cc: Namhyung Kim <namhyung@kernel.org>
+    Cc: Wang Nan <wangnan0@huawei.com>
+    Link: https://lkml.kernel.org/n/tip-td9t5vhjltqnlzaurkkgq8cn@git.kernel.org
+    Signef-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>
+
+
+66)commit 8c2ffd9174779014c3fe1f96d9dc3641d9175f00
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 24 14:02:26 2019 -0700
+
+    Linux 5.1-rc2
+
+
+67)commit 569dbb88e80deb68974ef6fdd6a13edb9d686261
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Sep 3 13:56:17 2017 -0700
+
+    Linux 4.13
+
+
+68)commit d1abaeb3be7b5fa6d7a1fbbd2e14e3310005c4c1
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Aug 18 14:31:08 2019 -0700
+
+    Linux 5.3-rc5
+
+
+69)commit da0c9ea146cbe92b832f1b0f694840ea8eb33cce
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Oct 6 14:27:30 2019 -0700
+
+    Linux 5.4-rc2
+
+
+70)commit 0238df646e6224016a45505d2c111a24669ebe21
+Author: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+Date:   Sun Oct 7 17:26:02 2018 +0200
+
+    Linux 4.19-rc7
+
+
+71)commit a3b22b9f11d9fbc48b0291ea92259a5a810e9438
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 17 18:46:40 2019 -0800
+
+    Linux 5.0-rc7
+
+
+72)commit c698ca5278934c0ae32297a8725ced2e27585d7f
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 18 17:48:42 2018 -0700
+
+    Linux 4.16-rc6
+
+
+73)commit 9ebcfadb0610322ac537dd7aa5d9cbc2b2894c68
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 28 15:00:24 2020 -0700
+
+    Linux 5.8-rc3
+
+
+74)commit 0ecfebd2b52404ae0c54a878c872bb93363ada36
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 7 15:41:56 2019 -0700
+
+    Linux 5.2
+
+
+75)commit 636be4241bdd88fec273b38723e44bad4e1c4fae
+Author: Mike Snitzer <snitzer@redhat.com>
+Date:   Thu Feb 27 14:25:31 2020 -0500
+
+    dm: bump version of core and various targets
+    
+    Changes made during the 5.6 cycle warrant bumping the version number
+    for DM core and the targets modified by this commit.
+    
+    It should be noted that dm-thin, dm-crypt and dm-raid already had
+    their target version bumped during the 5.6 merge window.
+    
+    Signed-off-by; Mike Snitzer <snitzer@redhat.com>
+
+
+76)commit cd6c84d8f0cdc911df435bb075ba22ce3c605b07
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 26 16:49:19 2019 -0700
+
+    Linux 5.2-rc2
+
+
+77)commit 2ef96a5bb12be62ef75b5828c0aab838ebb29cb8
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 10 15:16:58 2020 -0700
+
+    Linux 5.7-rc5
+
+
+78)commit e19b205be43d11bff638cad4487008c48d21c103
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Sep 24 16:38:56 2017 -0700
+
+    Linux 4.14-rc2
+
+
+79)commit b3a987b0264d3ddbb24293ebff10eddfc472f653
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 12 16:55:08 2020 -0800
+
+    Linux 5.5-rc6
+
+
+80)commit 7928b2cbe55b2a410a0f5c1f154610059c57b1b2
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 11 15:04:29 2018 -0800
+
+    Linux 4.16-rc1
+
+
+81)commit ba47d845d715a010f7b51f6f89bae32845e6acb7
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 19 15:41:18 2020 -0700
+
+    Linux 5.8-rc6
+
+
+82)commit 91ab883eb21325ad80f3473633f794c78ac87f51
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 18 17:29:42 2018 -0800
+
+    Linux 4.16-rc2
+
+
+83)commit b2cd1df66037e7c4697c7e40496bf7e4a5e16a2d
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 7 14:22:41 2018 -0800
+
+    Linux 4.15-rc7
+
+
+84)commit 1c163f4c7b3f621efff9b28a47abb36f7378d783
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 3 15:21:29 2019 -0800
+
+    Linux 5.0
+
+
+85)commit ccda4af0f4b92f7b4c308d3acc262f4a7e3affad
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 11 17:12:31 2018 -0600
+
+    Linux 4.20-rc2
+
+
+86)commit b04e217704b7f879c6b91222b066983a44a7a09f
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 27 13:01:47 2018 -0700
+
+    Linux 4.17-rc7
+
+
+87)commit 661e50bc853209e41a5c14a290ca4decc43cbfd1
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 4 14:54:11 2018 -0800
+
+    Linux 4.16-rc4
+
+
+88)commit 4fbd8d194f06c8a3fd2af1ce560ddb31f7ec8323
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 26 16:01:47 2017 -0800
+
+    Linux 4.15-rc1
+
+
+89)commit 8cde5d5f7361fd152dd67df552596919d89ac404
+Author: Tony Lindgren <tony@atomide.com>
+Date:   Mon Apr 16 10:25:15 2018 -0700
+
+    bus: ti-sysc: Detect omap4 type timers for quirk
+    
+    Starting with omap4 some timers have different sysc registers (type2) compared
+    to the omap2 timers (type1). We need to detect these to enable the quirk for
+    SYSC_QUIRK_LEGACY_IDLE, otherwise these won't be idling properly.
+    
+    Siganed-off-by: Tony Lindgren <tony@atomide.com>
+
+
+90)commit 8a5776a5f49812d29fe4b2d0a2d71675c3facf3f
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Oct 8 20:53:29 2017 -0700
+
+    Linux 4.14-rc4
+
+
+91)commit 17b57b1883c1285f3d0dc2266e8f79286a7bef38
+Author: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+Date:   Sun Sep 30 07:15:35 2018 -0700
+
+    Linux 4.19-rc6
+
+
+92)commit 085b7755808aa11f78ab9377257e1dad2e6fa4bb
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 21 10:45:57 2019 -0700
+
+    Linux 5.1-rc6
+
+
+93)commit 9ac060a708e054233265f8febfcef009ac3da826
+Author: Tobin C. Harding <tobin@kernel.org>
+Date:   Tue Oct 23 11:37:02 2018 +1100
+
+    leaking_addresses: Completely remove --version flag
+    
+    Recently attempt to remove the '--version' flag was made, badly.  We
+    failed to remove mention of it from the help output.  And we (me) failed
+    to actually remove the flag from the options list.
+    
+    _Completely_ remove --version flag.
+
+
+94)commit 8f3d9f354286745c751374f5f1fcafee6b3f3136
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 12 12:35:55 2020 -0700
+
+    Linux 5.7-rc1
+
+
+95)commit 7daf201d7fe8334e2d2364d4e8ed3394ec9af819
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 24 20:54:29 2018 +0800
+
+    Linux 4.18-rc2
+
+
+96)commit f74c2bb98776e2de508f4d607cd519873065118e
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Sep 8 13:33:15 2019 -0700
+
+    Linux 5.3-rc8
+
+
+97)commit acb1872577b346bd15ab3a3f8dff780d6cca4b70
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 29 14:44:52 2018 -0700
+
+    Linux 4.18-rc7
+
+
+98)commit 9ff01193a20d391e8dbce4403dd5ef87c7eaaca6
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 18 13:33:44 2018 -0800
+
+    Linux 4.20-rc3
+
+
+99)commit 11a48a5a18c63fd7621bb050228cebf13566e4d8
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 16 13:16:59 2020 -0800
+
+    Linux 5.6-rc2
+
+
+100)commit bfeffd155283772bbe78c6a05dec7c0128ee500c
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 6 17:08:20 2019 -0800
+
+    Linux 5.0-rc1
+
+
+101)commit f4dec2d6160976b14e54be9c3950ce0f52385741
+Author: Dmitry Torokhov <dmitry.torokhov@gmail.com>
+Date:   Mon Apr 27 18:06:02 2020 -0700
+
+    Revert "Input: i8042 - add ThinkPad S230u to i8042 nomux list"
+    
+    This reverts commit 18931506465a762ffd3f4803d36a18d336a67da9. From Kevin
+    Locke:
+    
+    "... nomux only appeared to fix the issue because the controller
+    continued working after warm reboots. After more thorough testing from
+    both warm and cold start, I now believe the entry should be added to
+    i8042_dmi_reset_table rather than i8042_dmi_nomux_table as i8042.reset=1
+    alone is sufficient to avoid the issue from both states while
+    i8042.nomux is not."
+
+
+102)commit 651022382c7f8da46cb4872a545ee1da6d097d2a
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 4 15:37:52 2018 -0800
+
+    Linux 4.20-rc1
+
+
+103)commit a188339ca5a396acc588e5851ed7e19f66b0ebd9
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 19 15:47:09 2019 -0700
+
+    Linux 5.2-rc1
+
+
+104)commit 3eb2ce825ea1ad89d20f7a3b5780df850e4be274
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 25 12:44:30 2018 -1000
+
+    Linux 4.16-rc7
+
+
+105)commit 9e0babf2c06c73cda2c0cd37a1653d823adb40ec
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 16 08:49:45 2019 -1000
+
+    Linux 5.2-rc5
+
+
+106)commit 9d3cce1e8b8561fed5f383d22a4d6949db4eadbe
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 15 12:49:31 2018 -0700
+
+    Linux 4.18-rc5
+
+
+107)commit bcf876870b95592b52519ed4aafcf9d95999bc9c
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Aug 2 14:21:45 2020 -0700
+
+    Linux 5.8
+
+
+108)commit 609488bc979f99f805f34e9a32c1e3b71179d10b
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 28 12:47:02 2019 -0700
+
+    Linux 5.3-rc2
+
+
+109)commit a55aa89aab90fae7c815b0551b07be37db359d76
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Aug 25 12:01:23 2019 -0700
+
+    Linux 5.3-rc6
+
+
+110)commit d72e90f33aa4709ebecc5005562f52335e106a60
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 22 14:12:20 2018 -0700
+
+    Linux 4.18-rc6
+
+
+111)commit 5b394b2ddf0347bef56e50c69a58773c94343ff3
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Aug 26 14:11:59 2018 -0700
+
+    Linux 4.19-rc1
+
+
+112)commit 15ade5d2e7775667cf191cf2f94327a4889f8b9d
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 7 14:09:59 2019 -1000
+
+    Linux 5.1-rc4
+
+
+113)commit 6d08b06e67cd117f6992c46611dfb4ce267cd71e
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 22 19:20:09 2018 -0700
+
+    Linux 4.17-rc2
+
+
+114)commit b3a9e3b9622ae10064826dccb4f7a52bd88c7407
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 14 12:45:04 2020 -0700
+
+    Linux 5.8-rc1
+
+
+115)commit 8fe28cb58bcb235034b64cbbb7550a8a43fd88be
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 23 15:55:59 2018 -0800
+
+    Linux 4.20
+
+
+116)commit c79f46a282390e0f5b306007bf7b11a46d529538
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 5 14:23:27 2020 -0800
+
+    Linux 5.5-rc5
+
+
+117)commit 2bd6bf03f4c1c59381d62c61d03f6cc3fe71f66e
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sat Sep 16 15:47:51 2017 -0700
+
+    Linux 4.14-rc1
+
+
+118)commit 5f9e832c137075045d15cd6899ab0505cfb2ca4b
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 21 14:05:38 2019 -0700
+
+    Linus 5.3-rc1
+
+
+119)commit 4a3928c6f8a53fa1aed28ccba227742486e8ddcb
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 25 18:50:41 2018 -0800
+
+    Linux 4.16-rc3
+
+
+120)commit 60cc43fc888428bb2f18f08997432d426a243338
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 15 18:24:20 2018 -0700
+
+    Linux 4.17-rc1
+
+
+121)commit 3c0edea9b29f9be6c093f236f762202b30ac9431
+Author: David Howells <dhowells@redhat.com>
+Date:   Fri Nov 1 20:52:24 2019 +0000
+
+    pipe: Remove sync on wake_ups
+
+
+122)commit dc4060a5dc2557e6b5aa813bf5b73677299d62d2
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 14 15:17:41 2019 -0700
+
+    Linux 5.1-rc5
+
+
+123)commit 11ba468877bb23f28956a35e896356252d63c983
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 12 16:34:50 2020 -0700
+
+    Linux 5.8-rc5
+
+
+124)commit 0c8efd610b58cb23cefdfa12015799079aef94ae
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 11 17:25:09 2018 -0700
+
+    Linux 4.16-rc5
+
+
+125)commit 1e4b044d22517cae7047c99038abb444423243ca
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 8 16:34:02 2018 -0700
+
+    Linux 4.18-rc4
+
+
+126)commit e21a712a9685488f5ce80495b37b9fdbe96c230d
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Aug 4 18:40:12 2019 -0700
+
+    Linux 5.3-rc3
+
+
+127)commit ae64f9bd1d3621b5e60d7363bc20afb46aede215
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 3 11:01:47 2017 -0500
+
+    Linux 4.15-rc2
+
+
+128)commit af42d3466bdc8f39806b26f593604fdc54140bcb
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 17 14:47:30 2019 -0800
+
+    Linux 5.4-rc8
+
+
+129)commit 9cb1fd0efd195590b828b9b865421ad345a4a145
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 24 15:32:54 2020 -0700
+
+    Linux 5.7-rc7
+
+
+130)commit be12af3ef5e61ebc44d065e121424ac605d7bb8e
+Author: Al Viro <viro@zeniv.linux.org.uk>
+Date:   Fri Jun 8 11:44:56 2018 -0400
+
+    getting rid of 'opened' argument of ->atomic_open() - part 1
+    
+    'opened' argument of finish_open() is unused.  Kill it.
+    
+    Signed-off-by Al Viro <viro@zeniv.linux.org.uk>
+
+
+131)commit d5226fa6dbae0569ee43ecfc08bdcd6770fc4755
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 26 16:23:03 2020 -0800
+
+    Linux 5.5
+
+
+132)commit 2e6e902d185027f8e3cb8b7305238f7e35d6a436
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Nov 25 14:19:31 2018 -0800
+
+    Linux 4.20-rc4
+
+
+133)commit 50c4c4e268a2d7a3e58ebb698ac74da0de40ae36
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 10 17:56:26 2017 -0800
+
+    Linux 4.15-rc3
+
+
+134)commit f2c7c76c5d0a443053e94adb9f0918fa2fb85c3a
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 2 13:55:33 2019 -0700
+
+    Linux 5.2-rc3
+
+
+135)commit 30a7acd573899fd8b8ac39236eff6468b195ac7d
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Dec 31 14:47:43 2017 -0800
+
+    Linux 4.15-rc6
+
+
+136)commit d6d5df1db6e9d7f8f76d2911707f7d5877251b02
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Oct 27 13:19:19 2019 -0400
+
+    Linux 5.4-rc5
+
+
+137)commit 0adb32858b0bddf4ada5f364a84ed60b196dbcda
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Apr 1 14:20:27 2018 -0700
+
+    Linux 4.16
+
+
+138)commit 7d194c2100ad2a6dded545887d02754948ca5241
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Oct 20 15:56:22 2019 -0400
+
+    Linux 5.4-rc4
+
+
+139)commit 021c91791a5e7e85c567452f1be3e4c2c6cb6063
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jul 1 16:04:53 2018 -0700
+
+    Linux 4.18-rc3
+
+
+140)commit d13937116f1e82bf508a6325111b322c30c85eb9
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Feb 10 14:42:20 2019 -0800
+
+    Linux 5.0-rc6
+
+
+141)commit 16fbf79b0f83bc752cee8589279f1ebfe57b3b6e
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Mar 22 18:31:56 2020 -0700
+
+    Linux 5.6-rc7
+
+
+142)commit 75bc37fefc4471e718ba8e651aa74673d4e0a9eb
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 6 16:57:38 2018 -1000
+
+    Linux 4.17-rc4
+
+
+143)commit ce397d215ccd07b8ae3f71db689aedb85d56ab40
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jun 17 08:04:49 2018 +0900
+
+    Linux 4.18-rc1
+
+
+144)commit 49a57857aeea06ca831043acbb0fa5e0f50602fd
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Mon Jan 21 13:14:44 2019 +1300
+
+    Linux 5.0-rc3
+
+
+145)commit b9bbe6ed63b2b9f2c9ee5cbd0f2c946a2723f4ce
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun May 17 16:48:37 2020 -0700
+
+    Linux 5.7-rc6
+
+
+146)commit d45331b00ddb179e291766617259261c112db872
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Aug 11 13:26:41 2019 -0700
+
+    Linux 5.3-rc4
+
+
+147)commit 0c5b9b5d9adbad4b60491f9ba0d2af38904bb4b9
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sun Jan 21 13:51:26 2018 -0800
+
+    Linux 4.15-rc9
+
+
+148)commit d1fdb6d8f6a4109a4263176c84b899076a5f8008
+Author: Linus Torvalds <torvalds@linux-foundation.org>
+Date:   Sat Jun 8 20:24:46 2019 -0700
+
+    Linux 5.2-rc4
+
+
