@@ -1,0 +1,170 @@
+Signature Tags reported for long line: 
+
+1)Reported-by: KAUSTUBH RAJENDRA WELANKAR <f20160095@hyderabad.bits-pilani.ac.in> 
+
+2)Cc: stable@vger.kernel.org # b027e2298bd5 ("tty: fix data race between tty_init_dev and flush of buf") 
+
+3)Reported-by: syzbot <bot+a9dbb3c3e64b62536a4bc5ee7bbd4ca627566188@syzkaller.appspotmail.com> 
+
+4)Reported-by: Dan Carpenter ("powerpc/perf: Fix a sizeof() typo so we allocate less memory") 
+
+5)Cc: 4.16+ <stable@vger.kernel.org> # 4.16+: 26112ddc254c (PCI / ACPI / PM: Resume bridges ...) 
+
+6)Cc: stable <stable@vger.kernel.org>	# 51a2f077 ("USB: introduce usb_anchor") 
+
+7)Suggested-by: Christoph Hellwig <hch@lst.de> # for simplifying dispatch logic 
+
+8)Reviewed-by: Mathieu Poirier <mathieu.poirier@linaro.org> # hwtracing/coresight/Kconfig 
+
+9)Reviewed-by: Niranjana Vishwanathapura <Niranjana.Vishwanathapura@intel.com> 
+
+10)Cc: =?utf-8?q?Toke_H=C3=B8iland-J?= =?utf-8?b?w7hyZ2Vuc2Vu?= <thoiland@redhat.com> 
+
+11)Reviewed-by: Pieter Jansen van Vuuren <pieter.jansenvanvuuren@netronome.com> 
+
+12)Cc: <stable@vger.kernel.org> # 5.2.x: b12bbdc5: HID: intel-ish-hid: fix wrong driver_data usage 
+
+13)Acked-by: Paul E. McKenney <paulmck@linux.vnet.ibm.com> (from general rcu perspective) 
+
+14)Acked-by: Uwe Kleine-KÃ¶nig <u.kleine-koenig@pengutronix.de> [efm32 and imx] 
+
+15)Cc: stable@vger.kernel.org # v3.12+: 27d4ee03078a: workqueue: Allow retrieval of current task's work struct 
+
+16)Co-developed-by: Smita Koralahalli Channabasappa <smita.koralahallichannabasappa@amd.com> 
+
+17)Reported-by: syzbot <bot+c028095236fcb6f4348811565b75084c754dc729@syzkaller.appspotmail.com> 
+
+18)Cc: stable@vger.kernel.org # v4.14.x: 47c332deb8e8: hwmon: Deal with errors from the thermal subsystem 
+
+19)Reviewed-by: Niranjana Vishwanathapura <niranjana.vishwanathapura@intel.com> 
+
+20)Reviewed-by: Vincenzo Frascino <Vincenzo.Frascino@arm.com> # not co-dev parts 
+
+21)Cc: stable@vger.kernel.org # 3.2+: ce7791ffee1e: Btrfs: fix race between readahead and device replace/removal 
+
+22)Cc: <stable@vger.kernel.org> #4.0+: ef75e14a6c93: staging: comedi: verify array index is correct before using it 
+
+23)Reviewed-by: Marian-Cristian Rotariu <marian-cristian.rotariu.rb@bp.renesas.com> 
+
+24)Cc: stable@vger.kernel.org # 4.19.x: 0774a964ef56: KVM: Fix out of range accesses to memslots 
+
+25)Reported-by: syzbot+2f69ca28df61bdfc77cd36af2e789850355a221e@syzkaller.appspotmail.com 
+
+26)Cc: Andy Shevchenko <andriy.shevchenko@linux.intel.com> # Check the x86 BCM stuff 
+
+27)Cc: stable@vger.kernel.org   # d3a5bcb4a17f ("gpio: add gpiod_toggle_active_low()") 
+
+28)Cc: Geert Uytterhoeven <geert+renesas@glider.be> # SuperH pinctrl/GPIO maintainer 
+
+29)Cc: <stable@vger.kernel.org> # v4.11+: 613051dac40d ("drm: locking&new iterators for connector_list" 
+
+30)Reported-by: syzbot+4349872271ece473a7c91190b68b4bac7c5dbc87@syzkaller.appspotmail.com 
+
+31)Reported-by: syzbot+f7b556d1766502a69d85071d2ff08bd87be53d0f@syzkaller.appspotmail.com 
+
+32)Reported-by: Sathyanarayanan Kuppuswamy <sathyanarayanan.kuppuswamy@intel.com> 
+
+33)Reported-by: Dr Silvio Cesare of InfoSect <Silvio Cesare <silvio.cesare@gmail.com> 
+
+34)Reviewed-by: Martin K. Petersen <martin.petersen@oracle.com> # for SCSI bits 
+
+35)Acked-by: Daniel Vetter <daniel.vetter@ffwll.ch> # for merging through -msm. 
+
+36)Reported-by: Renesas BSP team via Yoshihiro Shimoda <yoshihiro.shimoda.uh@renesas.com> 
+
+37)Acked-by: Casey Schaufler <casey@schaufler-ca.com> # For the LSM and Smack bits 
+
+38)Cc: stable <stable@vger.kernel.org> # 4.4.x 7a3b7cd332db of: device: Export of_device_{get_modalias, uvent_modalias} to modules 
+
+39)Reviewed-by: James Qian Wang (Arm Technology China) <james.qian.wang@arm.com> 
+
+40)Cc: stable@vger.kernel.org # fcba862e8428 drm/i915: Have plane->get_hw_state() return the current pipe 
+
+41)Co-developed-by: Lalithambika Krishnakumar <lalithambika.krishnakumar@intel.com> 
+
+42)Reported-by: "Rantala, Tommi T. (Nokia - FI/Espoo)" <tommi.t.rantala@nokia.com> 
+
+43)Reported-by: syzbot <bot+eceb3204562c41a438fa1f2335e0fe4f6886d669@syzkaller.appspotmail.com> 
+
+44)Cc: stable@vger.kernel.org # 4.15+, requires removal of '&' before md->queue->bio_split 
+
+45)Reported-by: syzbot+56c7151cad94eec37c521f0e47d2eee53f9361c4@syzkaller.appspotmail.com 
+
+46)Reported-by: syzbot <bot+7feb8de6b4d6bf810cf098bef942cc387e79d0ad@syzkaller.appspotmail.com> 
+
+47)Reported-by: Mallesham Jatharakonda <mallesham.jatharakonda@oneconvergence.com> 
+
+48)Reported-by: syzbot+1ff6f9fcc3c35f1c72a95e26528c8e7e3276e4da@syzkaller.appspotmail.com 
+
+49)Acked-by: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org> # actions 
+
+50)Cc: jacek.anaszewski@gmail.com, linux-leds@vger.kernel.org, linux-kernel@vger.kernel.org, dmurphy@ti.com 
+
+51)Tested-by: Sedat Dilek <sedat.dilek@gmail.com> # on top of v4.19-rc5, clang 7 
+
+52)Acked-by: Michal Hocko <mhocko@suse.com> # to export contig range allocator API 
+
+53)Suggested-by: Chris Wilson <chris@chris-wilson.co.uk> # at least some of it :) 
+
+54)Tested-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com> # Check the x86 BCM stuff 
+
+55)Cc: <stable@vger.kernel.org> # c01b5e7464f0 Input: xpad - don't depend on endpoint order 
+
+56)Reported-by: https://github.com/linux-can/can-utils/issues/159#issuecomment-556538798 
+
+57)Reported-by: syzbot+d11f321e7f1923157eac80aa990b446596f46439@syzkaller.appspotmail.com 
+
+58)Reported-by: syzbot <bot+e5f3c9783e7048a74233054febbe9f1bdf54b6da@syzkaller.appspotmail.com> 
+
+59)Reported-by: patchwork-bot+linux-amlogic<patchwork-bot+linux-amlogic@kernel.org> 
+
+60)Cc: stable@kernel.org # f1ee616214cb "VFS: don't keep disconnected dentries on d_anon" 
+
+61)Reported-by: "Wang, Alan 1. (NSB - CN/Hangzhou)" <alan.1.wang@nokia-sbell.com> 
+
+62)Reported-by: Vineet Gupta <Vineet.Gupta1@synopsys.com> # ARC STAR 9001306872 HSDK, sdio: board crashes when copying big files 
+
+63)Reported-by: kbuild test robot <lkp@intel.com> [ v1 missing up_read() on error exit ] 
+
+64)Cc: <stable@vger.kernel.org> # 5.3: d6df52e9996d: s390/maccess: add no DAT mode to kernel_write 
+
+65)Reported-by: ÐÐ½Ð°ÑÐ¾Ð»Ð¸Ð¹ Ð¢ÑÐ¾ÑÐ¸Ð½ÐµÐ½ÐºÐ¾ <anatoly.trosinenko@gmail.com> 
+
+66)Reported-by: syzbot+ea75c0ffcd353d32515f064aaebefc5279e6161e@syzkaller.appspotmail.com 
+
+67)Reviewed-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org> # For drivers/usb 
+
+68)Cc: stable@vger.kernel.org # needs s/refcount_/atomic_/ for v4.12 and earlier 
+
+69)Reported-by: Harsha Manjula Mallikarjun <Harsha.ManjulaMallikarjun@in.bosch.com> 
+
+70)Suggested-by: Jason Gunthorpe <jgunthorpe@obsidianresearch.com> (@chip_num -> @chip part) 
+
+71)Reported-by: Francescodario Cuzzocrea <francescodario.cuzzocrea@mail.polimi.it> 
+
+72)Cc: stable@vger.kernel.org # v3.13+: 27d4ee03078a: workqueue: Allow retrieval of current task's work struct 
+
+73)Cc: <stable@vger.kernel.org> # 3.16.x: 9593f4f56cf5: clk: mvebu: armada-38x: add support for 1866MHz variants 
+
+74)Acked-by: Dominik Brodowski <linux@dominikbrodowski.net> (for drivers/pcmcia) 
+
+75)Cc: 4.17+ <stable@vger.kernel.org> # 4.17+: fa85015c0d95 ACPICA: Clear status ... 
+
+76)Cc: <stable@vger.kernel.org> # 4f6aa3264af4: mmc: tegra: Only advertise UHS modes if IO regulator is present 
+
+77)Cc: stable@vger.kernel.org # v4.2+: 27d4ee03078a: workqueue: Allow retrieval of current task's work struct 
+
+78)Cc: <stable@vger.kernel.org> # 4.3.x: cd6f55457eb4: ARM: dts: exynos: Remove "cooling-{min|max}-level" for CPU nodes 
+
+79)Reported-by: syzbot+ca425f44816d749e8eb49755567a75ee48cf4a30@syzkaller.appspotmail.com 
+
+80)Cc: Sandeep Sheriker Mallikarjun <sandeepsheriker.mallikarjun@microchip.com> 
+
+81)Cc: stable <stable@vger.kernel.org>	# 2.6.21: 51a2f077c44e ("USB: introduce usb_anchor") 
+
+82)Reported-by: RVC test team via Yoshihiro Shimoda <yoshihiro.shimoda.uh@renesas.com> 
+
+83)Cc: 4.17+ <stable@vger.kernel.org> # 4.17+: 5ef499cd571c (cpuidle: menu: Handle ...) 
+
+84)Reported-by: Jakob Unterwurzacher <jakob.unterwurzacher@theobroma-systems.com> 
+
