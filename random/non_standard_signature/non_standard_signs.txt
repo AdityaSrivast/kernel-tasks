@@ -1,0 +1,220 @@
+Non-standard signatures: 
+
+1)Debugged-by: 61
+
+2)Requested-by: 48
+
+3)Co-authored-by: 43
+
+4)Originally-by: 39
+
+5)Analyzed-by: 22
+
+6)Bisected-by: 20
+
+7)Reviwed-by: 19
+
+8)Improvements-by: 19
+
+9)Generated-by: 17
+
+10)Diagnosed-by: 11
+
+11)Original-patch-by: 11
+
+12)Noticed-by: 11
+
+13)Inspired-by: 11
+
+14)Reviewd-by: 9
+
+15)Verified-by: 8
+
+16)Based-on-a-patch-by: 8
+
+17)Singed-off-by: 8
+
+18)Okay-ished-by: 8
+
+19)Based-on-patch-by: 7
+
+20)Signed-of-by: 6
+
+21)Original-by: 6
+
+22)Acked-for-MFD-by: 6
+
+23)Root-caused-by: 6
+
+24)Based-on-patches-by: 5
+
+25)Analysed-by: 5
+
+26)Proposed-by: 5
+
+27)Reviewed-off-by: 5
+
+28)Based-on-work-by: 5
+
+29)Reported-and-bisected-by: 4
+
+30)Rewieved-by: 3
+
+31)Revieved-by: 3
+
+32)Suggestions-by: 3
+
+33)Celebrated-by: 3
+
+34)Pointed-out-by: 3
+
+35)Signed-off--by: 3
+
+36)Fixed-by: 3
+
+37)Reivewed-by: 2
+
+38)Signef-off-by: 2
+
+39)Reported-and-analyzed-by: 2
+
+40)Designed-by: 2
+
+41)Investigated-by: 2
+
+42)Reported-and-debugged-by: 2
+
+43)Acked_by: 2
+
+44)Ranted-by: 2
+
+45)Pointed-at-by: 2
+
+46)Signed-off-by-by: 2
+
+47)Test-by: 2
+
+48)Spotted-by: 2
+
+49)Bonus-points-awarded-by: 1
+
+50)Reported-and-test-by: 1
+
+51)Acked-again-by: 1
+
+52)Looks-ok-by: 1
+
+53)Signen-off-by: 1
+
+54)Reorted-by: 1
+
+55)Original-path-by: 1
+
+56)Bug-actually-spotted-by: 1
+
+57)Reported-by-by: 1
+
+58)Discovered-by: 1
+
+59)Tested-off-by: 1
+
+60)Acked-off-by: 1
+
+61)eported-by: 1
+
+62)-By: 1
+
+63)Cleaned-up-by: 1
+
+64)Siganed-off-by: 1
+
+65)Sugessted-by: 1
+
+66)Review-by: 1
+
+67)Niced-by: 1
+
+68)Repoted-by: 1
+
+69)Epic-brown-paper-bag-by: 1
+
+70)Despised-by: 1
+
+71)Reviewed--by: 1
+
+72)Reviewedy-by: 1
+
+73)Screwed-up-by: 1
+
+74)No-objection-from-me-by: 1
+
+75)Fscked-up-by: 1
+
+76)Original-written-by: 1
+
+77)Signee-off-by: 1
+
+78)Submitted-by: 1
+
+79)Suggested--by: 1
+
+80)Tested-by-by: 1
+
+81)Tweeted-by: 1
+
+82)Repored-and-bisected-by: 1
+
+83)Scripted-by: 1
+
+84)Fix-creation-mandated-by: 1
+
+85)Reveiwed-by: 1
+
+86)Suggsted-by: 1
+
+87)Fixes-by: 1
+
+88)Fairly-blamed-by: 1
+
+89)Decoded-by: 1
+
+90)Reviewed-by-off-by: 1
+
+91)Just-do-it-by: 1
+
+92)Reported-and-reviwed-by: 1
+
+93)Evaluated-by: 1
+
+94)Ack-by: 1
+
+95)eigned-off-by: 1
+
+96)Reported-and-Inspired-by: 1
+
+97)Teste-by: 1
+
+98)Sugested-by: 1
+
+99)Reviwed-By: 1
+
+100)Reported-and-fixed-by: 1
+
+101)Authored-by: 1
+
+102)Brown-paper-bag-by: 1
+
+103)Nitpicked-by: 1
+
+104)Patiently-pointed-out-by: 1
+
+105)Rewiewed-by: 1
+
+106)Rported-by: 1
+
+107)Ackedy-by: 1
+
+108)Reporetd-by: 1
+
+109)igned-off-by: 1
+

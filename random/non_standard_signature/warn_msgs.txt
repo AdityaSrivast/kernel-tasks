@@ -1,0 +1,2445 @@
+1)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#19: 
+Bisected-by: Thomas Richter <tmricht@linux.vnet.ibm.com>
+
+
+2)WARNING:BAD_SIGN_OFF: Non-standard signature: Fix-creation-mandated-by:
+#30: 
+Fix-creation-mandated-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+3)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewed-off-by:
+#16: 
+Reviewed-off-by: Felix Kuehling <Felix.Kuehling@amd.com>
+
+
+4)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#9: 
+Co-authored-by: Tor Jeremiassen <tor@ti.com>
+
+
+5)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-debugged-by:
+#46: 
+Reported-and-debugged-by: Vaibhav Jain <vaibhav@linux.ibm.com>
+
+
+6)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#67: 
+Analyzed-by: Hou Tao <houtao1@huawei.com>
+
+
+7)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#10: 
+Original-patch-by: Andy Lutomirski <luto@kernel.org>
+
+
+8)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#26: 
+Co-authored-by: Thomas Hellstrom <thellstrom@vmware.com>
+
+
+9)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#10: 
+Co-authored-by: Tor Jeremiassen <tor@ti.com>
+
+
+10)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#51: 
+Debugged-by: Wu Fangsuo <fangsuowu@asrmicro.com>
+
+
+11)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#13: 
+Requested-by: Sushant Kumar Mishra <sushant2k1513@gmail.com>
+
+
+12)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-bisected-by:
+#52: 
+Reported-and-bisected-by: Mikhail Gavrilov <mikhail.v.gavrilov@gmail.com>
+
+
+13)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#58: 
+Debugged-by: Mikhail Zaslonko <zaslonko@linux.ibm.com>
+
+
+14)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#9: 
+Requested-by: Borislav Petkov <bp@alien8.de>
+
+
+15)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#39: 
+Debugged-by: Tejun Heo <tj@kernel.org>
+
+
+16)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#14: 
+Noticed-by: Tetsuo Handa <penguin-kernel@I-love.SAKURA.ne.jp>
+
+
+17)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#21: 
+Originally-by: Andi Kleen <ak@linux.intel.com>
+
+
+18)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#14: 
+Requested-by: Christoph Hellwig <hch@infradead.org>
+
+
+19)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewedy-by:
+#13: 
+Reviewedy-by: Daniel Lezcano <daniel.lezcano@linaro.org>
+
+
+20)WARNING:BAD_SIGN_OFF: Non-standard signature: Investigated-by:
+#22: 
+Investigated-by: Arnd Bergmann <arnd@arndb.de>
+
+
+21)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#53: 
+Debugged-by: Dave Jones <dsj@fb.com>
+
+
+22)WARNING:BAD_SIGN_OFF: Non-standard signature: Rewieved-by:
+#13: 
+Rewieved-by: Petr Mladek <pmladek@suse.com>
+
+
+23)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#14: 
+Reviewd-by: NeilBrown <neil@brown.name>
+
+
+24)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-of-by:
+#34: 
+Signed-of-by: Dave Jiang <dave.jiang@intel.com>
+
+
+25)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#122: 
+Debugged-by: Oscar Salvador <osalvador@suse.com>
+
+
+26)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#31: 
+Requested-by: Boris Brezillon <boris.brezillon@collabora.com>
+
+
+27)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-bisected-by:
+#34: 
+Reported-and-bisected-by: Gabriel C <nix.or.die@gmail.com>
+
+
+28)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#74: 
+Debugged-by: Ian Lance Taylor <ian@airs.com>
+
+
+29)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patch-by:
+#10: 
+Based-on-patch-by: Kuppuswamy Sathyanarayanan <sathyanarayanan.kuppuswamy@linux.intel.com>
+
+
+30)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#16: 
+Analyzed-by: Dr. David Alan Gilbert <dgilbert@redhat.com>
+
+
+31)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#33: 
+Debugged-by: Yuxuan Shui <yshuiv7@gmail.com>
+
+
+32)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#60: 
+Analyzed-by: Matthew Wilcox <willy@infradead.org>
+
+
+33)WARNING:BAD_SIGN_OFF: Non-standard signature: Proposed-by:
+#10: 
+Proposed-by: Alex Deucher <alexander.deucher@amd.com>
+
+
+34)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#30: 
+Requested-by: Meelis Roos <mroos@linux.ee>
+
+
+35)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patch-by:
+#11: 
+Based-on-patch-by: Takanori Ueda <tkueda@jp.ibm.com>
+
+
+36)WARNING:BAD_SIGN_OFF: Non-standard signature: Proposed-by:
+#11: 
+Proposed-by: Mark Wunderlich <mark.wunderlich@intel.com>
+
+
+37)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#23: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+38)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-work-by:
+#23: 
+Based-on-work-by: Thomas Gleixner <tglx@linutronix.de>
+
+
+39)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#33: 
+Requested-by: John Dorminy <jdorminy@redhat.com>
+
+
+40)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#10: 
+Requested-by: Rob Herring <robh@kernel.org>
+
+
+41)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#33: 
+Requested-by: Stephane Eranian <eranian@google.com>
+
+
+42)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patch-by:
+#15: 
+Based-on-patch-by: Wei Li <liwei391@huawei.com>
+
+
+43)WARNING:BAD_SIGN_OFF: Non-standard signature: Generated-by:
+#10: 
+Generated-by: scripts/coccinelle/api/alloc/kzalloc-simple.cocci
+
+
+44)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#20: 
+Requested-by: Ingo Molnar <mingo@kernel.org>
+
+
+45)WARNING:BAD_SIGN_OFF: Non-standard signature: eported-by:
+#14: 
+eported-by: Tetsuo Handa <penguin-kernel@i-love.sakura.ne.jp>
+
+
+46)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#67: 
+Bisected-by: Alexander Monakov <amonakov@ispras.ru>
+
+
+47)WARNING:BAD_SIGN_OFF: Non-standard signature: Pointed-at-by:
+#23: 
+Pointed-at-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+
+
+48)WARNING:BAD_SIGN_OFF: Non-standard signature: Verified-by:
+#11: 
+Verified-by: Harry Cutts <hcutts@chromium.org>
+
+
+49)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#9: 
+Originally-by: Shuah Khan <shuah@kernel.org>
+
+
+50)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#35: 
+Originally-by: Dominique Martinet <asmadeus@codewreck.org>
+
+
+51)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#14: 
+Co-authored-by: Hans de Goede <hdegoede@redhat.com>
+
+
+52)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#34: 
+Originally-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+53)+                                      WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-a-patch-by:
+#24: 
+Based-on-a-patch-by: yuzhoujian <yuzhoujian@didichuxing.com>
+
+
+54)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#39: 
+Originally-by: Thomas Gleixner <tglx@linutronix.de>
+
+
+55)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#33: 
+Originally-by: Sebastian Pop <s.pop@samsung.com>
+
+
+56)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-of-by:
+#11: 
+Signed-of-by: Marcelo Schmitt <marcelo.schmitt1@gmail.com>
+
+
+57)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#72: 
+Debugged-by: Austin Clements <austin@google.com>
+
+
+58)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#84: 
+Analyzed-by: Stephen Johnston <sjohnsto@redhat.com>
+
+
+59)WARNING:BAD_SIGN_OFF: Non-standard signature: Reporetd-by:
+#12: 
+Reporetd-by: Blair Prescott <blair.prescott@broadcom.com>
+
+
+60)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#108: 
+Analyzed-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+61)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#15: 
+Debugged-by: Peter Xu <peterx@redhat.com>
+
+
+62)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked-again-by:
+#16: 
+Acked-again-by: Andy Shevchenko <andriy.shevchenko@linux.intel.com>
+
+
+63)WARNING:BAD_SIGN_OFF: Non-standard signature: Looks-ok-by:
+#14: 
+Looks-ok-by: RafaÅ MiÅecki <zajec5@gmail.com>
+
+
+64)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewed-off-by:
+#16: 
+Reviewed-off-by: Tariq Toukan <tariqt@mellanox.com>
+
+
+65)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#14: 
+Inspired-by: Oleg Nesterov <oleg@redhat.com>
+
+
+66)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#21: 
+Analyzed-by: Yoshihiro Shimoda <yoshihiro.shimoda.uh@renesas.com>
+
+
+67)WARNING:BAD_SIGN_OFF: Non-standard signature: Analysed-by:
+#64: 
+Analysed-by: Florian Westphal <fw@strlen.de>
+
+
+68)WARNING:BAD_SIGN_OFF: Non-standard signature: Teste-by:
+#45: 
+Teste-by: Chuck Lever <chuck.lever@oracle.com>
+
+
+69)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#11: 
+Originally-by: Anna-Maria Gleixner <anna-maria@linutronix.de>
+
+
+70)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked_by:
+#11: 
+Acked_by: Alexei Starovoitov <ast@fb.com>
+
+
+71)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#40: 
+Debugged-by: Masayoshi Mizuma <m.mizuma@jp.fujitsu.com>
+
+
+72)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#15: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+73)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#35: 
+Reviewd-by: Martin Schwidefsky <schwidefsky@de.ibm.com>
+
+
+74)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#16: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+75)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#29: 
+Reviwed-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+
+
+76)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#13: 
+Inspired-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+77)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#23: 
+Requested-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+78)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-of-by:
+#14: 
+Signed-of-by: Quinn Tran <quinn.tran@cavium.com>
+
+
+79)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked-for-MFD-by:
+#29: 
+Acked-for-MFD-by: Lee Jones <lee.jones@linaro.org>
+
+
+80)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#13: 
+Co-authored-by: Jonas Rabenstein <jonas.rabenstein@studium.uni-erlangen.de>
+
+
+81)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#34: 
+Reviewd-by: Tony Krowiak <akrowiak@linux.ibm.com>
+
+
+82)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#30: 
+Inspired-by: Al Viro <viro@zeniv.linux.org.uk>
+
+
+83)WARNING:BAD_SIGN_OFF: Non-standard signature: Ack-by:
+#10: 
+Ack-by: Christian KÃ¶nig <christian.koenig@amd.com>
+
+
+84)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#39: 
+Co-authored-by: Gerald Schaefer <gerald.schaefer@de.ibm.com>
+
+
+85)WARNING:BAD_SIGN_OFF: Non-standard signature: Analysed-by:
+#55: 
+Analysed-by: Benjamin Coddington <bcodding@redhat.com>
+
+
+86)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#29: 
+Analyzed-by: Dmitry Torokhov <dmitry.torokhov@gmail.com>
+
+
+87)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-a-patch-by:
+#13: 
+Based-on-a-patch-by: Oza Pawandeep <oza.oza@broadcom.com>
+
+
+88)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-a-patch-by:
+#6: 
+Based-on-a-patch-by: Christoph Hellwig <hch@infradead.org>
+
+
+89)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#22: 
+Co-authored-by: Guillaume Champagne <champagne.guillaume.c@gmail.com>
+
+
+90)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#24: 
+Bisected-by: Julian Anastasov <ja@ssi.bg>
+
+
+91)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#18: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+92)WARNING:BAD_SIGN_OFF: Non-standard signature: Proposed-by:
+#21: 
+Proposed-by: Mark Wunderlich <mark.wunderlich@intel.com>
+
+
+93)WARNING:BAD_SIGN_OFF: Non-standard signature: Spotted-by:
+#8: 
+Spotted-by: Richard Weinberger <richard@nod.at>
+
+
+94)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#13: 
+Originally-by: Peter Zijlstra <peterz@infradead.org>
+
+
+95)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#10: 
+Original-patch-by: Jonas Rabenstein <jonas.rabenstein@studium.uni-erlangen.de>
+
+
+96)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#29: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+97)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#37: 
+Analyzed-by: Josh Poimboeuf <jpoimboe@redhat.com>
+
+
+98)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-path-by:
+#46: 
+Original-path-by: Vasily Averin <vvs@virtuozzo.com>
+
+
+99)WARNING:BAD_SIGN_OFF: Non-standard signature: Singed-off-by:
+#9: 
+Singed-off-by: Xingyu Chen <xingyu.chen@amlogic.com>
+
+
+100)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#26: 
+Bisected-by: John Sperbeck <jsperbeck@google.com>
+
+
+101)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-by-by:
+#23: 
+Reported-by-by: Jongseok Kim <ks77sj@gmail.com>
+
+
+102)WARNING:BAD_SIGN_OFF: Non-standard signature: Pointed-out-by:
+#20: 
+Pointed-out-by: Ursula Braun <ubraun@linux.ibm.com>
+
+
+103)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#33: 
+Co-authored-by: Michael Ellerman <mpe@ellerman.id.au>
+
+
+104)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#14: 
+Co-authored-by: Dmitry V. Levin <ldv@altlinux.org>
+
+
+105)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#8: 
+Noticed-by: Masahiro Yamada <masahiroy@kernel.org>
+
+
+106)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#24: 
+Originally-by: Borislav Petkov <bp@suse.de>
+
+
+107)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#12: 
+Co-authored-by: Jonas Rabenstein <jonas.rabenstein@studium.uni-erlangen.de>
+
+
+108)WARNING:BAD_SIGN_OFF: Non-standard signature: Verified-by:
+#30: 
+Verified-by: Harry Cutts <hcutts@chromium.org>
+
+
+109)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#10: 
+Requested-by: Andy Lutomirski <luto@kernel.org>
+
+
+110)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#11: 
+Co-authored-by: Peter Zijlstra <peterz@infradead.org>
+
+
+111)WARNING:BAD_SIGN_OFF: Non-standard signature: Epic-brown-paper-bag-by:
+#26: 
+Epic-brown-paper-bag-by: Michael Ellerman <mpe@ellerman.id.au>
+
+
+112)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#30: 
+Analyzed-by: Peter Zijlstra <peterz@infradead.org>
+
+
+113)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#23: 
+Originally-by: Benedikt Spranger <b.spranger@linutronix.de>
+
+
+114)WARNING:BAD_SIGN_OFF: Non-standard signature: Reorted-by:
+#21: 
+Reorted-by: Qian Cai <cai@lca.pw>
+
+
+115)WARNING:BAD_SIGN_OFF: Non-standard signature: Analysed-by:
+#38: 
+Analysed-by: Jiri Olsa <jolsa@kernel.org>
+
+
+116)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patches-by:
+#24: 
+Based-on-patches-by: Petr Mladek <pmladek@suse.com>
+
+
+117)WARNING:BAD_SIGN_OFF: Non-standard signature: Review-by:
+#58: 
+Review-by: Saravana Kannan <saravanak@google.com>
+
+
+118)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#35: 
+Debugged-by: Vaibhav Rustagi <vaibhavrustagi@google.com>
+
+
+119)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#19: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+120)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#19: 
+Debugged-by: Edward Cree <ecree@solarflare.com>
+
+
+121)WARNING:BAD_SIGN_OFF: Non-standard signature: Revieved-by:
+#18: 
+Revieved-by: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+
+
+122)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-analyzed-by:
+#47: 
+Reported-and-analyzed-by: Hou Tao <houtao1@huawei.com>
+
+
+123)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#62: 
+Bisected-by: Johan Hovold <johan@kernel.org>
+
+
+124)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#11: 
+Originally-by: Andi Kleen <ak@linux.intel.com>
+
+
+125)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#9: 
+Originally-by: Ingo Molnar <mingo@kernel.org>
+
+
+126)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#13: 
+Co-authored-by: David Kozub <zub@linux.fjfi.cvut.cz>
+
+
+127)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#43: 
+Inspired-by: Oleg Nesterov <oleg@redhat.com>
+
+
+128)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-by:
+#10: 
+Original-by: Harry ten Berge <htenberge@gmail.com>
+
+
+129)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#28: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+130)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#10: 
+Co-authored-by: David Kozub <zub@linux.fjfi.cvut.cz>
+
+
+131)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#45: 
+Debugged-by: Chris Mason <clm@fb.com>
+
+
+132)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#13: 
+Noticed-by: Jakub Kicinski <kuba@kernel.org>
+
+
+133)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#23: 
+Original-patch-by: Vasily Averin <vvs@virtuozzo.com>
+
+
+134)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#30: 
+Analyzed-by: David Hildenbrand <david@redhat.com>
+
+
+135)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#33: 
+Debugged-by: Vincent Whitchurch <vincent.whitchurch@axis.com>
+
+
+136)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewed-by-off-by:
+#14: 
+Reviewed-by-off-by: Guenter Roeck <linux@roeck-us.net>
+
+
+137)WARNING:BAD_SIGN_OFF: Non-standard signature: Repored-and-bisected-by:
+#20: 
+Repored-and-bisected-by: Michal Kubecek <mkubecek@suse.cz>
+
+
+138)WARNING:BAD_SIGN_OFF: Non-standard signature: Revieved-by:
+#16: 
+Revieved-by: Petr Mladek <pmladek@suse.com>
+
+
+139)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-a-patch-by:
+#15: 
+Based-on-a-patch-by: Christoph Hellwig <hch@lst.de>
+
+
+140)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#70: 
+Requested-by: Thomas Richter <tmricht@linux.ibm.com>
+
+
+141)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#26: 
+Originally-by: Andi Kleen <ak@linux.intel.com>
+
+
+142)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#10: 
+Originally-by: Maciej S. Szmigiero <mail@maciej.szmigiero.name>
+
+
+143)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#17: 
+Diagnosed-by: Eric Dumazet <eric.dumazet@gmail.com>
+
+
+144)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#23: 
+Bisected-by: David Ahern <dsahern@gmail.com>
+
+
+145)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#44: 
+Diagnosed-by: Paolo Abeni <pabeni@redhat.com>
+
+
+146)WARNING:BAD_SIGN_OFF: Non-standard signature: Ackedy-by:
+#13: 
+Ackedy-by: Nicolin Chen <nicoleotsuka@gmail.com>
+
+
+147)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#30: 
+Diagnosed-by: Nicholas Bellinger <nab@linux-iscsi.org>
+
+
+148)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#20: 
+Originally-by: Tim Chen <tim.c.chen@linux.intel.com>
+
+
+149)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#13: 
+Requested-by: Felix Fietkau <nbd@nbd.name>
+
+
+150)WARNING:BAD_SIGN_OFF: Non-standard signature: Celebrated-by:
+#23: 
+Celebrated-by: Wanpeng Li <kernellwp@gmail.com>
+
+
+151)WARNING:BAD_SIGN_OFF: Non-standard signature: Generated-by:
+#8: 
+Generated-by: scripts/coccinelle/api/alloc/kzalloc-simple.cocci
+
+
+152)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#35: 
+Originally-by: Andi Kleen <ak@linux.intel.com>
+
+
+153)WARNING:BAD_SIGN_OFF: Non-standard signature: Test-by:
+#21: 
+Test-by: Dennis Li <dennis.li@amd.com>
+
+
+154)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#22: 
+Noticed-by: Phil Scarr <phil.scarr@pm.me>
+
+
+155)WARNING:BAD_SIGN_OFF: Non-standard signature: Submitted-by:
+#13: 
+Submitted-by: Okash Khawaja <okash.khawaja@gmail.com>
+
+
+156)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#9: 
+Requested-by: Nadav Amit <nadav.amit@gmail.com>
+
+
+157)WARNING:BAD_SIGN_OFF: Non-standard signature: Singed-off-by:
+#11: 
+Singed-off-by: darlington Opara <darlington.opara@amd.com>
+
+
+158)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#14: 
+Requested-by: Cc: Johan Hovold <johan@kernel.org>
+
+
+159)WARNING:BAD_SIGN_OFF: Non-standard signature: eigned-off-by:
+#11: 
+eigned-off-by: Matthew Wilcox <mawilcox@microsoft.com>
+
+
+160)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#15: 
+Bisected-by: Meelis Roos <mroos@linux.ee>
+
+
+161)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#29: 
+Analyzed-by: Dan Winship <danw@redhat.com>
+
+
+162)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-work-by:
+#14: 
+Based-on-work-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+
+
+163)WARNING:BAD_SIGN_OFF: Non-standard signature: Bonus-points-awarded-by:
+#23: 
+Bonus-points-awarded-by: Sam Ravnborg <sam@ravnborg.org>
+
+
+164)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-reviwed-by:
+#11: 
+Reported-and-reviwed-by: Mikko Perttunen <mperttunen@nvidia.com>
+
+
+165)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#42: 
+Inspired-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+166)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#24: 
+Bisected-by: Rick Warner <rick@microway.com>
+
+
+167)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#14: 
+Requested-by: Siva Rebbagondla <siva.rebbagondla@redpinesignals.com>
+
+
+168)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#13: 
+Reviwed-by: Dimitris Papavasiliou <dpapavas@gmail.com>
+
+
+169)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-a-patch-by:
+#9: 
+Based-on-a-patch-by: Jin Yao <yao.jin@linux.intel.com>
+
+
+170)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked-for-MFD-by:
+#17: 
+Acked-for-MFD-by: Lee Jones <lee.jones@linaro.org>
+
+
+171)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patches-by:
+#10: 
+Based-on-patches-by: Behan Webster <behanw@converseincode.com>
+
+
+172)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#68: 
+Bisected-by: PaweÅ Staszewski <pstaszewski@itcare.pl>
+
+
+173)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#68: 
+Analyzed-by: Vincent Guittot <vincent.guittot@linaro.org>
+
+
+174)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#14: 
+Originally-by: David Panariti <David.Panariti@amd.com>
+
+
+175)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#15: 
+Co-authored-by: Daniel Borkmann <daniel@iogearbox.net>
+
+
+176)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#85: 
+Analyzed-by: Vern Lovejoy <vlovejoy@redhat.com>
+
+
+177)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#13: 
+Requested-by: David Woodhouse <dwmw2@infradead.org>
+
+
+178)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-of-by:
+#11: 
+Signed-of-by: Al Viro <viro@zeniv.linux.org.uk>
+
+
+179)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patches-by:
+#29: 
+Based-on-patches-by: Chandan Jay Sharma <chandansbg@gmail.com>
+
+
+180)WARNING:BAD_SIGN_OFF: Non-standard signature: Singed-off-by:
+#9: 
+Singed-off-by: darlington Opara <darlington.opara@amd.com>
+
+
+181)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-off-by-by:
+#16: 
+Signed-off-by-by: Ramalingam C <ramalinagm.c@intel.com> (commit message)
+
+
+182)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#46: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+183)WARNING:BAD_SIGN_OFF: Non-standard signature: Verified-by:
+#31: 
+Verified-by: Harry Cutts <hcutts@chromium.org>
+
+
+184)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#25: 
+Debugged-by: Joonsoo Kim <iamjoonsoo.kim@lge.com>
+
+
+185)WARNING:BAD_SIGN_OFF: Non-standard signature: Cleaned-up-by:
+#51: 
+Cleaned-up-by: Peter Zijlstra <peterz@infradead.org>
+
+
+186)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#18: 
+Co-authored-by: Justin Pettit <jpettit@ovn.org>
+
+
+187)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-a-patch-by:
+#22: 
+Based-on-a-patch-by: yuzhoujian <yuzhoujian@didichuxing.com>
+
+
+188)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked-for-MFD-by:
+#10: 
+Acked-for-MFD-by: Lee Jones <lee.jones@linaro.org>
+
+
+189)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#73: 
+Debugged-by: David Chase <drchase@golang.org>
+
+
+190)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#43: 
+Inspired-by: Seth Forshee <seth.forshee@canonical.com>
+
+
+191)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patches-by:
+#16: 
+Based-on-patches-by: Chandan Jay Sharma <chandansbg@gmail.com>
+
+
+192)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#10: 
+Originally-by: Peter Zijlstra <peterz@infradead.org>
+
+
+193)WARNING:BAD_SIGN_OFF: Non-standard signature: Suggestions-by:
+#40: 
+Suggestions-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+194)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#51: 
+Diagnosed-by: Eryu Guan <eguan@redhat.com>
+
+
+195)WARNING:BAD_SIGN_OFF: Non-standard signature: Designed-by:
+#35: 
+Designed-by: Dave Chinner <dchinner@redhat.com>
+
+
+196)WARNING:BAD_SIGN_OFF: Non-standard signature: Sugessted-by:
+#16: 
+Sugessted-by: Velayudhan Pillai <vijay@cs.utexas.edu>
+
+
+197)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#10: 
+Requested-by: Jakub Kicinski <jakub.kicinski@netronome.com>
+
+
+198)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#14: 
+Noticed-by: Sven Schnelle <svens@stackframe.org>
+
+
+199)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#9: 
+Requested-by: David Woodhouse <dwmw2@infradead.org>
+
+
+200)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#15: 
+Inspired-by: Ben Dooks <ben.dooks@codethink.co.uk>
+
+
+201)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#32: 
+Debugged-by: Nathan Chancellor <natechancellor@gmail.com>
+
+
+202)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-a-patch-by:
+#10: 
+Based-on-a-patch-by: Oza Pawandeep <oza.oza@broadcom.com>
+
+
+203)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#16: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+204)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#28: 
+Debugged-by: Josh Poimboeuf <jpoimboe@redhat.com>
+
+
+205)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#29: 
+Bisected-by: Borislav Petkov <bp@alien8.de>
+
+
+206)WARNING:BAD_SIGN_OFF: Non-standard signature: Tested-by-by:
+#33: 
+Tested-by-by: Leo Yan <leo.yan@linaro.org>
+
+
+207)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-bisected-by:
+#46: 
+Reported-and-bisected-by: Steven Rostedt (VMware) <rostedt@goodmis.org>
+
+
+208)WARNING:BAD_SIGN_OFF: Non-standard signature: Okay-ished-by:
+#13: 
+Okay-ished-by: Paul Moore <paul@paul-moore.com>
+
+
+209)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#24: 
+Debugged-by: Johan Hovold <johan@kernel.org>
+
+
+210)WARNING:BAD_SIGN_OFF: Non-standard signature: Reivewed-by:
+#21: 
+Reivewed-by: Masami Hiramatsu <mhiramat@kernel.org>
+
+
+211)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#18: 
+Reviewd-by: Alan Cox <alan@linux.intel.com>
+
+
+212)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#17: 
+Requested-by: Vince Weaver <vincent.weaver@maine.edu>
+
+
+213)WARNING:BAD_SIGN_OFF: Non-standard signature: Suggestions-by:
+#42: 
+Suggestions-by: Andreas Schwab <schwab@linux-m68k.org>
+
+
+214)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#74: 
+Debugged-by: Sami Tolvanen <samitolvanen@google.com>
+
+
+215)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#12: 
+Requested-by: David Ahern <dsahern@gmail.com>
+
+
+216)WARNING:BAD_SIGN_OFF: Non-standard signature: Generated-by:
+#11: 
+Generated-by: scripts/coccinelle/api/alloc/kzalloc-simple.cocci
+
+
+217)WARNING:BAD_SIGN_OFF: Non-standard signature: Reveiwed-by:
+#20: 
+Reveiwed-by: Jeff Layton <jlayton@redhat.com>
+
+
+218)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#11: 
+Co-authored-by: Tor Jeremiassen <tor@ti.com>
+
+
+219)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#25: 
+Debugged-by: Nicholas Piggin <npiggin@gmail.com>
+
+
+220)WARNING:BAD_SIGN_OFF: Non-standard signature: Signee-off-by:
+#15: 
+Signee-off-by: Chao Yu <yuchao0@huawei.com>
+
+
+221)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked-off-by:
+#20: 
+Acked-off-by: Alex Deucher <alexander.deucher@amd.com>
+
+
+222)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#11: 
+Originally-by: Ashok Raj <ashok.raj@intel.com>
+
+
+223)WARNING:BAD_SIGN_OFF: Non-standard signature: No-objection-from-me-by:
+#49: 
+No-objection-from-me-by: Oleg Nesterov <oleg@redhat.com>
+
+
+224)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#17: 
+Requested-by: Rob Herring <robh+dt@kernel.org>
+
+
+225)WARNING:BAD_SIGN_OFF: Non-standard signature: Generated-by:
+#9: 
+Generated-by: scripts/coccinelle/api/alloc/kzalloc-simple.cocci
+
+
+226)WARNING:BAD_SIGN_OFF: Non-standard signature: Fixed-by:
+#31: 
+Fixed-by: Tom Lendacky <thomas.lendacky@amd.com>
+
+
+227)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#9: 
+Requested-by: Josh Poimboeuf <jpoimboe@redhat.com>
+
+
+228)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#21: 
+Requested-by: Casey Schaufler <casey@schaufler-ca.com>
+
+
+229)WARNING:BAD_SIGN_OFF: Non-standard signature: Root-caused-by:
+#47: 
+Root-caused-by: Nicolas Pernas Maradei <npernas@amazon.de>
+
+
+230)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#112: 
+Debugged-by: Srikar Dronamraju <srikar@linux.vnet.ibm.com>
+
+
+231)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#24: 
+Debugged-by: Tetsuo Handa <penguin-kernel@I-love.SAKURA.ne.jp>
+
+
+232)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#16: 
+Reviwed-by: Matthew Auld <matthew.auld@intel.com>
+
+
+233)WARNING:BAD_SIGN_OFF: Non-standard signature: Fixed-by:
+#30: 
+Fixed-by: dce30ca9e3b6 ("fs: fix guard_bio_eod to check for real EOD errors")
+
+
+234)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#19: 
+Bisected-by: Vasily Gorbik <gor@linux.ibm.com>
+
+
+235)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#47: 
+Debugged-by: Laszlo Ersek <lersek@redhat.com>
+
+
+236)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patch-by:
+#27: 
+Based-on-patch-by: Vasiliy Khoruzhick <vasilykh@arista.com>
+
+
+237)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patches-by:
+#30: 
+Based-on-patches-by: Petr Mladek <pmladek@suse.com>
+
+
+238)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#15: 
+Diagnosed-by: Renato Westphal <renato@opensourcerouting.org>
+
+
+239)WARNING:BAD_SIGN_OFF: Non-standard signature: Sugested-by:
+#17: 
+Sugested-by: Vasily Khoruzhick <anarsoul@gmail.com>
+
+
+240)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#22: 
+Debugged-by: Andy Lutomirski <luto@kernel.org>
+
+
+241)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#11: 
+Requested-by: Steven Rostedt <rostedt@goodmis.org>
+
+
+242)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#52: 
+Original-patch-by: Jin Yao <yao.jin@linux.intel.com>
+
+
+243)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#33: 
+Debugged-by: Josef Bacik <josef@toxicpanda.com>
+
+
+244)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#14: 
+Reviewd-by: Jarkko Sakkinen <jarkko.sakkinen@linux.intel.com>
+
+
+245)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#18: 
+Originally-by: Jean Pihet <jean.pihet@linaro.org>
+
+
+246)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#15: 
+Requested-by: Linus 'Nursing his pet-peeve' Torvalds <torvalds@linuxfoundation.org>
+
+
+247)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-work-by:
+#11: 
+Based-on-work-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+
+
+248)WARNING:BAD_SIGN_OFF: Non-standard signature: Fixed-by:
+#18: 
+Fixed-by: Kees Cook <keescook@chromium.org>
+
+
+249)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#10: 
+Requested-by: Arnaldo Carvalho de Melo <acme@redhat.com>
+
+
+250)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#28: 
+Bisected-by: Mike Christie <mchristi@redhat.com>
+
+
+251)WARNING:BAD_SIGN_OFF: Non-standard signature: Bug-actually-spotted-by:
+#23: 
+Bug-actually-spotted-by: Darrick J. Wong <darrick.wong@oracle.com>
+
+
+252)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked-for-MFD-by:
+#15: 
+Acked-for-MFD-by: Lee Jones <lee.jones@linaro.org>
+
+
+253)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#20: 
+Originally-by: Dave Hansen <dave.hansen@linux.intel.com>
+
+
+254)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#13: 
+Co-authored-by: Mathieu Poirier <mathieu.poirier@linaro.org>
+
+
+255)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#29: 
+Debugged-by: Fangrui Song <maskray@google.com>
+
+
+256)WARNING:BAD_SIGN_OFF: Non-standard signature: Tested-off-by:
+#14: 
+Tested-off-by: Hans Verkuil <hans.verkuil@cisco.com>
+
+
+257)WARNING:BAD_SIGN_OFF: Non-standard signature: Root-caused-by:
+#13: 
+Root-caused-by: Jonathan Marek <jonathan@marek.ca>
+
+
+258)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#18: 
+Bisected-by: Stephen Rothwell <sfr@canb.auug.org.au>
+
+
+259)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#11: 
+Requested-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+260)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#41: 
+Requested-by: Steven Rostedt <rostedt@goodmis.org>
+
+
+261)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#10: 
+Inspired-by: Roberto Sassu <roberto.sassu@huawei.com>
+
+
+262)WARNING:BAD_SIGN_OFF: Non-standard signature: Singed-off-by:
+#8: 
+Singed-off-by: Xingyu Chen <xingyu.chen@amlogic.com>
+
+
+263)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#51: 
+Inspired-by: Sean Christopherson <sean.j.christopherson@intel.com>
+
+
+264)WARNING:BAD_SIGN_OFF: Non-standard signature: Rewiewed-by:
+#9: 
+Rewiewed-by: Chunming Zhou <david1.zhou@amd.com>
+
+
+265)WARNING:BAD_SIGN_OFF: Non-standard signature: Authored-by:
+#12: 
+Authored-by: Gregory Nowak <greg@gregn.net>
+
+
+266)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#25: 
+Originally-by: Junaid Shahid <junaids@google.com>
+
+
+267)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#20: 
+Originally-by: Tony Luck <tony.luck@intel.com>
+
+
+268)WARNING:BAD_SIGN_OFF: Non-standard signature: Verified-by:
+#23: 
+Verified-by: Harry Cutts <hcutts@chromium.org>
+
+
+269)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#12: 
+Requested-by: Steven Rostedt <rostedt@goodmis.org>
+
+
+270)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#50: 
+Debugged-by: Tetsuo Handa <penguin-kernel@i-love.sakura.ne.jp>
+
+
+271)WARNING:BAD_SIGN_OFF: Non-standard signature: Analysed-by:
+#70: 
+Analysed-by: Jesper Dangaard Brouer <brouer@redhat.com>
+
+
+272)WARNING:BAD_SIGN_OFF: Non-standard signature: Singed-off-by:
+#14: 
+Singed-off-by: darlington Opara <darlington.opara@amd.com>
+
+
+273)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patch-by:
+#14: 
+Based-on-patch-by: Oza Pawandeep <poza@codeaurora.org>
+
+
+274)WARNING:BAD_SIGN_OFF: Non-standard signature: Celebrated-by:
+#22: 
+Celebrated-by: Liran Alon <liran.alon@oracle.com>
+
+
+275)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#35: 
+Debugged-by: Ilie Halip <ilie.halip@gmail.com>
+
+
+276)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#21: 
+Co-authored-by: Joe Stringer <joe@wand.net.nz>
+
+
+277)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#10: 
+Requested-by: Andy Lutomirski <luto@amacapital.net>
+
+
+278)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#19: 
+Co-authored-by: Daniel Borkmann <daniel@iogearbox.net>
+
+
+279)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#19: 
+Co-authored-by: BjÃ¶rn TÃ¶pel <bjorn.topel@intel.com>
+
+
+280)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#46: 
+Debugged-by: Michal Hocko <mhocko@kernel.org>
+
+
+281)WARNING:BAD_SIGN_OFF: Non-standard signature: Fairly-blamed-by:
+#33: 
+Fairly-blamed-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+282)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#167: 
+Debugged-by: Andrea Arcangeli <aarcange@redhat.com>
+
+
+283)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-by:
+#15: 
+Original-by: Billows Wu <billows.wu@unisoc.com>
+
+
+284)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#43: 
+Diagnosed-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+285)WARNING:BAD_SIGN_OFF: Non-standard signature: Investigated-by:
+#68: 
+Investigated-by: Andy Lutomirski <luto@kernel.org>
+
+
+286)WARNING:BAD_SIGN_OFF: Non-standard signature: Pointed-out-by:
+#19: 
+Pointed-out-by: Andrey Ryabinin <aryabinin@virtuozzo.com>
+
+
+287)WARNING:BAD_SIGN_OFF: Non-standard signature: Siganed-off-by:
+#10: 
+Siganed-off-by: Tony Lindgren <tony@atomide.com>
+
+
+288)WARNING:BAD_SIGN_OFF: Non-standard signature: Scripted-by:
+#24: 
+Scripted-by: Al Viro <viro@zeniv.linux.org.uk>
+
+
+289)WARNING:BAD_SIGN_OFF: Non-standard signature: Root-caused-by:
+#22: 
+Root-caused-by: Maciej S. Szmigiero <mail@maciej.szmigiero.name>
+
+
+290)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#15: 
+Original-patch-by: Randy Dunlap <rdunlap@infradead.org>
+
+
+291)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#14: 
+Requested-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+292)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#12: 
+Co-authored-by: Fabrice Gasnier <fabrice.gasnier@st.com>
+
+
+293)WARNING:BAD_SIGN_OFF: Non-standard signature: Evaluated-by:
+#22: 
+Evaluated-by: Giovanni Gherdovich <ggherdovich@suse.cz>
+
+
+294)WARNING:BAD_SIGN_OFF: Non-standard signature: Patiently-pointed-out-by:
+#16: 
+Patiently-pointed-out-by: Josef Bacik <josef@toxicpanda.com>
+
+
+295)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#44: 
+Originally-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+
+
+296)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#31: 
+Analyzed-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+297)WARNING:BAD_SIGN_OFF: Non-standard signature: Signef-off-by:
+#21: 
+Signef-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>
+
+
+298)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#13: 
+Noticed-by: Dave Airlie <airlied@gmail.com>
+
+
+299)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#20: 
+Noticed-by: Jiri Pirko <jiri@resnulli.us>
+
+
+300)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#40: 
+Debugged-by: Matthias Kaehlcke <mka@chromium.org>
+
+
+301)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#9: 
+Original-patch-by: Andy Lutomirski <luto@kernel.org>
+
+
+302)WARNING:BAD_SIGN_OFF: Non-standard signature: Singed-off-by:
+#19: 
+Singed-off-by: Chethan T N <chethan.tumkur.narayan@intel.com>
+
+
+303)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#59: 
+Analyzed-by: Vlastimil Babka <vbabka@suse.cz>
+
+
+304)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#63: 
+Analyzed-by: Thomas Gleixner <tglx@linutronix.de>
+
+
+305)WARNING:BAD_SIGN_OFF: Non-standard signature: Test-by:
+#22: 
+Test-by: Suraj Jitindar Singh <sjitindarsingh@gmail.com>
+
+
+306)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#20: 
+Debugged-by: Johnny Huang <johnny_huang@aspeedtech.com>
+
+
+307)WARNING:BAD_SIGN_OFF: Non-standard signature: Verified-by:
+#10: 
+Verified-by: Harry Cutts <hcutts@chromium.org>
+
+
+308)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#18: 
+Co-authored-by: Sasha Levin <sashal@kernel.org>
+
+
+309)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked-for-MFD-by:
+#23: 
+Acked-for-MFD-by: Lee Jones <lee.jones@linaro.org>
+
+
+310)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#8: 
+Originally-by: Antti Laakso <antti.laakso@linux.intel.com>
+
+
+311)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#25: 
+Debugged-by: Minchan Kim <minchan@kernel.org>
+
+
+312)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#67: 
+Analyzed-by: Xie XiuQi <xiexiuqi@huawei.com>
+
+
+313)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#26: 
+Requested-by: Arjan van de Ven <arjan.van.de.ven@intel.com>
+
+
+314)WARNING:BAD_SIGN_OFF: Non-standard signature: Acked_by:
+#15: 
+Acked_by: Alexei Starovoitov <ast@fb.com>
+
+
+315)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#19: 
+Original-patch-by: Andy Lutomirski <luto@kernel.org>
+
+
+316)WARNING:BAD_SIGN_OFF: Non-standard signature: Just-do-it-by:
+#65: 
+Just-do-it-by: Steven Rostedt <rostedt@goodmis.org>
+
+
+317)WARNING:BAD_SIGN_OFF: Non-standard signature: Decoded-by:
+#18: 
+Decoded-by: Linus Torvalds <torvalds@linux-foundation.org>
+
+
+318)WARNING:BAD_SIGN_OFF: Non-standard signature: Signef-off-by:
+#43: 
+Signef-off-by: Arnaldo Carvalho de Melo <acme@redhat.com>
+
+
+319)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#27: 
+Debugged-by: Alexander Potapenko <glider@google.com>
+
+
+320)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#78: 
+Originally-by: Thomas Gleixner <tglx@linutronix.de>
+
+
+321)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-work-by:
+#9: 
+Based-on-work-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+
+
+322)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-bisected-by:
+#20: 
+Reported-and-bisected-by: James Bottomley <James.Bottomley@hansenpartnership.com>
+
+
+323)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#16: 
+Originally-by: Thomas Lendacky <Thomas.Lendacky@amd.com>
+
+
+324)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#17: 
+Bisected-by: Fedor Loshakov <loshakov@linux.vnet.ibm.com>
+
+
+325)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#58: 
+Debugged-by: Josh Poimboeuf <jpoimboe@redhat.com>
+
+
+326)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-by:
+#26: 
+Original-by: Lukas Bulwahn <lukas.bulwahn@gmail.com>
+
+
+327)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#15: 
+Diagnosed-by: Willem de Bruijn <willemb@google.com>
+
+
+328)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#24: 
+Diagnosed-by: Florian Westphal <fw@strlen.de>
+
+
+329)WARNING:BAD_SIGN_OFF: Non-standard signature: Signen-off-by:
+#26: 
+Signen-off-by: Anders Roxell <anders.roxell@linaro.org>
+
+
+330)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#26: 
+Originally-by: Thomas Gleixner <tglx@linutronix.de>
+
+
+331)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#16: 
+Requested-by: Joe Perches <joe@perches.com>
+
+
+332)WARNING:BAD_SIGN_OFF: Non-standard signature: Verified-by:
+#7: 
+Verified-by: Harry Cutts <hcutts@chromium.org>
+
+
+333)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#78: 
+Debugged-by: Vlastimil Babka <vbabka@suse.cz>
+
+
+334)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#30: 
+Debugged-by: Peter Smith <peter.smith@linaro.org>
+
+
+335)WARNING:BAD_SIGN_OFF: Non-standard signature: Niced-by:
+#15: 
+Niced-by: Peter Zijlstra <peterz@infradead.org>
+
+
+336)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-off-by-by:
+#91: 
+Signed-off-by-by: Masayoshi Mizuma <m.mizuma@jp.fujitsu.com>
+
+
+337)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#20: 
+Debugged-by: Mark Rutland <mark.rutland@arm.com>
+
+
+338)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewed-off-by:
+#23: 
+Reviewed-off-by: Sagi Grimberg <sagi@grimberg.me>
+
+
+339)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#15: 
+Requested-by: Tom Zanussi <tom.zanussi@linux.intel.com>
+
+
+340)WARNING:BAD_SIGN_OFF: Non-standard signature: Fixes-by:
+#10: 
+Fixes-by: Josef Bacik <josef@toxicpanda.com>
+
+
+341)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#42: 
+Debugged-by: Steven Rostedt <rostedt@goodmis.org>
+
+
+342)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-by:
+#15: 
+Original-by: Christian KÃ¶nig <christian.koenig@amd.com>
+
+
+343)WARNING:BAD_SIGN_OFF: Non-standard signature: Repoted-by:
+#14: 
+Repoted-by: Heiko Carstens <heiko.carstens@de.ibm.com>
+
+
+344)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#20: 
+Co-authored-by: Magnus Karlsson <magnus.karlsson@intel.com>
+
+
+345)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#88: 
+Analyzed-by: Dave Chinner <david@fromorbit.com>
+
+
+346)WARNING:BAD_SIGN_OFF: Non-standard signature: Ranted-by:
+#30: 
+Ranted-by: Amir Goldstein <amir73il@gmail.com>
+
+
+347)WARNING:BAD_SIGN_OFF: Non-standard signature: Pointed-out-by:
+#10: 
+Pointed-out-by: Peter De Schrijver <pdeschrijver@nvidia.com>
+
+
+348)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-test-by:
+#23: 
+Reported-and-test-by: Matthias Kaehlcke <mka@chromium.org>
+
+
+349)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#14: 
+Debugged-by: Tetsuo Handa <penguin-kernel@i-love.sakura.ne.jp>
+
+
+350)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#45: 
+Bisected-by: Max Neunhoeffer <max@arangodb.com>
+
+
+351)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#9: 
+Noticed-by: Michal Kalderon <mkalderon@marvell.com>
+
+
+352)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#39: 
+Debugged-by: Alistair Strachan <astrachan@google.com>
+
+
+353)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#19: 
+Debugged-by: Bob Peterson <rpeterso@redhat.com>
+
+
+354)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#23: 
+Inspired-by: Bjorn Helgaas <bhelgaas@google.com>
+
+
+355)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#30: 
+Debugged-by: Tejun Heo <tj@kernel.org>
+
+
+356)WARNING:BAD_SIGN_OFF: Non-standard signature: Discovered-by:
+#10: 
+Discovered-by: Michael Kerrisk <mtk.manpages@gmail.com>
+
+
+357)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#38: 
+Diagnosed-by: Viresh Kumar <viresh.kumar@linaro.org>
+
+
+358)WARNING:BAD_SIGN_OFF: Non-standard signature: Tweeted-by:
+#12: 
+Tweeted-by: @grsecurity
+
+
+359)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#22: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+360)WARNING:BAD_SIGN_OFF: Non-standard signature: Verified-by:
+#14: 
+Verified-by: Harry Cutts <hcutts@chromium.org>
+
+
+361)WARNING:BAD_SIGN_OFF: Non-standard signature: igned-off-by:
+#11: 
+igned-off-by: Alex Deucher <alexander.deucher@amd.com>
+
+
+362)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-off--by:
+#14: 
+Signed-off--by: Jarkko Sakkinen <jarkko.sakkinen@linux.intel.com>
+
+
+363)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#20: 
+Originally-by: Anna-Maria Gleixenr <anna-maria@linutronix.de>
+
+
+364)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#14: 
+Originally-by: Ricardo Neri <ricardo.neri-calderon@linux.intel.com>
+
+
+365)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#25: 
+Reviewd-by: Jarkko Sakkinen <jarkko.sakkinen@linux.intel.com>
+
+
+366)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#23: 
+Bisected-by: Johan Hovold <johan@kernel.org>
+
+
+367)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#39: 
+Requested-by: Al Viro <viro@zeniv.linux.org.uk>
+
+
+368)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#15: 
+Noticed-by: Felix Kuehling <felix.kuehling@amd.com>
+
+
+369)WARNING:BAD_SIGN_OFF: Non-standard signature: Screwed-up-by:
+#13: 
+Screwed-up-by: Al Viro <viro@zeniv.linux.org.uk>
+
+
+370)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#20: 
+Bisected-by: Chris Murphy <bugzilla@colorremedies.com>
+
+
+371)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#24: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+372)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-off--by:
+#13: 
+Signed-off--by: Jarkko Sakkinen <jarkko.sakkinen@linux.intel.com>
+
+
+373)WARNING:BAD_SIGN_OFF: Non-standard signature: Pointed-at-by:
+#14: 
+Pointed-at-by: Boris Brezillon <boris.brezillon@free-electrons.com>
+
+
+374)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#45: 
+Co-authored-by: Peter Zijlstra <peterz@infradead.org>
+
+
+375)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#32: 
+Bisected-by: Mike Galbraith <efault@gmx.de>
+
+
+376)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#11: 
+Originally-by: "Maciej S. Szmigiero" <mail@maciej.szmigiero.name>
+
+
+377)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-by:
+#15: 
+Original-by: Richard Zhu <hongxing.zhu@nxp.com>
+
+
+378)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-of-by:
+#14: 
+Signed-of-by: Olga Kornievskaia <kolga@netapp.com>
+
+
+379)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#73: 
+Debugged-by: Nick Desaulniers <ndesaulniers@google.com>
+
+
+380)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#28: 
+Co-authored-by: Linus LÃ¼ssing <linus.luessing@c0d3.blue>
+
+
+381)WARNING:BAD_SIGN_OFF: Non-standard signature: Suggested--by:
+#18: 
+Suggested--by: Arnaldo Carvalho de Melo <acme@redhat.com>
+
+
+382)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-analyzed-by:
+#32: 
+Reported-and-analyzed-by: Allan Xavier <allan.x.xavier@oracle.com>
+
+
+383)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#11: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+384)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewed--by:
+#34: 
+Reviewed--by: Ronnie Sahlberg <lsahlber@redhat.com>
+
+
+385)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#32: 
+Debugged-by: LuÃ­s Mendes <luis.p.mendes@gmail.com>
+
+
+386)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#63: 
+Co-authored-by: John Fastabend <john.fastabend@gmail.com>
+
+
+387)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#51: 
+Original-patch-by: Ian Rogers <irogers@google.com>
+
+
+388)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-a-patch-by:
+#39: 
+Based-on-a-patch-by: Oza Pawandeep <oza.oza@broadcom.com>
+
+
+389)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#93: 
+Debugged-by: Evan Green <evgreen@chromium.org>
+
+
+390)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#48: 
+Analyzed-by: Peter Zijlstra <peterz@infradead.org>
+
+
+391)WARNING:BAD_SIGN_OFF: Non-standard signature: Rewieved-by:
+#17: 
+Rewieved-by: Petr Mladek <pmladek@suse.com>
+
+
+392)WARNING:BAD_SIGN_OFF: Non-standard signature: Analysed-by:
+#56: 
+Analysed-by: Gonzalo Siero <gsierohu@redhat.com>
+
+
+393)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#35: 
+Debugged-by: Roman Kagan <rkagan@virtuozzo.com>
+
+
+394)WARNING:BAD_SIGN_OFF: Non-standard signature: Reivewed-by:
+#13: 
+Reivewed-by: Horace Chen <horace.chen@amd.com>
+
+
+395)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patch-by:
+#32: 
+Based-on-patch-by: Dongdong Liu <liudongdong3@huawei.com>
+
+
+396)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#16: 
+Requested-by: Andy Lutomirski <luto@amacapital.net>
+
+
+397)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#12: 
+Reviewd-by: Evan Quan <evan.quan@amd.com>
+
+
+398)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#19: 
+Debugged-by: David Gibson <david@gibson.dropbear.id.au>
+
+
+399)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#12: 
+Co-authored-by: Tor Jeremiassen <tor@ti.com>
+
+
+400)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-debugged-by:
+#19: 
+Reported-and-debugged-by: Yimin Deng <yimin11.deng@gmail.com>
+
+
+401)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#8: 
+Requested-by: David Rientjes <rientjes@google.com>
+
+
+402)WARNING:BAD_SIGN_OFF: Non-standard signature: Rewieved-by:
+#12: 
+Rewieved-by: Petr Mladek <pmladek@suse.com>
+
+
+403)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#17: 
+Analyzed-by: Laszlo Ersek <lersek@redhat.com>
+
+
+404)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#25: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+405)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#14: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+406)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#10: 
+Requested-by: "Theodore Y. Ts'o" <tytso@mit.edu>
+
+
+407)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-written-by:
+#23: 
+Original-written-by: Arnd Bergmann <arnd@arndb.de>
+
+
+408)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewed-off-by:
+#11: 
+Reviewed-off-by: Sagi Grimberg <sagi@grimberg.me>
+
+
+409)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#23: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+410)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#10: 
+Requested-by: David S. Miller <davem@davemloft.net>
+
+
+411)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#153: 
+Original-patch-by: Honggang Xu <hxu@arista.com>
+
+
+412)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#19: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+413)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#11: 
+Co-authored-by: David Kozub <zub@linux.fjfi.cvut.cz>
+
+
+414)WARNING:BAD_SIGN_OFF: Non-standard signature: Based-on-patch-by:
+#12: 
+Based-on-patch-by: Kishon Vijay Abraham I <kishon@ti.com>
+
+
+415)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#62: 
+Co-authored-by: Prashant Bhole <bhole_prashant_q7@lab.ntt.co.jp>
+
+
+416)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#22: 
+Requested-by: Joe Perches <joe@perches.com>
+
+
+417)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-of-by:
+#8: 
+Signed-of-by: Huang Chong <huang.chong@zte.com.cn>
+
+
+418)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#36: 
+Debugged-by: Manoj Gupta <manojgupta@google.com>
+
+
+419)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#17: 
+Requested-by: Anuj Phogat <anuj.phogat@intel.com>
+
+
+420)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#94: 
+Debugged-by: Liu Bo <bo.liu@linux.alibaba.com>
+
+
+421)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#12: 
+Bisected-by: Kirill Tkhai <ktkhai@virtuozzo.com>
+
+
+422)WARNING:BAD_SIGN_OFF: Non-standard signature: -By:
+#407: FILE: Documentation/thermal/intel_powerclamp.rst:0:
+-By: Arjan van de Ven <arjan@linux.intel.com>
+
+
+423)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#34: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+424)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#33: 
+Originally-by: http://lore.kernel.org/lkml/20180921073211.20097-2-lijiang@redhat.com
+
+
+425)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-fixed-by:
+#30: 
+Reported-and-fixed-by: Arnd Bergmann <arnd@arndb.de>
+
+
+426)WARNING:BAD_SIGN_OFF: Non-standard signature: Celebrated-by:
+#24: 
+Celebrated-by: Wincy Van <fanwenyi0529@gmail.com>
+
+
+427)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#18: 
+Diagnosed-by: Dmitry Vyukov <dvyukov@google.com>
+
+
+428)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#50: 
+Originally-by: David Woodhouse <dwmw@amazon.co.uk>
+
+
+429)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#21: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+430)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#14: 
+Requested-by: Himanshu Madhani <hmadhani@marvell.com>
+
+
+431)WARNING:BAD_SIGN_OFF: Non-standard signature: Despised-by:
+#41: 
+Despised-by: Thomas Gleixner <tglx@linutronix.de>
+
+
+432)WARNING:BAD_SIGN_OFF: Non-standard signature: Fscked-up-by:
+#11: 
+Fscked-up-by: Marc Zyngier <marc.zyngier@arm.com>
+
+
+433)WARNING:BAD_SIGN_OFF: Non-standard signature: Root-caused-by:
+#46: 
+Root-caused-by: Maximilian Heyne <mheyne@amazon.de>
+
+
+434)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#12: 
+Co-authored-by: Morten Rasmussen <morten.rasmussen@arm.com>
+
+
+435)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#10: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+436)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#10: 
+Co-authored-by: Jonas Rabenstein <jonas.rabenstein@studium.uni-erlangen.de>
+
+
+437)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#9: 
+Requested-by: Sam Ravnborg <sam@ravnborg.org>
+
+
+438)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#13: 
+Co-authored-by: Claudio Scordino <claudio@evidence.eu.com>
+
+
+439)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#28: 
+Original-patch-by: Bill Fenner <fenner@arista.com>
+
+
+440)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#9: 
+Requested-by: Stephane Eranian <eranian@google.com>
+
+
+441)WARNING:BAD_SIGN_OFF: Non-standard signature: Brown-paper-bag-by:
+#47: 
+Brown-paper-bag-by: Michael Ellerman <mpe@ellerman.id.au>
+
+
+442)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#74: 
+Debugged-by: Alexander Shishkin <alexander.shishkin@linux.intel.com>
+
+
+443)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#29: 
+Debugged-by: Sean Christopherson <sean.j.christopherson@intel.com>
+
+
+444)WARNING:BAD_SIGN_OFF: Non-standard signature: Reported-and-Inspired-by:
+#41: 
+Reported-and-Inspired-by: syzbot <syzbot+538d1957ce178382a394@syzkaller.appspotmail.com>
+
+
+445)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#16: 
+Co-authored-by: Mauro Carvalho Chehab <mchehab+huawei@kernel.org>
+
+
+446)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#34: 
+Co-authored-by: Philip Elcan <pelcan@codeaurora.org>
+
+
+447)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewed-off-by:
+#13: 
+Reviewed-off-by: Ronnie Sahlberg <lsahlber@redhat.com>
+
+
+448)WARNING:BAD_SIGN_OFF: Non-standard signature: Root-caused-by:
+#17: 
+Root-caused-by: Maciej S. Szmigiero <mail@maciej.szmigiero.name>
+
+
+449)WARNING:BAD_SIGN_OFF: Non-standard signature: Signed-off--by:
+#12: 
+Signed-off--by: Jarkko Sakkinen <jarkko.sakkinen@linux.intel.com>
+
+
+450)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#40: 
+Analyzed-by: Wanpeng Li <wanpengli@tencent.com>
+
+
+451)WARNING:BAD_SIGN_OFF: Non-standard signature: Nitpicked-by:
+#9: 
+Nitpicked-by: Jakub Kicinski <kuba@kernel.org>
+
+
+452)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#9: 
+Noticed-by: Guenter Roeck <linux@roeck-us.net>
+
+
+453)WARNING:BAD_SIGN_OFF: Non-standard signature: Suggsted-by:
+#43: 
+Suggsted-by: Al Viro <viro@ZenIV.linux.org.uk>
+
+
+454)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#13: 
+Reviewd-by: NeilBrown <neil@brown.name>
+
+
+455)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-By:
+#21: 
+Reviwed-By: Enrico Weigelt <info@metux.net>
+
+
+456)WARNING:BAD_SIGN_OFF: Non-standard signature: Rported-by:
+#19: 
+Rported-by: Michel DÃ¤nzer <michel.daenzer@amd.com>
+
+
+457)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#18: 
+Originally-by: Andi Kleen <ak@linux.intel.com>
+
+
+458)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#45: 
+Debugged-by: Hugh Dickins <hughd@google.com>
+
+
+459)WARNING:BAD_SIGN_OFF: Non-standard signature: Requested-by:
+#11: 
+Requested-by: Kees Cook <keescook@chromium.org>
+
+
+460)WARNING:BAD_SIGN_OFF: Non-standard signature: Okay-ished-by:
+#14: 
+Okay-ished-by: Paul Moore <paul@paul-moore.com>
+
+
+461)WARNING:BAD_SIGN_OFF: Non-standard signature: Proposed-by:
+#9: 
+Proposed-by: Laurent Pinchart <laurent.pinchart@ideasonboard.com>
+
+
+462)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#11: 
+Co-authored-by: David Gounaris <david.gounaris@infinera.com>
+
+
+463)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#28: 
+Debugged-by: Paolo Bonzini <pbonzini@redhat.com>
+
+
+464)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#30: 
+Debugged-by: Tetsuo Handa <penguin-kernel@I-love.SAKURA.ne.jp>
+
+
+465)WARNING:BAD_SIGN_OFF: Non-standard signature: Noticed-by:
+#12: 
+Noticed-by: Hans de Ruiter <hans@keasigmadelta.com>
+
+
+466)WARNING:BAD_SIGN_OFF: Non-standard signature: Diagnosed-by:
+#30: 
+Diagnosed-by: Eric Dumazet <edumazet@google.com>
+
+
+467)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#32: 
+Debugged-by: Tejun Heo <tj@kernel.org>
+
+
+468)WARNING:BAD_SIGN_OFF: Non-standard signature: Designed-by:
+#15: 
+Designed-by: Dave Chinner <dchinner@redhat.com>
+
+
+469)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-by:
+#9: 
+Original-by: Yuanjiang Yu <yuanjiang.yu@unisoc.com>
+
+
+470)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviewd-by:
+#21: 
+Reviewd-by: Keith Busch <keith.busch@intel.com>
+
+
+471)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#40: 
+Debugged-by: Thomas Gleixner <tglx@linutronix.de>
+
+
+472)WARNING:BAD_SIGN_OFF: Non-standard signature: Singed-off-by:
+#13: 
+Singed-off-by: Andrii Nakryiko <andriin@fb.com>
+
+
+473)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#24: 
+Co-authored-by: Benjamin Tissoires <benjamin.tissoires@redhat.com>
+
+
+474)WARNING:BAD_SIGN_OFF: Non-standard signature: Revieved-by:
+#38: 
+Revieved-by: Heikki Krogerus <heikki.krogerus@linux.intel.com>
+
+
+475)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#45: 
+Originally-by: Harish Jenny K N <harish_kandiga@mentor.com>
+
+
+476)WARNING:BAD_SIGN_OFF: Non-standard signature: Spotted-by:
+#11: 
+Spotted-by: Tetsuo Handa <penguin-kernel@i-love.sakura.ne.jp>
+
+
+477)WARNING:BAD_SIGN_OFF: Non-standard signature: Suggestions-by:
+#41: 
+Suggestions-by: Joe Perches <joe@perches.com>
+
+
+478)WARNING:BAD_SIGN_OFF: Non-standard signature: Co-authored-by:
+#14: 
+Co-authored-by: Neil Armstrong <narmstrong@baylibre.com>
+
+
+479)WARNING:BAD_SIGN_OFF: Non-standard signature: Analyzed-by:
+#49: 
+Analyzed-by: Igor Mammedov <imammedo@redhat.com>
+
+
+480)WARNING:BAD_SIGN_OFF: Non-standard signature: Original-patch-by:
+#14: 
+Original-patch-by: Tejun Heo <tj@kernel.org>
+
+
+481)WARNING:BAD_SIGN_OFF: Non-standard signature: Improvements-by:
+#26: 
+Improvements-by: Borislav Petkov <bp@suse.de>
+
+
+482)WARNING:BAD_SIGN_OFF: Non-standard signature: Reviwed-by:
+#9: 
+Reviwed-by: Mark Brown <broonie@kernel.org>
+
+
+483)WARNING:BAD_SIGN_OFF: Non-standard signature: Inspired-by:
+#29: 
+Inspired-by: Jann Horn <jannh@google.com>
+
+
+484)WARNING:BAD_SIGN_OFF: Non-standard signature: Bisected-by:
+#31: 
+Bisected-by: Masatake YAMATO <yamato@redhat.com>
+
+
+485)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#33: 
+Originally-by: Andi Kleen <ak@linux.intel.com>
+
+
+486)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#23: 
+Originally-by: Andy Lutomirski <luto@kernel.org>
+
+
+487)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#33: 
+Debugged-by: Peter Collingbourne <pcc@google.com>
+
+
+488)WARNING:BAD_SIGN_OFF: Non-standard signature: Debugged-by:
+#23: 
+Debugged-by: Richard Genoud <richard.genoud@gmail.com>
+
+
+489)WARNING:BAD_SIGN_OFF: Non-standard signature: Originally-by:
+#27: 
+Originally-by: Tim Chen <tim.c.chen@linux.intel.com>
+
+
