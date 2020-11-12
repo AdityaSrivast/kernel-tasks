@@ -1,0 +1,82 @@
+DIFFERENCE OF COMMIT_LOG_LONG_LINE WARNINGS:
+
+Difference: 17
+
+WARNINGS DROPPED BY THE PATCH BUT PRESENT EARLIER:
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#10: 
+Reported-by: Francescodario Cuzzocrea <francescodario.cuzzocrea@mail.polimi.it>
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#12: 
+Reviewed-by: Mathieu Poirier <mathieu.poirier@linaro.org> # hwtracing/coresight/Kconfig
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#13: 
+Cc: stable@vger.kernel.org   # d3a5bcb4a17f ("gpio: add gpiod_toggle_active_low()")
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#14: 
+Acked-by: Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org> # actions
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#15: 
+Reported-by: patchwork-bot+linux-amlogic<patchwork-bot+linux-amlogic@kernel.org>
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#16: 
+Cc: stable@vger.kernel.org # 4.19.x: 0774a964ef56: KVM: Fix out of range accesses to memslots
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#16: 
+Reviewed-by: Martin K. Petersen <martin.petersen@oracle.com> # for SCSI bits
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#17: 
+Cc: <stable@vger.kernel.org> #4.0+: ef75e14a6c93: staging: comedi: verify array index is correct before using it
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#18: 
+Cc: <stable@vger.kernel.org> # 5.3: d6df52e9996d: s390/maccess: add no DAT mode to kernel_write
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#22: 
+Co-developed-by: Lalithambika Krishnakumar <lalithambika.krishnakumar@intel.com>
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#22: 
+Co-developed-by: Smita Koralahalli Channabasappa <smita.koralahallichannabasappa@amd.com>
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#24: 
+Reviewed-by: Greg Kroah-Hartman <gregkh@linuxfoundation.org> # For drivers/usb
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#30: 
+Acked-by: Casey Schaufler <casey@schaufler-ca.com> # For the LSM and Smack bits
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#34: 
+Reported-by: kbuild test robot <lkp@intel.com> [ v1 missing up_read() on error exit ]
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#38: 
+Acked-by: Michal Hocko <mhocko@suse.com> # to export contig range allocator API
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#42: 
+Reviewed-by: Vincenzo Frascino <Vincenzo.Frascino@arm.com> # not co-dev parts
+
+WARNING:COMMIT_LOG_LONG_LINE: Possible unwrapped commit description (prefer a maximum 75 chars per line)
+#9: 
+Reviewed-by: Marian-Cristian Rotariu <marian-cristian.rotariu.rb@bp.renesas.com>
+
+
+
+*************************************************
+
+
+
+WARNINGS PRESENT IN PATCH BUT ABSENT EARLIER:
+
