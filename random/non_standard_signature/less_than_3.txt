@@ -1,0 +1,195 @@
+For: reviwedby:
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+****************************************
+For: reviewdby:
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+****************************************
+For: singedoffby:
+Predicted Standard signature: signedoffby:
+For edit distance: 2
+
+****************************************
+For: signedofby:
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+****************************************
+For: rewievedby:
+Predicted Standard signature: reviewedby:
+For edit distance: 2
+
+****************************************
+For: signedoffby:
+Predicted Standard signature: signedoffby:
+For edit distance: 0
+
+****************************************
+For: revievedby:
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+****************************************
+For: reivewedby:
+Predicted Standard signature: reviewedby:
+For edit distance: 2
+
+****************************************
+For: signefoffby:
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+****************************************
+For: testby:
+Predicted Standard signature: testedby:
+For edit distance: 2
+
+****************************************
+For: acked_by:
+Predicted Standard signature: ackedby:
+For edit distance: 1
+
+****************************************
+For: signedoffbyby:
+Predicted Standard signature: signedoffby:
+For edit distance: 2
+
+****************************************
+For: reportedbyby:
+Predicted Standard signature: reportedby:
+For edit distance: 2
+
+****************************************
+For: reporetdby:
+Predicted Standard signature: reportedby:
+For edit distance: 2
+
+****************************************
+For: reviewedby:
+Predicted Standard signature: reviewedby:
+For edit distance: 0
+
+****************************************
+For: sugestedby:
+Predicted Standard signature: suggestedby:
+For edit distance: 1
+
+****************************************
+For: suggestedby:
+Predicted Standard signature: suggestedby:
+For edit distance: 0
+
+****************************************
+For: repotedby:
+Predicted Standard signature: reportedby:
+For edit distance: 1
+
+****************************************
+For: rportedby:
+Predicted Standard signature: reportedby:
+For edit distance: 1
+
+****************************************
+For: eignedoffby:
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+****************************************
+For: reveiwedby:
+Predicted Standard signature: reviewedby:
+For edit distance: 2
+
+****************************************
+For: ignedoffby:
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+****************************************
+For: testedbyby:
+Predicted Standard signature: testedby:
+For edit distance: 2
+
+****************************************
+For: sugesstedby:
+Predicted Standard signature: suggestedby:
+For edit distance: 2
+
+****************************************
+For: rewiewedby:
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+****************************************
+For: testeby:
+Predicted Standard signature: testedby:
+For edit distance: 1
+
+****************************************
+For: signeeoffby:
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+****************************************
+For: by:
+Predicted Standard signature: to:
+For edit distance: 2
+
+****************************************
+For: signenoffby:
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+****************************************
+For: eportedby:
+Predicted Standard signature: reportedby:
+For edit distance: 1
+
+****************************************
+For: reviewedyby:
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+****************************************
+For: siganedoffby:
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+****************************************
+For: ackedyby:
+Predicted Standard signature: ackedby:
+For edit distance: 1
+
+****************************************
+For: reviewby:
+Predicted Standard signature: reviewedby:
+For edit distance: 2
+
+****************************************
+For: tweetedby:
+Predicted Standard signature: testedby:
+For edit distance: 2
+
+****************************************
+For: ackby:
+Predicted Standard signature: ackedby:
+For edit distance: 2
+
+****************************************
+For: reortedby:
+Predicted Standard signature: reportedby:
+For edit distance: 1
+
+****************************************
+For: suggstedby:
+Predicted Standard signature: suggestedby:
+For edit distance: 1
+
+****************************************
+For: reviwedby:
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+****************************************

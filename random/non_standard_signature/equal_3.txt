@@ -1,0 +1,35 @@
+For: reviewedoffby:
+Predicted Standard signature: reviewedby:
+For edit distance: 3
+
+****************************************
+For: fixedby:
+Predicted Standard signature: ackedby:
+For edit distance: 3
+
+****************************************
+For: spottedby:
+Predicted Standard signature: reportedby:
+For edit distance: 3
+
+****************************************
+For: rantedby:
+Predicted Standard signature: ackedby:
+For edit distance: 3
+
+****************************************
+For: nicedby:
+Predicted Standard signature: ackedby:
+For edit distance: 3
+
+****************************************
+For: ackedoffby:
+Predicted Standard signature: ackedby:
+For edit distance: 3
+
+****************************************
+For: testedoffby:
+Predicted Standard signature: testedby:
+For edit distance: 3
+
+****************************************
