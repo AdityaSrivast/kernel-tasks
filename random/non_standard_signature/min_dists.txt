@@ -1,0 +1,1962 @@
+For: debuggedby:
+cc: => 9
+ackedby: => 5
+reportedby: => 4
+to: => 9
+testedby: => 4
+reviewedby: => 4
+suggestedby: => 5
+codevelopedby: => 7
+signedoffby: => 7
+
+Predicted Standard signature: reportedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: requestedby:
+reviewedby: => 4
+suggestedby: => 3
+codevelopedby: => 7
+signedoffby: => 7
+ackedby: => 6
+cc: => 10
+reportedby: => 4
+to: => 10
+testedby: => 3
+
+Predicted Standard signature: suggestedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: coauthoredby:
+suggestedby: => 7
+codevelopedby: => 6
+signedoffby: => 8
+reviewedby: => 7
+reportedby: => 6
+to: => 10
+testedby: => 6
+ackedby: => 7
+cc: => 11
+
+Predicted Standard signature: codevelopedby:
+For edit distance: 6
+
+
+****************************************
+
+
+For: originallyby:
+ackedby: => 9
+cc: => 11
+reportedby: => 9
+testedby: => 9
+to: => 11
+reviewedby: => 8
+suggestedby: => 8
+codevelopedby: => 10
+signedoffby: => 7
+
+Predicted Standard signature: signedoffby:
+For edit distance: 7
+
+
+****************************************
+
+
+For: analyzedby:
+reportedby: => 5
+testedby: => 5
+to: => 9
+ackedby: => 5
+cc: => 9
+suggestedby: => 6
+codevelopedby: => 7
+signedoffby: => 8
+reviewedby: => 5
+
+Predicted Standard signature: reportedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: bisectedby:
+suggestedby: => 4
+signedoffby: => 6
+codevelopedby: => 7
+reviewedby: => 5
+to: => 9
+testedby: => 3
+reportedby: => 4
+ackedby: => 4
+cc: => 8
+
+Predicted Standard signature: testedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: reviwedby:
+signedoffby: => 7
+codevelopedby: => 6
+suggestedby: => 6
+reviewedby: => 1
+testedby: => 3
+to: => 8
+reportedby: => 4
+cc: => 8
+ackedby: => 4
+
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: improvementsby:
+suggestedby: => 10
+codevelopedby: => 9
+signedoffby: => 10
+reviewedby: => 9
+reportedby: => 8
+to: => 12
+testedby: => 10
+ackedby: => 10
+cc: => 13
+
+Predicted Standard signature: reportedby:
+For edit distance: 8
+
+
+****************************************
+
+
+For: generatedby:
+suggestedby: => 5
+signedoffby: => 7
+codevelopedby: => 6
+reviewedby: => 5
+to: => 10
+testedby: => 4
+reportedby: => 3
+ackedby: => 6
+cc: => 10
+
+Predicted Standard signature: reportedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: originalpatchby:
+reviewedby: => 11
+suggestedby: => 10
+codevelopedby: => 11
+signedoffby: => 9
+ackedby: => 12
+cc: => 13
+reportedby: => 11
+to: => 14
+testedby: => 11
+
+Predicted Standard signature: signedoffby:
+For edit distance: 9
+
+
+****************************************
+
+
+For: diagnosedby:
+suggestedby: => 5
+codevelopedby: => 7
+signedoffby: => 6
+reviewedby: => 6
+reportedby: => 6
+to: => 9
+testedby: => 6
+ackedby: => 6
+cc: => 10
+
+Predicted Standard signature: suggestedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: inspiredby:
+to: => 9
+testedby: => 4
+reportedby: => 4
+cc: => 9
+ackedby: => 5
+signedoffby: => 8
+codevelopedby: => 8
+suggestedby: => 6
+reviewedby: => 5
+
+Predicted Standard signature: testedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: noticedby:
+reviewedby: => 4
+signedoffby: => 7
+codevelopedby: => 7
+suggestedby: => 6
+cc: => 7
+ackedby: => 4
+to: => 7
+testedby: => 4
+reportedby: => 5
+
+Predicted Standard signature: reviewedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: reviewdby:
+reviewedby: => 1
+codevelopedby: => 7
+signedoffby: => 7
+suggestedby: => 6
+cc: => 8
+ackedby: => 4
+reportedby: => 5
+to: => 8
+testedby: => 3
+
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: verifiedby:
+reviewedby: => 3
+codevelopedby: => 7
+signedoffby: => 7
+suggestedby: => 6
+cc: => 9
+ackedby: => 5
+reportedby: => 4
+to: => 9
+testedby: => 4
+
+Predicted Standard signature: reviewedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: singedoffby:
+reviewedby: => 7
+suggestedby: => 6
+signedoffby: => 2
+codevelopedby: => 8
+ackedby: => 6
+cc: => 10
+to: => 9
+testedby: => 6
+reportedby: => 8
+
+Predicted Standard signature: signedoffby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: okayishedby:
+to: => 10
+testedby: => 5
+reportedby: => 6
+cc: => 10
+ackedby: => 6
+signedoffby: => 8
+codevelopedby: => 8
+suggestedby: => 5
+reviewedby: => 5
+
+Predicted Standard signature: testedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: basedonapatchby:
+reviewedby: => 11
+suggestedby: => 11
+signedoffby: => 10
+codevelopedby: => 10
+ackedby: => 10
+cc: => 13
+to: => 13
+testedby: => 10
+reportedby: => 9
+
+Predicted Standard signature: reportedby:
+For edit distance: 9
+
+
+****************************************
+
+
+For: basedonpatchby:
+reviewedby: => 10
+signedoffby: => 9
+codevelopedby: => 10
+suggestedby: => 10
+cc: => 12
+ackedby: => 9
+to: => 12
+testedby: => 9
+reportedby: => 8
+
+Predicted Standard signature: reportedby:
+For edit distance: 8
+
+
+****************************************
+
+
+For: originalby:
+cc: => 9
+ackedby: => 7
+testedby: => 7
+to: => 9
+reportedby: => 7
+reviewedby: => 7
+signedoffby: => 7
+codevelopedby: => 10
+suggestedby: => 7
+
+Predicted Standard signature: ackedby:
+For edit distance: 7
+
+
+****************************************
+
+
+For: rootcausedby:
+cc: => 10
+ackedby: => 6
+reportedby: => 7
+testedby: => 6
+to: => 10
+reviewedby: => 7
+codevelopedby: => 7
+signedoffby: => 9
+suggestedby: => 7
+
+Predicted Standard signature: ackedby:
+For edit distance: 6
+
+
+****************************************
+
+
+For: signedofby:
+cc: => 9
+ackedby: => 5
+testedby: => 5
+to: => 8
+reportedby: => 7
+reviewedby: => 6
+signedoffby: => 1
+codevelopedby: => 8
+suggestedby: => 6
+
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: ackedformfdby:
+signedoffby: => 7
+codevelopedby: => 8
+suggestedby: => 9
+reviewedby: => 8
+testedby: => 8
+to: => 11
+reportedby: => 6
+cc: => 11
+ackedby: => 6
+
+Predicted Standard signature: reportedby:
+For edit distance: 6
+
+
+****************************************
+
+
+For: basedonworkby:
+codevelopedby: => 9
+signedoffby: => 8
+suggestedby: => 10
+reviewedby: => 8
+reportedby: => 8
+testedby: => 8
+to: => 11
+cc: => 12
+ackedby: => 8
+
+Predicted Standard signature: signedoffby:
+For edit distance: 8
+
+
+****************************************
+
+
+For: basedonpatchesby:
+reviewedby: => 11
+signedoffby: => 11
+codevelopedby: => 11
+suggestedby: => 11
+cc: => 14
+ackedby: => 11
+to: => 14
+testedby: => 10
+reportedby: => 9
+
+Predicted Standard signature: reportedby:
+For edit distance: 9
+
+
+****************************************
+
+
+For: proposedby:
+reviewedby: => 5
+signedoffby: => 8
+codevelopedby: => 7
+suggestedby: => 5
+cc: => 9
+ackedby: => 5
+to: => 8
+testedby: => 5
+reportedby: => 4
+
+Predicted Standard signature: reportedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: analysedby:
+signedoffby: => 8
+codevelopedby: => 7
+suggestedby: => 5
+reviewedby: => 5
+testedby: => 5
+to: => 9
+reportedby: => 5
+cc: => 9
+ackedby: => 5
+
+Predicted Standard signature: suggestedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: reviewedoffby:
+reviewedby: => 3
+codevelopedby: => 8
+signedoffby: => 4
+suggestedby: => 8
+cc: => 12
+ackedby: => 8
+reportedby: => 7
+to: => 11
+testedby: => 7
+
+Predicted Standard signature: reviewedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: reportedandbisectedby:
+suggestedby: => 13
+codevelopedby: => 14
+signedoffby: => 16
+reviewedby: => 13
+reportedby: => 11
+to: => 19
+testedby: => 13
+ackedby: => 15
+cc: => 19
+
+Predicted Standard signature: reportedby:
+For edit distance: 11
+
+
+****************************************
+
+
+For: fixedby:
+ackedby: => 2
+cc: => 6
+reportedby: => 5
+testedby: => 3
+to: => 6
+reviewedby: => 4
+suggestedby: => 6
+codevelopedby: => 8
+signedoffby: => 5
+
+Predicted Standard signature: ackedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: rewievedby:
+codevelopedby: => 7
+signedoffby: => 7
+suggestedby: => 5
+reviewedby: => 2
+reportedby: => 4
+testedby: => 4
+to: => 9
+cc: => 9
+ackedby: => 5
+
+Predicted Standard signature: reviewedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: signedoffby:
+cc: => 10
+ackedby: => 6
+testedby: => 6
+to: => 9
+reportedby: => 8
+reviewedby: => 7
+signedoffby: => 0
+codevelopedby: => 8
+suggestedby: => 6
+
+Predicted Standard signature: signedoffby:
+For edit distance: 0
+
+
+****************************************
+
+
+For: revievedby:
+to: => 9
+testedby: => 4
+reportedby: => 4
+cc: => 9
+ackedby: => 5
+signedoffby: => 7
+codevelopedby: => 6
+suggestedby: => 5
+reviewedby: => 1
+
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: celebratedby:
+testedby: => 5
+to: => 11
+reportedby: => 4
+ackedby: => 7
+cc: => 11
+suggestedby: => 6
+signedoffby: => 9
+codevelopedby: => 7
+reviewedby: => 6
+
+Predicted Standard signature: reportedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: suggestionsby:
+reviewedby: => 9
+codevelopedby: => 9
+signedoffby: => 7
+suggestedby: => 4
+cc: => 12
+ackedby: => 9
+reportedby: => 9
+to: => 11
+testedby: => 7
+
+Predicted Standard signature: suggestedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: pointedoutby:
+cc: => 11
+ackedby: => 7
+reportedby: => 7
+testedby: => 6
+to: => 10
+reviewedby: => 7
+codevelopedby: => 7
+signedoffby: => 5
+suggestedby: => 8
+
+Predicted Standard signature: signedoffby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: reivewedby:
+reviewedby: => 2
+suggestedby: => 5
+codevelopedby: => 6
+signedoffby: => 7
+ackedby: => 5
+cc: => 9
+reportedby: => 4
+to: => 9
+testedby: => 4
+
+Predicted Standard signature: reviewedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: reportedandanalyzedby:
+reviewedby: => 14
+signedoffby: => 16
+codevelopedby: => 13
+suggestedby: => 15
+cc: => 20
+ackedby: => 16
+to: => 19
+testedby: => 14
+reportedby: => 11
+
+Predicted Standard signature: reportedby:
+For edit distance: 11
+
+
+****************************************
+
+
+For: spottedby:
+reportedby: => 2
+testedby: => 3
+to: => 7
+ackedby: => 4
+cc: => 8
+suggestedby: => 5
+codevelopedby: => 8
+signedoffby: => 7
+reviewedby: => 5
+
+Predicted Standard signature: reportedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: signefoffby:
+reportedby: => 8
+testedby: => 7
+to: => 9
+ackedby: => 7
+cc: => 10
+suggestedby: => 6
+codevelopedby: => 8
+signedoffby: => 1
+reviewedby: => 7
+
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: reportedanddebuggedby:
+suggestedby: => 15
+signedoffby: => 16
+codevelopedby: => 13
+reviewedby: => 14
+to: => 19
+testedby: => 14
+reportedby: => 11
+ackedby: => 16
+cc: => 20
+
+Predicted Standard signature: reportedby:
+For edit distance: 11
+
+
+****************************************
+
+
+For: designedby:
+reportedby: => 4
+to: => 9
+testedby: => 3
+cc: => 9
+ackedby: => 5
+codevelopedby: => 7
+signedoffby: => 5
+suggestedby: => 6
+reviewedby: => 3
+
+Predicted Standard signature: testedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: testby:
+testedby: => 2
+to: => 5
+reportedby: => 5
+ackedby: => 4
+cc: => 5
+suggestedby: => 5
+signedoffby: => 7
+codevelopedby: => 9
+reviewedby: => 6
+
+Predicted Standard signature: testedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: acked_by:
+to: => 7
+testedby: => 4
+reportedby: => 6
+cc: => 6
+ackedby: => 1
+signedoffby: => 6
+codevelopedby: => 9
+suggestedby: => 7
+reviewedby: => 6
+
+Predicted Standard signature: ackedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: pointedatby:
+ackedby: => 6
+cc: => 10
+testedby: => 5
+to: => 9
+reportedby: => 6
+reviewedby: => 6
+suggestedby: => 7
+signedoffby: => 6
+codevelopedby: => 8
+
+Predicted Standard signature: testedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: rantedby:
+cc: => 7
+ackedby: => 3
+reportedby: => 4
+testedby: => 2
+to: => 7
+reviewedby: => 5
+codevelopedby: => 8
+signedoffby: => 6
+suggestedby: => 5
+
+Predicted Standard signature: testedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: signedoffbyby:
+ackedby: => 8
+cc: => 12
+reportedby: => 8
+testedby: => 8
+to: => 11
+reviewedby: => 9
+suggestedby: => 8
+codevelopedby: => 9
+signedoffby: => 2
+
+Predicted Standard signature: signedoffby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: investigatedby:
+suggestedby: => 7
+codevelopedby: => 8
+signedoffby: => 10
+reviewedby: => 7
+reportedby: => 7
+to: => 13
+testedby: => 6
+ackedby: => 9
+cc: => 13
+
+Predicted Standard signature: testedby:
+For edit distance: 6
+
+
+****************************************
+
+
+For: reportedandtestby:
+to: => 15
+testedby: => 10
+reportedby: => 7
+cc: => 16
+ackedby: => 12
+signedoffby: => 12
+codevelopedby: => 11
+suggestedby: => 11
+reviewedby: => 11
+
+Predicted Standard signature: reportedby:
+For edit distance: 7
+
+
+****************************************
+
+
+For: fsckedupby:
+testedby: => 5
+to: => 9
+reportedby: => 7
+ackedby: => 3
+cc: => 8
+suggestedby: => 7
+signedoffby: => 6
+codevelopedby: => 8
+reviewedby: => 6
+
+Predicted Standard signature: ackedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: originalpathby:
+ackedby: => 11
+cc: => 13
+reportedby: => 11
+testedby: => 11
+to: => 13
+reviewedby: => 10
+suggestedby: => 10
+codevelopedby: => 10
+signedoffby: => 8
+
+Predicted Standard signature: signedoffby:
+For edit distance: 8
+
+
+****************************************
+
+
+For: reportedbyby:
+reviewedby: => 6
+codevelopedby: => 9
+signedoffby: => 8
+suggestedby: => 7
+cc: => 11
+ackedby: => 7
+reportedby: => 2
+to: => 10
+testedby: => 5
+
+Predicted Standard signature: reportedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: reporetdby:
+codevelopedby: => 7
+signedoffby: => 8
+suggestedby: => 6
+reviewedby: => 5
+reportedby: => 2
+testedby: => 4
+to: => 8
+cc: => 9
+ackedby: => 5
+
+Predicted Standard signature: reportedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: reviewedby:
+to: => 9
+testedby: => 4
+reportedby: => 4
+cc: => 9
+ackedby: => 5
+signedoffby: => 7
+codevelopedby: => 6
+suggestedby: => 5
+reviewedby: => 0
+
+Predicted Standard signature: reviewedby:
+For edit distance: 0
+
+
+****************************************
+
+
+For: evaluatedby:
+signedoffby: => 8
+codevelopedby: => 7
+suggestedby: => 5
+reviewedby: => 6
+testedby: => 5
+to: => 10
+reportedby: => 5
+cc: => 10
+ackedby: => 6
+
+Predicted Standard signature: suggestedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: noobjectionfrommeby:
+cc: => 17
+ackedby: => 15
+reportedby: => 13
+testedby: => 14
+to: => 17
+reviewedby: => 14
+codevelopedby: => 13
+signedoffby: => 13
+suggestedby: => 14
+
+Predicted Standard signature: reportedby:
+For edit distance: 13
+
+
+****************************************
+
+
+For: sugestedby:
+reviewedby: => 5
+signedoffby: => 6
+codevelopedby: => 7
+suggestedby: => 1
+cc: => 9
+ackedby: => 5
+to: => 9
+testedby: => 2
+reportedby: => 4
+
+Predicted Standard signature: suggestedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: suggestedby:
+reviewedby: => 5
+signedoffby: => 6
+codevelopedby: => 7
+suggestedby: => 0
+cc: => 10
+ackedby: => 6
+to: => 10
+testedby: => 3
+reportedby: => 5
+
+Predicted Standard signature: suggestedby:
+For edit distance: 0
+
+
+****************************************
+
+
+For: bugactuallyspottedby:
+suggestedby: => 11
+codevelopedby: => 13
+signedoffby: => 15
+reviewedby: => 15
+reportedby: => 12
+to: => 18
+testedby: => 13
+ackedby: => 14
+cc: => 18
+
+Predicted Standard signature: suggestedby:
+For edit distance: 11
+
+
+****************************************
+
+
+For: repotedby:
+suggestedby: => 5
+codevelopedby: => 6
+signedoffby: => 7
+reviewedby: => 4
+reportedby: => 1
+to: => 7
+testedby: => 2
+ackedby: => 4
+cc: => 8
+
+Predicted Standard signature: reportedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: decodedby:
+reviewedby: => 4
+suggestedby: => 6
+codevelopedby: => 6
+signedoffby: => 7
+ackedby: => 3
+cc: => 7
+reportedby: => 3
+to: => 7
+testedby: => 3
+
+Predicted Standard signature: ackedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: nicedby:
+reviewedby: => 4
+suggestedby: => 6
+codevelopedby: => 8
+signedoffby: => 5
+ackedby: => 2
+cc: => 5
+reportedby: => 5
+to: => 6
+testedby: => 3
+
+Predicted Standard signature: ackedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: reporedandbisectedby:
+reviewedby: => 12
+codevelopedby: => 13
+signedoffby: => 15
+suggestedby: => 12
+cc: => 18
+ackedby: => 14
+reportedby: => 10
+to: => 18
+testedby: => 12
+
+Predicted Standard signature: reportedby:
+For edit distance: 10
+
+
+****************************************
+
+
+For: rportedby:
+reviewedby: => 5
+signedoffby: => 7
+codevelopedby: => 8
+suggestedby: => 5
+cc: => 8
+ackedby: => 4
+to: => 7
+testedby: => 3
+reportedby: => 1
+
+Predicted Standard signature: reportedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: ackedoffby:
+reportedby: => 7
+to: => 8
+testedby: => 6
+cc: => 8
+ackedby: => 3
+codevelopedby: => 8
+signedoffby: => 3
+suggestedby: => 7
+reviewedby: => 7
+
+Predicted Standard signature: ackedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: eignedoffby:
+to: => 9
+testedby: => 6
+reportedby: => 8
+cc: => 10
+ackedby: => 6
+signedoffby: => 0
+codevelopedby: => 8
+suggestedby: => 6
+reviewedby: => 7
+
+Predicted Standard signature: signedoffby:
+For edit distance: 0
+
+
+****************************************
+
+
+For: reveiwedby:
+to: => 9
+testedby: => 4
+reportedby: => 4
+cc: => 9
+ackedby: => 5
+signedoffby: => 7
+codevelopedby: => 5
+suggestedby: => 5
+reviewedby: => 2
+
+Predicted Standard signature: reviewedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: ignedoffby:
+reportedby: => 7
+to: => 8
+testedby: => 6
+cc: => 9
+ackedby: => 5
+codevelopedby: => 8
+signedoffby: => 1
+suggestedby: => 6
+reviewedby: => 7
+
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: testedbyby:
+testedby: => 2
+to: => 9
+reportedby: => 5
+ackedby: => 5
+cc: => 9
+suggestedby: => 5
+signedoffby: => 6
+codevelopedby: => 9
+reviewedby: => 5
+
+Predicted Standard signature: testedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: sugesstedby:
+reviewedby: => 6
+codevelopedby: => 7
+signedoffby: => 7
+suggestedby: => 2
+cc: => 10
+ackedby: => 6
+reportedby: => 5
+to: => 10
+testedby: => 3
+
+Predicted Standard signature: suggestedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: epicbrownpaperbagby:
+ackedby: => 14
+cc: => 17
+reportedby: => 14
+testedby: => 15
+to: => 17
+reviewedby: => 14
+suggestedby: => 15
+codevelopedby: => 14
+signedoffby: => 13
+
+Predicted Standard signature: signedoffby:
+For edit distance: 13
+
+
+****************************************
+
+
+For: discoveredby:
+cc: => 10
+ackedby: => 6
+testedby: => 6
+to: => 10
+reportedby: => 6
+reviewedby: => 6
+signedoffby: => 8
+codevelopedby: => 7
+suggestedby: => 7
+
+Predicted Standard signature: ackedby:
+For edit distance: 6
+
+
+****************************************
+
+
+For: rewiewedby:
+suggestedby: => 5
+signedoffby: => 7
+codevelopedby: => 7
+reviewedby: => 1
+to: => 9
+testedby: => 4
+reportedby: => 4
+ackedby: => 5
+cc: => 9
+
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: testeby:
+reportedby: => 4
+testedby: => 1
+to: => 6
+ackedby: => 4
+cc: => 6
+suggestedby: => 4
+codevelopedby: => 8
+signedoffby: => 7
+reviewedby: => 5
+
+Predicted Standard signature: testedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: patientlypointedoutby:
+suggestedby: => 14
+codevelopedby: => 13
+signedoffby: => 13
+reviewedby: => 14
+reportedby: => 12
+to: => 19
+testedby: => 14
+ackedby: => 16
+cc: => 20
+
+Predicted Standard signature: reportedby:
+For edit distance: 12
+
+
+****************************************
+
+
+For: signeeoffby:
+codevelopedby: => 8
+signedoffby: => 1
+suggestedby: => 6
+reviewedby: => 7
+reportedby: => 8
+testedby: => 7
+to: => 9
+cc: => 10
+ackedby: => 7
+
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: by:
+cc: => 1
+ackedby: => 5
+testedby: => 6
+to: => 1
+reportedby: => 8
+reviewedby: => 8
+signedoffby: => 9
+codevelopedby: => 11
+suggestedby: => 9
+
+Predicted Standard signature: cc:
+For edit distance: 1
+
+
+****************************************
+
+
+For: fixesby:
+reviewedby: => 5
+signedoffby: => 6
+codevelopedby: => 9
+suggestedby: => 6
+cc: => 6
+ackedby: => 3
+to: => 6
+testedby: => 4
+reportedby: => 6
+
+Predicted Standard signature: ackedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: cleanedupby:
+to: => 10
+testedby: => 5
+reportedby: => 7
+cc: => 10
+ackedby: => 6
+signedoffby: => 6
+codevelopedby: => 8
+suggestedby: => 7
+reviewedby: => 6
+
+Predicted Standard signature: testedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: signenoffby:
+reportedby: => 8
+to: => 9
+testedby: => 7
+cc: => 10
+ackedby: => 7
+codevelopedby: => 8
+signedoffby: => 1
+suggestedby: => 6
+reviewedby: => 7
+
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: looksokby:
+reviewedby: => 7
+codevelopedby: => 8
+signedoffby: => 7
+suggestedby: => 7
+cc: => 8
+ackedby: => 5
+reportedby: => 6
+to: => 7
+testedby: => 6
+
+Predicted Standard signature: ackedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: fixcreationmandatedby:
+reportedby: => 13
+testedby: => 14
+to: => 19
+ackedby: => 15
+cc: => 19
+suggestedby: => 14
+codevelopedby: => 14
+signedoffby: => 15
+reviewedby: => 14
+
+Predicted Standard signature: reportedby:
+For edit distance: 13
+
+
+****************************************
+
+
+For: brownpaperbagby:
+ackedby: => 11
+cc: => 14
+reportedby: => 10
+testedby: => 11
+to: => 13
+reviewedby: => 11
+suggestedby: => 11
+codevelopedby: => 11
+signedoffby: => 10
+
+Predicted Standard signature: reportedby:
+For edit distance: 10
+
+
+****************************************
+
+
+For: submittedby:
+suggestedby: => 4
+signedoffby: => 8
+codevelopedby: => 8
+reviewedby: => 5
+to: => 10
+testedby: => 5
+reportedby: => 5
+ackedby: => 6
+cc: => 10
+
+Predicted Standard signature: suggestedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: reportedandfixedby:
+ackedby: => 13
+cc: => 17
+reportedby: => 8
+testedby: => 11
+to: => 16
+reviewedby: => 11
+suggestedby: => 12
+codevelopedby: => 11
+signedoffby: => 12
+
+Predicted Standard signature: reportedby:
+For edit distance: 8
+
+
+****************************************
+
+
+For: eportedby:
+cc: => 8
+ackedby: => 4
+reportedby: => 1
+testedby: => 3
+to: => 7
+reviewedby: => 5
+codevelopedby: => 8
+signedoffby: => 7
+suggestedby: => 5
+
+Predicted Standard signature: reportedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: reviewedyby:
+codevelopedby: => 7
+signedoffby: => 7
+suggestedby: => 6
+reviewedby: => 1
+reportedby: => 5
+testedby: => 5
+to: => 10
+cc: => 10
+ackedby: => 6
+
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: justdoitby:
+suggestedby: => 7
+codevelopedby: => 9
+signedoffby: => 6
+reviewedby: => 7
+reportedby: => 7
+to: => 8
+testedby: => 5
+ackedby: => 6
+cc: => 9
+
+Predicted Standard signature: testedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: scriptedby:
+reportedby: => 4
+testedby: => 4
+to: => 9
+ackedby: => 4
+cc: => 8
+suggestedby: => 5
+codevelopedby: => 8
+signedoffby: => 7
+reviewedby: => 4
+
+Predicted Standard signature: reportedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: siganedoffby:
+signedoffby: => 1
+codevelopedby: => 8
+suggestedby: => 7
+reviewedby: => 8
+testedby: => 7
+to: => 10
+reportedby: => 8
+cc: => 11
+ackedby: => 7
+
+Predicted Standard signature: signedoffby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: ackedyby:
+reportedby: => 6
+to: => 7
+testedby: => 4
+cc: => 6
+ackedby: => 1
+codevelopedby: => 9
+signedoffby: => 6
+suggestedby: => 7
+reviewedby: => 6
+
+Predicted Standard signature: ackedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: reviewby:
+codevelopedby: => 7
+signedoffby: => 7
+suggestedby: => 6
+reviewedby: => 2
+reportedby: => 5
+testedby: => 3
+to: => 7
+cc: => 7
+ackedby: => 4
+
+Predicted Standard signature: reviewedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: tweetedby:
+reviewedby: => 4
+suggestedby: => 4
+codevelopedby: => 6
+signedoffby: => 7
+ackedby: => 4
+cc: => 8
+reportedby: => 4
+to: => 8
+testedby: => 2
+
+Predicted Standard signature: testedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: fairlyblamedby:
+reviewedby: => 9
+suggestedby: => 9
+codevelopedby: => 8
+signedoffby: => 10
+ackedby: => 9
+cc: => 13
+reportedby: => 9
+to: => 13
+testedby: => 9
+
+Predicted Standard signature: codevelopedby:
+For edit distance: 8
+
+
+****************************************
+
+
+For: originalwrittenby:
+cc: => 16
+ackedby: => 13
+reportedby: => 11
+testedby: => 12
+to: => 16
+reviewedby: => 11
+codevelopedby: => 12
+signedoffby: => 11
+suggestedby: => 11
+
+Predicted Standard signature: reportedby:
+For edit distance: 11
+
+
+****************************************
+
+
+For: ackby:
+suggestedby: => 8
+codevelopedby: => 10
+signedoffby: => 8
+reviewedby: => 7
+reportedby: => 7
+to: => 4
+testedby: => 5
+ackedby: => 2
+cc: => 3
+
+Predicted Standard signature: ackedby:
+For edit distance: 2
+
+
+****************************************
+
+
+For: screwedupby:
+suggestedby: => 7
+codevelopedby: => 7
+signedoffby: => 7
+reviewedby: => 5
+reportedby: => 7
+to: => 10
+testedby: => 6
+ackedby: => 5
+cc: => 9
+
+Predicted Standard signature: reviewedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: despisedby:
+reviewedby: => 4
+signedoffby: => 8
+codevelopedby: => 7
+suggestedby: => 5
+cc: => 9
+ackedby: => 5
+to: => 9
+testedby: => 3
+reportedby: => 4
+
+Predicted Standard signature: testedby:
+For edit distance: 3
+
+
+****************************************
+
+
+For: ackedagainby:
+to: => 11
+testedby: => 8
+reportedby: => 8
+cc: => 10
+ackedby: => 5
+signedoffby: => 8
+codevelopedby: => 9
+suggestedby: => 9
+reviewedby: => 8
+
+Predicted Standard signature: ackedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: nitpickedby:
+reviewedby: => 5
+suggestedby: => 6
+codevelopedby: => 8
+signedoffby: => 7
+ackedby: => 4
+cc: => 9
+reportedby: => 5
+to: => 10
+testedby: => 6
+
+Predicted Standard signature: ackedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: reportedandreviwedby:
+reviewedby: => 12
+signedoffby: => 15
+codevelopedby: => 12
+suggestedby: => 14
+cc: => 19
+ackedby: => 15
+to: => 18
+testedby: => 13
+reportedby: => 10
+
+Predicted Standard signature: reportedby:
+For edit distance: 10
+
+
+****************************************
+
+
+For: reortedby:
+reviewedby: => 4
+signedoffby: => 7
+codevelopedby: => 7
+suggestedby: => 5
+cc: => 8
+ackedby: => 4
+to: => 7
+testedby: => 2
+reportedby: => 1
+
+Predicted Standard signature: reportedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: suggstedby:
+reportedby: => 4
+to: => 9
+testedby: => 3
+cc: => 9
+ackedby: => 5
+codevelopedby: => 8
+signedoffby: => 7
+suggestedby: => 1
+reviewedby: => 5
+
+Predicted Standard signature: suggestedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: reviwedby:
+suggestedby: => 6
+codevelopedby: => 6
+signedoffby: => 7
+reviewedby: => 1
+reportedby: => 4
+to: => 8
+testedby: => 3
+ackedby: => 4
+cc: => 8
+
+Predicted Standard signature: reviewedby:
+For edit distance: 1
+
+
+****************************************
+
+
+For: authoredby:
+reviewedby: => 5
+signedoffby: => 8
+codevelopedby: => 7
+suggestedby: => 5
+cc: => 9
+ackedby: => 5
+to: => 8
+testedby: => 5
+reportedby: => 4
+
+Predicted Standard signature: reportedby:
+For edit distance: 4
+
+
+****************************************
+
+
+For: bonuspointsawardedby:
+cc: => 19
+ackedby: => 15
+reportedby: => 12
+testedby: => 13
+to: => 18
+reviewedby: => 13
+codevelopedby: => 14
+signedoffby: => 16
+suggestedby: => 13
+
+Predicted Standard signature: reportedby:
+For edit distance: 12
+
+
+****************************************
+
+
+For: reportedandinspiredby:
+testedby: => 14
+to: => 19
+reportedby: => 11
+ackedby: => 16
+cc: => 20
+suggestedby: => 14
+signedoffby: => 16
+codevelopedby: => 13
+reviewedby: => 14
+
+Predicted Standard signature: reportedby:
+For edit distance: 11
+
+
+****************************************
+
+
+For: reviewedbyoffby:
+testedby: => 9
+to: => 13
+reportedby: => 9
+ackedby: => 10
+cc: => 14
+suggestedby: => 10
+signedoffby: => 6
+codevelopedby: => 10
+reviewedby: => 5
+
+Predicted Standard signature: reviewedby:
+For edit distance: 5
+
+
+****************************************
+
+
+For: testedoffby:
+codevelopedby: => 8
+signedoffby: => 3
+suggestedby: => 6
+reviewedby: => 6
+reportedby: => 6
+testedby: => 3
+to: => 9
+cc: => 10
+ackedby: => 6
+
+Predicted Standard signature: signedoffby:
+For edit distance: 3
+
+
+****************************************
+
+
