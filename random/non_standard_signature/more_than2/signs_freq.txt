@@ -1,0 +1,140 @@
+1)Debugged-by: 61
+
+2)Requested-by: 48
+
+3)Co-authored-by: 43
+
+4)Originally-by: 39
+
+5)Analyzed-by: 22
+
+6)Bisected-by: 20
+
+7)Improvements-by: 19
+
+8)Generated-by: 17
+
+9)Noticed-by: 11
+
+10)Inspired-by: 11
+
+11)Original-patch-by: 11
+
+12)Diagnosed-by: 11
+
+13)Based-on-a-patch-by: 8
+
+14)Verified-by: 8
+
+15)Okay-ished-by: 8
+
+16)Based-on-patch-by: 7
+
+17)Root-caused-by: 6
+
+18)Original-by: 6
+
+19)Acked-for-MFD-by: 6
+
+20)Reviewed-off-by: 5
+
+21)Based-on-patches-by: 5
+
+22)Analysed-by: 5
+
+23)Based-on-work-by: 5
+
+24)Proposed-by: 5
+
+25)Reported-and-bisected-by: 4
+
+26)Fixed-by: 3
+
+27)Pointed-out-by: 3
+
+28)Suggestions-by: 3
+
+29)Celebrated-by: 3
+
+30)Pointed-at-by: 2
+
+31)Reported-and-analyzed-by: 2
+
+32)Spotted-by: 2
+
+33)Designed-by: 2
+
+34)Ranted-by: 2
+
+35)Reported-and-debugged-by: 2
+
+36)Investigated-by: 2
+
+37)Evaluated-by: 1
+
+38)Reported-and-fixed-by: 1
+
+39)Fixes-by: 1
+
+40)Brown-paper-bag-by: 1
+
+41)Reported-and-test-by: 1
+
+42)No-objection-from-me-by: 1
+
+43)Acked-again-by: 1
+
+44)Reviewed-by-off-by: 1
+
+45)Original-path-by: 1
+
+46)Patiently-pointed-out-by: 1
+
+47)Nitpicked-by: 1
+
+48)Bug-actually-spotted-by: 1
+
+49)Submitted-by: 1
+
+50)Authored-by: 1
+
+51)Epic-brown-paper-bag-by: 1
+
+52)Fscked-up-by: 1
+
+53)Fairly-blamed-by: 1
+
+54)Bonus-points-awarded-by: 1
+
+55)Niced-by: 1
+
+56)Looks-ok-by: 1
+
+57)Cleaned-up-by: 1
+
+58)Fix-creation-mandated-by: 1
+
+59)Acked-off-by: 1
+
+60)Discovered-by: 1
+
+61)Scripted-by: 1
+
+62)Just-do-it-by: 1
+
+63)Repored-and-bisected-by: 1
+
+64)Despised-by: 1
+
+65)Reported-and-Inspired-by: 1
+
+66)Screwed-up-by: 1
+
+67)Reported-and-reviwed-by: 1
+
+68)Tested-off-by: 1
+
+69)Decoded-by: 1
+
+70)Original-written-by: 1
+
