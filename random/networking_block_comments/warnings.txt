@@ -1,0 +1,5063 @@
+Non-standard signatures: 
+
+1)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#78: FILE: net/bluetooth/cmtp/core.c:436:
++		/*
++		 * See the comment preceding the call to wait_woken()
+
+ 
+
+2)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1120: FILE: net/wireless/nl80211.c:1731:
++	/*
++	 * we don't need to clean up anything here since the caller
+
+ 
+
+3)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#486: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:378:
++		/*
++		 * FIXME: the firmware needs to report this, we don't even know
+
+ 
+
+4)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4154: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1736:
++	/*
++	 * Copy/convert the address lists; add the primary station
+
+ 
+
+5)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#326: FILE: drivers/net/wireless/intel/iwlwifi/mvm/time-event.c:799:
++			/*
++			 * By now, we should have finished association
+
+ 
+
+6)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#93: FILE: net/wireless/nl80211.c:9452:
++	/*
++	 * when driver supports fils-sk offload all attributes must be
+
+ 
+
+7)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#346: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1367:
++	/*
++	 * Actual en/disablement of aggregations is through the ADD_STA HCMD,
+
+ 
+
+8)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#99: FILE: net/wireless/scan.c:1116:
++		/*
++		 * Ignore channel number in 5 and 10 MHz channels where there
+
+ 
+
+9)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#84: FILE: net/sunrpc/xprt.c:1165:
++	/*
++	 * Update req->rq_ntrans before transmitting to avoid races with
+
+ 
+
+10)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#190: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:964:
++	/*
++	 * Make sure we have enough TBs for the A-MSDU:
+
+ 
+
+11)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#65: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mcu.c:782:
++	/*
++	 * If there is at least one AP on radar channel that cannot
+
+ 
+
+12)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#145: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/dbg-tlv.h:124:
++/*
++ * struct iwl_fw_ini_debug_flow_tlv (IWL_FW_INI_TLV_TYPE_DEBUG_FLOW)
+
+ 
+
+13)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#229: FILE: net/netfilter/xt_IDLETIMER.c:266:
++/*
++ * The actual xt_tables plugin.
+
+ 
+
+14)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#44076: FILE: drivers/net/wireless/ath/ath11k/wmi.h:110:
++/*
++ * wmi command groups.
+
+ 
+
+15)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#616: FILE: drivers/net/wireless/intel/iwlwifi/mvm/utils.c:1571:
++	/*
++	 * If low-latency is active we need to force re-evaluation after
+
+ 
+
+16)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#444: FILE: drivers/net/ethernet/stmicro/stmmac/dwmac5.c:229:
++	/*
++	 * All the Automotive Safety features are selected without the "Parity
+
+ 
+
+17)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#115: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:97:
++	/*
++	 * In VER_1 of this command, the discrete value is considered
+
+ 
+
+18)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#586: FILE: net/ceph/osd_client.c:733:
++/*
++ * oid, oloc and OSD op opcode(s) must be filled in before this function
+
+ 
+
+19)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#400: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1421:
++	/*
++	 * This looks racy, but it is not. We have only one packet for
+
+ 
+
+20)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#44: FILE: drivers/net/wireless/intel/iwlwifi/mvm/scan.c:1532:
++	/*
++	 * If the number of iterations of the last scan plan is set to
+
+ 
+
+21)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#333: FILE: net/8021q/vlan_dev.c:493:
++/*
++ * vlan network devices have devices nesting below it, and are a special
+
+ 
+
+22)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#11297: FILE: drivers/net/wireless/ath/ath11k/debug_htt_stats.h:1603:
++	/*
++	 * The sounding array is a 2-D array stored as an 1-D array of
+
+ 
+
+23)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#97: FILE: net/rxrpc/conn_client.c:1167:
++/*
++ * Clean up the client connections on a local endpoint.
+
+ 
+
+24)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#121: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:558:
++	/*
++	 * TODO: read specific phy config from BIOS
+
+ 
+
+25)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#170: FILE: net/rxrpc/peer_object.c:419:
++/*
++ * Queue a peer record.  This passes the caller's ref to the workqueue.
+
+ 
+
+26)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#28: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1486:
++			/*
++			 * on failures, just set it to IWL_MVM_INVALID_QUEUE
+
+ 
+
+27)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#357: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/rx.h:349:
++/*
++ * enum iwl_rx_he_phy - HE PHY data
+
+ 
+
+28)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#61: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:1710:
++		/*
++		 * take the nss from the rx_vec since the rate_n_flags has
+
+ 
+
+29)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#63: FILE: drivers/net/wireless/intel/iwlwifi/pcie/rx.c:1843:
++			/*
++			 * We can restock, since firmware configured
+
+ 
+
+30)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#213: FILE: net/sctp/outqueue.c:1203:
++	/*
++	 * 6.10 Bundling
+
+ 
+
+31)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#27: FILE: net/mac80211/mlme.c:920:
++	/*
++	 * If AP doesn't support HT, mark HE as disabled.
+
+ 
+
+32)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#234: FILE: net/netfilter/nf_conncount.c:129:
++			/*
++			 * we do not care about connections which are
+
+ 
+
+33)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#145: FILE: drivers/net/wireless/ath/wil6210/txrx.c:728:
++/*
++ * Check if skb is ptk eapol key message
+
+ 
+
+34)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#203: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:503:
++	/*
++	 * No need for _with_wa, the first TB allocation is aligned up
+
+ 
+
+35)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: net/sunrpc/auth_gss/auth_gss.c:477:
++	/*
++	 * gssd uses service= and srchost= to select a matching key from
+
+ 
+
+36)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#179: FILE: drivers/net/hyperv/netvsc_drv.c:1944:
++	/*
++	 * We will use the MAC address to locate the synthetic interface to
+
+ 
+
+37)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#42: FILE: drivers/net/wireless/intel/iwlwifi/fw/dbg.c:1992:
++	/*
++	 * Several HWs all have type == 0x42, so we'll override this value
+
+ 
+
+38)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#165: FILE: net/rxrpc/recvmsg.c:62:
++/*
++ * Transition a call to the complete state.
+
+ 
+
+39)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4135: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1717:
++/*
++ * Caller must hold efx->filter_sem for read if race against
+
+ 
+
+40)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#185: FILE: net/rxrpc/peer_object.c:434:
++/*
++ * Discard a peer record.
+
+ 
+
+41)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#77: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:749:
++			/*
++			 * IWL_MVM_OFFCHANNEL_QUEUE is used for ROC packets
+
+ 
+
+42)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#40: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:564:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+43)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#260: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:208:
++/*
++ * struct iwl_context_info_gen3 - device INIT configuration
+
+ 
+
+44)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#111: FILE: drivers/net/hamradio/bpqether.c:111:
++/*
++ * bpqether network devices are paired with ethernet devices below them, so
+
+ 
+
+45)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#28: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1404:
++		/*
++		 * We can't really do much here, but if this fails we can't
+
+ 
+
+46)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#618: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs.h:148:
++/*
++ * FIXME - various places in firmware API still use u8,
+
+ 
+
+47)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#192: FILE: net/rxrpc/local_object.c:291:
++/*
++ * Queue a local endpoint.
+
+ 
+
+48)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#57: FILE: net/core/pktgen.c:2777:
++		/*
++		 * pgh->tv_sec wraps in y2106 when interpreted as unsigned
+
+ 
+
+49)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#81: FILE: net/dsa/tag_edsa.c:113:
++		/*
++		 * Mark the frame to never egress on any port of the same switch
+
+ 
+
+50)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#66: FILE: net/sctp/sm_sideeffect.c:1527:
++			/*
++			 * SCTP has a hard time with timer starts.  Because we process
+
+ 
+
+51)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#609: FILE: net/ceph/osd_client.c:1104:
++		/*
++		 * This is a special case for ceph_writepages_start(), but it
+
+ 
+
+52)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#67: FILE: drivers/net/bonding/bond_main.c:1187:
++	/*
++	 * For packets determined by bond_should_deliver_exact_match() call to
+
+ 
+
+53)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#100: FILE: net/wireless/sme.c:1173:
++	/*
++	 * Clear ssid_len unless we actually were fully connected,
+
+ 
+
+54)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#444: FILE: net/mac80211/util.c:1223:
++				/*
++				 * we only expect the "non-transmitted BSSID
+
+ 
+
+55)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#211: FILE: drivers/net/wireless/ralink/rt2x00/rt2800mmio.c:508:
++		/*
++		 * Wait for a little while to give the driver
+
+ 
+
+56)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#48: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:345:
++	/*
++	 * For non 2 GHZ band, remap mac80211 rate
+
+ 
+
+57)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#491: FILE: net/mac80211/main.c:1030:
++	/*
++	 * TODO: 1 is added at the end of the calculation to accommodate for
+
+ 
+
+58)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#86: FILE: drivers/net/ethernet/marvell/mvpp2/mvpp2_main.c:5251:
++	/*
++	 * Rewrite 10GBASE-KR to 10GBASE-R for compatibility with existing DT.
+
+ 
+
+59)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#167: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs.c:1769:
++			/*
++			 * Not so elegant, but this will effectively
+
+ 
+
+60)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#63: FILE: drivers/net/wireless/intel/iwlwifi/mvm/phy-ctxt.c:288:
++	/*
++	 * Move unused phy's to a default channel. When the phy is moved the,
+
+ 
+
+61)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#52: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:576:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+62)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#25: FILE: net/sunrpc/clnt.c:1815:
++/*
++ * Helpers to check if the task was already transmitted, and
+
+ 
+
+63)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#107: FILE: net/wireless/scan.c:1124:
++	/*
++	 * Use the channel determined through the payload channel number
+
+ 
+
+64)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#637: FILE: net/netrom/af_netrom.c:67:
++/*
++ * NETROM network devices are virtual network devices encapsulating NETROM
+
+ 
+
+65)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#364: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1320:
++	/*
++	 * If we are here, this is a shared queue and not all TIDs timed-out.
+
+ 
+
+66)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2205: FILE: drivers/net/wireless/ath/ath11k/ce.h:90:
++	/*
++	 * Max source send size for this CE.
+
+ 
+
+67)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#65: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:541:
++	/*
++	 * We keep the NSSN not too far behind, if we are sync'ing it and it
+
+ 
+
+68)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#26: FILE: drivers/net/wireless/ath/ath10k/qmi.c:777:
++	/*
++	 * HACK: sleep for a while inbetween receiving the msa info response
+
+ 
+
+69)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#64: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:276:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+70)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#205: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mvm.h:1969:
++		/*
++		 * We enter force state
+
+ 
+
+71)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1972: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:702:
++	/*
++	 * TODO: MT_TX_FREE_LATENCY is msdu time from the TXD is queued into PLE,
+
+ 
+
+72)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#39: FILE: net/bluetooth/bnep/core.c:513:
++		/*
++		 * wait_woken() performs the necessary memory barriers
+
+ 
+
+73)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#56: FILE: net/mac80211/agg-tx.c:473:
++		/*
++		 * We really should use what the driver told us it will
+
+ 
+
+74)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#52: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:268:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+75)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#302: FILE: drivers/net/wireless/intel/iwlwifi/mvm/d3.c:1606:
++		/*
++		 * The key index only uses 2 bits (values 0 to 3) and
+
+ 
+
+76)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#84: FILE: net/mac80211/tx.c:3230:
++	/*
++	 * Pad out the previous subframe to a multiple of 4 by adding the
+
+ 
+
+77)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#50: FILE: net/mac80211/main.c:615:
++	/*
++	 * We need a bit of data queued to build aggregates properly, so
+
+ 
+
+78)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3465: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1047:
++		/*
++		 * If any filters failed to insert, rollback and fall back to
+
+ 
+
+79)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#168: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:442:
++		/*
++		 * No need for _with_wa, this is from the TSO page and
+
+ 
+
+80)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#48: FILE: drivers/net/wireless/intel/iwlwifi/mvm/utils.c:1402:
++	/*
++	 * if the current load is not low or low latency is active, force
+
+ 
+
+81)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#193: FILE: net/rxrpc/sendmsg.c:105:
++/*
++ * Wait for space to appear in the Tx queue uninterruptibly.
+
+ 
+
+82)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#110: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:3331:
++		/*
++		 * Now that the station is authorized, i.e., keys were already
+
+ 
+
+83)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#69: FILE: net/ceph/osd_client.c:4741:
++	/*
++	 * Pass 0 for cookie because we don't know it yet, it will be
+
+ 
+
+84)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#30: FILE: net/ceph/osd_client.c:2437:
++/*
++ * We can end up releasing caps as a result of abort_request().
+
+ 
+
+85)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#42: FILE: drivers/net/wireless/intel/iwlwifi/fw/paging.c:234:
++		/*
++		 * For the last block, we copy all that is remaining,
+
+ 
+
+86)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#68: FILE: net/rxrpc/ar-internal.h:647:
++/*
++ * sendmsg() cmsg-specified parameters.
+
+ 
+
+87)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#311: FILE: net/rxrpc/peer_event.c:403:
++/*
++ * Perform keep-alive pings with VERSION packets to keep any NAT alive.
+
+ 
+
+88)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#99: FILE: drivers/net/wireless/intersil/p54/p54usb.c:939:
++	/*
++	 * At this point p54u_disconnect may have already freed
+
+ 
+
+89)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#239: FILE: net/ceph/striper.c:136:
++/*
++ * A stripped down, non-allocating version of ceph_file_to_extents(),
+
+ 
+
+90)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#40: FILE: drivers/net/wireless/intel/iwlwifi/iwl-trans.h:812:
++/*
++ * The FH will write back to the first TB only, so we need to copy some data
+
+ 
+
+91)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#113: FILE: net/netfilter/nf_osf.c:124:
++			/*
++			 * Some smart modems decrease mangle MSS to
+
+ 
+
+92)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#261: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:887:
++			/*
++			 * If we crossed the 2048 or 0 SN, notify all the
+
+ 
+
+93)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#223: FILE: net/netfilter/nf_conntrack_core.c:323:
++	/*
++	 * (protoff == skb->len) means the packet has not data, just
+
+ 
+
+94)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#77: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:1584:
++	/*
++	 * Reconfigure IVAR table in case of MSIX or reset ict table in
+
+ 
+
+95)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#112: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx.c:1185:
++		/*
++		 * We are going to transmit from the overflow queue.
+
+ 
+
+96)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#270: FILE: drivers/net/wireless/intel/iwlwifi/pcie/rx.c:763:
++	/*
++	 * W/A 22560 device step Z0 must be non zero bug
+
+ 
+
+97)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#93: FILE: drivers/net/wireless/intel/iwlwifi/iwl-io.c:497:
++	/*
++	 * Set "initialization complete" bit to move adapter from
+
+ 
+
+98)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#91: FILE: net/mac80211/key.c:662:
++	/*
++	 * We want to delay tailroom updates only for station - in that
+
+ 
+
+99)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#10567: FILE: drivers/net/wireless/ath/ath11k/debug_htt_stats.h:873:
++	/*
++	 * On receiving TQM_FLOW_NOT_EMPTY_STATUS from TQM, (on MSDUs being enqueued
+
+ 
+
+100)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#141: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_mac.c:797:
++		/*
++		 * When receiving an A-MPDU subframe and RSSI info is not valid,
+
+ 
+
+101)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#55: FILE: net/mac80211/mlme.c:816:
++			/*
++			 * no need to list the ones split off before HT
+
+ 
+
+102)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#67: FILE: net/wireless/scan.c:1473:
++	/*
++	 * If is is not the last subelement in current MBSSID IE or there isn't
+
+ 
+
+103)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#44: FILE: net/ceph/ceph_common.c:190:
++/*
++ * kvmalloc() doesn't fall back to the vmalloc allocator unless flags are
+
+ 
+
+104)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#10720: FILE: drivers/net/wireless/ath/ath11k/debug_htt_stats.h:1026:
++/*
++ *  The htt_tx_de_fw2wbm_ring_full_hist_tlv is a histogram of time we waited
+
+ 
+
+105)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#150: FILE: net/sctp/outqueue.c:1018:
++	/*
++	 * 6.10 Bundling
+
+ 
+
+106)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#220: FILE: net/ceph/osdmap.c:2836:
++/*
++ * [a-zA-Z0-9-_.]+
+
+ 
+
+107)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#126: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_main.c:2263:
++	/*
++	 * If NAPI is already running we can miss some events. Let's rearm
+
+ 
+
+108)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#27: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs-fw.c:354:
++		/*
++		 * In debug sta->max_amsdu_len < size
+
+ 
+
+109)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#347: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:634:
++	/*
++	 * No need for _with_wa(), we ensure (via alignment) that the data
+
+ 
+
+110)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#10387: FILE: drivers/net/wireless/ath/ath11k/debug_htt_stats.h:693:
++	/*
++	 * Counts the number of users in each transmission of
+
+ 
+
+111)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#44024: FILE: drivers/net/wireless/ath/ath11k/wmi.h:58:
++/*
++ * HW mode config type replicated from FW header
+
+ 
+
+112)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#37: FILE: net/mac80211/mlme.c:1274:
++	/*
++	 * This is just so that the disconnect flow will know that
+
+ 
+
+113)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#29: FILE: net/sunrpc/clnt.c:2322:
++		/*
++		 * Once a "no retrans timeout" soft tasks (a.k.a NFSv4) has
+
+ 
+
+114)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#68: FILE: drivers/net/wireless/intel/iwlwifi/fw/init.c:114:
++	/*
++	 * In VER_1 of this command, the discrete value is considered
+
+ 
+
+115)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#54: FILE: drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.c:341:
++		/*
++		 * SleepCSR register access can fail when
+
+ 
+
+116)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#86: FILE: drivers/net/wireless/intel/iwlwifi/fw/dbg.c:1357:
++	/*
++	 * read rxf registers. for each register, write to the dump the
+
+ 
+
+117)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#45: FILE: net/mac80211/mlme.c:996:
++			/*
++			 * For managed interface, we need to also update the AP
+
+ 
+
+118)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#164: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:938:
++	/*
++	 * Limit A-MSDU in A-MPDU to 4095 bytes when VHT is not
+
+ 
+
+119)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#58: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1325:
++		/*
++		 * We need to take into account a situation in which a TXQ was
+
+ 
+
+120)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#41: FILE: drivers/net/wireless/intel/iwlwifi/fw/acpi.c:115:
++	/*
++	 * We need at least two packages, one for the revision and one
+
+ 
+
+121)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#24: FILE: net/socket.c:1369:
++	/*
++	 * reserve descriptors and make sure we won't fail
+
+ 
+
+122)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1142: FILE: drivers/net/dsa/microchip/ksz8795.c:1071:
++	/*
++	 * Make sure unicast VLAN boundary is set as default and
+
+ 
+
+123)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3865: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1447:
++	/*
++	 * This can happen validly if the MC's capabilities have changed, so
+
+ 
+
+124)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#98: FILE: drivers/net/wireless/intel/iwlwifi/pcie/rx.c:1528:
++			/*
++			 * We can only get a multi-RB in the following cases:
+
+ 
+
+125)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#80: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:795:
++		/*
++		 * reset counter to 0 if we didn't have any oldsn in
+
+ 
+
+126)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#107: FILE: net/mac80211/main.c:564:
++		/*
++		 * if the driver behaves correctly using the probe request
+
+ 
+
+127)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#151: FILE: drivers/net/wireless/ralink/rt2x00/rt2x00dev.c:1263:
++		/*
++		 * This is special case for ieee80211_restart_hw(), otherwise
+
+ 
+
+128)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#69: FILE: net/packet/af_packet.c:439:
++	/*
++	 * versions 1 through 3 overflow the timestamps in y2106, since they
+
+ 
+
+129)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#98: FILE: drivers/net/wireless/ath/ath9k/htc_drv_txrx.c:998:
++	/*
++	 * Discard zero-length packets and packets smaller than an ACK
+
+ 
+
+130)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#63: FILE: drivers/net/wireless/ath/ath10k/mac.c:4657:
++	/*
++	 * If external Front End module used in hardware, then default base band timing
+
+ 
+
+131)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:1514:
++		/*
++		 * If we are freeing multiple frames, mark all the frames
+
+ 
+
+132)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#176: FILE: net/ipv4/ip_input.c:503:
++/*
++ * IP receive entry point
+
+ 
+
+133)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#130: FILE: net/netfilter/nfnetlink_osf.c:332:
++	/*
++	 * We are protected by nfnl mutex.
+
+ 
+
+134)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#57: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:240:
++/*
++ * If the device doesn't support HE, no need to have that many buffers.
+
+ 
+
+135)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#140: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:206:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+136)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: net/wireless/core.c:1166:
++	/*
++	 * We get here also when the interface changes network namespaces,
+
+ 
+
+137)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#304: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:2006:
++		/*
++		 * FW currently supports only nss == MAX_HE_SUPP_NSS
+
+ 
+
+138)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#257: FILE: drivers/net/wireless/mediatek/mt76/mt76x2_common.c:189:
++	/*
++	 * The hardware does not support per-STA RX GTK, fall back
+
+ 
+
+139)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#64: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:311:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+140)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#61: FILE: net/sched/sch_fq.c:130:
++/*
++ * f->tail and f->age share the same location.
+
+ 
+
+141)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#25: FILE: drivers/net/wireless/intel/iwlwifi/mvm/d3.c:1041:
++	/*
++	 * TODO: this is needed because the firmware is not stopping
+
+ 
+
+142)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#29: FILE: net/sunrpc/xprtsock.c:495:
++/*
++ * Determine if the previous message in the stream was aborted before it
+
+ 
+
+143)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#106: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_util.c:203:
++	/*
++	 * The hardware does not support per-STA RX GTK, fall back
+
+ 
+
+144)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#93: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:2011:
++	/*
++	 * For 22000 firmware and on we cannot add queue to a station unknown
+
+ 
+
+145)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#425: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:1147:
++		/*
++		 * The frame is now deferred, and the worker scheduled
+
+ 
+
+146)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#45: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:882:
++	/*
++	 * No need for threads to be pending here, they can leave the first
+
+ 
+
+147)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#106: FILE: drivers/net/wireless/mediatek/mt76/mt7603/mac.c:626:
++		/*
++		 * We don't support switching between short and long GI
+
+ 
+
+148)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#385: FILE: drivers/net/wireless/intel/iwlwifi/mvm/utils.c:1584:
++		/*
++		 * the rate here is actually the threshold, in 100Kbps units,
+
+ 
+
+149)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:886:
++	/*
++	 * The GEO_TX_POWER_LIMIT command is not supported on earlier
+
+ 
+
+150)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#174: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:122:
++/*
++ * struct iwl_prph_scratch_control - control structure
+
+ 
+
+151)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#363: FILE: drivers/net/dsa/bcm_sf2_cfp.c:619:
++	/*
++	 * CHAIN ID		[31:24] chain to previous slice
+
+ 
+
+152)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#477: FILE: net/netfilter/nf_osf.c:161:
++				/*
++				 * Some smart modems decrease mangle MSS to
+
+ 
+
+153)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#84: FILE: net/wireless/scan.c:1101:
++			/*
++			 * Better not allow unexpected channels when that could
+
+ 
+
+154)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#46: FILE: net/sched/sch_fq.c:276:
++		/*
++		 * Sockets in TCP_CLOSE are non connected.
+
+ 
+
+155)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#310: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rx.c:794:
++	/*
++	 * Don't update in case the statistics are not cleared, since
+
+ 
+
+156)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#46: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:2027:
++	/*
++	 * Initialize the PPE thresholds to "None" (7), as described in Table
+
+ 
+
+157)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#54: FILE: net/ceph/osd_client.c:4537:
++	/*
++	 * Pass 0 for cookie because we don't know it yet, it will be
+
+ 
+
+158)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#163: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:535:
++		/*
++		 * For data packets rate info comes from the fw. Only
+
+ 
+
+159)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#287: FILE: net/mac80211/agg-tx.c:519:
++		/*
++		 * We really should use what the driver told us it will
+
+ 
+
+160)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#69: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:843:
++		/*
++		 * Compute the length of all the data added for the A-MSDU.
+
+ 
+
+161)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#35: FILE: net/sunrpc/clnt.c:2493:
++	/*
++	 * Did we ever call xprt_complete_rqst()? If not, we should assume
+
+ 
+
+162)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#43: FILE: drivers/net/wireless/ti/wlcore/sdio.c:168:
++	/*
++	 * To guarantee that the SDIO card is power cycled, as required to make
+
+ 
+
+163)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: net/netfilter/nf_tables_api.c:459:
++/*
++ * Loading a module requires dropping mutex that guards the
+
+ 
+
+164)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#48: FILE: net/mac80211/rx.c:112:
++	/*
++	 * Remove the HT-Control field (if present) on management
+
+ 
+
+165)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#71: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:2132:
++		/*
++		 * Send the bcast station. At this stage the TBTT and DTIM time
+
+ 
+
+166)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#109: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_mmio.c:91:
++	/*
++	 * The updated beacon interval takes effect after two TBTT, because
+
+ 
+
+167)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#100: FILE: net/wireless/core.c:864:
++		/*
++		 * Validate we have a policy (can be explicitly set to
+
+ 
+
+168)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#51: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:217:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+169)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#242: FILE: net/rxrpc/ar-internal.h:520:
++/*
++ * Call completion condition (state == RXRPC_CALL_COMPLETE).
+
+ 
+
+170)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2538: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:120:
++		/*
++		 * ether_type and outer_ip_proto need to be variables
+
+ 
+
+171)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#53: FILE: drivers/net/wireless/intel/iwlwifi/mvm/time-event.c:141:
++		/*
++		 * NB: access to this pointer would be racy, but the flush bit
+
+ 
+
+172)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#237: FILE: drivers/net/wireless/mediatek/mt76/mt76x2_mac.c:331:
++		/*
++		 * Driver CCMP validation can't deal with fragments.
+
+ 
+
+173)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2157: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:887:
++/*
++ * TODO: mib counters are read-clear and there're many HE functionalities need
+
+ 
+
+174)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: net/mac80211/vht.c:353:
++	/*
++	 * If this is non-zero, then it does support 160 MHz after all,
+
+ 
+
+175)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#386: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1342:
++	/*
++	 * There may be different TIDs with the same mac queues, so make
+
+ 
+
+176)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#730: FILE: net/rxrpc/rtt.c:170:
++/*
++ * Get the retransmission timeout to set in jiffies, backing it off each time
+
+ 
+
+177)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#78: FILE: net/ceph/decode.c:25:
++	/*
++	 * TYPE_NONE == 0
+
+ 
+
+178)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#86: FILE: net/ceph/mon_client.c:927:
++		/*
++		 * Make sure we have the osdmap that includes the blacklist
+
+ 
+
+179)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#42: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:963:
++		/*
++		 * If not available, don't fail and don't bother with EWRD.
+
+ 
+
+180)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#25: FILE: net/sunrpc/auth_gss/auth_gss.c:466:
++	/*
++	 * target= is a full service principal that names the remote
+
+ 
+
+181)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#39: FILE: drivers/net/wireless/intel/iwlwifi/fw/dbg.c:1250:
++	/*
++	 * read txf registers. for each register, write to the dump the
+
+ 
+
+182)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3961: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1543:
++/*
++ * Mark old filters that may need to be removed.
+
+ 
+
+183)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#53: FILE: drivers/net/wireless/intel/iwlwifi/fw/dbg.c:2003:
++		/*
++		 * The HW type depends on certain bits in this case, so add
+
+ 
+
+184)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#88: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:521:
++		/*
++		 * Set default Tx/Rx HE MCS NSS Support field. Indicate support
+
+ 
+
+185)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#38: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:200:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+186)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#55: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:388:
++	/*
++	 * The second TB (tb1) points to the remainder of the TX command
+
+ 
+
+187)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#113: FILE: net/ipv4/ip_output.c:662:
++	/*
++	 *	Charge the memory for the fragment to any owner
+
+ 
+
+188)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#43: FILE: net/ceph/messenger.c:584:
++	/*
++	 * sendpage cannot properly handle pages with page_count == 0,
+
+ 
+
+189)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#208: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:156:
++/*
++ * struct iwl_prph_scratch_rbd_cfg - RBDs configuration
+
+ 
+
+190)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#108: FILE: net/sched/sch_api.c:1323:
++/*
++ * Delete/get qdisc.
+
+ 
+
+191)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#110: FILE: net/ipv6/ip6_output.c:706:
++	/*
++	 *	Set up data on packet
+
+ 
+
+192)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3428: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1010:
++	/*
++	 * Insert/renew multicast filters
+
+ 
+
+193)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx.c:2401:
++	/*
++	 * If gso_size wasn't set, don't give the frame "amsdu treatment"
+
+ 
+
+194)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#206: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/location.h:161:
++/*
++ * enum iwl_tof_mcsi_ntfy - Enable/Disable MCSI notifications
+
+ 
+
+195)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#126: FILE: net/sunrpc/svc.c:1178:
++	/*
++	 * Some protocol versions (namely NFSv4) require some form of
+
+ 
+
+196)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#81: FILE: net/rxrpc/peer_object.c:440:
++/*
++ * Drop a ref on a peer record where the caller already holds the
+
+ 
+
+197)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#118: FILE: net/sunrpc/clnt.c:2283:
++/*
++ * 6a.	Handle RPC timeout
+
+ 
+
+198)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#218: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:166:
++/*
++ * struct iwl_prph_scratch_ctrl_cfg - prph scratch ctrl and config
+
+ 
+
+199)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#642: FILE: net/mac80211/mlme.c:890:
++			/*
++			 * no need to list the ones split off before VHT
+
+ 
+
+200)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#57: FILE: net/sunrpc/svc_xprt.c:370:
++	/*
++	 * If another cpu has recently updated xpt_flags,
+
+ 
+
+201)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#89: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:434:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+202)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#271: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:628:
++			/*
++			 * Set default Tx/Rx HE MCS NSS Support field.
+
+ 
+
+203)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#608: FILE: drivers/net/wireless/intel/iwlwifi/mvm/utils.c:1563:
++	/*
++	 * If the current load isn't low we need to force re-evaluation
+
+ 
+
+204)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#54: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:721:
++		/*
++		 * Compute the length of all the data added for the A-MSDU.
+
+ 
+
+205)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#7152: FILE: drivers/net/wireguard/timers.c:13:
++/*
++ * - Timer for retransmitting the handshake if we don't hear back after
+
+ 
+
+206)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3891: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1473:
++	/*
++	 * If we were called without locking, then it's not safe to free
+
+ 
+
+207)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#113: FILE: net/bluetooth/hidp/core.c:1234:
++		/*
++		 * wait_woken() performs the necessary memory barriers
+
+ 
+
+208)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#39: FILE: net/sctp/outqueue.c:806:
++			/*
++			 * If we have a prior transport pointer, see if
+
+ 
+
+209)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#246: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:194:
++/*
++ * struct iwl_prph_info - peripheral information
+
+ 
+
+210)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#241: FILE: net/sunrpc/xprtrdma/verbs.c:509:
++/*
++ * Connect unconnected endpoint.
+
+ 
+
+211)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#134: FILE: net/ceph/osd_client.c:5090:
++/*
++ * reset all osd connections
+
+ 
+
+212)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#475: FILE: net/ipv6/esp6.c:650:
++		/*
++		 * 1) if the NAT-T peer's IP or port changed then
+
+ 
+
+213)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#74: FILE: net/rxrpc/af_rxrpc.c:326:
++/*
++ * Dummy function used to stop the notifier talking to recvmsg().
+
+ 
+
+214)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#47: FILE: net/netfilter/nf_conncount.c:212:
++			/*
++			 * we do not care about connections which are
+
+ 
+
+215)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1003: FILE: net/wireless/nl80211.c:278:
++	/*
++	 * we could specify this again to be the top-level policy,
+
+ 
+
+216)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#284: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:641:
++			/*
++			 * Set default PPE thresholds, with PPET16 set to 0,
+
+ 
+
+217)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#66: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/phy-ctxt.h:115:
++/*
++ * struct iwl_fw_channel_info - channel information
+
+ 
+
+218)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#108: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:182:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+219)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#133: FILE: drivers/net/wireless/intel/iwlwifi/fw/acpi.h:115:
++/*
++ * iwl_acpi_get_eckv - read external clock validation from ACPI, if available
+
+ 
+
+220)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#100: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:3251:
++	/*
++	 * If there is at least one AP on radar channel that cannot
+
+ 
+
+221)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#52: FILE: net/dsa/tag_ksz.c:73:
++/*
++ * For Ingress (Host -> KSZ8795), 1 byte is added before FCS.
+
+ 
+
+222)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#100: FILE: drivers/net/wireless/intel/iwlwifi/pcie/internal.h:897:
++		/*
++		 * Leave all the FH causes enabled to get the ALIVE
+
+ 
+
+223)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#422: FILE: net/netfilter/nf_osf.c:106:
++		/*
++		 * Should not happen if userspace parser was written correctly.
+
+ 
+
+224)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#209: FILE: net/ceph/osdmap.c:2750:
++/*
++ * Parses a set of <bucket type name>':'<bucket name> pairs separated
+
+ 
+
+225)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#43: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:217:
++/*
++ * We need this inline in case dma_addr_t is only 32-bits - since the
+
+ 
+
+226)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#151: FILE: drivers/net/wireless/intel/iwlwifi/iwl-dbg-tlv.c:81:
++	/*
++	 * Make sure we still have room to copy this TLV. Offset points to the
+
+ 
+
+227)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#35: FILE: drivers/net/ethernet/broadcom/bnx2x/bnx2x_main.c:12938:
++	/*
++	 * A skb with gso_size + header length > 9700 will cause a
+
+ 
+
+228)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#135: FILE: net/sunrpc/xprt.c:1571:
++	/*
++	 * Set up the xdr_buf length.
+
+ 
+
+229)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#59: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs.c:2743:
++		/*
++		 * In AP mode, when a new station associates, rs is initialized
+
+ 
+
+230)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#72: FILE: drivers/net/wireless/intel/iwlwifi/mvm/debugfs-vif.c:589:
++	/*
++	 * all values in format are boolean so the size of format is enough
+
+ 
+
+231)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4171: FILE: drivers/net/wireless/mediatek/mt76/mt76x2_main.c:92:
++	/*
++	 * Client mode typically only has one configurable BSSID register,
+
+ 
+
+232)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#147: FILE: net/sctp/socket.c:3650:
++/*
++ * 8.3.4  Deactivate a Shared Key (SCTP_AUTH_DEACTIVATE_KEY)
+
+ 
+
+233)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#117: FILE: drivers/net/phy/phylink.c:1847:
++	/*
++	 * This is the new way of dealing with flow control for PHYs,
+
+ 
+
+234)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1827: FILE: drivers/net/ethernet/realtek/r8169_phy_config.c:456:
++	/*
++	 * Rx Error Issue
+
+ 
+
+235)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#50: FILE: net/wireless/sme.c:1062:
++	/*
++	 * If we have an ssid_len, we're trying to connect or are
+
+ 
+
+236)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#274: FILE: net/rxrpc/skbuff.c:57:
++/*
++ * Note the dropping of a ref on a socket buffer by the core.
+
+ 
+
+237)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#164: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/mac.h:511:
++/*
++ * @IWL_HE_HTC_LINK_ADAP_NO_FEEDBACK: the STA does not provide HE MFB
+
+ 
+
+238)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#198: FILE: drivers/net/ethernet/realtek/r8169.c:2374:
++/*
++ * Interrupt coalescing
+
+ 
+
+239)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#216: FILE: net/bridge/netfilter/nf_conntrack_bridge.c:49:
++	/*
++	 *	Setup starting values
+
+ 
+
+240)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2556: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:138:
++			/*
++			 * We always need to set the type field, even
+
+ 
+
+241)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#23: FILE: net/ceph/auth_x.c:294:
++/*
++ * Encode and encrypt the second part (ceph_x_authorize_b) of the
+
+ 
+
+242)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#343: FILE: net/unix/scm.c:89:
++/*
++ * The "user->unix_inflight" variable is protected by the garbage
+
+ 
+
+243)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#44: FILE: net/mac80211/mlme.c:832:
++	/*
++	 * Per spec, we shouldn't include the list of channels if we advertise
+
+ 
+
+244)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#71: FILE: drivers/net/wireless/intel/iwlwifi/mvm/debugfs.c:1732:
++	/*
++	 * Use the notification waiter to get our function triggered
+
+ 
+
+245)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#62: FILE: drivers/net/wireless/ralink/rt2x00/rt2x00usb.c:387:
++	/*
++	 * Report the frame as DMA done
+
+ 
+
+246)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#64: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:280:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+247)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#52: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:334:
++	/*
++	 * We want to load the INIT firmware even in RFKILL
+
+ 
+
+248)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: drivers/net/wireless/intel/iwlwifi/fw/dbg.c:1374:
++	/*
++	 * region register have absolute value so apply rxf offset after
+
+ 
+
+249)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#23: FILE: net/rxrpc/call_object.c:425:
++/*
++ * Clean up the RxTx skb ring.
+
+ 
+
+250)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#401: FILE: net/netlink/policy.c:89:
++	/*
++	 * walk the policies and nested ones first, and build
+
+ 
+
+251)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#888: FILE: net/mac80211/mlme.c:4479:
++		/*
++		 * For each band there is a maximum of 8 spatial streams
+
+ 
+
+252)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#111: FILE: net/sunrpc/xprt.c:1050:
++		/*
++		 * Send an extra queue wakeup call if the
+
+ 
+
+253)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#47: FILE: drivers/net/wireless/mac80211_hwsim.c:2780:
++	/*
++	 * If we actually were asked to support combinations,
+
+ 
+
+254)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#254: FILE: drivers/net/wireless/intel/iwlwifi/iwl-io.h:108:
++/*
++ * UMAC periphery address space changed from 0xA00000 to 0xD00000 starting from
+
+ 
+
+255)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#227: FILE: net/netfilter/nf_conncount.c:122:
++			/*
++			 * Just to be sure we have it only once in the list.
+
+ 
+
+256)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#45: FILE: drivers/net/wireless/ralink/rt2x00/rt2800.h:1731:
++/*
++ * TX_TXBF_CFG:
+
+ 
+
+257)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#198: FILE: net/rxrpc/recvmsg.c:95:
++/*
++ * Record that a call successfully completed.
+
+ 
+
+258)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1775: FILE: drivers/net/ethernet/realtek/r8169_phy_config.c:404:
++	/*
++	 * Tx Error Issue
+
+ 
+
+259)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#272: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1293:
++	/*
++	 * Non-QoS, QoS NDP and MGMT frames should go to a MGMT queue, if one
+
+ 
+
+260)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#326: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:906:
++	/*
++	 * Please note that racing is handled very carefully here:
+
+ 
+
+261)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#104: FILE: drivers/net/wireless/intel/iwlwifi/pcie/drv.c:1073:
++			/*
++			 * b step fw is the same for physical card and fpga
+
+ 
+
+262)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#279: FILE: net/ceph/osdmap.c:2895:
++/*
++ * Calculates the locality/distance from an item to a client
+
+ 
+
+263)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#26: FILE: net/wireless/reg.c:3833:
++	/*
++	 * It's possible that - due to other bugs/issues - cfg80211
+
+ 
+
+264)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#117: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:462:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+265)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#160: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:108:
++/*
++ * struct iwl_prph_scratch_version - version structure
+
+ 
+
+266)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#328: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx.c:2077:
++	/*
++	 * Check if there's enough room on this page
+
+ 
+
+267)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#194: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/location.h:149:
++/*
++ * enum iwl_tof_algo_type - Algorithym type for range measurement request
+
+ 
+
+268)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#624: FILE: net/ceph/osd_client.c:1918:
++/*
++ * Keep get_num_data_items() in sync with this function.
+
+ 
+
+269)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#294: FILE: drivers/net/ethernet/netronome/nfp/bpf/fw.h:55:
++/*
++ * Types defined for map related control messages
+
+ 
+
+270)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3256: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:838:
++			/*
++			 * don't insert encap filters on non-supporting
+
+ 
+
+271)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#90: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:805:
++		/*
++		 * tracking state didn't change, and we had an old SN
+
+ 
+
+272)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#181: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:1038:
++	/*
++	 * read, verify gain values and save them into the PPAG table.
+
+ 
+
+273)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#47: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:475:
++	/*
++	 * size must be a multiple of DWORD
+
+ 
+
+274)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#175: FILE: net/wireless/util.c:2002:
++	/*
++	 * Cover all the special cases according to IEEE 802.11-2016
+
+ 
+
+275)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#127: FILE: net/ipv4/ip_output.c:676:
++	/*
++	 *	Copy a block of the IP datagram.
+
+ 
+
+276)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#87: FILE: net/wireless/sme.c:1141:
++		/*
++		 * This could be reassoc getting refused, don't clear
+
+ 
+
+277)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#55: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:297:
++		/*
++         * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+278)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#301: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:2222:
++		/*
++		 * This division is why we need the above BUILD_BUG_ON(),
+
+ 
+
+279)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#196: FILE: net/rxrpc/peer_object.c:451:
++/*
++ * Drop a ref on a peer record.
+
+ 
+
+280)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: net/rxrpc/call_accept.c:243:
++/*
++ * Ping the other end to fill our RTT cache and to retrieve the rwind
+
+ 
+
+281)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#295: FILE: net/wireless/sme.c:1005:
++	/*
++	 * Use the wdev event list so that if there are pending
+
+ 
+
+282)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#37: FILE: drivers/net/wireless/intel/iwlwifi/pcie/drv.c:1002:
++	/*
++	 * This is needed for backwards compatibility with the old
+
+ 
+
+283)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#58: FILE: net/netfilter/nf_osf.c:69:
++	/*
++	 * Should not happen if userspace parser was written correctly.
+
+ 
+
+284)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#350: FILE: net/mac80211/rc80211_minstrel_ht.c:968:
++		/*
++		 * check for sudden death of spatial multiplexing,
+
+ 
+
+285)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: net/mac80211/driver-ops.c:192:
++		/*
++		 * If we can't configure hardware anyway, don't warn. We may
+
+ 
+
+286)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#121: FILE: net/ipv4/ip_output.c:670:
++	/*
++	 *	Copy the packet header into the new buffer.
+
+ 
+
+287)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#59: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:237:
++	/*
++	 * Drop UNKNOWN frames in aggregation, unless in monitor mode
+
+ 
+
+288)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#64: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_beacon.c:202:
++	/*
++	 * The updated beacon interval takes effect after two TBTT, because
+
+ 
+
+289)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#766: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:1094:
++		/*
++		 * Unfortunately, we have to leave the mac80211 data
+
+ 
+
+290)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#167: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ops.c:1227:
++	/*
++	 * Don't ask the transport to stop the firmware. We'll do it
+
+ 
+
+291)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#60: FILE: net/wireless/sme.c:1072:
++	/*
++	 * If connected, reject (re-)association unless prev_bssid
+
+ 
+
+292)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: net/ipv6/route.c:882:
++/*
++ *	Misc support functions
+
+ 
+
+293)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_main.c:973:
++	/*
++	 * Half-duplex mode not supported with multiqueue
+
+ 
+
+294)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#160: FILE: drivers/net/wireless/intel/iwlwifi/fw/dbg.c:2299:
++	/*
++	 * Check there is an available worker.
+
+ 
+
+295)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#112: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:306:
++	/*
++	 * Work around a hardware bug. If (as expressed in the
+
+ 
+
+296)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#111: FILE: net/rxrpc/protocol.h:93:
++/*
++ * The maximum number of subpackets that can possibly fit in a UDP packet is:
+
+ 
+
+297)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#102: FILE: net/sunrpc/xprt.c:1041:
++	/*
++	 * Sleep on the pending queue if we're expecting a reply.
+
+ 
+
+298)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#152: FILE: net/ipv4/ip_output.c:701:
++	/*
++	 *	Added AC : If we are fragmenting a fragment that's not the
+
+ 
+
+299)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#45: FILE: net/mac80211/key.c:627:
++	/*
++	 * In station mode, don't compare the TX MIC key, as it's never used
+
+ 
+
+300)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#127: FILE: drivers/net/wireless/ralink/rt2x00/rt2800mmio.c:818:
++	/*
++	 * Set txstatus timer function.
+
+ 
+
+301)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#95: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:398:
++	/*
++	 * If there is another TID with the same AC - don't remove the MAC queue
+
+ 
+
+302)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#165: FILE: net/rxrpc/rxkad.c:166:
++/*
++ * Clean up the crypto on a call.
+
+ 
+
+303)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#397: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:178:
++	/*
++	 * Use a large value for "no timeout". Don't use the maximum value
+
+ 
+
+304)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#60: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs-fw.c:366:
++			/*
++			 * agg is offloaded so we need to assume that agg
+
+ 
+
+305)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#56: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_main.c:3871:
++		/*
++		 * There is no way to determine the number of TSO
+
+ 
+
+306)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#327: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:538:
++	/*
++	 * No need for _with_wa(), we ensure (via alignment) that the data
+
+ 
+
+307)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#70: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_util.c:140:
++	/*
++	 * Client mode typically only has one configurable BSSID register,
+
+ 
+
+308)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#41: FILE: net/sunrpc/sched.c:462:
++/*
++ * Wake up a task on a specific queue
+
+ 
+
+309)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#143: FILE: net/sunrpc/svc.c:1035:
++	/*
++	 * Don't register a UDP port if we need congestion
+
+ 
+
+310)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#93: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_selftests.c:788:
++	/*
++	 * As we use HASH filtering, false positives may appear. This is a
+
+ 
+
+311)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#91: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac-ctxt.c:792:
++			/*
++			 * TODO: we should check the ext cap IE but it is
+
+ 
+
+312)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#234: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:182:
++/*
++ * struct iwl_prph_scratch - peripheral scratch mapping
+
+ 
+
+313)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3780: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1362:
++/*
++ * Caller must hold efx->filter_sem for read if race against
+
+ 
+
+314)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#22: FILE: net/sunrpc/auth.c:295:
++/*
++ * On success, the caller is responsible for freeing the reference
+
+ 
+
+315)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4225: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1807:
++	/*
++	 * At this point (since we dropped the lock), another thread might queue
+
+ 
+
+316)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#78: FILE: net/ceph/decode.c:55:
++	/*
++	 * Clients that don't support ADDR2 always send TYPE_NONE, change it
+
+ 
+
+317)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1296: FILE: net/dccp/proto.c:316:
++/*
++ *	Wait for a DCCP event.
+
+ 
+
+318)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#53: FILE: net/ceph/messenger.c:564:
++/*
++ * @more: either or both of MSG_MORE and MSG_SENDPAGE_NOTLAST
+
+ 
+
+319)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#10874: FILE: drivers/net/wireless/ath/ath11k/debug_htt_stats.h:1180:
++	/*
++	 * Counters for legacy 11a and 11b transmissions.
+
+ 
+
+320)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#705: FILE: net/rxrpc/rtt.c:145:
++/*
++ * Add RTT information to cache.  This is called in softirq mode and has
+
+ 
+
+321)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#93: FILE: net/bluetooth/hidp/core.c:1078:
++	/*
++	 * See the comment preceding the call to wait_woken()
+
+ 
+
+322)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#48: FILE: net/core/rtnetlink.c:1409:
++		/*
++		 * Caller may return ENODATA to indicate that there
+
+ 
+
+323)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#123: FILE: net/sctp/outqueue.c:991:
++/*
++ * Try to flush an outqueue.
+
+ 
+
+324)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#386: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:445:
++	/*
++	 * Versions 7 and 8 has the same structure except from the responders
+
+ 
+
+325)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#103: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:448:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+326)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#116: FILE: net/ceph/striper.c:13:
++/*
++ * Return the last extent with given objno (@object_extents is sorted
+
+ 
+
+327)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1172: FILE: drivers/net/wireless/mediatek/mt76/mt7915/init.c:303:
++	/*
++	 * Make the secondary PHY MAC address local without overlapping with
+
+ 
+
+328)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#190: FILE: net/sctp/outqueue.c:1180:
++/*
++ * Try to flush an outqueue.
+
+ 
+
+329)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#38: FILE: drivers/net/ethernet/emulex/benet/be_main.c:4638:
++	/*
++	 * The IF was destroyed and re-created. We need to clear
+
+ 
+
+330)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#136: FILE: net/mac80211/sta_info.c:417:
++			/*
++			 * We use both here, even if we cannot really know for
+
+ 
+
+331)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#163: FILE: net/ceph/striper.c:12:
++/*
++ * Map a file extent to a stripe unit within an object.
+
+ 
+
+332)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#129: FILE: net/ipv6/ip6_output.c:725:
++	/*
++	 *	Copy the packet header into the new buffer.
+
+ 
+
+333)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#313: FILE: net/rxrpc/peer_event.c:353:
++/*
++ * Perform keep-alive pings with VERSION packets to keep any NAT alive.
+
+ 
+
+334)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#109: FILE: drivers/net/wireless/ralink/rt2x00/rt2x00mac.c:170:
++		/*
++		 * This is special case for ieee80211_restart_hw(), otherwise
+
+ 
+
+335)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#151: FILE: net/rxrpc/conn_object.c:314:
++/*
++ * Set the service connection reap timer.
+
+ 
+
+336)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#191: FILE: net/rxrpc/local_object.c:378:
++/*
++ * Start using a local endpoint.
+
+ 
+
+337)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#145: FILE: net/ipv6/ip6_output.c:741:
++	/*
++	 *	Copy a block of the IP datagram.
+
+ 
+
+338)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#212: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/time-event.h:323:
++/*
++ * struct iwl_hs20_roc_req_tail - tail of iwl_hs20_roc_req
+
+ 
+
+339)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: drivers/net/phy/phylink.c:1398:
++	/*
++	 * See the comments for linkmode_set_pause(), wrt the deficiencies
+
+ 
+
+340)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#196: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:144:
++/*
++ * struct iwl_prph_scratch_hwm_cfg - hwm config
+
+ 
+
+341)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: drivers/net/wireless/intel/iwlwifi/fw/acpi.c:300:
++			/*
++			 * if one of the profiles is disabled, we
+
+ 
+
+342)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#97: FILE: net/sunrpc/clnt.c:1767:
++/*
++ * 3.	Encode arguments of an RPC call
+
+ 
+
+343)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#122: FILE: net/ipv6/ip6_output.c:718:
++	/*
++	 *	Charge the memory for the fragment to any owner
+
+ 
+
+344)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#178: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:547:
++			/*
++			 * Set default Tx/Rx HE MCS NSS Support field.
+
+ 
+
+345)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4235: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1817:
++	/*
++	 * While we can't safely dereference rule (we dropped the lock), we can
+
+ 
+
+346)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#92: FILE: net/mac80211/scan.c:747:
++		/*
++		 * we can't fall back to software for P2P-GO
+
+ 
+
+347)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#273: FILE: net/ceph/striper.c:170:
++/*
++ * Reverse map an object extent to a sorted list of file extents.
+
+ 
+
+348)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#53: FILE: drivers/net/wireless/ralink/rt2x00/rt2800.h:1739:
++/*
++ * TX_FBK_CFG_3S:
+
+ 
+
+349)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#251: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:143:
++		/*
++		 * We treat it always as random, since if not we'll
+
+ 
+
+350)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#145: FILE: net/wireless/reg.c:3218:
++		/*
++		 * This restores the ieee80211_regdom module parameter
+
+ 
+
+351)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#75: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:420:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+352)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: net/wireless/scan.c:1727:
++	/*
++	 * It's not valid to have the MBSSID element before SSID
+
+ 
+
+353)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#46: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:863:
++		/*
++		 * If the device inserted padding it means that (it thought)
+
+ 
+
+354)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#175: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:984:
++	/*
++	 * Narrow down regdom for unused regulatory rules to prevent hole
+
+ 
+
+355)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1982: FILE: drivers/net/wireless/mediatek/mt76/mt7915/mac.c:712:
++		/*
++		 * 1'b1: new wcid pair.
+
+ 
+
+356)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#186: FILE: net/rxrpc/conn_event.c:384:
++/*
++ * Process delayed final ACKs that we haven't subsumed into a subsequent call.
+
+ 
+
+357)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#41: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:301:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+358)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#106: FILE: drivers/net/wireless/intel/iwlwifi/fw/paging.c:142:
++			/*
++			 * free the previous pages and the current one
+
+ 
+
+359)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#211: FILE: net/rxrpc/local_object.c:398:
++/*
++ * Cease using a local endpoint.  Once the number of active users reaches 0, we
+
+ 
+
+360)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#49: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:2056:
++	/*
++	 * In IBSS, ieee80211_check_queues() sets the cab_queue to be
+
+ 
+
+361)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4270: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1852:
++	/*
++	 * Firmware had a bug (sfc bug 61952) where it would not actually
+
+ 
+
+362)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#26: FILE: drivers/net/wireless/ralink/rt2x00/rt2800lib.c:1187:
++/*
++ * test if there is an entry in any TX queue for which DMA is done
+
+ 
+
+363)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#214: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:1430:
++	/*
++	 * All the values in iwl_nvm_get_info_rsp v4 are the same as
+
+ 
+
+364)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#70: FILE: net/wireless/scan.c:195:
++	/*
++	 * non inheritance element format is:
+
+ 
+
+365)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#158: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:218:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+366)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#37: FILE: drivers/net/wireless/intel/iwlwifi/pcie/internal.h:647:
++	/*
++	 * Before sending the interrupt the HW disables it to prevent
+
+ 
+
+367)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:249:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+368)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#580: FILE: net/netfilter/nf_conntrack_proto_tcp.c:811:
++		/*
++		 * We are in the middle of a connection,
+
+ 
+
+369)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#61: FILE: net/core/net_namespace.c:231:
++	/*
++	 * When peer is obtained from RCU lists, we may race with
+
+ 
+
+370)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#90: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_mac.c:645:
++		/*
++		 * Driver CCMP validation can't deal with fragments.
+
+ 
+
+371)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#209: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:983:
++	/*
++	 * Trick the segmentation function to make it
+
+ 
+
+372)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1376: FILE: net/mac80211/util.c:2453:
++	/*
++	 * TODO: the 1 added is because this temporarily is under the EXTENSION
+
+ 
+
+373)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#10681: FILE: drivers/net/wireless/ath/ath11k/debug_htt_stats.h:987:
++	/*
++	 * mec_notify is HTT TX WBM multicast echo check notification
+
+ 
+
+374)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3958: FILE: drivers/net/wireless/mediatek/mt76/mt7603/main.c:446:
++	/*
++	 * The hardware does not support per-STA RX GTK, fall back
+
+ 
+
+375)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#169: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_selftests.c:864:
++	/*
++	 * As we use HASH filtering, false positives may appear. This is a
+
+ 
+
+376)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#87: FILE: drivers/net/wireless/mediatek/mt76/mt76x2_tx.c:241:
++	/*
++	 * The updated beacon interval takes effect after two TBTT, because
+
+ 
+
+377)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#649: FILE: drivers/net/ipa/ipa_table.c:615:
++/*
++ * Initialize a coherent DMA allocation containing initialized filter and
+
+ 
+
+378)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#165: FILE: drivers/net/wireless/intel/iwlwifi/pcie/drv.c:1044:
++	/*
++	 * This is a hack to switch from Qu B0 to Qu C0.  We need to
+
+ 
+
+379)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#147: FILE: drivers/net/wireless/ralink/rt2x00/rt2800lib.c:1176:
++	/*
++	 * Process any trailing TX status reports for IO failures,
+
+ 
+
+380)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3286: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:868:
++		/*
++		 * unprivileged functions can't insert mismatch filters
+
+ 
+
+381)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#25: FILE: drivers/net/wireless/intel/iwlwifi/fw/dbg.c:968:
++	/*
++	 * If the loading of the FW completed successfully, the next step is to
+
+ 
+
+382)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#106: FILE: net/dsa/tag_ksz.c:74:
++/*
++ * For Ingress (Host -> KSZ9477), 2 bytes are added before FCS.
+
+ 
+
+383)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1415: FILE: drivers/net/wireless/mediatek/mt76/mt76x2_mac_common.c:662:
++		/*
++		 * Driver CCMP validation can't deal with fragments.
+
+ 
+
+384)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#106: FILE: drivers/net/wireless/intel/iwlwifi/mvm/d3.c:842:
++	/*
++	 * This needs to be unlocked due to lock ordering
+
+ 
+
+385)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#468: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1424:
++		/*
++		 * If the STA doesn't exist anymore, it isn't an error. It could
+
+ 
+
+386)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: net/wireless/scan.c:2026:
++	/*
++	 * Some APs use CSA also for bandwidth changes, i.e., without actually
+
+ 
+
+387)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#46: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:939:
++	/*
++	 * Take the min of ieee80211 station and mvm station
+
+ 
+
+388)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1262:
++			/*
++			 * Since we don't set the seq number after reset, and HW
+
+ 
+
+389)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#42: FILE: net/compat.c:189:
++	/*
++	 * check the length of messages copied in is the same as the
+
+ 
+
+390)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#520: FILE: drivers/net/ethernet/sfc/mcdi_filters.h:87:
++/*
++ * The filter table(s) are managed by firmware and we have write-only
+
+ 
+
+391)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#227: FILE: net/sunrpc/auth.c:47:
++/*
++ * Return the machine_cred pointer to be used whenever
+
+ 
+
+392)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#281: FILE: drivers/net/wireless/intel/iwlwifi/mvm/time-event.c:738:
++/*
++ * When the firmware supports the session protection API,
+
+ 
+
+393)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#59: FILE: drivers/net/wireless/ti/wlcore/main.c:2585:
++	/*
++	 * Call runtime PM only after possible wl12xx_init_fw() above
+
+ 
+
+394)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#121: FILE: drivers/net/ethernet/xscale/ixp4xx_eth.c:1415:
++		/*
++		 * IXP43x lacks NPE-B and uses NPE-C for the MDIO bus access,
+
+ 
+
+395)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#580: FILE: net/core/fib_rules.c:772:
++	/*
++	 * Check if this rule is a target to any of them. If so,
+
+ 
+
+396)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#285: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:366:
++	/*
++	 * Versions 3 and 4 has some common fields, so
+
+ 
+
+397)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#98: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs-fw.c:409:
++	/*
++	 * since TLC offload works with one mode we can assume
+
+ 
+
+398)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#48: FILE: drivers/net/wireless/ath/ath10k/ce.h:405:
++/*
++ * Directions for interconnect pipe configuration.
+
+ 
+
+399)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#55: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:980:
++	/*
++	 * If we don't have profile 0 from BIOS, just skip it.  This
+
+ 
+
+400)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#101: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:534:
++		/*
++		 * Set default PPE thresholds, with PPET16 set to 0, PPET8 set
+
+ 
+
+401)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#527: FILE: net/mac80211/mlme.c:217:
++		/*
++		 * Set only first 3 bytes (other 2 aren't used in
+
+ 
+
+402)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#103: FILE: net/ipv4/ip_output.c:652:
++	/*
++	 *	Set up data on packet
+
+ 
+
+403)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#68: FILE: drivers/net/wireless/ti/wlcore/main.c:1802:
++	/*
++	 * Use an immediate call for allowing the firmware to go into power
+
+ 
+
+404)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#25: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:183:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+405)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#77: FILE: net/ceph/osd_client.c:145:
++/*
++ * Consumes a ref on @pagelist.
+
+ 
+
+406)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#127: FILE: drivers/net/wireless/intel/iwlwifi/pcie/rx.c:826:
++	/*
++	 * Allocate the driver's pointer to receive buffer status.
+
+ 
+
+407)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#45: FILE: net/wireless/scan.c:1062:
++/*
++ * Update RX channel information based on the available frame payload
+
+ 
+
+408)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#138: FILE: net/ipv6/ip6_output.c:734:
++	/*
++	 *	Build fragment header.
+
+ 
+
+409)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: drivers/net/wireless/mediatek/mt76/mt7915/init.c:65:
++	/*
++	 * TODO: DBDC & check whether iBF phase calibration data has
+
+ 
+
+410)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#46: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:297:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+411)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#45: FILE: net/ipv4/cipso_ipv4.c:1745:
++	/*
++	 * We might be called above the IP layer,
+
+ 
+
+412)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#97: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_mmio.c:79:
++	/*
++	 * Beacon timer drifts by 1us every tick, the timer is configured
+
+ 
+
+413)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#573: FILE: drivers/net/wireless/ath/ath9k/xmit.c:2002:
++	/*
++	 * If we succeed in scheduling something, immediately restart to make
+
+ 
+
+414)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1408: FILE: net/mac80211/util.c:2485:
++	/*
++	 * Calculate how many PPET16/PPET8 pairs are to come. Algorithm:
+
+ 
+
+415)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#103: FILE: drivers/net/wireless/intel/iwlwifi/iwl-io.c:507:
++	/*
++	 * Wait for clock stabilization; once stabilized, access to
+
+ 
+
+416)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#104: FILE: net/rxrpc/input.c:806:
++/*
++ * Return true if the ACK is valid - ie. it doesn't appear to have regressed
+
+ 
+
+417)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#28: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:543:
++	/*
++	 * Only build A-MSDUs here if doing so by GSO, otherwise it may be
+
+ 
+
+418)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#84: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:2270:
++		/*
++		 * If write pointer moved during the wait, warn only
+
+ 
+
+419)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#153: FILE: net/rxrpc/peer_object.c:402:
++/*
++ * Get a ref on a peer record unless its usage has already reached 0.
+
+ 
+
+420)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2974: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:556:
++/*
++ * Remove a filter.
+
+ 
+
+421)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#150: FILE: net/rxrpc/sendmsg.c:69:
++/*
++ * Wait for space to appear in the Tx queue uninterruptibly, but with
+
+ 
+
+422)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: drivers/net/ethernet/qlogic/qlge/qlge.h:2188:
++/*
++ * Doorbell Registers:
+
+ 
+
+423)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#521: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_selftests.c:370:
++	/*
++	 * The number of MMC counters available depends on HW configuration
+
+ 
+
+424)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#951: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_selftests.c:800:
++		/*
++		 * First tests will always be MAC / PHY loobpack. If any of
+
+ 
+
+425)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#76: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:212:
++		/*
++		 * We warn and trace because we want to be able to see
+
+ 
+
+426)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#288: FILE: drivers/net/wireless/intel/iwlwifi/mvm/scan.c:1169:
++	/*
++	 * Check for fragmented scan on LMAC2 - high band.
+
+ 
+
+427)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1330: FILE: net/mac80211/util.c:1528:
++			/*
++			 * no need to list the ones split off before VHT
+
+ 
+
+428)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#52: FILE: net/rxrpc/proc.c:217:
++/*
++ * generate a list of extant virtual peers in /proc/net/rxrpc/peers
+
+ 
+
+429)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#128: FILE: net/socket.c:1775:
++/*
++ *	For accept, we attempt to create a new socket, set up the link
+
+ 
+
+430)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3439: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1021:
++			/*
++			 * If we failed to insert promiscuous filters, rollback
+
+ 
+
+431)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#80: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:274:
++/*
++ * Add a TB and if needed apply the FH HW bug workaround;
+
+ 
+
+432)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#62: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:864:
++	/*
++	 * Don't send an AMSDU that will be longer than the TXF.
+
+ 
+
+433)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#905: FILE: net/mac80211/mlme.c:4496:
++			/*
++			 * Make sure the HE AP doesn't require MCSs that aren't
+
+ 
+
+434)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:522:
++		/*
++		 * TODO: currently we don't set the antenna but letting the NIC
+
+ 
+
+435)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#74: FILE: drivers/net/ethernet/realtek/r8169.c:2934:
++	/*
++	 * Tx Error Issue
+
+ 
+
+436)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#83: FILE: net/sctp/outqueue.c:1075:
++	/*
++	 * RFC 2960 6.1  Transmission of DATA Chunks
+
+ 
+
+437)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: drivers/net/wireless/intel/iwlwifi/fw/acpi.c:107:
++	/*
++	 * We need at least one entry in the wifi package that
+
+ 
+
+438)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#77: FILE: drivers/net/wireless/mediatek/mt76/mac80211.c:450:
++		/*
++		 * Validate the first fragment both here and in mac80211
+
+ 
+
+439)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#193: FILE: drivers/net/wireless/ralink/rt2x00/rt2800mmio.c:490:
++		/*
++		 * Check if the driver is already done, otherwise we
+
+ 
+
+440)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#35: FILE: net/mac80211/tx.c:3610:
++		/*
++		 * Drop unicast frames to unauthorised stations unless they are
+
+ 
+
+441)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:478:
++	/*
++	 * On older devices, enabling TX A-MSDU occasionally leads to
+
+ 
+
+442)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#39: FILE: drivers/net/wireless/ath/ath10k/htt_tx.c:949:
++	/*
++	 * the HW expects the buffer to be an integral number of 4-byte
+
+ 
+
+443)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:723:
++	/*
++	 * release immediately if there are no stored frames, and the sn is
+
+ 
+
+444)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#29: FILE: net/mac80211/ieee80211_i.h:2041:
++	/*
++	 * It's unsafe to try to do any work during reconfigure flow.
+
+ 
+
+445)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#116: FILE: net/sunrpc/sched.c:138:
++/*
++ * Remove request from a queue list
+
+ 
+
+446)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#509: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/location.h:464:
++/*
++ * enum iwl_tof_range_request_status - status of the sent request
+
+ 
+
+447)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#157: FILE: drivers/net/wireless/mac80211_hwsim.c:2713:
++		/*
++		 * For this case, we may only support a subset of
+
+ 
+
+448)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#30: FILE: net/sunrpc/svc.c:1171:
++	/*
++	 * Decode arguments
+
+ 
+
+449)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#196: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mvm.h:1960:
++	/*
++	 * if LOW_LATENCY_DEBUGFS_FORCE_ENABLE is enabled no changes are
+
+ 
+
+450)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#370: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:151:
++	/*
++	 * We treat it always as random, since if not we'll
+
+ 
+
+451)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#90: FILE: drivers/net/wireless/intel/iwlwifi/mvm/d3.c:765:
++	/*
++	 * Note that currently we don't propagate cmd_flags
+
+ 
+
+452)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#85: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/dbg-tlv.h:64:
++/*
++ * struct iwl_fw_ini_header: Common Header for all debug group TLV's structures
+
+ 
+
+453)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#101: FILE: drivers/net/ethernet/chelsio/cxgb4vf/cxgb4vf_main.c:3164:
++		/*
++		 * If we haven't been able to contact the firmware, there's
+
+ 
+
+454)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#57: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_beacon.c:195:
++	/*
++	 * Beacon timer drifts by 1us every tick, the timer is configured
+
+ 
+
+455)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: drivers/net/wireless/ralink/rt2x00/rt2800lib.c:968:
++	/*
++	 * This frames has returned with an IO error,
+
+ 
+
+456)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#50: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:2111:
++	/*
++	 * This is not very nice, but the simplest:
+
+ 
+
+457)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#170: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-responder.c:127:
++	/*
++	 * The command structure is the same for versions 6 and 7, (only the
+
+ 
+
+458)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#143: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans-gen2.c:278:
++	/*
++	 * Re-enable all the interrupts, including the RF-Kill one, now that
+
+ 
+
+459)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#57: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac-ctxt.c:665:
++		/*
++		 * allow multicast data frames only as long as the station is
+
+ 
+
+460)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1363:
++	/*
++	 * We need to take into account a situation in which a TXQ was
+
+ 
+
+461)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#84: FILE: drivers/net/wireless/ralink/rt2x00/rt2800lib.c:1113:
++		/*
++		 * TX_STA_FIFO_PID_QUEUE is a 2-bit field, thus qid is
+
+ 
+
+462)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#182: FILE: net/mac80211/rc80211_minstrel_ht.c:621:
++	/*
++	 * If the current EWMA prob is >75%, look for a rate that's 6.25%
+
+ 
+
+463)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#201: FILE: drivers/net/ethernet/xscale/ixp4xx_eth.c:1503:
++	/*
++	 * FIXME: we bail out on device tree boot but this really needs
+
+ 
+
+464)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#68: FILE: net/x25/x25_in.c:386:
++/*
++ * State machine for state 5, Call Accepted / Call Connected pending (X25_ACCPT_APPRV_FLAG).
+
+ 
+
+465)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#245: FILE: drivers/net/phy/fixed_phy.c:208:
++	/*
++	 * As the fixed link is just a device tree node without any
+
+ 
+
+466)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#172: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:2382:
++	/*
++	 * The fields assigned here are in the same location at the start
+
+ 
+
+467)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#65: FILE: net/sunrpc/auth_gss/auth_gss.c:1938:
++/*
++ * RFC 2203, Section 5.3.2.2
+
+ 
+
+468)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#134: FILE: net/ipv4/ip_output.c:683:
++	/*
++	 *	Fill in the new header fields.
+
+ 
+
+469)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#61: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:406:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+470)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#112: FILE: drivers/net/wireless/intel/iwlwifi/pcie/drv.c:1081:
++			/*
++			 * a step no FPGA
+
+ 
+
+471)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1417: FILE: net/mac80211/util.c:2494:
++	/*
++	 * Each pair is 6 bits, and we need to add the 7 "header" bits to the
+
+ 
+
+472)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#59: FILE: net/sunrpc/xprt.c:1946:
++	/*
++	 * Destroy any existing back channel
+
+ 
+
+473)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#497: FILE: net/ipv6/esp6.c:672:
++		/*
++		 * 2) ignore UDP/TCP checksums in case
+
+ 
+
+474)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#376: FILE: drivers/net/ethernet/realtek/r8169.c:2552:
++		/*
++		 * accept max_frames=1 we returned in rtl_get_coalesce.
+
+ 
+
+475)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#175: FILE: net/rxrpc/local_object.c:274:
++/*
++ * Get a ref on a local endpoint unless its usage has already reached 0.
+
+ 
+
+476)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4309: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1891:
++/*
++ * Attempt to enable 4-tuple UDP hashing on the specified RSS context.
+
+ 
+
+477)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#67: FILE: net/ceph/osd_client.c:130:
++/*
++ * Consumes @pages if @own_pages is true.
+
+ 
+
+478)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3402: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:984:
++		/*
++		 * If any of the filters failed to insert, fall back to
+
+ 
+
+479)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#161: FILE: net/netfilter/nfnetlink_osf.c:363:
++		/*
++		 * We are protected by nfnl mutex.
+
+ 
+
+480)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#47: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:392:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+481)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#25: FILE: net/sunrpc/clnt.c:1734:
++	/*
++	 * Note: the reply buffer must at minimum allocate enough space
+
+ 
+
+482)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#26: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:235:
++	/*
++	 * Only WARN here so we know about the issue, but we mess up our
+
+ 
+
+483)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#315: FILE: net/netfilter/nf_tables_api.c:4887:
++/*
++ * Flow tables
+
+ 
+
+484)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#226: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:1536:
++		/*
++		 * Invalidate it toward resume.
+
+ 
+
+485)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: net/mac80211/ht.c:305:
++	/*
++	 * In case the tear down is part of a reconfigure due to HW restart
+
+ 
+
+486)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#47826: FILE: drivers/net/wireless/ath/ath11k/wmi.h:3860:
++/*
++ * PDEV statistics
+
+ 
+
+487)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#211: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mvm.h:1975:
++		/*
++		 * Check if any other one set low latency
+
+ 
+
+488)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#38: FILE: drivers/net/ethernet/chelsio/cxgb4vf/cxgb4vf_main.c:848:
++	/*
++	 * If we don't have a connection to the firmware there's nothing we
+
+ 
+
+489)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#111: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mac.c:486:
++		/*
++		 * We don't support switching between short and long GI
+
+ 
+
+490)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#65: FILE: net/sctp/outqueue.c:1482:
++					/*
++					 * SFR-CACC algorithm:
+
+ 
+
+491)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#211: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:1521:
++	/*
++	 * Family IWL_DEVICE_FAMILY_AX210 and above persist mode is set by FW.
+
+ 
+
+492)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#760: FILE: net/mac80211/mlme.c:3134:
++	/*
++	 * If AP doesn't support HT, or it doesn't have HE mandatory IEs, mark
+
+ 
+
+493)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#248: FILE: drivers/net/wireless/intel/iwlwifi/fw/acpi.c:459:
++	/*
++	 * The GEO_TX_POWER_LIMIT command is not supported on earlier
+
+ 
+
+494)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#118: FILE: net/wireless/mlme.c:503:
++	/*
++	 * To support Pre Association Security Negotiation (PASN), registration
+
+ 
+
+495)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#96: FILE: drivers/net/phy/nxp-tja11xx.c:571:
++/*
++ * | BI_DA+           | BI_DA-                 | Result
+
+ 
+
+496)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#135: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs-fw.c:333:
++				/*
++				 * Not so elegant, but this will effectively
+
+ 
+
+497)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#80: FILE: net/mac80211/util.c:1396:
++			/*
++			 * no need to list the ones split off already
+
+ 
+
+498)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#146: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:920:
++	/*
++	 * No need to lock amsdu_in_ampdu_allowed since it can't be modified
+
+ 
+
+499)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#183: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:1019:
++	/*
++	 * Obtain NVM image via request_firmware. Since we already used
+
+ 
+
+500)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#460: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1416:
++		/*
++		 * If we are here - the queue hadn't been served recently and is
+
+ 
+
+501)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2513: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:95:
++	/*
++	 * Convert match flags and values.  Unlike almost
+
+ 
+
+502)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: net/mac80211/mlme.c:3694:
++	/*
++	 * According to Draft P802.11ax D6.0 clause 26.17.2.3.2:
+
+ 
+
+503)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#214: FILE: drivers/net/wireless/mediatek/mt76/agg-rx.c:175:
++	/*
++	 * Frame sequence number exceeds buffering window, free up some space
+
+ 
+
+504)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#41: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:3676:
++	/*
++	 * For gen2 devices, we use a single allocation for each byte-count
+
+ 
+
+505)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#173: FILE: drivers/net/wireless/ath/ath10k/wmi.c:2594:
++/*
++ * Handle the channel info event for firmware which sends chan_info
+
+ 
+
+506)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#74: FILE: net/netfilter/nfnetlink_osf.c:24:
++/*
++ * Indexed by dont-fragment bit.
+
+ 
+
+507)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#170: FILE: drivers/net/wireless/intel/iwlwifi/mvm/scan.c:1265:
++	/*
++	 * Extended dwell is relevant only for low band to start with, as it is
+
+ 
+
+508)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#193: FILE: net/ceph/osd_client.c:3728:
++		/*
++		 * The object is missing on the replica or not (yet)
+
+ 
+
+509)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#166: FILE: drivers/net/wireless/intel/iwlwifi/pcie/rx.c:673:
++	/*
++	 * Allocate the circular buffer of Read Buffer Descriptors
+
+ 
+
+510)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#63: FILE: drivers/net/wireless/ath/ath10k/ce.c:1135:
++		/*
++		 * The SW completion index has caught up with the cached
+
+ 
+
+511)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#59: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:610:
++	/*
++	 * This protects us against grabbing a queue that's being reconfigured
+
+ 
+
+512)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#55: FILE: drivers/net/can/dev.c:501:
++/*
++ * Get the skb from the stack and loop it back locally
+
+ 
+
+513)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#49: FILE: net/core/netclassid_cgroup.c:57:
++/*
++ * To avoid freezing of sockets creation for tasks with big number of threads
+
+ 
+
+514)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: drivers/net/ethernet/alteon/acenic.c:1440:
++	/*
++	 * Enable DMA engine now.
+
+ 
+
+515)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1355: FILE: net/mac80211/util.c:1553:
++	/*
++	 * If adding more here, adjust code in main.c
+
+ 
+
+516)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#623: FILE: drivers/net/wireless/intel/iwlwifi/mvm/utils.c:1578:
++	/*
++	 * Otherwise, we don't need to run the work struct because we're
+
+ 
+
+517)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#133: FILE: drivers/net/wireless/mediatek/mt76/mt7615/mac.c:266:
++		/*
++		 * If both PHYs are on the same channel and we don't have a WCID,
+
+ 
+
+518)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#365: FILE: net/unix/scm.c:111:
++	/*
++	 * Need to duplicate file references for the sake of garbage
+
+ 
+
+519)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#595: FILE: net/rxrpc/rtt.c:35:
++/*
++ * Called to compute a smoothed rtt estimate. The data fed to this
+
+ 
+
+520)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#75: FILE: drivers/net/wireless/mediatek/mt76/mt76x2_tx.c:229:
++	/*
++	 * Beacon timer drifts by 1us every tick, the timer is configured
+
+ 
+
+521)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#251: FILE: net/sunrpc/xprt.c:1102:
++		/*
++		 * Requests that carry congestion control credits are added
+
+ 
+
+522)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1057: FILE: drivers/net/wireless/mediatek/mt76/mt76x0/phy.c:255:
++	/*
++	 * Calibration Mode - Open loop, closed loop, and amplitude:
+
+ 
+
+523)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#236: FILE: net/ceph/osdmap.c:2852:
++/*
++ * Gets the parent of an item.  Returns its id (<0 because the
+
+ 
+
+524)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#135: FILE: net/rxrpc/ar-internal.h:1019:
++/*
++ * Abort a call due to a protocol error.
+
+ 
+
+525)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#175: FILE: net/mac80211/rc80211_minstrel_ht.c:614:
++	/*
++	 * Use rate switching instead of probing packets for devices with
+
+ 
+
+526)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#96: FILE: net/ceph/osd_client.c:936:
++/*
++ * @flags: CEPH_OSD_OP_ALLOC_HINT_FLAG_*
+
+ 
+
+527)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#25: FILE: drivers/net/wireless/broadcom/brcm80211/brcmfmac/sdio.c:3776:
++	/*
++	 * this is a bit of special handling if reading the chipcommon chipid
+
+ 
+
+528)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#35: FILE: net/ceph/messenger.c:518:
++/*
++ * If @buf is NULL, discard up to @len bytes.
+
+ 
+
+529)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2533: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:115:
++	/*
++	 * Handle encap filters first.  They will always be mismatch
+
+ 
+
+530)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#134: FILE: drivers/net/wireless/intel/iwlwifi/fw/acpi.h:102:
++/*
++ * 1 type, 1 enabled, 1 black list size, 16 black list array
+
+ 
+
+531)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#122: FILE: net/rxrpc/sendmsg.c:41:
++/*
++ * Wait for space to appear in the Tx queue or a signal to occur.
+
+ 
+
+532)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#176: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:230:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+533)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#257: FILE: net/rxrpc/output.c:529:
++/*
++ * Send a VERSION reply to a peer as a keepalive.
+
+ 
+
+534)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#25: FILE: drivers/net/wireless/ath/ath11k/ce.h:61:
++/*
++ * Establish a mapping between a service/direction and a pipe.
+
+ 
+
+535)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#90: FILE: drivers/net/ethernet/realtek/r8169.c:2944:
++	/*
++	 * Can not link to 1Gbps with bad cable
+
+ 
+
+536)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#10891: FILE: drivers/net/wireless/ath/ath11k/debug_htt_stats.h:1197:
++	/*
++	 * Counters for 11ax HE LTF selection during TX.
+
+ 
+
+537)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#181: FILE: drivers/net/wireless/intel/iwlwifi/pcie/drv.c:1137:
++	/*
++	 * If we didn't set the cfg yet, assume the trans is actually
+
+ 
+
+538)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#56: FILE: net/sunrpc/svc.c:1148:
++/*
++ * Setup response header for TCP, it has a 4B record length field.
+
+ 
+
+539)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#54: FILE: drivers/net/ethernet/micrel/ks8851_mll.c:173:
++	/*
++	 * Read CIDER register first, however read it the "wrong" way around.
+
+ 
+
+540)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#78: FILE: drivers/net/wireless/mediatek/mt76/airtime.c:32:
++/*
++ * Define group sort order: HT40 -> SGI -> #streams
+
+ 
+
+541)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#133: FILE: net/ceph/osd_client.c:2387:
++/*
++ * Abort all in-flight requests with @err and arrange for all future
+
+ 
+
+542)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#167: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:2038:
++			/*
++			 * we don't need to clear this flag, because
+
+ 
+
+543)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#344: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:924:
++		/*
++		 * Check that list is empty to avoid a race where txq_id is
+
+ 
+
+544)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#328: FILE: net/mac80211/mlme.c:4018:
++			/*
++			 * extended CSA IE can't be overridden, no need for
+
+ 
+
+545)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#441: FILE: net/core/dev.c:403:
++/*
++ * register_netdevice() inits txq->_xmit_lock and sets lockdep class
+
+ 
+
+546)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#88: FILE: drivers/net/wireless/intel/iwlwifi/pcie/internal.h:885:
++		/*
++		 * When we'll receive the ALIVE interrupt, the ISR will call
+
+ 
+
+547)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#663: FILE: net/rxrpc/rtt.c:103:
++/*
++ * Calculate rto without backoff.  This is the second half of Van Jacobson's
+
+ 
+
+548)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#75: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:1187:
++		/*
++		 * If basic SAR is not available, we check for WGDS,
+
+ 
+
+549)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#36: FILE: drivers/net/wireless/ath/wil6210/main.c:1583:
++/*
++ * Clear FW and ucode log start addr to indicate FW log is not ready. The host
+
+ 
+
+550)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#79: FILE: net/rxrpc/peer_object.c:467:
++/*
++ * Make sure all peer records have been discarded.
+
+ 
+
+551)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#53: FILE: net/mac80211/vht.c:311:
++		/*
++		 * If this is non-zero, then it does support 160 MHz after all,
+
+ 
+
+552)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#79: FILE: drivers/net/dsa/qca/ar9331.c:4:
++/*
++ *                   +----------------------+
+
+ 
+
+553)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#106: FILE: drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.h:1338:
++	/*
++	 * Only one virtual interface permitted because only STA mode
+
+ 
+
+554)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#48: FILE: net/wireless/reg.c:2329:
++	/*
++	 * We currently assume that you always want at least 20 MHz,
+
+ 
+
+555)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: net/mac80211/rc80211_minstrel_ht.c:1064:
++	/*
++	 * For devices with no configurable multi-rate retry, skip sampling
+
+ 
+
+556)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#324: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1280:
++/*
++ * Remove inactive TIDs of a given queue.
+
+ 
+
+557)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#245: FILE: drivers/net/dsa/bcm_sf2_cfp.c:344:
++	/*
++	 * We have a small oddity where Port 6 just does not have a
+
+ 
+
+558)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#77: FILE: net/wireless/reg.c:3725:
++		/*
++		 * The last request may have been received before this
+
+ 
+
+559)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#145: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:982:
++		/*
++		 * Unfortunately, we have to leave the mac80211 data
+
+ 
+
+560)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:933:
++	/*
++	 * Unfortunately, we have to leave the mac80211 data
+
+ 
+
+561)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:381:
++		/*
++		 * Sometimes we can get frames that were not decrypted
+
+ 
+
+562)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#65: FILE: net/sunrpc/xprt.c:1065:
++			/*
++			 * Send an extra queue wakeup call if the
+
+ 
+
+563)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4410: FILE: drivers/net/wireless/mediatek/mt76/mt76x2_main.c:331:
++	/*
++	 * The hardware does not support per-STA RX GTK, fall back
+
+ 
+
+564)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: drivers/net/wireless/ralink/rt2x00/rt2x00mac.c:147:
++			/*
++			 * Recheck for full queue under lock to avoid race
+
+ 
+
+565)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#94: FILE: net/ceph/osd_client.c:1510:
++/*
++ * Picks the closest replica based on client's location given by
+
+ 
+
+566)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#162: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1157:
++/*
++ * Check for inactivity - this includes checking if any queue
+
+ 
+
+567)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: net/smc/smc_clc.c:47:
++	/*
++	 * Caller must make sure that buflen is no less than
+
+ 
+
+568)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#60: FILE: net/ceph/osdmap.c:2449:
++		/*
++		 * Note: this approach does not allow a bidirectional swap,
+
+ 
+
+569)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#365: FILE: net/mac80211/agg-tx.c:490:
++		/*
++		 * We didn't send the request yet, so don't need to check
+
+ 
+
+570)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#609: FILE: net/mac80211/mlme.c:626:
++	/*
++	 * TODO: the 1 added is because this temporarily is under the EXTENSION
+
+ 
+
+571)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#38: FILE: drivers/net/wireless/ath/ath10k/qmi.c:966:
++	/*
++	 * The del_server event is to be processed only if coming from
+
+ 
+
+572)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#98: FILE: net/mac80211/util.c:1428:
++			/*
++			 * no need to list the ones split off already
+
+ 
+
+573)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#214: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:253:
++	/*
++	 * This function allocats the default fw monitor.
+
+ 
+
+574)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#72: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:1109:
++	/*
++	 * cap_flags is per regulatory domain so apply it for every channel
+
+ 
+
+575)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#79: FILE: net/mac80211/main.c:269:
++			/*
++			 * This worker is scheduled from the iface worker that
+
+ 
+
+576)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#328: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1349:
++	/*
++	 * Mark TXQ as ready, even though it hasn't been fully configured yet,
+
+ 
+
+577)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_pci.c:163:
++	/*
++	 * There are 2 types of SIMATIC IOT2000: IOT20202 and IOT2040.
+
+ 
+
+578)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#130: FILE: net/rxrpc/output.c:36:
++/*
++ * Arrange for a keepalive ping a certain time after we last transmitted.  This
+
+ 
+
+579)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#152: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac-ctxt.c:1594:
++	/*
++	 * If it's a one time NoA, only one descriptor is needed,
+
+ 
+
+580)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#142: FILE: drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu_core.c:5188:
++/*
++ * The RTL8723BU/RTL8192EU vendor driver use coexistence table type
+
+ 
+
+581)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#131: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:905:
++	/*
++	 * Do not build AMSDU for IPv6 with extension headers.
+
+ 
+
+582)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#141: FILE: net/openvswitch/flow_table.c:478:
++/*
++ * mask_cache maps flow to probable mask. This cache is not tightly
+
+ 
+
+583)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#22862: FILE: drivers/net/wireless/ath/ath11k/hal_desc.h:1295:
++/*
++ * hal_ce_srng_src_desc
+
+ 
+
+584)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#244: FILE: net/rxrpc/input.c:634:
++/*
++ * Process the response to a ping that we sent to find out if we lost an ACK.
+
+ 
+
+585)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#26: FILE: net/wireless/nl80211.c:8105:
++	/*
++	 * dump_scan will be called multiple times to break up the scan results
+
+ 
+
+586)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#64: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:234:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+587)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#80: FILE: drivers/net/wireless/intel/iwlwifi/pcie/drv.c:1028:
++	/*
++	 * We can already set the cfg to iwl_trans here, because the
+
+ 
+
+588)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2183: FILE: drivers/net/wireless/ath/ath11k/ce.h:68:
++/*
++ * Configuration information for a Copy Engine pipe.
+
+ 
+
+589)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3379: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:961:
++/*
++ * Caller must hold efx->filter_sem for read if race against
+
+ 
+
+590)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#231: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rxmq.c:1434:
++		/*
++		 * Toggle is switched whenever new aggregation starts. Make
+
+ 
+
+591)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#144: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:771:
++	/*
++	 * It is a valid scenario to not support SAR, or miss wgds table,
+
+ 
+
+592)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2465: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:47:
++/*
++ * Decide whether a filter should be exclusive or else should allow
+
+ 
+
+593)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#58: FILE: net/sunrpc/socklib.c:24:
++/*
++ * Helper structure for copying from an sk_buff.
+
+ 
+
+594)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#73: FILE: net/socket.c:1137:
++	/*
++	 * We need to be sure we are in sync with the socket flags modification.
+
+ 
+
+595)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#89: FILE: drivers/net/wireless/intel/iwlwifi/fw/api/rx.h:382:
++	/*
++	 * check this first - if TSF overload is set,
+
+ 
+
+596)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#94: FILE: net/mac80211/rc80211_minstrel.h:22:
++/*
++ * Coefficients for moving average with noise filter (period=16),
+
+ 
+
+597)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1785: FILE: drivers/net/ethernet/realtek/r8169_phy_config.c:414:
++	/*
++	 * Can not link to 1Gbps with bad cable
+
+ 
+
+598)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#58: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:230:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+599)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#141: FILE: net/sunrpc/sched.c:163:
++/*
++ * Add new request to a priority queue.
+
+ 
+
+600)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#126: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:436:
++	/*
++	 * TODO: Beacon interval is currently unknown, so use the common value
+
+ 
+
+601)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_main.c:3030:
++			/*
++			 * There is no way to determine the number of TSO
+
+ 
+
+602)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#81: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:215:
++/*
++ * All JF radio modules are part of the 9000 series, but the MAC part
+
+ 
+
+603)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#47: FILE: drivers/net/wireless/ralink/rt2x00/rt2800lib.c:981:
++	/*
++	 * Validate if this TX status report is intended for
+
+ 
+
+604)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#190: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:4642:
++			/*
++			 * In case of undetermined / long time with immediate
+
+ 
+
+605)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#215: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:3368:
++			/*
++			* a step no FPGA
+
+ 
+
+606)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#115: FILE: net/rxrpc/output.c:38:
++/*
++ * Increase Tx backoff on transmission failure and clear it on success.
+
+ 
+
+607)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2145: FILE: drivers/net/wireless/ath/ath11k/ce.h:30:
++/*
++ * Directions for interconnect pipe configuration.
+
+ 
+
+608)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#307: FILE: net/ceph/osdmap.c:2923:
++	/*
++	 * Instead of repeated get_immediate_parent() calls,
+
+ 
+
+609)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#1795: FILE: net/wireless/pmsr.c:498:
++	/*
++	 * Currently, only variable items are LCI and civic location,
+
+ 
+
+610)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#37: FILE: net/sunrpc/xprt.c:1460:
++	/*
++	 * Tear down transport state and free the rpc_xprt
+
+ 
+
+611)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#2615: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:197:
++		/*
++		 * We don't have the ability to return an error, so we'll just
+
+ 
+
+612)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#44: FILE: drivers/net/wireless/intel/iwlwifi/mvm/utils.c:1139:
++		/*
++		 * We can't know when the station is asleep or awake, so we
+
+ 
+
+613)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#91: FILE: net/mac80211/iface.c:1018:
++		/*
++		 * FIXME FIXME
+
+ 
+
+614)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#61: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:2122:
++		/*
++		 * Send the bcast station. At this stage the TBTT and DTIM time
+
+ 
+
+615)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#109: FILE: drivers/net/wireless/intel/iwlwifi/pcie/internal.h:676:
++/*
++ * We need this inline in case dma_addr_t is only 32-bits - since the
+
+ 
+
+616)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#79: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs-fw.c:374:
++			/*
++			 * In debug sta->max_amsdu_len < size
+
+ 
+
+617)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#284: FILE: net/rxrpc/ar-internal.h:1107:
++/*
++ * rtt.c
+
+ 
+
+618)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#211: FILE: net/mac80211/tx.c:1257:
++			/*
++			 * This will be NULL if the driver didn't set the
+
+ 
+
+619)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#216: FILE: net/rxrpc/recvmsg.c:113:
++/*
++ * Record that a call is locally aborted.
+
+ 
+
+620)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#312: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:2552:
++	/*
++	 * When FW supports TLC_OFFLOAD, it also implements Tx aggregation
+
+ 
+
+621)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#43: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:285:
++		/*
++         * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+622)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#80: FILE: drivers/net/wireless/broadcom/brcm80211/brcmfmac/bcmsdh.c:367:
++	/*
++	 * figure out how to read the register based on address range
+
+ 
+
+623)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#266: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:1618:
++		/*
++		 * Invalidate it toward next suspend.
+
+ 
+
+624)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#43: FILE: net/ceph/osd_client.c:1062:
++/*
++ * Call @fn on each OSD request as long as @fn returns 0.
+
+ 
+
+625)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#42: FILE: drivers/net/wireless/ti/wl1251/main.c:1503:
++		/*
++		 * In case our MAC address is not correctly set,
+
+ 
+
+626)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#124: FILE: net/mac80211/util.c:419:
++	/*
++	 * Calling _ieee80211_wake_txqs here can be a problem because it may
+
+ 
+
+627)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#67: FILE: drivers/net/ethernet/broadcom/genet/bcmgenet.c:3113:
++	/*
++	 * Turn on promicuous mode for three scenarios
+
+ 
+
+628)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#719: FILE: drivers/net/wireless/intel/iwlwifi/mvm/ftm-initiator.c:505:
++			/*
++			 * FIXME: the firmware needs to report this, we don't
+
+ 
+
+629)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#161: FILE: net/ceph/striper.c:58:
++/*
++ * Map a file extent to a sorted list of object extents.
+
+ 
+
+630)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#249: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx-gen2.c:592:
++	/*
++	 * No need for _with_wa, the first TB allocation is aligned up
+
+ 
+
+631)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#422: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1378:
++	/*
++	 * If a queue times out - mark it as INACTIVE (don't remove right away
+
+ 
+
+632)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#172: FILE: drivers/net/wireless/mediatek/mt76/mt7615/init.c:334:
++	/*
++	 * Make the secondary PHY MAC address local without overlapping with
+
+ 
+
+633)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#46: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:218:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+634)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#303: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1324:
++	/*
++	 * Check if this queue is already allocated but inactive.
+
+ 
+
+635)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#102: FILE: net/core/net_namespace.c:45:
++/*
++ * net_sem: protects: pernet_list, net_generic_ids,
+
+ 
+
+636)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#146: FILE: net/rxrpc/rxkad.c:147:
++/*
++ * Allocate and prepare the crypto request on a call.  For any particular call,
+
+ 
+
+637)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: drivers/net/wireless/ralink/rt2x00/rt2800lib.c:6098:
++	/*
++	 * Clear encryption initialization vectors on start, but keep them
+
+ 
+
+638)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3389: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:971:
++	/*
++	 * Do not install unspecified VID if VLAN filtering is enabled.
+
+ 
+
+639)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#73: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:207:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+640)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#239: FILE: drivers/net/wireless/intersil/hostap/hostap_hw.c:3046:
++/*
++ * HostAP uses two layers of net devices, where the inner
+
+ 
+
+641)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#211: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:1913:
++	/*
++	 * If bit_num > 5, we have to combine bits with next byte.
+
+ 
+
+642)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#70: FILE: net/mac80211/main.c:260:
++		/*
++		 * XXX: there may be more work for other vif types and even
+
+ 
+
+643)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#129: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:965:
++/*
++ * Reads external NVM from a file into mvm->nvm_sections
+
+ 
+
+644)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#29: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:368:
++	/*
++	 * Set a 'fake' TID for the command queue, since we use the
+
+ 
+
+645)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#676: FILE: net/rose/af_rose.c:68:
++/*
++ * ROSE network devices are virtual network devices encapsulating ROSE
+
+ 
+
+646)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#68: FILE: drivers/net/wireless/intel/iwlwifi/iwl-eeprom-read.c:207:
++	/*
++	 * CSR auto clock gate disable bit -
+
+ 
+
+647)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#162: FILE: net/rxrpc/local_object.c:261:
++/*
++ * Get a ref on a local endpoint.
+
+ 
+
+648)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#106: FILE: net/mac80211/mlme.c:2016:
++		/*
++		 * In multi channel scenarios guarantee that the virtual
+
+ 
+
+649)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:273:
++		/*
++         * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+650)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#184: FILE: drivers/net/wireless/intel/iwlwifi/iwl-context-info-gen3.h:132:
++/*
++ * struct iwl_prph_scratch_ror_cfg - ror config
+
+ 
+
+651)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#29: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:885:
++	/*
++	 * This command is not supported on earlier firmware versions.
+
+ 
+
+652)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#238: FILE: net/sunrpc/sched.c:852:
++		/*
++		 * Signalled tasks should exit rather than sleep.
+
+ 
+
+653)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#272: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:2194:
++		/*
++		 * The division below will be OK if either the cache line size
+
+ 
+
+654)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#190: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs.c:1719:
++	/*
++	 * In case TLC offload is not active amsdu_enabled is either 0xFFFF
+
+ 
+
+655)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#390: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1411:
++	/*
++	 * Mark queue as shared in transport if shared
+
+ 
+
+656)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#175: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1795:
++	/*
++	 * For 22000 firmware and on we cannot add queue to a station unknown
+
+ 
+
+657)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#311: FILE: net/netfilter/nf_tables_api.c:6051:
++	/*
++	 * Bump generation counter, invalidate any dump in progress.
+
+ 
+
+658)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#87: FILE: drivers/net/hyperv/netvsc.c:596:
++	/*
++	 * Revoke receive buffer. If host is pre-Win2016 then tear down
+
+ 
+
+659)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#64: FILE: net/rxrpc/call_object.c:582:
++/*
++ * Final call destruction under RCU.
+
+ 
+
+660)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#132: FILE: drivers/net/wireless/ralink/rt2x00/rt2800mmio.c:823:
++	/*
++	 * Overwrite TX done handler
+
+ 
+
+661)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#31: FILE: drivers/net/wireless/intel/iwlwifi/iwl-dbg-tlv.c:484:
++	/*
++	 * We try to allocate as many pages as we can, starting with
+
+ 
+
+662)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#51: FILE: net/sunrpc/xprt.c:1475:
++	/*
++	 * Exclude transport connect/disconnect handlers and autoclose
+
+ 
+
+663)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#41: FILE: net/mac80211/rx.c:215:
++		/*
++		 * The position to look at depends on the existence (or non-
+
+ 
+
+664)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: drivers/net/bonding/bond_alb.c:1486:
++			/*
++			 * do_tx_balance means we are free to select the tx_slave
+
+ 
+
+665)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#224: FILE: net/sunrpc/xprt.c:443:
++/*
++ * Clear the congestion window wait flag and wake up the next
+
+ 
+
+666)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#43: FILE: net/mac80211/main.c:420:
++		/*
++		 * To support Pre Association Security Negotiation (PASN) while
+
+ 
+
+667)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#173: FILE: drivers/net/wireless/intel/iwlwifi/fw/acpi.c:384:
++	/*
++	 * Check the validity of n_profiles.  The EWRD profiles start
+
+ 
+
+668)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3452: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1034:
++			/*
++			 * If we failed to insert promiscuous filters, don't
+
+ 
+
+669)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#70: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:242:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+670)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#253: FILE: net/sunrpc/sched.c:446:
++	/*
++	 * Protect the queue operations.
+
+ 
+
+671)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: drivers/net/wireless/intel/iwlwifi/mvm/fw.c:703:
++	/*
++	 * Check the validity of n_profiles.  The EWRD profiles start
+
+ 
+
+672)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#398: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1443:
++	/*
++	 * if rs is registered with mac80211, then "add station" will be handled
+
+ 
+
+673)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#4163: FILE: drivers/net/ethernet/sfc/mcdi_filters.c:1745:
++	/*
++	 * If VLAN filtering changes, all old filters are finally removed.
+
+ 
+
+674)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#24: FILE: net/rxrpc/sendmsg.c:21:
++/*
++ * Return true if there's sufficient Tx queue space.
+
+ 
+
+675)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#54: FILE: net/mac80211/key.c:634:
++	/*
++	 * Silently accept key re-installation without really installing the
+
+ 
+
+676)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#49: FILE: net/wireless/sme.c:1256:
++			/*
++			 * Use disconnect_bssid if still connecting and
+
+ 
+
+677)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#191: FILE: drivers/net/wireless/intel/iwlwifi/iwl-nvm-parse.c:560:
++			/*
++			 * Set default PPE thresholds, with PPET16 set to 0,
+
+ 
+
+678)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#261: FILE: drivers/net/wireless/intel/iwlwifi/pcie/tx.c:2500:
++		/*
++		 * If the TXQ is active, then set the timer, if not,
+
+ 
+
+679)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#102: FILE: drivers/net/ethernet/xscale/ixp4xx_eth.c:1396:
++		/*
++		 * On all except IXP43x, NPE-B is used for the MDIO bus.
+
+ 
+
+680)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#121: FILE: net/mac80211/main.c:1169:
++	/*
++	 * If the VHT capabilities don't have IEEE80211_VHT_EXT_NSS_BW_CAPABLE,
+
+ 
+
+681)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mvm.h:1362:
++	/*
++	 * TODO: should this be the same as iwl_mvm_is_cdb_supported()?
+
+ 
+
+682)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#34: FILE: net/ceph/osd_client.c:4505:
++	/*
++	 * Pass 0 for cookie because we don't know it yet, it will be
+
+ 
+
+683)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#207: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:3360:
++			/*
++			* b step fw is the same for physical card and fpga
+
+ 
+
+684)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#156: FILE: net/mac80211/airtime.c:63:
++/*
++ * Define group sort order: HT40 -> SGI -> #streams
+
+ 
+
+685)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#222: FILE: net/sunrpc/sched.c:412:
++	/*
++	 * Protect the queue operations.
+
+ 
+
+686)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#62: FILE: net/netfilter/nf_conntrack_core.c:1490:
++/*
++ * icmp packets need special treatment to handle error messages that are
+
+ 
+
+687)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#83: FILE: net/rxrpc/conn_client.c:760:
++/*
++ * Set the reap timer.
+
+ 
+
+688)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#47: FILE: drivers/net/dsa/mv88e6xxx/chip.c:367:
++	/*
++	 * free_irq must be called without reg_lock taken because the irq
+
+ 
+
+689)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#68: FILE: drivers/net/wireless/ath/ath6kl/cfg80211.c:3259:
++	/*
++	 * FIXME: send WMI_PROBE_REQ_REPORT_CMD here instead of hardcoding
+
+ 
+
+690)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#3332: FILE: drivers/net/wireless/mediatek/mt76/mt7915/main.c:424:
++	/*
++	 * station mode uses BSSID to map the wlan entry to a peer,
+
+ 
+
+691)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#214: FILE: net/rxrpc/local_object.c:312:
++/*
++ * Drop a ref on a local endpoint.
+
+ 
+
+692)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#201: FILE: drivers/net/wireless/ralink/rt2x00/rt2800mmio.c:498:
++		/*
++		 * For TX queues schedule completion tasklet to catch
+
+ 
+
+693)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#54: FILE: net/sunrpc/clnt.c:1487:
++/*
++ * Restart an (async) RPC call from the call_prepare state.
+
+ 
+
+694)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#39: FILE: net/wireless/mesh.c:178:
++			/*
++			 * Older versions selected the mandatory rates for
+
+ 
+
+695)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#26: FILE: drivers/net/wireless/intel/iwlwifi/mvm/mac80211.c:3196:
++	/*
++	 * Flush the done work, just in case it's still pending, so that
+
+ 
+
+696)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#66: FILE: drivers/net/ethernet/freescale/fsl_pq_mdio.c:396:
++		/*
++		 * Add consistency check to make sure TBI is contained within
+
+ 
+
+697)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#658: FILE: net/tipc/msg.h:528:
++/*
++ * Group protocol message types
+
+ 
+
+698)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#89: FILE: net/wireless/scan.c:1495:
++	/*
++	 * Check if the first element in the next sub element is a start
+
+ 
+
+699)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#44: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_main.c:4519:
++			/*
++			 * If more than 32 bits can be addressed, make sure to
+
+ 
+
+700)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#39: FILE: net/mac80211/tx.c:2260:
++	/*
++	 * Initialize skb->priority for QoS frames. This is put in the TID field
+
+ 
+
+701)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#355: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:1376:
++	/*
++	 * If this queue was previously inactive (idle) - we need to free it
+
+ 
+
+702)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#319: FILE: drivers/net/ethernet/realtek/r8169.c:2495:
++		/*
++		 * ethtool_coalesce says it is illegal to set both usecs and
+
+ 
+
+703)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#117: FILE: net/sunrpc/auth_gss/auth_gss.c:1978:
++	/*
++	 * The xdr_stream now points to the beginning of the
+
+ 
+
+704)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#51: FILE: drivers/net/wireless/ralink/rt2x00/rt2x00queue.c:719:
++	/*
++	 * Pausing queue has to be serialized with rt2x00lib_txdone(), so we
+
+ 
+
+705)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#155: FILE: drivers/net/ethernet/micrel/ks8851_par.c:99:
++	/*
++	 * Read CIDER register first, however read it the "wrong" way around.
+
+ 
+
+706)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#64: FILE: net/bluetooth/cmtp/core.c:307:
++		/*
++		 * wait_woken() performs the necessary memory barriers
+
+ 
+
+707)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#27: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:270:
++/*
++ * All JF radio modules are part of the 9000 series, but the MAC part
+
+ 
+
+708)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#71: FILE: net/wireless/sme.c:1083:
++	/*
++	 * Reject if we're in the process of connecting with WEP,
+
+ 
+
+709)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#282: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:2204:
++		/*
++		 * Upward align the reorder buffer size to fill an entire cache
+
+ 
+
+710)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#28: FILE: drivers/net/wireless/intel/iwlwifi/mvm/sta.c:549:
++	/*
++	 * The TX path may have been using this TXQ_ID from the tid_data,
+
+ 
+
+711)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#335: FILE: drivers/net/hyperv/netvsc_drv.c:2178:
++/*
++ * On Hyper-V, every VF interface is matched with a corresponding
+
+ 
+
+712)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#177: FILE: drivers/net/wireless/intel/iwlwifi/mvm/tx.c:951:
++	/*
++	 * If we have N subframes in the A-MSDU, then the A-MSDU's size is
+
+ 
+
+713)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#33: FILE: drivers/net/wireless/ath/ath10k/ce.h:390:
++/*
++ * Configuration information for a Copy Engine pipe.
+
+ 
+
+714)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#358: FILE: net/mac80211/util.c:3165:
++	/*
++	 * Cf. IEEE 802.11 Table 9-250
+
+ 
+
+715)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#114: FILE: drivers/net/hyperv/netvsc.c:623:
++	/*
++	 * If host is Win2016 or higher then we do the GPADL tear down
+
+ 
+
+716)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#150: FILE: drivers/net/wireless/intel/iwlwifi/pcie/trans.c:2021:
++			/*
++			 * get a module reference to avoid doing this
+
+ 
+
+717)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#32: FILE: net/mac80211/mlme.c:2866:
++	/*
++	 * The 5 MSB of the AID field are reserved
+
+ 
+
+718)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#242: FILE: net/netfilter/nf_tables_api.c:5988:
++		/*
++		 * chain had no change in this generation; make sure next
+
+ 
+
+719)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#51: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:244:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+720)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#110: FILE: drivers/net/wireless/ath/ath10k/wmi.c:2558:
++/*
++ * Handle the channel info event for firmware which only sends one
+
+ 
+
+721)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#24: FILE: drivers/net/wireless/mediatek/mt76/mt76x02_util.c:428:
++	/*
++	 * In USB AP mode, broadcast/multicast frames are setup in beacon
+
+ 
+
+722)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#29: FILE: drivers/net/wireless/intel/iwlwifi/cfg/22000.c:289:
++	/*
++	 * This device doesn't support receiving BlockAck with a large bitmap
+
+ 
+
+723)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
+#45: FILE: drivers/net/wireless/intel/iwlwifi/mvm/rs.c:1655:
++		/*
++		 * Don't use 160 MHz if VHT extended NSS support
+
+ 
+
