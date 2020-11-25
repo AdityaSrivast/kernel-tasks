@@ -1,4 +1,4 @@
-Non-standard signatures: 
+Networking Block Comment Style warnings:
 
 1)WARNING:NETWORKING_BLOCK_COMMENT_STYLE: networking block comments don't use an empty /* line, use /* Comment...
 #78: FILE: net/bluetooth/cmtp/core.c:436:
