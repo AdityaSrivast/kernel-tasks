@@ -1,0 +1,94 @@
+directory => NETWORKING_STYLE_COMMENT Count   GENERIC_STYLE_COMMENT Count
+1) net/batman-adv => 985    0           => NETWORKING
+2) net/mac80211 => 96    575            => GENERIC
+3) net/core => 379    181               => MIXED
+4) net/sunrpc => 211    316             => MIXED
+5) net/ipv4 => 92    396                => GENERIC/MIXED
+6) net/ipv6 => 91    275                => GENERIC/MIXED
+7) net/rxrpc => 19    340               => GENERIC
+8) net/netfilter/ipvs => 3    342       => GENERIC
+9) net/ceph => 3    281                 => GENERIC
+10) net/wireless => 31    246           => GENERIC
+
+11) net/dccp => 53    173
+12) net/netfilter => 87    125
+13) net/netlabel => 170    41
+14) net/sctp => 23    187
+15) net/tipc => 176    33
+16) net/rds => 2    176
+17) net/sunrpc/xprtrdma => 127    29
+18) net/sched => 43    106
+19) net/llc => 109    39
+20) net/atm => 1    116
+21) net/decnet => 10    104
+22) net/ax25 => 0    103
+23) net/x25 => 4    92
+24) net/iucv => 55    26
+25) net/9p => 58    21
+26) net => 31    48
+27) net/rose => 0    77
+28) net/appletalk => 8    66
+29) net/sunrpc/auth_gss => 8    66
+30) net/netrom => 0    63
+31) net/dccp/ccids => 11    43
+32) net/can => 7    43
+33) net/caif => 0    39
+34) net/packet => 1    36
+35) net/openvswitch => 33    2
+36) net/lapb => 0    34
+37) net/dccp/ccids/lib => 19    14
+38) net/ethtool => 27    3
+39) net/dsa => 0    29
+40) net/netlink => 17    10
+41) net/802 => 3    22
+42) net/nfc => 18    6
+43) net/bridge => 6    18
+44) net/ipv4/netfilter => 18    4
+45) net/ceph/crush => 6    15
+46) net/unix => 1    19
+47) net/8021q => 1    18
+48) net/ethernet => 13    5
+49) net/rfkill => 8    9
+50) net/bluetooth/hidp => 0    14
+51) net/l2tp => 13    0
+52) net/nfc/nci => 12    0
+53) net/qrtr => 12    0
+54) net/nfc/hci => 0    12
+55) net/phonet => 0    11
+56) net/6lowpan => 11    0
+57) net/dns_resolver => 1    9
+58) net/dcb => 7    3
+59) net/ipv6/netfilter => 5    5
+60) net/xfrm => 0    8
+61) net/switchdev => 7    0
+62) net/mptcp => 7    0
+63) net/bluetooth/rfcomm => 0    5
+64) net/l3mdev => 5    0
+65) net/smc => 3    1
+66) net/bluetooth => 1    3
+67) net/ieee802154 => 3    0
+68) net/bluetooth/cmtp => 0    2
+69) net/bluetooth/bnep => 0    2
+70) net/bridge/netfilter => 0    2
+71) net/key => 1    0
+72) net/vmw_vsock => 0    1
+73) net/bpf => 1    0
+74) net/ieee802154/6lowpan => 1    0
+75) net/ife => 1    0
+76) net/tls => 1    0
+77) net/mpls => 0    0
+78) net/psample => 0    0
+79) net/decnet/netfilter => 0    0
+80) net/ipv6/ila => 0    0
+81) net/strparser => 0    0
+82) net/ncsi => 0    0
+83) net/netfilter/ipset => 0    0
+84) net/xdp => 0    0
+85) net/bpfilter => 0    0
+86) net/kcm => 0    0
+87) net/hsr => 0    0
+88) net/wireless/certs => 0    0
+89) net/can/j1939 => 0    0
+90) net/ipv4/bpfilter => 0    0
+91) net/mac802154 => 0    0
+92) net/nsh => 0    0
