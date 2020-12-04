@@ -1,0 +1,29 @@
+1) Tor Jeremiassen <tor@ti.com>: 7
+2) Jonas Rabenstein <jonas.rabenstein@studium.uni-erlangen.de>: 4
+3) David Kozub <zub@linux.fjfi.cvut.cz>: 4
+4) Claudio Scordino <claudio@evidence.eu.com>: 2
+5) Peter Zijlstra <peterz@infradead.org>: 2
+6) Daniel Borkmann <daniel@iogearbox.net>: 2
+7) Michael Ellerman <mpe@ellerman.id.au>: 1
+8) David Gounaris <david.gounaris@infinera.com>: 1
+9) Mauro Carvalho Chehab <mchehab+huawei@kernel.org>: 1
+10) Justin Pettit <jpettit@ovn.org>: 1
+11) Neil Armstrong <narmstrong@baylibre.com>: 1
+12) Prashant Bhole <bhole_prashant_q7@lab.ntt.co.jp>: 1
+13) Fabrice Gasnier <fabrice.gasnier@st.com>: 1
+14) Morten Rasmussen <morten.rasmussen@arm.com>: 1
+15) Linus LÃ¼ssing <linus.luessing@c0d3.blue>: 1
+16) Joe Stringer <joe@wand.net.nz>: 1
+17) Philip Elcan <pelcan@codeaurora.org>: 1
+18) Guillaume Champagne <champagne.guillaume.c@gmail.com>: 1
+19) Hans de Goede <hdegoede@redhat.com>: 1
+20) Gerald Schaefer <gerald.schaefer@de.ibm.com>: 1
+21) Dmitry V. Levin <ldv@altlinux.org>: 1
+22) Benjamin Tissoires <benjamin.tissoires@redhat.com>: 1
+23) Thomas Hellstrom <thellstrom@vmware.com>: 1
+24) BjÃ¶rn TÃ¶pel <bjorn.topel@intel.com>: 1
+25) Magnus Karlsson <magnus.karlsson@intel.com>: 1
+26) John Fastabend <john.fastabend@gmail.com>: 1
+27) Mathieu Poirier <mathieu.poirier@linaro.org>: 1
+28) Sasha Levin <sashal@kernel.org>: 1
+Total count: 29
