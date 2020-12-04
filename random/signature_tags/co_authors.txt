@@ -26,4 +26,3 @@
 26) John Fastabend <john.fastabend@gmail.com>: 1
 27) Mathieu Poirier <mathieu.poirier@linaro.org>: 1
 28) Sasha Levin <sashal@kernel.org>: 1
-Total count: 29
