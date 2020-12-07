@@ -1,0 +1,8 @@
+1) drivers/md/md.c: 2
+2) drivers/md/md.h: 1
+3) tools/testing/selftests/zram/zram02.sh: 1
+4) scripts/checkpatch.pl: 1
+5) tools/testing/selftests/zram/zram01.sh: 1
+6) drivers/md/md-bitmap.c: 1
+
+Total = 7
