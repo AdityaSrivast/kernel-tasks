@@ -1,22 +1,260 @@
-d5469036124d:2
-5c789e131cbb:2
-c77761d660a6:1
-eaa399eb542c:10
-ad85094b293e:20
-425eabddaf0f:1
-bdfe0beb95ee:1
-5826e028de7f:1
-3c0538fbad9f:1
-f401441deda6:2
-a8fa78b8f497:1
-addf21ea64d1:1
-91086b82a095:1
-3883a79abd02:1
-3b3a1a0b7824:1
-83ee6ec7740b:3
-ffd3c64871ac:6
-31f0578c5140:1
-4004a9870bbe:1
-406ae7607903:6
-c4ac54079300:1
-88d10bd6f730:1
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (ret)'
+#25: FILE: drivers/staging/rtl8723bs/hal/rtl8723bs_xmit.c:61:
++	if (ret == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (!pmlmepriv->cur_network.join_res) {'
+#36: FILE: drivers/staging/rtl8188eu/core/rtw_ap.c:757:
++	if (pmlmepriv->cur_network.join_res != true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'else if (pwrpriv->wowlan_pno_enable)'
+#73: FILE: drivers/staging/rtl8723bs/os_dep/os_intfs.c:1450:
++		else if (pwrpriv->wowlan_pno_enable == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (res)'
+#79: FILE: drivers/staging/rtl8723bs/os_dep/xmit_linux.c:247:
++			if (res == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (list->dead) {'
+#132: FILE: net/netfilter/nf_conncount.c:110:
++	if (list->dead == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (rbconn->list.count == 0 && !rbconn->list.dead) {'
+#286: FILE: net/netfilter/nf_conncount.c:312:
++		if (rbconn->list.count == 0 && rbconn->list.dead == false) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'DBG_BUGON(*hosted);'
+#306: FILE: drivers/staging/erofs/unzip_vle.c:139:
++	DBG_BUGON(*hosted == true);
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!bMacPwrCtrlOn)'
+#131: FILE: drivers/staging/rtl8723bs/hal/sdio_ops.c:580:
++	if (false == bMacPwrCtrlOn)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use '((bBtDisabled)?false:true));'
+#39: FILE: drivers/staging/rtl8723bs/hal/rtl8723b_dm.c:192:
++				  ((bBtDisabled == true)?false:true));
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'pwrctl->wowlan_mode) {'
+#33: FILE: drivers/staging/rtl8723bs/os_dep/os_intfs.c:1266:
++				pwrctl->wowlan_mode == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (padapter->bDriverStopped) {'
+#35: FILE: drivers/staging/rtl8723bs/os_dep/sdio_intf.c:570:
++	if (padapter->bDriverStopped == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (pwrpriv->bInSuspend) {'
+#42: FILE: drivers/staging/rtl8723bs/os_dep/sdio_intf.c:575:
++	if (pwrpriv->bInSuspend == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!pwrpriv->bInSuspend) {'
+#52: FILE: drivers/staging/rtl8723bs/os_dep/sdio_intf.c:590:
++	if (pwrpriv->bInSuspend == false) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!padapter->bup) {'
+#25: FILE: drivers/staging/rtl8723bs/os_dep/os_intfs.c:354:
++	if (padapter->bup == false) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (pwrctrlpriv->bInSuspend) {'
+#45: FILE: drivers/staging/rtl8723bs/os_dep/os_intfs.c:1037:
++	if (pwrctrlpriv->bInSuspend == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (bnormal) {'
+#83: FILE: drivers/staging/rtl8723bs/os_dep/os_intfs.c:1127:
++	if (true == bnormal) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (pwrctl->bInternalAutoSuspend) {'
+#93: FILE: drivers/staging/rtl8723bs/os_dep/os_intfs.c:1146:
++	if (pwrctl->bInternalAutoSuspend == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (padapter->bup) {'
+#113: FILE: drivers/staging/rtl8723bs/os_dep/os_intfs.c:1211:
++	if (padapter->bup == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!padapter->bSurpriseRemoved) {'
+#123: FILE: drivers/staging/rtl8723bs/os_dep/os_intfs.c:1248:
++		if (padapter->bSurpriseRemoved == false) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (device->rx_active && !rx_interrupted) {'
+#227: FILE: drivers/staging/pi433/pi433_if.c:637:
++		if (device->rx_active && rx_interrupted == false) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if ((pHTInfo->bCurBW40MHz) && pHTInfo->bCurShortGI40MHz)'
+#58: FILE: drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c:410:
++	if ((pHTInfo->bCurBW40MHz==true) && pHTInfo->bCurShortGI40MHz)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'else if ((!pHTInfo->bCurBW40MHz) && pHTInfo->bCurShortGI20MHz)'
+#61: FILE: drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c:412:
++	else if ((pHTInfo->bCurBW40MHz==false) && pHTInfo->bCurShortGI20MHz)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if ((pHTInfo->bCurBW40MHz) && pHTInfo->bCurShortGI40MHz)'
+#317: FILE: drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c:383:
++	if ((pHTInfo->bCurBW40MHz == true) && pHTInfo->bCurShortGI40MHz)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'else if ((!pHTInfo->bCurBW40MHz) && pHTInfo->bCurShortGI20MHz)'
+#320: FILE: drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c:385:
++	else if ((pHTInfo->bCurBW40MHz == false) && pHTInfo->bCurShortGI20MHz)
+
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (get_free && (!entry->in_use))'
+#573: FILE: drivers/net/ethernet/stmicro/stmmac/stmmac_tc.c:506:
++		if (get_free && (entry->in_use == false))
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (mac->support_autoneg) {'
+#329: FILE: drivers/net/ethernet/hisilicon/hns3/hns3pf/hclge_main.c:2350:
++	if (mac->support_autoneg == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (is_output_stage[i])'
+#4119: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:8284:
++			if (is_output_stage[i] == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!fw->loaded)'
+#4842: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:8690:
++	if (fw->loaded == false)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (acc_pipe && num_pipes == 2 && curr_stream->cont_capt)'
+#6758: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9750:
++		if (acc_pipe && num_pipes == 2 && curr_stream->cont_capt == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (curr_stream->cont_capt) {'
+#6761: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9753:
++		if (curr_stream->cont_capt == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (preview_pipe && (curr_stream->cont_capt)) {'
+#6814: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9775:
++		if (preview_pipe && (curr_stream->cont_capt == true)) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (video_pipe && (curr_stream->cont_capt)) {'
+#6825: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9786:
++		if (video_pipe && (curr_stream->cont_capt == true)) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use '(pipe->extra_config.enable_dvs_6axis))'
+#154: FILE: drivers/staging/media/atomisp/pci/camera/pipe/src/pipe_binarydesc.c:617:
++			    (pipe->extra_config.enable_dvs_6axis == true))
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if ((padapter->bDriverStopped) || (true == padapter->bSurpriseRemoved) || (NULL == pdata)) {'
+#3054: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_linux.c:2566:
++	if ((true == padapter->bDriverStopped) || (true == padapter->bSurpriseRemoved) || (NULL == pdata)) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (stream->started) {'
+#44214: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:4848:
++	if (stream->started == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use '(pipe->extra_config.enable_dvs_6axis))'
+#17903: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/camera/pipe/src/pipe_binarydesc.c:624:
++		    (pipe->extra_config.enable_dvs_6axis == true))
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (stream->config.continuous)'
+#62357: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:1070:
++	if (stream->config.continuous == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if ((pipe) && (pipe->stop_requested)) {'
+#65041: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:4644:
++				if ((pipe) && (pipe->stop_requested == true)) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (stream->started)'
+#65290: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:5004:
++	if (stream->started == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (is_output_stage[i])'
+#70043: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:8440:
++				if (is_output_stage[i] == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!fw->loaded)'
+#70742: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:8846:
++		if (fw->loaded == false)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (acc_pipe && num_pipes == 2 && curr_stream->cont_capt)'
+#72628: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9917:
++			if (acc_pipe && num_pipes == 2 && curr_stream->cont_capt == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (curr_stream->cont_capt) {'
+#72631: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9920:
++			if (curr_stream->cont_capt == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (preview_pipe && (curr_stream->cont_capt)) {'
+#72662: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9942:
++			if (preview_pipe && (curr_stream->cont_capt == true)) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (video_pipe && (curr_stream->cont_capt)) {'
+#72673: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9953:
++			if (video_pipe && (curr_stream->cont_capt == true)) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!asd->stream_prepared) {'
+#30992: FILE: drivers/staging/media/atomisp/pci/atomisp2/atomisp_compat_css20.c:1201:
++	if (asd->stream_prepared == false) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use '(pipe->extra_config.enable_dvs_6axis))'
+#49168: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/camera/pipe/src/pipe_binarydesc.c:624:
++			(pipe->extra_config.enable_dvs_6axis == true))
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!rc)'
+#141264: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/isys/src/virtual_isys.c:197:
++	if (rc == false)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!rc) {'
+#141268: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/isys/src/virtual_isys.c:201:
++	if (rc == false) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!rc) {'
+#141287: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/isys/src/virtual_isys.c:220:
++		if (rc == false) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!rc)'
+#141331: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/isys/src/virtual_isys.c:264:
++	if (rc == false)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!rc)'
+#141343: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/isys/src/virtual_isys.c:276:
++		if (rc == false)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!rc)'
+#141352: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/runtime/isys/src/virtual_isys.c:285:
++	if (rc == false)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (stream->config.continuous) {'
+#146311: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:1040:
++	if (stream->config.continuous == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (is_output_stage[i]) {'
+#149013: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:3742:
++			if (is_output_stage[i] == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if ((pipe) && (pipe->stop_requested))'
+#149768: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:4497:
++				if ((pipe) && (pipe->stop_requested == true))
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if(stream->started) {'
+#150122: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:4851:
++	if(stream->started == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'assert(pipe->config.enable_vfpp_bci);'
+#151014: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:5743:
++			assert(pipe->config.enable_vfpp_bci == true);
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (is_output_stage[i])'
+#153453: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:8182:
++			if (is_output_stage[i] == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!fw->loaded)'
+#153867: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:8596:
++	if (fw->loaded == false)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (acc_pipe && num_pipes == 2 && curr_stream->cont_capt)'
+#154905: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9634:
++		if (acc_pipe && num_pipes == 2 && curr_stream->cont_capt == true)
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (curr_stream->cont_capt) {'
+#154907: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9636:
++		if (curr_stream->cont_capt == true) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (preview_pipe && (curr_stream->cont_capt)) {'
+#154929: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9658:
++		if (preview_pipe && (curr_stream->cont_capt == true)) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (video_pipe && (curr_stream->cont_capt)) {'
+#154940: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css.c:9669:
++		if (video_pipe && (curr_stream->cont_capt == true)) {
+
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!table->enable)'
+#162630: FILE: drivers/staging/media/atomisp/pci/atomisp2/css2400/sh_css_params.c:2026:
++	if (table->enable == false)
