@@ -1,0 +1,24 @@
+1)
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'if (adapter_wdev_data(padapter)->block) {'
+#110: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:2033:
++	if (adapter_wdev_data(padapter)->block == true) {
+
+2)
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (!bMatched) {'
+#237: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:2332:
++	if (false == bMatched) {
+
+3)
+CHECK:BOOL_COMPARISON: Using comparison to 'false' is error prone. Perhaps use 'if (psta->dot8021xalg == 1 && !psta->bpairwise_key_installed) {'
+#345: FILE: drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c:2824:
++			if (psta->dot8021xalg == 1 && psta->bpairwise_key_installed == false) {
+
+4)
+CHECK:BOOL_COMPARISON: Using comparison to 'true' is error prone. Perhaps use 'adapter->securitypriv.binstallBIPkey) {'
+#189: FILE: drivers/staging/rtl8723bs/core/rtw_recv.c:1391:
++	    adapter->securitypriv.binstallBIPkey == true) {
+
+5)
+CHECK:BOOL_COMPARISON: Using comparison to 'TRUE' is error prone. Perhaps use 'smc->mib.fddiSMTRemoteDisconnectFlag) {'
+#35: FILE: drivers/net/fddi/skfp/ecm.c:150:
++	    smc->mib.fddiSMTRemoteDisconnectFlag == TRUE) {
