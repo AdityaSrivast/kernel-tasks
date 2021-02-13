@@ -1,0 +1,88 @@
+Use of uninitialized value $param in regexp compilation at scripts/kernel-doc line 1559, <IN_FILE> line 95.
+Use of uninitialized value $actual in substitution (s///) at scripts/kernel-doc line 1523, <IN_FILE> line 95.
+Use of uninitialized value $actual in substitution (s///) at scripts/kernel-doc line 1523, <IN_FILE> line 95.
+Use of uninitialized value $param in substitution (s///) at scripts/kernel-doc line 1617, <IN_FILE> line 95.
+Use of uninitialized value $param in hash element at scripts/kernel-doc line 1651, <IN_FILE> line 95.
+Use of uninitialized value $param in pattern match (m//) at scripts/kernel-doc line 1651, <IN_FILE> line 95.
+Use of uninitialized value $param in hash element at scripts/kernel-doc line 1652, <IN_FILE> line 95.
+Use of uninitialized value $param in pattern match (m//) at scripts/kernel-doc line 1654, <IN_FILE> line 95.
+Use of uninitialized value $param in concatenation (.) or string at scripts/kernel-doc line 1655, <IN_FILE> line 95.
+Use of uninitialized value $param in hash element at scripts/kernel-doc line 1672, <IN_FILE> line 95.
+./include/linux/xz.h:149: error: Cannot parse struct or union!
+./include/linux/amba/pl022.h:61: error: Cannot parse enum!
+./include/linux/vringh.h:64: error: Cannot parse struct or union!
+./include/linux/platform_data/apds990x.h:34: error: Cannot parse struct or union!
+./include/linux/dmaengine.h:292: error: Cannot parse struct or union!
+./include/linux/soc/ti/k3-ringacc.h:84: error: Cannot parse enum!
+./include/linux/zstd.h:170: error: Cannot parse struct or union!
+./include/linux/zstd.h:180: error: Cannot parse struct or union!
+./include/linux/zstd.h:230: error: Cannot parse struct or union!
+./include/linux/zstd.h:273: error: Cannot parse struct or union!
+./include/linux/zstd.h:365: error: Cannot parse struct or union!
+./include/linux/zstd.h:421: error: Cannot parse struct or union!
+./include/linux/zstd.h:537: error: Cannot parse struct or union!
+./include/linux/zstd.h:682: error: Cannot parse struct or union!
+./include/linux/zstd.h:935: error: Cannot parse struct or union!
+./include/linux/tee_drv.h:126: error: Cannot parse struct or union!
+./include/drm/ttm/ttm_memory.h:64: error: Cannot parse struct or union!
+./include/drm/ttm/ttm_bo_api.h:181: error: Cannot parse struct or union!
+./include/net/netlabel.h:148: error: Cannot parse struct or union!
+./include/net/9p/client.h:147: error: Cannot parse struct or union!
+./include/net/caif/caif_dev.h:126: error: Cannot parse struct or union!
+./include/uapi/linux/l2tp.h:24: error: Cannot parse struct or union!
+./include/uapi/linux/dcbnl.h:754: error: Cannot parse enum!
+./arch/powerpc/include/asm/ps3.h:116: error: Cannot parse struct or union!
+./arch/powerpc/include/asm/ps3.h:165: error: Cannot parse struct or union!
+./arch/powerpc/platforms/ps3/interrupt.c:55: error: Cannot parse struct or union!
+./arch/arm/mach-omap2/omap_hwmod_common_data.c:37: error: Cannot parse struct or union!
+./arch/arm/mach-omap2/omap_hwmod_common_data.c:51: error: Cannot parse struct or union!
+./arch/arm/mach-omap2/omap_hwmod_common_data.c:60: error: Cannot parse struct or union!
+./net/mac80211/ieee80211_i.h:636: error: Cannot parse struct or union!
+./drivers/tee/amdtee/amdtee_if.h:94: error: Cannot parse struct or union!
+./drivers/staging/pi433/pi433_if.h:54: error: Cannot parse struct or union!
+./drivers/staging/pi433/pi433_if.h:102: error: Cannot parse struct or union!
+./drivers/scsi/mpt3sas/mpt3sas_base.h:707: error: Cannot parse struct or union!
+./drivers/scsi/megaraid/mega_common.h:149: error: Cannot parse struct or union!
+./drivers/scsi/megaraid/mbox_defs.h:156: error: Cannot parse struct or union!
+./drivers/scsi/isci/port.h:183: error: Cannot parse enum!
+./drivers/scsi/isci/request.h:250: error: Cannot parse enum!
+./drivers/scsi/isci/host.h:295: error: Cannot parse struct or union!
+./drivers/scsi/isci/remote_device.h:282: error: Cannot parse enum!
+./drivers/scsi/isci/phy.h:393: error: Cannot parse enum!
+./drivers/scsi/isci/remote_node_context.h:131: error: Cannot parse enum!
+./drivers/misc/genwqe/card_ddcb.h:39: error: Cannot parse struct or union!
+./drivers/misc/genwqe/card_base.h:158: error: Cannot parse struct or union!
+./drivers/misc/habanalabs/include/common/cpucp_if.h:481: error: Cannot parse struct or union!
+./drivers/net/wireless/intel/iwlegacy/common.h:147: error: Cannot parse struct or union!
+./drivers/net/wireless/intel/iwlegacy/commands.h:2271: error: Cannot parse struct or union!
+./drivers/net/wireless/intel/iwlwifi/dvm/commands.h:2076: error: Cannot parse struct or union!
+./drivers/net/wireless/intel/iwlwifi/pcie/internal.h:254: error: Cannot parse struct or union!
+./drivers/net/wireless/intel/iwlwifi/mvm/mvm.h:222: error: Cannot parse struct or union!
+./drivers/net/wireless/intel/iwlwifi/mvm/mvm.h:243: error: Cannot parse struct or union!
+Use of uninitialized value $param in regexp compilation at scripts/kernel-doc line 1559, <IN_FILE> line 307.
+Use of uninitialized value $actual in substitution (s///) at scripts/kernel-doc line 1523, <IN_FILE> line 307.
+Use of uninitialized value $actual in substitution (s///) at scripts/kernel-doc line 1523, <IN_FILE> line 307.
+Use of uninitialized value $param in substitution (s///) at scripts/kernel-doc line 1617, <IN_FILE> line 307.
+Use of uninitialized value $param in hash element at scripts/kernel-doc line 1651, <IN_FILE> line 307.
+Use of uninitialized value $param in pattern match (m//) at scripts/kernel-doc line 1651, <IN_FILE> line 307.
+Use of uninitialized value $param in hash element at scripts/kernel-doc line 1652, <IN_FILE> line 307.
+Use of uninitialized value $param in pattern match (m//) at scripts/kernel-doc line 1654, <IN_FILE> line 307.
+Use of uninitialized value $param in concatenation (.) or string at scripts/kernel-doc line 1655, <IN_FILE> line 307.
+Use of uninitialized value $param in hash element at scripts/kernel-doc line 1672, <IN_FILE> line 307.
+./drivers/net/ethernet/neterion/vxge/vxge-config.h:212: error: Cannot parse struct or union!
+./drivers/gpu/drm/amd/amdkfd/kfd_mqd_manager.h:67: error: Cannot parse struct or union!
+./drivers/gpu/drm/vmwgfx/vmwgfx_drv.h:168: error: Cannot parse struct or union!
+./drivers/gpu/drm/radeon/radeon.h:1175: error: Cannot parse struct or union!
+./drivers/iio/pressure/st_pressure.h:42: error: Cannot parse struct or union!
+./drivers/iio/accel/st_accel.h:71: error: Cannot parse struct or union!
+./drivers/iio/gyro/st_gyro.h:33: error: Cannot parse struct or union!
+./drivers/media/platform/mtk-vcodec/vdec_drv_if.h:26: error: Cannot parse struct or union!
+./drivers/media/platform/mtk-vcodec/mtk_vcodec_drv.h:87: error: Cannot parse struct or union!
+./drivers/media/platform/mtk-vcodec/mtk_vcodec_drv.h:120: error: Cannot parse struct or union!
+./drivers/media/usb/dvb-usb/dvb-usb.h:270: error: Cannot parse struct or union!
+./drivers/media/usb/dvb-usb/dvb-usb.h:324: error: Cannot parse struct or union!
+./drivers/media/usb/dvb-usb-v2/dvb_usb.h:221: error: Cannot parse struct or union!
+./drivers/media/i2c/m5mols/m5mols.h:147: error: Cannot parse struct or union!
+./drivers/infiniband/hw/hfi1/sdma_txreq.h:85: error: Cannot parse struct or union!
+./fs/9p/v9fs.h:28: error: Cannot parse enum!
+Error: Cannot open file ./scripts/dtc/include-prefixes/c6x
