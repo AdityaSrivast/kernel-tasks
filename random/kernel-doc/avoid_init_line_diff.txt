@@ -1,0 +1,403 @@
+Before, but not after:
+./block/partitions/ldm.h:13: warning: expecting prototype for ldm(). Prototype was for _FS_PT_LDM_H_() instead
+./block/partitions/ldm.c:31: warning: expecting prototype for ldm(). Prototype was for ldm_debug() instead
+./sound/pci/asihpi/hpidspcd.h:4: warning: Cannot understand 
+ on line 4 - I thought it was a doc line
+./sound/pci/asihpi/hpicmn.h:3: warning: Cannot understand 
+ on line 3 - I thought it was a doc line
+./sound/pci/ctxfi/ctresource.c:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ct20k2reg.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ct20k1reg.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/cthw20k1.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctamixer.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctatc.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctimap.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctmixer.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctamixer.c:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctvmem.c:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctsrc.c:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctsrc.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctvmem.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctatc.c:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctresource.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctdaio.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctdaio.c:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/cthw20k2.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/ctpcm.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./sound/pci/ctxfi/cthardware.h:3: warning: wrong kernel-doc identifier on line:
+ * Copyright (C) 2008, Creative Technology Ltd. All Rights Reserved.
+./include/linux/fsl/guts.h:12: warning: expecting prototype for Freecale 85xx and 86xx Global Utilties register set(). Prototype was for __FSL_GUTS_H__() instead
+./include/linux/pci-epc.h:10: warning: expecting prototype for header file(). Prototype was for __LINUX_PCI_EPC_H() instead
+./include/linux/nsc_gpio.h:3: warning: Cannot understand    nsc_gpio.c
+ on line 3 - I thought it was a doc line
+./include/linux/pci-epf.h:10: warning: expecting prototype for header file(). Prototype was for __LINUX_PCI_EPF_H() instead
+./include/linux/win_minmax.h:7: warning: expecting prototype for c(). Prototype was for MINMAX_H() instead
+./include/linux/platform_data/omap-twl4030.h:13: warning: expecting prototype for omap(). Prototype was for _OMAP_TWL4030_H_() instead
+./include/linux/phonet.h:10: warning: expecting prototype for h(). Prototype was for LINUX_PHONET_H() instead
+./include/linux/pci-ep-cfs.h:10: warning: expecting prototype for PCI Endpoint ConfigFS header file(). Prototype was for __LINUX_PCI_EP_CFS_H() instead
+./include/linux/f2fs_fs.h:9: warning: expecting prototype for h(). Prototype was for _LINUX_F2FS_FS_H() instead
+./include/linux/irqchip/irq-omap-intc.h:11: warning: expecting prototype for irq(). Prototype was for __INCLUDE_LINUX_IRQCHIP_IRQ_OMAP_INTC_H() instead
+./include/dt-bindings/reset/snps,hsdk-reset.h:2: warning: wrong kernel-doc identifier on line:
+ * This header provides index for the HSDK reset controller.
+./include/dt-bindings/reset/hisi,hi6220-resets.h:7: warning: expecting prototype for This header provides index for the reset controller(). Prototype was for _DT_BINDINGS_RESET_CONTROLLER_HI6220() instead
+./include/net/rsi_91x.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2017 Redpine Signals Inc.
+ * IBM Accelerator Family 'GenWQE'
+./include/uapi/linux/pcitest.h:11: warning: expecting prototype for h(). Prototype was for __UAPI_LINUX_PCITEST_H() instead
+./include/uapi/linux/phonet.h:25: warning: expecting prototype for h(). Prototype was for _UAPILINUX_PHONET_H() instead
+./include/uapi/drm/drm_sarea.h:2: warning: Cannot understand  * \file drm_sarea.h
+ on line 2 - I thought it was a doc line
+./lib/win_minmax.c:31: warning: Function parameter or member 'm' not described in 'minmax_subwin_update'
+./lib/win_minmax.c:31: warning: Function parameter or member 'win' not described in 'minmax_subwin_update'
+./lib/win_minmax.c:31: warning: Function parameter or member 'val' not described in 'minmax_subwin_update'
+./lib/win_minmax.c:31: warning: expecting prototype for c(). Prototype was for minmax_subwin_update() instead
+./lib/zstd/error_private.h:20: warning: expecting prototype for 2016(). Prototype was for ERROR_H_MODULE() instead
+./lib/zstd/compress.c:31: warning: cannot understand function prototype: 'const U32 g_searchStrength = 8;  '
+./lib/zstd/decompress.c:26: warning: expecting prototype for 2016(). Prototype was for ZSTD_MAXWINDOWSIZE_DEFAULT() instead
+./lib/zstd/mem.h:18: warning: expecting prototype for 2016(). Prototype was for MEM_H_MODULE() instead
+./lib/zstd/zstd_common.c:33: warning: Function parameter or member 'stack' not described in 'stack_push'
+./lib/zstd/zstd_common.c:33: warning: Function parameter or member 'size' not described in 'stack_push'
+./lib/zstd/zstd_common.c:33: warning: expecting prototype for 2016(). Prototype was for stack_push() instead
+./lib/zstd/zstd_opt.h:20: warning: expecting prototype for 2016(). Prototype was for ZSTD_OPT_H_91842398743() instead
+./lib/zstd/zstd_internal.h:18: warning: expecting prototype for 2016(). Prototype was for ZSTD_CCOMMON_H_MODULE() instead
+./arch/arm/mach-sa1100/jornada720_ssp.c:24: warning: Function parameter or member 'jornada_ssp_lock' not described in 'DEFINE_SPINLOCK'
+./arch/arm/mach-sa1100/jornada720_ssp.c:24: warning: expecting prototype for mac(). Prototype was for DEFINE_SPINLOCK() instead
+./arch/arm/mach-omap1/timer.c:34: warning: expecting prototype for OMAP1 Dual(). Prototype was for OMAP1610_GPTIMER1_BASE() instead
+./arch/arm/mach-omap2/omap_twl.c:3: warning: wrong kernel-doc identifier on line:
+ * OMAP and TWL PMIC specific initializations.
+./arch/x86/kernel/cpu/sgx/encl.h:8: warning: expecting prototype for 2016(). Prototype was for _X86_ENCL_H() instead
+./arch/x86/kernel/cpu/sgx/arch.h:9: warning: expecting prototype for 2016(). Prototype was for _ASM_X86_SGX_ARCH_H() instead
+./arch/x86/platform/intel-quark/imr_selftest.c:23: warning: expecting prototype for c(). Prototype was for SELFTEST() instead
+./arch/x86/platform/intel-quark/imr.c:26: warning: Function parameter or member 'fmt' not described in 'pr_fmt'
+./arch/x86/platform/intel-quark/imr.c:26: warning: expecting prototype for c(). Prototype was for pr_fmt() instead
+./arch/arm64/boot/dts/hisilicon/hip07-d05.dts:8: warning: cannot understand function prototype: '/dts-v1/; '
+./arch/arm64/boot/dts/hisilicon/hip06.dtsi:10: warning: cannot understand function prototype: '/ '
+./arch/arm64/boot/dts/hisilicon/hip05-d02.dts:8: warning: cannot understand function prototype: '/dts-v1/; '
+./arch/arm64/boot/dts/hisilicon/hip06-d03.dts:8: warning: cannot understand function prototype: '/dts-v1/; '
+./arch/arm64/boot/dts/hisilicon/hip07.dtsi:10: warning: cannot understand function prototype: '/ '
+./arch/arm64/boot/dts/hisilicon/hip05.dtsi:10: warning: cannot understand function prototype: '/ '
+./tools/pci/pcitest.c:19: warning: expecting prototype for Userspace PCI Endpoint Test Module(). Prototype was for BILLION() instead
+./tools/include/uapi/drm/drm.h:2: warning: Cannot understand  * \file drm.h
+ on line 2 - I thought it was a doc line
+./drivers/gpio/gpio-max730x.c:41: warning: expecting prototype for Pengutronix(). Prototype was for PIN_CONFIG_MASK() instead
+./drivers/mmc/host/sdhci-omap.c:24: warning: expecting prototype for s OMAP SoCs(). Prototype was for SDHCI_OMAP_CON() instead
+./drivers/staging/media/atomisp/pci/isp/modes/interface/input_buf.isp.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/isp/modes/interface/isp_types.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/isp/modes/interface/isp_const.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/isp/kernels/tnr/tnr3/ia_css_tnr3_types.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/isp/kernels/ipu2_io_ls/common/ia_css_common_io_types.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/isp/kernels/ipu2_io_ls/common/ia_css_common_io_param.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/isp/kernels/ipu2_io_ls/yuv444_io_ls/ia_css_yuv444_io_types.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/isp/kernels/ipu2_io_ls/yuv444_io_ls/ia_css_yuv444_io.host.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/isp/kernels/ipu2_io_ls/yuv444_io_ls/ia_css_yuv444_io_param.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/ia_css_timer.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/runtime/binary/interface/ia_css_binary.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/runtime/isp_param/interface/ia_css_isp_param_types.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/sh_css_dvs_info.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/staging/media/atomisp/pci/hive_isp_css_include/device_access/device_access.h:3: warning: Cannot understand Support for Intel Camera Imaging ISP subsystem.
+ on line 3 - I thought it was a doc line
+./drivers/phy/ti/phy-am654-serdes.c:22: warning: expecting prototype for PCIe SERDES driver for AM654x SoC(). Prototype was for CMU_R004() instead
+./drivers/phy/ti/phy-j721e-wiz.c:24: warning: expecting prototype for Wrapper driver for SERDES used in J721E(). Prototype was for WIZ_SERDES_CTRL() instead
+./drivers/phy/ti/phy-tusb1210.c:15: warning: expecting prototype for c(). Prototype was for TUSB1210_VENDOR_SPECIFIC2() instead
+./drivers/phy/qualcomm/phy-qcom-usb-hs.c:16: warning: expecting prototype for 2016 Linaro Ltd(). Prototype was for ULPI_PWR_CLK_MNG_REG() instead
+./drivers/phy/qualcomm/phy-qcom-usb-hsic.c:14: warning: expecting prototype for 2016 Linaro Ltd(). Prototype was for ULPI_HSIC_CFG() instead
+./drivers/pci/endpoint/functions/pci-epf-test.c:22: warning: expecting prototype for Test driver to test endpoint functionality(). Prototype was for IRQ_TYPE_LEGACY() instead
+./drivers/pci/endpoint/functions/pci-epf-ntb.c:45: warning: cannot understand function prototype: 'struct workqueue_struct *kpcintb_workqueue; '
+./drivers/pci/controller/cadence/pci-j721e.c:25: warning: expecting prototype for pci(). Prototype was for ENABLE_REG_SYS_2() instead
+./drivers/pci/controller/pci-xgene.c:27: warning: expecting prototype for APM X(). Prototype was for PCIECORE_CTLANDSTATUS() instead
+./drivers/extcon/extcon-qcom-spmi-misc.c:20: warning: expecting prototype for extcon(). Prototype was for USB_ID_DEBOUNCE_MS() instead
+./drivers/extcon/extcon-usbc-tusb320.c:17: warning: expecting prototype for extcon(). Prototype was for TUSB320_REG9() instead
+./drivers/extcon/extcon-usb-gpio.c:23: warning: expecting prototype for extcon(). Prototype was for USB_GPIO_DEBOUNCE_MS() instead
+./drivers/nfc/nfcmrvl/nfcmrvl.h:20: warning: expecting prototype for Marvell NFC driver(). Prototype was for _NFCMRVL_H_() instead
+./drivers/nfc/nfcmrvl/uart.c:26: warning: cannot understand function prototype: 'unsigned int hci_muxed; '
+./drivers/nfc/nfcmrvl/usb.c:26: warning: cannot understand function prototype: 'struct usb_device_id nfcmrvl_table[] = '
+./drivers/nfc/nfcmrvl/fw_dnld.h:20: warning: expecting prototype for Marvell NFC driver(). Prototype was for __NFCMRVL_FW_DNLD_H__() instead
+./drivers/nfc/nfcmrvl/i2c.c:32: warning: cannot understand function prototype: 'struct nfcmrvl_i2c_drv_data '
+./drivers/nfc/nfcmrvl/spi.c:31: warning: expecting prototype for Marvell NFC(). Prototype was for SPI_WAIT_HANDSHAKE() instead
+./drivers/bluetooth/btmrvl_sdio.h:22: warning: expecting prototype for Marvell BT(). Prototype was for SDIO_HEADER_LEN() instead
+./drivers/bluetooth/btmrvl_main.c:30: warning: expecting prototype for Marvell Bluetooth driver(). Prototype was for VERSION() instead
+./drivers/bluetooth/btmrvl_sdio.c:36: warning: expecting prototype for Marvell BT(). Prototype was for VERSION() instead
+./drivers/bluetooth/btrsi.c:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2017 Redpine Signals Inc.
+./drivers/bluetooth/btmrvl_debugfs.c:29: warning: cannot understand function prototype: 'struct btmrvl_debugfs_data '
+./drivers/thermal/uniphier_thermal.c:26: warning: expecting prototype for c(). Prototype was for PVTCTLEN() instead
+./drivers/iommu/intel/pasid.c:10: warning: Function parameter or member 'fmt' not described in 'pr_fmt'
+./drivers/iommu/intel/pasid.c:10: warning: expecting prototype for intel(). Prototype was for pr_fmt() instead
+./drivers/ntb/hw/epf/ntb_hw_epf.c:15: warning: expecting prototype for Host side endpoint driver to implement Non(). Prototype was for NTB_EPF_COMMAND() instead
+./drivers/w1/masters/ds2482.c:23: warning: Incorrect use of kernel-doc format:  * Allow the active pullup to be disabled, default is enabled.
+./drivers/w1/masters/ds2482.c:32: warning: cannot understand function prototype: 'int ds2482_active_pullup = 1; '
+./drivers/misc/genwqe/card_base.c:3: warning: wrong kernel-doc identifier on line:
+./drivers/misc/pci_endpoint_test.c:28: warning: expecting prototype for Host side test driver to test endpoint functionality(). Prototype was for DRV_MODULE_NAME() instead
+./drivers/counter/microchip-tcb-capture.c:20: warning: expecting prototype for 2020 Microchip(). Prototype was for ATMEL_TC_CMR_MASK() instead
+./drivers/net/phy/rockchip.c:19: warning: expecting prototype for c(). Prototype was for INTERNAL_EPHY_ID() instead
+./drivers/net/phy/adin.c:18: warning: expecting prototype for Driver for Analog Devices Industrial Ethernet PHYs(). Prototype was for PHY_ID_ADIN1200() instead
+./drivers/net/wireless/marvell/libertas_tf/deb_defs.h:3: warning: wrong kernel-doc identifier on line:
+  * This header file contains global constant/enum definitions,
+./drivers/net/wireless/rsi/rsi_boot_params.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2014 Redpine Signals Inc.
+./drivers/net/wireless/rsi/rsi_coex.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2018 Redpine Signals Inc.
+./drivers/net/wireless/rsi/rsi_ps.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2017 Redpine Signals Inc.
+./drivers/net/wireless/rsi/rsi_common.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2014 Redpine Signals Inc.
+./drivers/net/wireless/rsi/rsi_mgmt.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2014 Redpine Signals Inc.
+./drivers/net/wireless/rsi/rsi_main.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2014 Redpine Signals Inc.
+./drivers/net/wireless/rsi/rsi_sdio.h:2: warning: Cannot understand  * @section LICENSE
+ on line 2 - I thought it was a doc line
+./drivers/net/wireless/rsi/rsi_usb.h:2: warning: Cannot understand  * @section LICENSE
+ on line 2 - I thought it was a doc line
+./drivers/net/wireless/rsi/rsi_hal.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2017 Redpine Signals Inc.
+./drivers/net/wireless/rsi/rsi_debugfs.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright (c) 2014 Redpine Signals Inc.
+./drivers/net/ethernet/cisco/enic/enic_api.h:2: warning: wrong kernel-doc identifier on line:
+ * Copyright 2013 Cisco Systems, Inc.  All rights reserved.
+./drivers/net/ethernet/socionext/sni_ave.c:28: warning: expecting prototype for c(). Prototype was for AVE_IDR() instead
+./drivers/net/ethernet/cadence/macb_ptp.c:3: warning: wrong kernel-doc identifier on line:
+ * 1588 PTP support for Cadence GEM device.
+./drivers/net/ethernet/microchip/encx24j600_hw.h:8: warning: expecting prototype for h(). Prototype was for _ENCX24J600_HW_H() instead
+./drivers/net/ethernet/microchip/encx24j600.c:23: warning: expecting prototype for Microchip ENCX24J600 ethernet driver(). Prototype was for DRV_NAME() instead
+./drivers/net/ethernet/arc/emac_rockchip.c:18: warning: expecting prototype for emac(). Prototype was for DRV_NAME() instead
+./drivers/gpu/drm/amd/amdgpu/amdgpu_ioc32.c:2: warning: Cannot understand  * \file amdgpu_ioc32.c
+ on line 2 - I thought it was a doc line
+./drivers/gpu/drm/nouveau/nouveau_ioc32.c:2: warning: Cannot understand  * \file mga_ioc32.c
+ on line 2 - I thought it was a doc line
+./drivers/crypto/vmx/vmx.c:23: warning: expecting prototype for Routines supporting VMX instructions on the Power 8(). Prototype was for p8_init() instead
+./drivers/crypto/vmx/ghash.c:27: warning: Function parameter or member 'htable' not described in 'gcm_init_p8'
+./drivers/crypto/vmx/ghash.c:27: warning: Function parameter or member 'Xi' not described in 'gcm_init_p8'
+./drivers/crypto/vmx/ghash.c:27: warning: expecting prototype for GHASH routines supporting VMX instructions on the Power 8(). Prototype was for gcm_init_p8() instead
+./drivers/crypto/vmx/aes_cbc.c:18: warning: cannot understand function prototype: 'struct p8_aes_cbc_ctx '
+./drivers/crypto/vmx/aes.c:22: warning: cannot understand function prototype: 'struct p8_aes_ctx '
+./drivers/crypto/vmx/aes_xts.c:19: warning: cannot understand function prototype: 'struct p8_aes_xts_ctx '
+./drivers/crypto/vmx/aes_ctr.c:18: warning: cannot understand function prototype: 'struct p8_aes_ctr_ctx '
+./drivers/crypto/chelsio/chcr_core.c:2: warning: wrong kernel-doc identifier on line:
+ * This file is part of the Chelsio T4/T5/T6 Ethernet driver for Linux.
+./drivers/crypto/amcc/crypto4xx_core.h:10: warning: bad line: 
+./drivers/crypto/amcc/crypto4xx_core.h:14: warning: expecting prototype for AMCC SoC PPC4xx Crypto Driver(). Prototype was for __CRYPTO4XX_CORE_H__() instead
+./drivers/crypto/amcc/crypto4xx_sa.h:13: warning: expecting prototype for AMCC SoC PPC4xx Crypto Driver(). Prototype was for __CRYPTO4XX_SA_H__() instead
+./drivers/crypto/amcc/crypto4xx_trng.h:13: warning: expecting prototype for AMCC SoC PPC4xx Crypto Driver(). Prototype was for __CRYPTO4XX_TRNG_H__() instead
+./drivers/crypto/amcc/crypto4xx_reg_def.h:12: warning: expecting prototype for AMCC SoC PPC4xx Crypto Driver(). Prototype was for __CRYPTO4XX_REG_DEF_H__() instead
+./drivers/crypto/amcc/crypto4xx_core.c:45: warning: expecting prototype for AMCC SoC PPC4xx Crypto Driver(). Prototype was for PPC4XX_SEC_VERSION_STR() instead
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'sa' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'save_h' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'save_iv' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'ld_h' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'ld_iv' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'hdr_proc' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'h' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'c' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'pad_type' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'op_grp' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'op' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: Function parameter or member 'dir' not described in 'set_dynamic_sa_command_0'
+./drivers/crypto/amcc/crypto4xx_alg.c:34: warning: expecting prototype for AMCC SoC PPC4xx Crypto Driver(). Prototype was for set_dynamic_sa_command_0() instead
+./drivers/crypto/ux500/cryp/cryp.h:12: warning: expecting prototype for ST(). Prototype was for _CRYP_H_() instead
+./drivers/crypto/ux500/cryp/cryp_irq.c:21: warning: Function parameter or member 'device_data' not described in 'cryp_enable_irq_src'
+./drivers/crypto/ux500/cryp/cryp_irq.c:21: warning: Function parameter or member 'irq_src' not described in 'cryp_enable_irq_src'
+./drivers/crypto/ux500/cryp/cryp_irq.c:21: warning: expecting prototype for ST(). Prototype was for cryp_enable_irq_src() instead
+./drivers/crypto/ux500/cryp/cryp_p.h:12: warning: expecting prototype for ST(). Prototype was for _CRYP_P_H_() instead
+./drivers/crypto/ux500/cryp/cryp_core.c:42: warning: expecting prototype for ST(). Prototype was for CRYP_MAX_KEY_SIZE() instead
+./drivers/crypto/ux500/cryp/cryp.c:19: warning: Incorrect use of kernel-doc format:  * cryp_wait_until_done - wait until the device logic is not busy
+./drivers/crypto/ux500/cryp/cryp.c:22: warning: expecting prototype for ST(). Prototype was for cryp_wait_until_done() instead
+./drivers/crypto/ux500/cryp/cryp_irq.h:12: warning: expecting prototype for ST(). Prototype was for _CRYP_IRQ_H_() instead
+./drivers/crypto/ux500/cryp/cryp_irqp.h:12: warning: expecting prototype for ST(). Prototype was for __CRYP_IRQP_H_() instead
+./drivers/crypto/nx/nx-aes-ccm.c:26: warning: Function parameter or member 'tfm' not described in 'ccm_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ccm.c:26: warning: Function parameter or member 'in_key' not described in 'ccm_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ccm.c:26: warning: Function parameter or member 'key_len' not described in 'ccm_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ccm.c:26: warning: expecting prototype for Nest Accelerators driver(). Prototype was for ccm_aes_nx_set_key() instead
+./drivers/crypto/nx/nx.c:31: warning: Incorrect use of kernel-doc format:  * nx_hcall_sync - make an H_COP_OP hcall for the passed in op structure
+./drivers/crypto/nx/nx.c:43: warning: Function parameter or member 'nx_ctx' not described in 'nx_hcall_sync'
+./drivers/crypto/nx/nx.c:43: warning: Function parameter or member 'op' not described in 'nx_hcall_sync'
+./drivers/crypto/nx/nx.c:43: warning: Function parameter or member 'may_sleep' not described in 'nx_hcall_sync'
+./drivers/crypto/nx/nx.c:43: warning: expecting prototype for Nest Accelerators driver(). Prototype was for nx_hcall_sync() instead
+./drivers/crypto/nx/nx-aes-ecb.c:24: warning: Function parameter or member 'tfm' not described in 'ecb_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ecb.c:24: warning: Function parameter or member 'in_key' not described in 'ecb_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ecb.c:24: warning: Function parameter or member 'key_len' not described in 'ecb_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ecb.c:24: warning: expecting prototype for Nest Accelerators driver(). Prototype was for ecb_aes_nx_set_key() instead
+./drivers/crypto/nx/nx-sha512.c:20: warning: Function parameter or member 'tfm' not described in 'nx_crypto_ctx_sha512_init'
+./drivers/crypto/nx/nx-sha512.c:20: warning: expecting prototype for SHA(). Prototype was for nx_crypto_ctx_sha512_init() instead
+./drivers/crypto/nx/nx-aes-xcbc.c:22: warning: cannot understand function prototype: 'struct xcbc_state '
+./drivers/crypto/nx/nx-aes-ctr.c:25: warning: Function parameter or member 'tfm' not described in 'ctr_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ctr.c:25: warning: Function parameter or member 'in_key' not described in 'ctr_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ctr.c:25: warning: Function parameter or member 'key_len' not described in 'ctr_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-ctr.c:25: warning: expecting prototype for Nest Accelerators driver(). Prototype was for ctr_aes_nx_set_key() instead
+./drivers/crypto/nx/nx_debugfs.c:34: warning: Function parameter or member 'drv' not described in 'nx_debugfs_init'
+./drivers/crypto/nx/nx_debugfs.c:34: warning: expecting prototype for Nest Accelerators driver(). Prototype was for nx_debugfs_init() instead
+./drivers/crypto/nx/nx-aes-cbc.c:24: warning: Function parameter or member 'tfm' not described in 'cbc_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-cbc.c:24: warning: Function parameter or member 'in_key' not described in 'cbc_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-cbc.c:24: warning: Function parameter or member 'key_len' not described in 'cbc_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-cbc.c:24: warning: expecting prototype for Nest Accelerators driver(). Prototype was for cbc_aes_nx_set_key() instead
+./drivers/crypto/nx/nx-aes-gcm.c:26: warning: Function parameter or member 'tfm' not described in 'gcm_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-gcm.c:26: warning: Function parameter or member 'in_key' not described in 'gcm_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-gcm.c:26: warning: Function parameter or member 'key_len' not described in 'gcm_aes_nx_set_key'
+./drivers/crypto/nx/nx-aes-gcm.c:26: warning: expecting prototype for Nest Accelerators driver(). Prototype was for gcm_aes_nx_set_key() instead
+./drivers/crypto/nx/nx-sha256.c:21: warning: Function parameter or member 'tfm' not described in 'nx_crypto_ctx_sha256_init'
+./drivers/crypto/nx/nx-sha256.c:21: warning: expecting prototype for SHA(). Prototype was for nx_crypto_ctx_sha256_init() instead
+./drivers/usb/dwc3/dwc3-st.c:37: warning: expecting prototype for dwc3(). Prototype was for CLKRST_CTRL() instead
+./drivers/usb/dwc3/io.h:12: warning: expecting prototype for h(). Prototype was for __DRIVERS_USB_DWC3_IO_H() instead
+./drivers/usb/dwc3/dwc3-pci.c:23: warning: expecting prototype for dwc3(). Prototype was for PCI_DEVICE_ID_INTEL_BYT() instead
+./drivers/usb/dwc3/dwc3-keystone.c:21: warning: expecting prototype for dwc3(). Prototype was for USBSS_REVISION() instead
+./drivers/usb/dwc3/debug.h:12: warning: expecting prototype for h(). Prototype was for __DWC3_DEBUG_H() instead
+./drivers/usb/dwc3/dwc3-exynos.c:20: warning: expecting prototype for dwc3(). Prototype was for DWC3_EXYNOS_MAX_CLOCKS() instead
+./drivers/usb/dwc3/debugfs.c:28: warning: expecting prototype for c(). Prototype was for DWC3_LSP_MUX_UNSELECTED() instead
+./drivers/usb/dwc3/dwc3-imx8mp.c:20: warning: expecting prototype for dwc3(). Prototype was for USB_WAKEUP_CTRL() instead
+./drivers/usb/dwc3/trace.h:11: warning: expecting prototype for h(). Prototype was for TRACE_SYSTEM() instead
+./drivers/usb/dwc3/trace.c:10: warning: expecting prototype for c(). Prototype was for CREATE_TRACE_POINTS() instead
+./drivers/usb/host/xhci-dbgcap.h:10: warning: expecting prototype for xhci(). Prototype was for __LINUX_XHCI_DBGCAP_H() instead
+./drivers/usb/mtu3/mtu3_trace.h:11: warning: expecting prototype for h(). Prototype was for TRACE_SYSTEM() instead
+./drivers/usb/gadget/udc/trace.h:10: warning: expecting prototype for c(). Prototype was for TRACE_SYSTEM() instead
+./drivers/usb/gadget/udc/trace.c:9: warning: expecting prototype for c(). Prototype was for CREATE_TRACE_POINTS() instead
+./drivers/usb/typec/tcpm/wcove.c:17: warning: expecting prototype for c(). Prototype was for WCOVE_CHGRIRQ0() instead
+./drivers/usb/cdns3/cdns3-imx.c:21: warning: expecting prototype for cdns3(). Prototype was for USB3_CORE_CTRL1() instead
+./drivers/usb/cdns3/cdns3-ti.c:20: warning: expecting prototype for cdns3(). Prototype was for USBSS_PID() instead
+./drivers/iio/adc/ti-adc084s021.c:21: warning: expecting prototype for 2017 Axis Communications AB(). Prototype was for ADC084S021_DRIVER_NAME() instead
+./drivers/iio/humidity/am2315.c:21: warning: expecting prototype for Aosong AM2315 relative humidity and temperature(). Prototype was for AM2315_REG_HUM_MSB() instead
+./drivers/iio/dummy/iio_simple_dummy.h:9: warning: expecting prototype for 2011 Jonathan Cameron(). Prototype was for _IIO_SIMPLE_DUMMY_H_() instead
+./drivers/iio/accel/mc3230.c:15: warning: expecting prototype for mCube MC3230 3(). Prototype was for MC3230_REG_XOUT() instead
+./drivers/iio/accel/stk8ba50.c:22: warning: expecting prototype for Sensortek STK8BA50 3(). Prototype was for STK8BA50_REG_XOUT() instead
+./drivers/iio/accel/bma220_spi.c:20: warning: expecting prototype for BMA220 Digital triaxial acceleration sensor driver(). Prototype was for BMA220_REG_ID() instead
+./drivers/iio/accel/mma7660.c:16: warning: expecting prototype for Freescale MMA7660FC 3(). Prototype was for MMA7660_DRIVER_NAME() instead
+./drivers/iio/accel/da280.c:16: warning: expecting prototype for IIO driver for the MiraMEMS DA280 3(). Prototype was for DA280_REG_CHIP_ID() instead
+./drivers/iio/accel/da311.c:15: warning: expecting prototype for IIO driver for the MiraMEMS DA311 3(). Prototype was for DA311_CHIP_ID() instead
+./drivers/iio/accel/dmard10.c:15: warning: expecting prototype for IIO driver for the 3(). Prototype was for DMARD10_REG_ACTR() instead
+./drivers/iio/accel/stk8312.c:23: warning: expecting prototype for Sensortek STK8312 3(). Prototype was for STK8312_REG_XOUT() instead
+./drivers/iio/light/stk3310.c:20: warning: expecting prototype for STK3311 Ambient Light and Proximity Sensor(). Prototype was for STK3310_REG_STATE() instead
+./drivers/iio/light/opt3001.c:28: warning: expecting prototype for c(). Prototype was for OPT3001_RESULT() instead
+./drivers/iio/trigger/iio-trig-hrtimer.c:20: warning: expecting prototype for O periodic hrtimer trigger driver(). Prototype was for HRTIMER_DEFAULT_SAMPLING_FREQUENCY() instead
+./drivers/ipack/devices/ipoctal.c:25: warning: expecting prototype for c(). Prototype was for IP_OCTAL_ID_SPACE_VECTOR() instead
+./drivers/ipack/devices/ipoctal.h:6: warning: bad line: 
+./drivers/ipack/devices/ipoctal.h:13: warning: expecting prototype for h(). Prototype was for _IPOCTAL_H_() instead
+./drivers/ipack/carriers/tpci200.c:16: warning: cannot understand function prototype: 'const u16 tpci200_status_timeout[] = '
+./drivers/ipack/carriers/tpci200.h:13: warning: expecting prototype for h(). Prototype was for _TPCI200_H_() instead
+./drivers/media/platform/sti/c8sectpfe/c8sectpfe-debugfs.h:12: warning: expecting prototype for c8sectpfe(). Prototype was for __C8SECTPFE_DEBUG_H() instead
+./drivers/media/usb/gspca/w996Xcf.c:3: warning: Cannot understand  *
+ on line 3 - I thought it was a doc line
+./drivers/s390/net/fsm.c:12: warning: expecting prototype for A generic FSM based on fsm used in isdn4linux(). Prototype was for MODULE_AUTHOR() instead
+./drivers/input/misc/twl4030-pwrbutton.c:32: warning: expecting prototype for twl4030(). Prototype was for PWR_PWRON_IRQ() instead
+./drivers/input/misc/cpcap-pwrbutton.c:27: warning: expecting prototype for CPCAP Power Button Input Driver(). Prototype was for CPCAP_IRQ_ON() instead
+./drivers/input/misc/max8925_onkey.c:31: warning: expecting prototype for MAX8925 ONKEY driver(). Prototype was for SW_INPUT() instead
+./drivers/clocksource/timer-ti-32k.c:42: warning: expecting prototype for timer(). Prototype was for OMAP2_32KSYNCNT_REV_OFF() instead
+./drivers/mfd/omap-usb-host.c:26: warning: expecting prototype for omap(). Prototype was for USBHS_DRIVER_NAME() instead
+./drivers/mfd/omap-usb-tll.c:24: warning: expecting prototype for omap(). Prototype was for USBTLL_DRIVER_NAME() instead
+./drivers/i2c/busses/i2c-ali1563.c:24: warning: expecting prototype for i2c(). Prototype was for ALI1563_MAX_TIMEOUT() instead
+./drivers/i2c/busses/i2c-exynos5.c:39: warning: expecting prototype for i2c(). Prototype was for HSI2C_CTL() instead
+./samples/bpf/ibumad_kern.c:13: warning: expecting prototype for ibumad BPF sample kernel side(). Prototype was for KBUILD_MODNAME() instead
+./samples/bpf/ibumad_user.c:30: warning: cannot understand function prototype: 'struct bpf_link *tp_links[3]; '
+./fs/ntfs/compress.c:22: warning: Incorrect use of kernel-doc format:  * ntfs_compression_constants - enum of constants used in the compression code
+./fs/ntfs/mft.c:24: warning: expecting prototype for c(). Prototype was for MAX_BHS() instead
+./fs/ntfs/inode.c:31: warning: Incorrect use of kernel-doc format:  * ntfs_test_inode - compare two (possibly fake) inodes for equality
+./fs/ntfs/inode.c:47: warning: Function parameter or member 'vi' not described in 'ntfs_test_inode'
+./fs/ntfs/inode.c:47: warning: Function parameter or member 'data' not described in 'ntfs_test_inode'
+./fs/ntfs/inode.c:47: warning: expecting prototype for c(). Prototype was for ntfs_test_inode() instead
+./fs/ntfs/attrib.c:25: warning: Incorrect use of kernel-doc format:  * ntfs_map_runlist_nolock - map (a part of) a runlist of an ntfs inode
+./fs/ntfs/attrib.c:71: warning: Function parameter or member 'ni' not described in 'ntfs_map_runlist_nolock'
+./fs/ntfs/attrib.c:71: warning: Function parameter or member 'vcn' not described in 'ntfs_map_runlist_nolock'
+./fs/ntfs/attrib.c:71: warning: Function parameter or member 'ctx' not described in 'ntfs_map_runlist_nolock'
+./fs/ntfs/attrib.c:71: warning: expecting prototype for c(). Prototype was for ntfs_map_runlist_nolock() instead
+./fs/ntfs/aops.c:30: warning: Incorrect use of kernel-doc format:  * ntfs_end_buffer_async_read - async io completion for reading attributes
+./fs/ntfs/aops.c:46: warning: Function parameter or member 'bh' not described in 'ntfs_end_buffer_async_read'
+./fs/ntfs/aops.c:46: warning: Function parameter or member 'uptodate' not described in 'ntfs_end_buffer_async_read'
+./fs/ntfs/aops.c:46: warning: expecting prototype for c(). Prototype was for ntfs_end_buffer_async_read() instead
+./fs/ntfs/runlist.c:16: warning: Incorrect use of kernel-doc format:  * ntfs_rl_mm - runlist memmove
+./fs/ntfs/runlist.c:22: warning: expecting prototype for c(). Prototype was for ntfs_rl_mm() instead
+./fs/ntfs/aops.h:11: warning: expecting prototype for h(). Prototype was for _LINUX_NTFS_AOPS_H() instead
+./fs/ntfs/dir.c:21: warning: Incorrect use of kernel-doc format:  * The little endian Unicode string $I30 as a global constant.
+./fs/ntfs/dir.c:23: warning: cannot understand function prototype: 'ntfschar I30[5] = '
+./fs/ecryptfs/ecryptfs_kernel.h:15: warning: expecting prototype for eCryptfs(). Prototype was for ECRYPTFS_KERNEL_H() instead
+./fs/ecryptfs/read_write.c:16: warning: Incorrect use of kernel-doc format:  * ecryptfs_write_lower
+./fs/ecryptfs/read_write.c:29: warning: Function parameter or member 'ecryptfs_inode' not described in 'ecryptfs_write_lower'
+./fs/ecryptfs/read_write.c:29: warning: Function parameter or member 'data' not described in 'ecryptfs_write_lower'
+./fs/ecryptfs/read_write.c:29: warning: Function parameter or member 'offset' not described in 'ecryptfs_write_lower'
+./fs/ecryptfs/read_write.c:29: warning: Function parameter or member 'size' not described in 'ecryptfs_write_lower'
+./fs/ecryptfs/read_write.c:29: warning: expecting prototype for eCryptfs(). Prototype was for ecryptfs_write_lower() instead
+./fs/ecryptfs/dentry.c:19: warning: Incorrect use of kernel-doc format:  * ecryptfs_d_revalidate - revalidate an ecryptfs dentry
+./fs/ecryptfs/dentry.c:32: warning: Function parameter or member 'dentry' not described in 'ecryptfs_d_revalidate'
+./fs/ecryptfs/dentry.c:32: warning: Function parameter or member 'flags' not described in 'ecryptfs_d_revalidate'
+./fs/ecryptfs/dentry.c:32: warning: expecting prototype for eCryptfs(). Prototype was for ecryptfs_d_revalidate() instead
+./fs/ecryptfs/main.c:28: warning: Incorrect use of kernel-doc format:  * Module parameter that defines the ecryptfs_verbosity level.
+./fs/ecryptfs/main.c:30: warning: cannot understand function prototype: 'int ecryptfs_verbosity = 0; '
+./fs/ecryptfs/keystore.c:25: warning: Incorrect use of kernel-doc format:  * request_key returned an error instead of a valid key address;
+./fs/ecryptfs/keystore.c:30: warning: Function parameter or member 'err_code' not described in 'process_request_key_err'
+./fs/ecryptfs/keystore.c:30: warning: expecting prototype for eCryptfs(). Prototype was for process_request_key_err() instead
+./fs/ecryptfs/kthread.c:16: warning: cannot understand function prototype: 'struct ecryptfs_open_req '
+./fs/ecryptfs/inode.c:25: warning: Function parameter or member 'dentry' not described in 'lock_parent'
+./fs/ecryptfs/inode.c:25: warning: expecting prototype for eCryptfs(). Prototype was for lock_parent() instead
+./fs/ecryptfs/mmap.c:26: warning: Incorrect use of kernel-doc format:  * ecryptfs_get_locked_page
+./fs/ecryptfs/mmap.c:34: warning: expecting prototype for eCryptfs(). Prototype was for ecryptfs_get_locked_page() instead
+./fs/ecryptfs/super.c:22: warning: cannot understand function prototype: 'struct kmem_cache *ecryptfs_inode_info_cache; '
+./fs/ecryptfs/crypto.c:29: warning: expecting prototype for eCryptfs(). Prototype was for DECRYPT() instead
+./fs/ecryptfs/file.c:23: warning: Incorrect use of kernel-doc format:  * ecryptfs_read_update_atime
+./fs/ecryptfs/file.c:34: warning: expecting prototype for eCryptfs(). Prototype was for ecryptfs_read_update_atime() instead
+./fs/ecryptfs/messaging.c:15: warning: Function parameter or member 'ecryptfs_msg_ctx_free_list' not described in 'LIST_HEAD'
+./fs/ecryptfs/messaging.c:15: warning: expecting prototype for eCryptfs(). Prototype was for LIST_HEAD() instead
+./fs/ecryptfs/miscdev.c:19: warning: cannot understand function prototype: 'atomic_t ecryptfs_num_miscdev_opens; '
+./fs/ecryptfs/debug.c:13: warning: Incorrect use of kernel-doc format:  * ecryptfs_dump_auth_tok - debug function to print auth toks
+./fs/ecryptfs/debug.c:19: warning: expecting prototype for eCryptfs(). Prototype was for ecryptfs_dump_auth_tok() instead
+./scripts/atomic/fallbacks/sub_and_test:3: warning: Cannot understand  * ${arch}${atomic}_sub_and_test - subtract value from variable and test result
+ on line 3 - I thought it was a doc line
+./scripts/atomic/fallbacks/add_unless:3: warning: Cannot understand  * ${arch}${atomic}_add_unless - add unless the number is already a given value
+ on line 3 - I thought it was a doc line
+./scripts/atomic/fallbacks/fetch_add_unless:3: warning: Cannot understand  * ${arch}${atomic}_fetch_add_unless - add unless the number is already a given value
+ on line 3 - I thought it was a doc line
+./scripts/atomic/fallbacks/add_negative:3: warning: Cannot understand  * ${arch}${atomic}_add_negative - add and test if negative
+ on line 3 - I thought it was a doc line
+./scripts/atomic/fallbacks/inc_not_zero:3: warning: Cannot understand  * ${arch}${atomic}_inc_not_zero - increment unless the number is zero
+ on line 3 - I thought it was a doc line
+./scripts/atomic/fallbacks/dec_and_test:3: warning: Cannot understand  * ${arch}${atomic}_dec_and_test - decrement and test
+ on line 3 - I thought it was a doc line
+./scripts/atomic/fallbacks/inc_and_test:3: warning: Cannot understand  * ${arch}${atomic}_inc_and_test - increment and test
+ on line 3 - I thought it was a doc line
+./scripts/dtc/include-prefixes/dt-bindings/reset/snps,hsdk-reset.h:2: warning: wrong kernel-doc identifier on line:
+ * This header provides index for the HSDK reset controller.
+./scripts/dtc/include-prefixes/dt-bindings/reset/hisi,hi6220-resets.h:7: warning: expecting prototype for This header provides index for the reset controller(). Prototype was for _DT_BINDINGS_RESET_CONTROLLER_HI6220() instead
+./scripts/dtc/include-prefixes/arm64/hisilicon/hip07-d05.dts:8: warning: cannot understand function prototype: '/dts-v1/; '
+./scripts/dtc/include-prefixes/arm64/hisilicon/hip06.dtsi:10: warning: cannot understand function prototype: '/ '
+./scripts/dtc/include-prefixes/arm64/hisilicon/hip05-d02.dts:8: warning: cannot understand function prototype: '/dts-v1/; '
+./scripts/dtc/include-prefixes/arm64/hisilicon/hip06-d03.dts:8: warning: cannot understand function prototype: '/dts-v1/; '
+./scripts/dtc/include-prefixes/arm64/hisilicon/hip07.dtsi:10: warning: cannot understand function prototype: '/ '
+./scripts/dtc/include-prefixes/arm64/hisilicon/hip05.dtsi:10: warning: cannot understand function prototype: '/ '
+
+After, but not before:
+./drivers/w1/masters/ds2482.c:23: warning: wrong kernel-doc identifier on line:
+ * Allow the active pullup to be disabled, default is enabled.
+./fs/ntfs/dir.c:21: warning: wrong kernel-doc identifier on line:
+ * The little endian Unicode string $I30 as a global constant.
+./fs/ecryptfs/main.c:28: warning: wrong kernel-doc identifier on line:
+ * Module parameter that defines the ecryptfs_verbosity level.
+./fs/ecryptfs/keystore.c:25: warning: wrong kernel-doc identifier on line:
+ * request_key returned an error instead of a valid key address;
