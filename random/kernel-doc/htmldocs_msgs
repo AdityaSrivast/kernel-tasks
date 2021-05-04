@@ -1,0 +1,36 @@
+  SPHINX  htmldocs --> file://${path}/Documentation/output
+  PARSE   include/uapi/linux/dvb/audio.h
+  PARSE   include/uapi/linux/dvb/ca.h
+  PARSE   include/uapi/linux/dvb/dmx.h
+  PARSE   include/uapi/linux/dvb/frontend.h
+  PARSE   include/uapi/linux/dvb/net.h
+  PARSE   include/uapi/linux/dvb/video.h
+  PARSE   include/uapi/linux/videodev2.h
+  PARSE   include/uapi/linux/media.h
+  PARSE   include/uapi/linux/cec.h
+  PARSE   include/uapi/linux/lirc.h
+Warning: The Sphinx 'sphinx_rtd_theme' HTML theme was not found. Make sure you have the theme installed to produce pretty HTML output. Falling back to the default theme.
+enabling CJK for LaTeX builder
+./drivers/gpu/drm/amd/amdgpu/amdgpu_vm.c:2808: warning: Excess function parameter 'vm_context' description in 'amdgpu_vm_init'
+./drivers/gpu/drm/amd/amdgpu/amdgpu_vm.c:2808: warning: Excess function parameter 'vm_context' description in 'amdgpu_vm_init'
+./include/linux/regulator/driver.h:388: warning: Function parameter or member 'ramp_reg' not described in 'regulator_desc'
+./include/linux/regulator/driver.h:388: warning: Function parameter or member 'ramp_mask' not described in 'regulator_desc'
+./include/linux/regulator/driver.h:388: warning: Function parameter or member 'ramp_delay_table' not described in 'regulator_desc'
+./include/linux/regulator/driver.h:388: warning: Function parameter or member 'n_ramp_values' not described in 'regulator_desc'
+./drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.h:426: warning: Function parameter or member 'disable_hpd_irq' not described in 'amdgpu_display_manager'
+./include/linux/dcache.h:318: warning: expecting prototype for dget, dget_dlock(). Prototype was for dget_dlock() instead
+./include/linux/spi/spi.h:671: warning: Function parameter or member 'devm_allocated' not described in 'spi_controller'
+./drivers/usb/dwc3/core.h:865: warning: Function parameter or member 'hwparams9' not described in 'dwc3_hwparams'
+./drivers/gpu/drm/i915/i915_cmd_parser.c:1420: warning: Excess function parameter 'trampoline' description in 'intel_engine_cmd_parser'
+./drivers/gpu/drm/i915/i915_cmd_parser.c:1420: warning: Function parameter or member 'jump_whitelist' not described in 'intel_engine_cmd_parser'
+./drivers/gpu/drm/i915/i915_cmd_parser.c:1420: warning: Function parameter or member 'shadow_map' not described in 'intel_engine_cmd_parser'
+./drivers/gpu/drm/i915/i915_cmd_parser.c:1420: warning: Function parameter or member 'batch_map' not described in 'intel_engine_cmd_parser'
+./drivers/gpu/drm/i915/i915_cmd_parser.c:1420: warning: Excess function parameter 'trampoline' description in 'intel_engine_cmd_parser'
+./drivers/gpu/host1x/bus.c:774: warning: Excess function parameter 'key' description in '__host1x_client_register'
+${path}/Documentation/driver-api/serial/index.rst:17: WARNING: toctree contains reference to nonexisting document 'driver-api/serial/rocket'
+${path}/Documentation/gpu/amdgpu:96: ./drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:323: WARNING: Unexpected indentation.
+${path}/Documentation/gpu/amdgpu:96: ./drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:324: WARNING: Block quote ends without a blank line; unexpected unindent.
+${path}/Documentation/gpu/amdgpu:96: ./drivers/gpu/drm/amd/amdgpu/amdgpu_ras.c:327: WARNING: Definition list ends without a blank line; unexpected unindent.
+${path}/Documentation/ABI/testing/sysfs-platform-intel-pmc:2: WARNING: Definition list ends without a blank line; unexpected unindent.
+${path}/Documentation/admin-guide/gpio/gpio-sim.rst: WARNING: document isn't included in any toctree
+${path}/Documentation/driver-api/usb/writing_usb_driver.rst:129: WARNING: undefined label: usb_header (if the link has no caption the label must precede a section header)
